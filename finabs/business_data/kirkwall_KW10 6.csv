@@ -1,0 +1,9 @@
+address,businessname,city,email,emailstatus,numberofreviews,phonenumber,scraped_at,stars,subsector,website
+"Albert St, Kirkwall KW15 1HQ",Twenty One,Kirkwall,N/A,nowebsite,143,,2025-05-13 12:31:50.819421,4.6,KW10 6,N/A
+"14 Harbour St, Kirkwall KW15 1LE",The Storehouse Restaurant with Rooms,Kirkwall,N/A,pending,658,1856879293,2025-05-13 12:32:04.365519,4.4,KW10 6,https://www.helgis-orkney.co.uk/
+"7 Bridge St, Kirkwall KW15 1HR",Dil Se Restaurant,Kirkwall,N/A,pending,198,1856875242,2025-05-13 12:32:10.343180,4.2,KW10 6,https://dilserestaurantorkney.com/
+"31 Victoria St, Kirkwall KW15 1DN",Lucano,Kirkwall,N/A,pending,671,1856875687,2025-05-13 12:32:16.463614,4.4,KW10 6,http://www.lucanokirkwall.co.uk/
+"Garrison Rd, Kirkwall KW15 1RE",Beiting and Brew,Kirkwall,N/A,pending,1,,2025-05-13 12:32:24.796337,5.0,KW10 6,https://www.facebook.com/orkneystreetfood/?_rdr
+"Shore St, Kirkwall KW15 1LG",The Shore,Kirkwall,N/A,pending,177,1856872200,2025-05-13 12:32:30.991428,4.2,KW10 6,http://www.theshore.co.uk/
+"26 Junction Rd, Kirkwall KW15 1AB",Auld Motor Hoose,Kirkwall,N/A,nowebsite,347,1856871422,2025-05-13 12:32:41.711810,4.5,KW10 6,N/A
+"9 Albert St, Kirkwall KW15 1HP",Pomona Cafe,Kirkwall,N/A,nowebsite,101,1856872325,2025-05-13 12:32:47.756285,4.0,KW10 6,N/A

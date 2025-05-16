@@ -1,0 +1,28 @@
+2025-05-16 00:56:13,688 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 00:56:13,696 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 00:56:13,699 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_005613.log
+2025-05-16 00:56:13,706 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 00:56:13,711 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 00:56:13,752 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 00:56:13,754 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 00:56:13,757 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 00:56:17,473 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 00:56:17,492 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 00:56:17,577 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-16 00:56:17,655 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 00:56:17,683 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 7 (1/287)
+2025-05-16 00:56:17,879 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 00:56:17,895 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-16 00:56:17,896 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 00:56:23,384 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-16 00:56:27,557 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-16 00:56:27,690 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: MyLahore Manchester
+2025-05-16 00:56:43,588 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-16 00:56:43,598 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-16 00:56:43,612 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 13336
+2025-05-16 00:56:43,615 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 00:56:43,683 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+2025-05-16 00:56:43,707 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612488887
+2025-05-16 00:56:43,866 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+2025-05-16 00:56:43,910 - googlemaps_scraper - INFO - M14 7 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+2025-05-16 00:56:49,474 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 3/5: Ziya Asian Grill

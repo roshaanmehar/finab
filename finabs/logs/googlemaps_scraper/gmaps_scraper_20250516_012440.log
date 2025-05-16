@@ -1,0 +1,45 @@
+[2025-05-16 01:24:40] INFO    – ================================================================================
+[2025-05-16 01:24:40] INFO    – Starting Google Maps scraper from API
+[2025-05-16 01:24:40] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_012440.log
+[2025-05-16 01:24:40] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 01:24:40] INFO    – ================================================================================
+[2025-05-16 01:24:40] INFO    – Connected to MongoDB successfully
+[2025-05-16 01:24:40] INFO    – Created queue index
+[2025-05-16 01:24:40] INFO    – Created indexes
+[2025-05-16 01:24:42] INFO    – Chrome driver initialized successfully
+[2025-05-16 01:24:42] INFO    – Processing all unprocessed subsectors
+[2025-05-16 01:24:42] INFO    – Total subsectors to process: 287
+[2025-05-16 01:24:42] INFO    – ==================================================
+[2025-05-16 01:24:42] INFO    – PROCESSING SUBSECTOR: M14 5 (1/287)
+[2025-05-16 01:24:42] INFO    – ============================================================
+[2025-05-16 01:24:42] INFO    – Starting scrape for subsector: M14 5
+[2025-05-16 01:24:42] INFO    – ============================================================
+[2025-05-16 01:24:47] INFO    – M14 5 -> search query launched: restaurants in M14 5 Manchester
+[2025-05-16 01:24:49] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:49] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:50] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:50] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:50] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:50] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:51] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:51] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:51] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:51] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:51] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:51] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:52] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:52] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:52] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:52] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:53] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:53] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:53] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:53] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:53] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:53] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:54] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:54] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:54] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:54] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0
+[2025-05-16 01:24:54] INFO    – M14 5 -> Found 5 unprocessed tiles
+[2025-05-16 01:24:54] INFO    – M14 5 -> Total unique businesses processed in this subsector: 0

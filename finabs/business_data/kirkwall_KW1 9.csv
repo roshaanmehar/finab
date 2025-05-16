@@ -1,0 +1,31 @@
+address,businessname,city,email,emailstatus,numberofreviews,phonenumber,scraped_at,stars,subsector,website
+"Albert St, Kirkwall KW15 1HQ",Twenty One,Kirkwall,N/A,nowebsite,143,,2025-05-13 11:53:58.951578,4.6,KW1 9,N/A
+"14 Harbour St, Kirkwall KW15 1LE",Helgi's,Kirkwall,N/A,pending,658,1856879293,2025-05-13 11:54:08.329128,4.4,KW1 9,https://www.helgis-orkney.co.uk/
+"7 Bridge St, Kirkwall KW15 1HR",Dil Se Restaurant,Kirkwall,N/A,pending,198,1856875242,2025-05-13 11:54:13.964898,4.2,KW1 9,https://dilserestaurantorkney.com/
+"31 Victoria St, Kirkwall KW15 1DN",Lucano,Kirkwall,N/A,pending,671,1856875687,2025-05-13 11:54:19.587525,4.4,KW1 9,http://www.lucanokirkwall.co.uk/
+"Garrison Rd, Kirkwall KW15 1RE",Beiting and Brew,Kirkwall,N/A,pending,1,,2025-05-13 11:54:27.469744,5.0,KW1 9,https://www.facebook.com/orkneystreetfood/?_rdr
+"32 Laverock Rd, Kirkwall KW15 1EE",Sakura Kitchen,Kirkwall,N/A,pending,26,32151,2025-05-13 11:54:33.481951,5.0,KW1 9,https://www.sakurakitchen.co.uk/
+"9 Albert St, Kirkwall KW15 1HP",Pomona Cafe,Kirkwall,N/A,nowebsite,101,1856872325,2025-05-13 11:54:39.190460,4.0,KW1 9,N/A
+"26 Junction Rd, Kirkwall KW15 1AB",Auld Motor Hoose,Kirkwall,N/A,nowebsite,347,1856871422,2025-05-13 11:54:44.974881,4.5,KW1 9,N/A
+"Shore St, Kirkwall KW15 1LG",The Shore,Kirkwall,N/A,pending,177,1856872200,2025-05-13 11:54:50.653461,4.2,KW1 9,http://www.theshore.co.uk/
+"8 Laing St, Kirkwall KW15 1NW",Archive Coffee,Kirkwall,N/A,nowebsite,439,,2025-05-13 11:54:58.854521,4.7,KW1 9,N/A
+"16 Albert St, Kirkwall KW15 1HP",Trenabies Cafe Bistro,Kirkwall,N/A,pending,318,1856874336,2025-05-13 11:55:04.476196,4.3,KW1 9,https://www.facebook.com/Trenabiescafe/
+"Holm Rd, Kirkwall KW15 1SU",Lynnfield Hotel & Restaurant 4 Star Rated,Kirkwall,N/A,pending,217,1856872505,2025-05-13 11:55:10.370931,4.7,KW1 9,https://lynnfield.co.uk/
+"37 Junction Rd, Kirkwall KW15 1AG",Indian Garden,Kirkwall,N/A,pending,342,37151,2025-05-13 11:55:16.617281,4.1,KW1 9,http://indiangardenkirkwall.co.uk/
+"40 Victoria St, Kirkwall KW15 1DN",Royal Cask Whisky Gin Bar,Kirkwall,N/A,pending,43,1856873477,2025-05-13 11:55:27.947044,4.6,KW1 9,https://www.orkneyhotel.co.uk/drink/
+"Empire Chinese Restaurant, 51 Junction Rd, Kirkwall KW15 1AR",Empire Chinese Restaurant,Kirkwall,N/A,nowebsite,323,1856872300,2025-05-13 11:55:34.361511,4.3,KW1 9,N/A
+"Mounthoolie Ln, Kirkwall KW15 1LA",Bothy Bar,Kirkwall,N/A,nowebsite,94,,2025-05-13 11:55:40.342177,4.0,KW1 9,N/A
+"1 Mounthoolie Pl, Kirkwall KW15 1JZ",Busters Diner,Kirkwall,N/A,nowebsite,257,1856876717,2025-05-13 11:55:46.756159,4.2,KW1 9,N/A
+"65 Junction Rd, Kirkwall KW15 1AX",Happy Haddock,Kirkwall,N/A,pending,347,1856878857,2025-05-13 11:55:53.684117,4.3,KW1 9,https://m.facebook.com/TheHappyHaddock/
+"Harbour St, Kirkwall KW15 1LE",Kirkwall Hotel,Kirkwall,N/A,pending,611,1856872232,2025-05-13 11:56:05.532971,4.2,KW1 9,https://www.kirkwallhotel.com/
+"42 Broad St, Kirkwall KW15 1DG",The Daily Scoop,Kirkwall,N/A,pending,266,1856877811,2025-05-13 11:56:10.799339,4.2,KW1 9,http://www.thedailyscoop.co.uk/
+"Ayre Rd, Kirkwall KW15 1QX",Ayre Hotel & Apartments,Kirkwall,N/A,pending,477,1856873001,2025-05-13 11:56:16.773415,4.3,KW1 9,http://www.ayrehotel.co.uk/
+Kirkwall KW15 1HW,The Neuk,Kirkwall,N/A,nowebsite,14,,2025-05-13 11:56:22.703539,3.9,KW1 9,N/A
+"Hatston Industrial Estate, Scott's Rd, Kirkwall KW15 1GR",Jollys of Orkney,Kirkwall,N/A,pending,28,1856872417,2025-05-13 11:56:31.720881,4.8,KW1 9,http://www.jollysoforkney.co.uk/
+Kirkwall KW15 1QZ,Mrs Chips,Kirkwall,N/A,nowebsite,17,,2025-05-13 11:56:43.923328,4.5,KW1 9,N/A
+"Anchor Shopping Centre, 12 Bridge St, Kirkwall KW15 1HR",Orkney's Best Kebab,Kirkwall,N/A,pending,98,1856877778,2025-05-13 11:56:53.038827,4.2,KW1 9,https://orkneysbestkebab.co.uk/
+"A964, Kirkwall KW15 1SF",The Foveran,Kirkwall,N/A,pending,284,1856872389,2025-05-13 11:57:05.635783,4.8,KW1 9,http://www.thefoveran.com/
+"14 Main St, Kirkwall KW15 1BU",The West End Guest House,Kirkwall,N/A,pending,177,1856881201,2025-05-13 11:57:11.894105,4.4,KW1 9,http://www.westendkirkwall.co.uk/
+"7 Mounthoolie Pl, Kirkwall KW15 1JZ",Badly Drawn Cat,Kirkwall,N/A,pending,20,1856876000,2025-05-13 11:57:20.324976,4.8,KW1 9,http://www.alberthotel.co.uk/
+Orkney KW15 1PB,Steers orkney,Kirkwall,N/A,nowebsite,0,,2025-05-13 11:57:31.287632,N/A,KW1 9,N/A
+"2 Bridge St, Kirkwall KW15 1HR",Kirkwall Kebab & Pizza Shop,Kirkwall,N/A,nowebsite,2,1856878896,2025-05-13 11:57:40.241874,3.0,KW1 9,N/A

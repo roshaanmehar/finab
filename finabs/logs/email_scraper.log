@@ -1,0 +1,425 @@
+[2025-05-12 22:33:13] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Aberdeen_restaurants_32972 for Aberdeen.restaurants
+[2025-05-12 22:33:13] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb+srv://roshaanatck:DOcnGUEEB37bQtcL@scraper-db-cluster.88kc14b.mongodb.net/?retryWrites=true&w=majority&appName=scraper-db-cluster...
+[2025-05-12 22:33:25] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Aberdeen/restaurants
+[2025-05-12 22:33:26] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-12 22:33:26] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 68225cbd83e3d7b168486ace, Name: Holburn Bar, Website: https://www.belhaven.co.uk/pubs/aberdeen/holburn-bar?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+[2025-05-12 22:38:20] ERROR   – (Thread-6 (run_email_scrape_task)) [belhaven.co.uk] Unexpected error processing contact page https://www.belhaven.co.uk/get-in-touch: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-13 12:48:55] INFO    – (Thread-5 (run_email_scrape_task)) Starting email scraping task ES_Kirkwall_restaurants_22304 for Kirkwall.restaurants
+[2025-05-13 12:48:55] INFO    – (Thread-5 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb+srv://roshaanatck:DOcnGUEEB37bQtcL@scraper-db-cluster.88kc14b.mongodb.net/?retryWrites=true&w=majority&appName=scraper-db-cluster...
+[2025-05-13 12:48:59] INFO    – (Thread-5 (run_email_scrape_task)) Connected to MongoDB: Kirkwall/restaurants
+[2025-05-13 12:48:59] INFO    – (Thread-5 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-13 12:48:59] INFO    – (Thread-5 (run_email_scrape_task)) Processing record ID: 6823316483e3d7b168489014, Name: The Storehouse Restaurant with Rooms, Website: http://www.thestorehouserestaurantwithrooms.co.uk/
+[2025-05-13 12:49:29] INFO    – (Thread-5 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk] SUCCESS for http://www.thestorehouserestaurantwithrooms.co.uk/: Found 4 emails.
+[2025-05-13 12:49:29] INFO    – (Thread-5 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 1: info@thestorehouserestaurantwithrooms.co.uk
+[2025-05-13 12:49:29] INFO    – (Thread-5 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 2: info@thestorehouserestaurantwithrooms.co.ukthe
+[2025-05-13 12:49:29] INFO    – (Thread-5 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 3: info@thestorehouserestaurantwithrooms.co.ukchildren
+[2025-05-13 12:49:29] INFO    – (Thread-5 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 4: info@thestorehouserestaurantwithrooms.co.uknameyour
+[2025-05-13 12:49:31] INFO    – (Thread-5 (run_email_scrape_task)) Processing record ID: 6823316a83e3d7b168489015, Name: Helgi's, Website: https://www.helgis-orkney.co.uk/
+[2025-05-13 12:50:02] INFO    – (Thread-5 (run_email_scrape_task)) [helgis-orkney.co.uk] SUCCESS for https://www.helgis-orkney.co.uk/: Found 3 emails.
+[2025-05-13 12:50:02] INFO    – (Thread-5 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 1: kelly@helgis.co.ukaddress
+[2025-05-13 12:50:02] INFO    – (Thread-5 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 2: kelly@helgis.co.uk
+[2025-05-13 12:50:02] INFO    – (Thread-5 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 3: 879293kelly@helgis.co.ukopening
+[2025-05-13 12:50:05] INFO    – (Thread-5 (run_email_scrape_task)) Processing record ID: 6823317083e3d7b16848901a, Name: Dil Se Restaurant, Website: https://dilserestaurantorkney.com/
+[2025-05-13 12:50:14] ERROR   – (Thread-5 (run_email_scrape_task)) [dilserestaurantorkney.com] Unexpected error during Selenium main page processing for https://dilserestaurantorkney.com/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-13 22:51:31] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Kirkwall_cafes_23608 for Kirkwall.cafes
+[2025-05-13 22:51:31] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb+srv://roshaanatck:DOcnGUEEB37bQtcL@scraper-db-cluster.88kc14b.mongodb.net/?retryWrites=true&w=majority&appName=scraper-db-cluster...
+[2025-05-13 22:51:44] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Kirkwall/cafes
+[2025-05-13 22:51:44] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-13 22:51:44] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6823b4cc83e3d7b16848a49d, Name: Helgi's, Website: https://www.helgis-orkney.co.uk/
+[2025-05-13 22:52:18] INFO    – (Thread-6 (run_email_scrape_task)) [helgis-orkney.co.uk] SUCCESS for https://www.helgis-orkney.co.uk/: Found 3 emails.
+[2025-05-13 22:52:18] INFO    – (Thread-6 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 1: 879293kelly@helgis.co.ukopening
+[2025-05-13 22:52:18] INFO    – (Thread-6 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 2: kelly@helgis.co.uk
+[2025-05-13 22:52:18] INFO    – (Thread-6 (run_email_scrape_task)) [helgis-orkney.co.uk]   Email 3: kelly@helgis.co.ukaddress
+[2025-05-13 22:52:20] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6823b4d783e3d7b16848a4a1, Name: The Storehouse Restaurant with Rooms, Website: http://www.thestorehouserestaurantwithrooms.co.uk/
+[2025-05-13 22:52:48] INFO    – (Thread-6 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk] SUCCESS for http://www.thestorehouserestaurantwithrooms.co.uk/: Found 4 emails.
+[2025-05-13 22:52:48] INFO    – (Thread-6 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 1: info@thestorehouserestaurantwithrooms.co.uk
+[2025-05-13 22:52:48] INFO    – (Thread-6 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 2: info@thestorehouserestaurantwithrooms.co.ukchildren
+[2025-05-13 22:52:48] INFO    – (Thread-6 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 3: info@thestorehouserestaurantwithrooms.co.uknameyour
+[2025-05-13 22:52:48] INFO    – (Thread-6 (run_email_scrape_task)) [thestorehouserestaurantwithrooms.co.uk]   Email 4: info@thestorehouserestaurantwithrooms.co.ukthe
+[2025-05-13 22:52:51] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6823b4dc83e3d7b16848a4a3, Name: Dil Se Restaurant, Website: https://dilserestaurantorkney.com/
+[2025-05-13 22:58:15] INFO    – (Thread-13 (process_request_thread)) Terminating email scraper task ES_Kirkwall_cafes_23608
+[2025-05-13 22:58:22] ERROR   – (Thread-6 (run_email_scrape_task)) [dilserestaurantorkney.com] Unexpected error processing contact page https://dilserestaurantorkney.com/legal: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-15 15:16:17] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_28908 for Manchester.restaurants
+[2025-05-15 15:16:17] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017/...
+[2025-05-15 15:16:17] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-15 15:16:17] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-15 15:16:17] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6825f70788fa8c08e7f2dca4, Name: Las Iguanas - Manchester - Deansgate, Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk] SUCCESS for https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate: Found 52 emails.
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 1: bracknell@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 2: o2@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 3: meadowhall@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 4: kingston@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 5: southampton@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 6: rfh@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 7: swansea@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 8: cheshireoaks@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 9: torquay@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 10: longleat@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 11: liverpool@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 12: cribbscauseway@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 13: ealing@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 14: stratford@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 15: mermaidquay@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 16: bath@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 17: bolton@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 18: brighton@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 19: elveden@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 20: edinburgh@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 21: newport@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 22: sherwood@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 23: chelmsford@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 24: nottingham@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 25: bristol.hs@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 26: deansgate@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 27: watford@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 28: canterbury@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 29: leamingtonspa@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 30: newcastle@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 31: templestreet@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 32: coventry@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 33: reading@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 34: cambridge@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 35: brindleyplace@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 36: miltonkeynes@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 37: plymouth@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 38: basingstoke@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 39: resortsworld@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 40: leeds@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 41: york@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 42: traffordcentre@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 43: birmingham@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 44: livingston@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 45: peterborough@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 46: leicester@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 47: woburn@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 48: cardiff@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 49: lakeside@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 50: wembley@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 51: gunwharf@iguanas.co.uk
+[2025-05-15 15:16:51] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 52: glasgow@iguanas.co.uk
+[2025-05-15 15:16:54] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6825f71488fa8c08e7f2dca5, Name: TGI Fridays - Trafford Centre, Website: http://www.safire.restaurant/
+[2025-05-15 15:24:35] ERROR   – (Thread-6 (run_email_scrape_task)) [safire.restaurant] Unexpected error processing contact page http://www.safire.restaurant/about/contact: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-15 15:29:22] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_30728 for Manchester.restaurants
+[2025-05-15 15:29:22] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017/...
+[2025-05-15 15:29:22] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-15 15:29:22] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-15 15:29:22] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6825f95e88fa8c08e7f2dca9, Name: Las Iguanas - Manchester - Deansgate, Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk] SUCCESS for https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate: Found 52 emails.
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 1: lakeside@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 2: liverpool@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 3: woburn@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 4: birmingham@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 5: peterborough@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 6: resortsworld@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 7: watford@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 8: templestreet@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 9: basingstoke@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 10: newport@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 11: bath@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 12: o2@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 13: mermaidquay@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 14: rfh@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 15: stratford@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 16: york@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 17: ealing@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 18: livingston@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 19: coventry@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 20: bristol.hs@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 21: longleat@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 22: traffordcentre@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 23: southampton@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 24: kingston@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 25: brighton@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 26: deansgate@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 27: edinburgh@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 28: leeds@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 29: reading@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 30: swansea@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 31: cambridge@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 32: bracknell@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 33: sherwood@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 34: chelmsford@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 35: leicester@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 36: meadowhall@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 37: cardiff@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 38: elveden@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 39: cribbscauseway@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 40: glasgow@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 41: leamingtonspa@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 42: wembley@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 43: newcastle@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 44: nottingham@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 45: bolton@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 46: brindleyplace@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 47: miltonkeynes@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 48: plymouth@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 49: torquay@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 50: cheshireoaks@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 51: gunwharf@iguanas.co.uk
+[2025-05-15 15:29:54] INFO    – (Thread-6 (run_email_scrape_task)) [iguanas.co.uk]   Email 52: canterbury@iguanas.co.uk
+[2025-05-15 15:29:56] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6825f96b88fa8c08e7f2dcaa, Name: TGI Fridays - Trafford Centre, Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+[2025-05-15 15:54:23] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_23592 for Manchester.restaurants
+[2025-05-15 15:54:23] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017/...
+[2025-05-15 15:54:23] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-15 15:54:23] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-15 15:54:23] INFO    – (Thread-6 (run_email_scrape_task)) Processing record ID: 6825f96b88fa8c08e7f2dcaa, Name: TGI Fridays - Trafford Centre, Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+[2025-05-15 16:22:48] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_31292 for Manchester.restaurants
+[2025-05-15 16:22:48] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-15 16:22:48] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-15 16:22:48] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-15 16:22:48] INFO    – (Thread-6 (run_email_scrape_task)) Using 5 browser instances for task ES_Manchester_restaurants_31292
+[2025-05-15 16:22:48] INFO    – (ThreadPoolExecutor-0_0) Processing record ID: 6825f96b88fa8c08e7f2dcaa, Name: TGI Fridays - Trafford Centre, Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+[2025-05-15 16:22:48] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 6825fa3088fa8c08e7f2dcab, Name: The Deansgate, Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+[2025-05-15 16:22:48] INFO    – (ThreadPoolExecutor-0_2) Processing record ID: 6825fa3888fa8c08e7f2dcac, Name: MyLahore Manchester, Website: http://www.mylahore.co.uk/
+[2025-05-15 16:22:48] INFO    – (ThreadPoolExecutor-0_3) Processing record ID: 6825fffa88fa8c08e7f2dcae, Name: Afghan Cuisine Restaurant & Takeaway, Website: https://afghancuisinerestauranttakeaway.shop/
+[2025-05-15 16:22:48] INFO    – (ThreadPoolExecutor-0_4) Processing record ID: 6826000b88fa8c08e7f2dcb0, Name: Walnut Persian Restaurant, Website: http://walnutrestaurant.co.uk/
+[2025-05-15 16:23:15] INFO    – (ThreadPoolExecutor-0_2) [mylahore.co.uk] Already found 14 emails from main page, skipping contact pages
+[2025-05-15 16:23:18] INFO    – (ThreadPoolExecutor-0_2) Processing record ID: 6826001588fa8c08e7f2dcb1, Name: Alostora Seafood Restaurant, Website: https://alostora.co.uk/
+[2025-05-15 16:23:23] WARNING – (ThreadPoolExecutor-0_0) [tgifridays.co.uk] Selenium operation timed out after 30 seconds for https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localgmb&utm_medium=organic&utm_campaign=671
+[2025-05-15 16:23:24] INFO    – (ThreadPoolExecutor-0_0) [tgifridays.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-15 16:23:24] INFO    – (ThreadPoolExecutor-0_0) [tgifridays.co.uk] FAILED: Domain unreachable for https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localgmb&utm_medium=organic&utm_campaign=671.
+[2025-05-15 16:23:25] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contact - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:23:25] WARNING – (Thread-18 (selenium_with_timeout)) [tgifridays.co.uk] Error in selenium_with_timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-05-15 16:23:27] INFO    – (ThreadPoolExecutor-0_0) Processing record ID: 6826001c88fa8c08e7f2dcb2, Name: Oodles N’Oodles Restaurant Manchester, Website: http://www.oodlesnoodlesmcr.com/
+[2025-05-15 16:23:28] WARNING – (ThreadPoolExecutor-0_1) [greeneking.co.uk] Selenium operation timed out after 30 seconds for https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=uc_pubpage
+[2025-05-15 16:23:33] INFO    – (ThreadPoolExecutor-0_1) [greeneking.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-15 16:23:33] INFO    – (ThreadPoolExecutor-0_1) [greeneking.co.uk] SUCCESS for https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=uc_pubpage: Found 1 emails.
+[2025-05-15 16:23:33] INFO    – (ThreadPoolExecutor-0_1) [greeneking.co.uk]   Email 1: 5818@greeneking.co.uk
+[2025-05-15 16:23:35] WARNING – (Thread-21 (selenium_with_timeout)) [greeneking.co.uk] Error in selenium_with_timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-05-15 16:23:35] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contact-us - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:23:37] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 682606ab88fa8c08e7f2dcb3, Name: Ziya Asian Grill, Website: http://www.ziyarestaurant.co.uk/
+[2025-05-15 16:23:44] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/about - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:23:54] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/about-us - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:03] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/get-in-touch - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:12] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/reach-us - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:13] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/contact - title: Page not found - Ziya Restaurant
+[2025-05-15 16:24:21] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/enquiry - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:24] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/contact-us - title: Page not found - Ziya Restaurant
+[2025-05-15 16:24:30] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/enquiries - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:34] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/about - title: Page not found - Ziya Restaurant
+[2025-05-15 16:24:39] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/support - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:43] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/about-us - title: Page not found - Ziya Restaurant
+[2025-05-15 16:24:47] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/help - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:24:53] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/get-in-touch - title: Page not found - Ziya Restaurant
+[2025-05-15 16:24:56] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/connect - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:25:03] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/reach-us - title: Page not found - Ziya Restaurant
+[2025-05-15 16:25:05] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/feedback - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:25:14] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/enquiry - title: Page not found - Ziya Restaurant
+[2025-05-15 16:25:24] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/enquiries - title: Page not found - Ziya Restaurant
+[2025-05-15 16:25:34] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/support - title: Page not found - Ziya Restaurant
+[2025-05-15 16:25:44] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/help - title: Page not found - Ziya Restaurant
+[2025-05-15 16:25:55] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for http://www.ziyarestaurant.co.uk/connect - title: Page not found - Ziya Restaurant
+[2025-05-15 16:26:17] INFO    – (ThreadPoolExecutor-0_1) [ziyarestaurant.co.uk] SUCCESS for http://www.ziyarestaurant.co.uk/: Found 3 emails.
+[2025-05-15 16:26:17] INFO    – (ThreadPoolExecutor-0_1) [ziyarestaurant.co.uk]   Email 1: enquiries@ziyarestaurant.co.uk
+[2025-05-15 16:26:17] INFO    – (ThreadPoolExecutor-0_1) [ziyarestaurant.co.uk]   Email 2: no-reply@ziyarestaurant.co.uk
+[2025-05-15 16:26:17] INFO    – (ThreadPoolExecutor-0_1) [ziyarestaurant.co.uk]   Email 3: 2010enquiries@ziyarestaurant.co.uk
+[2025-05-15 16:26:19] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 682606b088fa8c08e7f2dcb4, Name: Mughli Charcoal Pit, Website: http://www.mughli.com/
+[2025-05-15 16:26:36] INFO    – (ThreadPoolExecutor-0_1) [mughli.com] Already found 7 emails from main page, skipping contact pages
+[2025-05-15 16:26:38] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 682606b888fa8c08e7f2dcb5, Name: Pitmaster, Website: https://pitmaster.uk/
+[2025-05-15 16:26:41] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/kontakt - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:26:49] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contacto - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:26:59] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contatto - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:08] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/legal - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:10] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact - title: Page not found – Pitmaster
+[2025-05-15 16:27:17] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/privacy - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:19] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact-us - title: Page not found – Pitmaster
+[2025-05-15 16:27:25] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/imprint - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:29] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/about - title: Page not found – Pitmaster
+[2025-05-15 16:27:34] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/impressum - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:38] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/about-us - title: Page not found – Pitmaster
+[2025-05-15 16:27:44] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/terms - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:48] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/get-in-touch - title: Page not found – Pitmaster
+[2025-05-15 16:27:53] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/customer-service - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:27:57] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/reach-us - title: Page not found – Pitmaster
+[2025-05-15 16:28:01] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contactus - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:28:07] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/enquiry - title: Page not found – Pitmaster
+[2025-05-15 16:28:10] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contact.html - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:28:18] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/enquiries - title: Page not found – Pitmaster
+[2025-05-15 16:28:27] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/support - title: Page not found – Pitmaster
+[2025-05-15 16:28:36] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/help - title: Page not found – Pitmaster
+[2025-05-15 16:28:46] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/connect - title: Page not found – Pitmaster
+[2025-05-15 16:28:50] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contact-form - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:28:56] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/feedback - title: Page not found – Pitmaster
+[2025-05-15 16:28:58] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contact_us - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:29:05] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/info/contact - title: Page not found – Pitmaster
+[2025-05-15 16:29:06] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://afghancuisinerestauranttakeaway.shop/contactinfo - title: Page Not Found - afghancuisinerestauranttakeaway.shop
+[2025-05-15 16:29:07] INFO    – (ThreadPoolExecutor-0_3) [afghancuisinerestauranttakeaway.shop] SUCCESS for https://afghancuisinerestauranttakeaway.shop/: Found 1 emails.
+[2025-05-15 16:29:07] INFO    – (ThreadPoolExecutor-0_3) [afghancuisinerestauranttakeaway.shop]   Email 1: afghancuisinerestauranttakeaway.shop@gmail.com
+[2025-05-15 16:29:09] INFO    – (ThreadPoolExecutor-0_3) Processing record ID: 682606bd88fa8c08e7f2dcb6, Name: Bardez - Indian Street Food and Grill, Rusholme, Website: https://bardez.co.uk/
+[2025-05-15 16:29:15] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/company/contact - title: Page not found – Pitmaster
+[2025-05-15 16:29:24] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/about/contact - title: Page not found – Pitmaster
+[2025-05-15 16:29:34] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/kontakt - title: Page not found – Pitmaster
+[2025-05-15 16:29:38] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact - title: Page not found – Bardez
+[2025-05-15 16:29:43] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contacto - title: Page not found – Pitmaster
+[2025-05-15 16:29:49] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact-us - title: Page not found – Bardez
+[2025-05-15 16:29:54] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contatto - title: Page not found – Pitmaster
+[2025-05-15 16:30:02] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/legal - title: Page not found – Pitmaster
+[2025-05-15 16:30:12] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/privacy - title: Page not found – Pitmaster
+[2025-05-15 16:30:20] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/about-us - title: Page not found – Bardez
+[2025-05-15 16:30:22] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/imprint - title: Page not found – Pitmaster
+[2025-05-15 16:30:30] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/get-in-touch - title: Page not found – Bardez
+[2025-05-15 16:30:32] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/impressum - title: Page not found – Pitmaster
+[2025-05-15 16:30:40] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/reach-us - title: Page not found – Bardez
+[2025-05-15 16:30:43] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/terms - title: Page not found – Pitmaster
+[2025-05-15 16:30:50] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/enquiry - title: Page not found – Bardez
+[2025-05-15 16:30:53] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/customer-service - title: Page not found – Pitmaster
+[2025-05-15 16:30:54] INFO    – (ThreadPoolExecutor-0_0) [oodlesnoodlesmcr.com] SUCCESS for http://www.oodlesnoodlesmcr.com/: Found 1 emails.
+[2025-05-15 16:30:54] INFO    – (ThreadPoolExecutor-0_0) [oodlesnoodlesmcr.com]   Email 1: info@oodles-noodles.co.uk
+[2025-05-15 16:30:56] INFO    – (ThreadPoolExecutor-0_0) Processing record ID: 682606c688fa8c08e7f2dcb7, Name: Al Jazeera Restaurant, Website: https://www.aljazeeraltd.com/
+[2025-05-15 16:31:00] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/enquiries - title: Page not found – Bardez
+[2025-05-15 16:31:03] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contactus - title: Page not found – Pitmaster
+[2025-05-15 16:31:10] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/support - title: Page not found – Bardez
+[2025-05-15 16:31:13] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact.html - title: Page not found – Pitmaster
+[2025-05-15 16:31:19] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/help - title: Page not found – Bardez
+[2025-05-15 16:31:20] INFO    – (ThreadPoolExecutor-0_2) [alostora.co.uk] CHECKED: No emails found for https://alostora.co.uk/.
+[2025-05-15 16:31:20] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact - title: 404 Not Found
+[2025-05-15 16:31:22] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact.php - title: Page not found – Pitmaster
+[2025-05-15 16:31:28] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact-us - title: 404 Not Found
+[2025-05-15 16:31:29] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/connect - title: Page not found – Bardez
+[2025-05-15 16:31:32] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact-form - title: Page not found – Pitmaster
+[2025-05-15 16:31:37] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/about - title: 404 Not Found
+[2025-05-15 16:31:40] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/feedback - title: Page not found – Bardez
+[2025-05-15 16:31:41] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contact_us - title: Page not found – Pitmaster
+[2025-05-15 16:31:46] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/about-us - title: 404 Not Found
+[2025-05-15 16:31:50] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/info/contact - title: Page not found – Bardez
+[2025-05-15 16:31:51] WARNING – (ThreadPoolExecutor-0_1) Detected possible 404/error page for https://pitmaster.uk/contactinfo - title: Page not found – Pitmaster
+[2025-05-15 16:31:52] INFO    – (ThreadPoolExecutor-0_1) [pitmaster.uk] SUCCESS for https://pitmaster.uk/: Found 1 emails.
+[2025-05-15 16:31:52] INFO    – (ThreadPoolExecutor-0_1) [pitmaster.uk]   Email 1: table@email.com
+[2025-05-15 16:31:56] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/get-in-touch - title: 404 Not Found
+[2025-05-15 16:32:01] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/company/contact - title: Page not found – Bardez
+[2025-05-15 16:32:04] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/reach-us - title: 404 Not Found
+[2025-05-15 16:32:11] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/about/contact - title: Page not found – Bardez
+[2025-05-15 16:32:13] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/enquiry - title: 404 Not Found
+[2025-05-15 16:32:21] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/kontakt - title: Page not found – Bardez
+[2025-05-15 16:32:22] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/enquiries - title: 404 Not Found
+[2025-05-15 16:32:30] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/support - title: 404 Not Found
+[2025-05-15 16:32:31] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contacto - title: Page not found – Bardez
+[2025-05-15 16:32:40] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/help - title: 404 Not Found
+[2025-05-15 16:32:41] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contatto - title: Page not found – Bardez
+[2025-05-15 16:32:49] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/connect - title: 404 Not Found
+[2025-05-15 16:32:50] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/legal - title: Page not found – Bardez
+[2025-05-15 16:32:52] INFO    – (ThreadPoolExecutor-0_4) [walnutrestaurant.co.uk] CHECKED: No emails found for http://walnutrestaurant.co.uk/.
+[2025-05-15 16:32:54] INFO    – (Thread-6 (run_email_scrape_task)) Task ES_Manchester_restaurants_31292 progress: 5/12 records processed
+[2025-05-15 16:32:54] INFO    – (Thread-6 (run_email_scrape_task)) Task ES_Manchester_restaurants_31292 progress: 10/12 records processed
+[2025-05-15 16:32:58] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/feedback - title: 404 Not Found
+[2025-05-15 16:33:01] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/privacy - title: Page not found – Bardez
+[2025-05-15 16:33:06] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/info/contact - title: 404 Not Found
+[2025-05-15 16:33:10] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/imprint - title: Page not found – Bardez
+[2025-05-15 16:33:15] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/company/contact - title: 404 Not Found
+[2025-05-15 16:33:20] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/impressum - title: Page not found – Bardez
+[2025-05-15 16:33:23] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/about/contact - title: 404 Not Found
+[2025-05-15 16:33:30] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/terms - title: Page not found – Bardez
+[2025-05-15 16:33:33] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/kontakt - title: 404 Not Found
+[2025-05-15 16:33:40] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/customer-service - title: Page not found – Bardez
+[2025-05-15 16:33:41] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contacto - title: 404 Not Found
+[2025-05-15 16:33:50] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contactus - title: Page not found – Bardez
+[2025-05-15 16:33:50] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contatto - title: 404 Not Found
+[2025-05-15 16:33:59] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/legal - title: 404 Not Found
+[2025-05-15 16:34:01] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact.html - title: Page not found – Bardez
+[2025-05-15 16:34:08] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/privacy - title: 404 Not Found
+[2025-05-15 16:34:11] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact.php - title: Page not found – Bardez
+[2025-05-15 16:34:16] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/imprint - title: 404 Not Found
+[2025-05-15 16:34:21] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact-form - title: Page not found – Bardez
+[2025-05-15 16:34:24] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/impressum - title: 404 Not Found
+[2025-05-15 16:34:32] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contact_us - title: Page not found – Bardez
+[2025-05-15 16:34:33] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/terms - title: 404 Not Found
+[2025-05-15 16:34:41] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/customer-service - title: 404 Not Found
+[2025-05-15 16:34:42] WARNING – (ThreadPoolExecutor-0_3) Detected possible 404/error page for https://bardez.co.uk/contactinfo - title: Page not found – Bardez
+[2025-05-15 16:34:50] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contactus - title: 404 Not Found
+[2025-05-15 16:34:59] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact.html - title: 404 Not Found
+[2025-05-15 16:35:02] INFO    – (ThreadPoolExecutor-0_3) [bardez.co.uk] SUCCESS for https://bardez.co.uk/: Found 1 emails.
+[2025-05-15 16:35:02] INFO    – (ThreadPoolExecutor-0_3) [bardez.co.uk]   Email 1: didsbury@bardez.co.uk
+[2025-05-15 16:35:08] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact.php - title: 404 Not Found
+[2025-05-15 16:35:17] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact-form - title: 404 Not Found
+[2025-05-15 16:35:26] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contact_us - title: 404 Not Found
+[2025-05-15 16:35:35] WARNING – (ThreadPoolExecutor-0_0) Detected possible 404/error page for https://www.aljazeeraltd.com/contactinfo - title: 404 Not Found
+[2025-05-15 16:35:35] INFO    – (ThreadPoolExecutor-0_0) [aljazeeraltd.com] SUCCESS for https://www.aljazeeraltd.com/: Found 1 emails.
+[2025-05-15 16:35:35] INFO    – (ThreadPoolExecutor-0_0) [aljazeeraltd.com]   Email 1: info@aljazeeraltd.com
+[2025-05-15 16:35:37] INFO    – (Thread-6 (run_email_scrape_task)) Task ES_Manchester_restaurants_31292 completed: 12/12 records processed, 9 emails found
+[2025-05-16 00:46:00] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_29372 for Manchester.restaurants
+[2025-05-16 00:46:00] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-16 00:46:00] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-16 00:46:00] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-16 00:46:00] INFO    – (Thread-6 (run_email_scrape_task)) Using 5 browser instances for task ES_Manchester_restaurants_29372
+[2025-05-16 00:46:00] INFO    – (ThreadPoolExecutor-0_0) Processing record ID: 68267c6b88fa8c08e7f2dcb8, Name: Jaffa Restaurant, Website: http://www.logmauk.com/
+[2025-05-16 00:46:00] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 68267c9388fa8c08e7f2dcb9, Name: Kurdistan Restaurant, Website: https://www.facebook.com/Rusholme-Star-Middle-Eastern-Restaurant-1795408137442818/
+[2025-05-16 00:46:00] INFO    – (ThreadPoolExecutor-0_2) Processing record ID: 68267c9f88fa8c08e7f2dcba, Name: Slemani Restaurant, Website: http://www.phatboyz.co.uk/
+[2025-05-16 00:46:00] INFO    – (ThreadPoolExecutor-0_3) Processing record ID: 68267ca588fa8c08e7f2dcbb, Name: Phatboyz Manchester, Website: https://www.mr-ts.co.uk/
+[2025-05-16 00:46:00] INFO    – (ThreadPoolExecutor-0_4) Processing record ID: 68267cb488fa8c08e7f2dcbc, Name: Mr T’s Wilmslow Road, Website: http://www.mussarats.co.uk/
+[2025-05-16 00:46:18] WARNING – (ThreadPoolExecutor-0_1) Requests error for https://www.facebook.com/rusholme-star-middle-eastern-restaurant-1795408137442818/: 400 Client Error: Bad Request for url: https://www.facebook.com/rusholme-star-middle-eastern-restaurant-1795408137442818/
+[2025-05-16 00:46:39] WARNING – (ThreadPoolExecutor-0_3) [mr-ts.co.uk] Selenium operation timed out after 30 seconds for https://www.mr-ts.co.uk/
+[2025-05-16 00:46:41] WARNING – (ThreadPoolExecutor-0_4) [mussarats.co.uk] Selenium operation timed out after 30 seconds for http://www.mussarats.co.uk/
+[2025-05-16 00:46:47] WARNING – (ThreadPoolExecutor-0_2) [phatboyz.co.uk] Selenium operation timed out after 30 seconds for http://www.phatboyz.co.uk/
+[2025-05-16 00:46:47] INFO    – (ThreadPoolExecutor-0_4) [mussarats.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-16 00:46:47] INFO    – (ThreadPoolExecutor-0_4) [mussarats.co.uk] SUCCESS for http://www.mussarats.co.uk/: Found 1 emails.
+[2025-05-16 00:46:47] INFO    – (ThreadPoolExecutor-0_4) [mussarats.co.uk]   Email 1: info@mussarats.co.uk
+[2025-05-16 00:46:48] WARNING – (ThreadPoolExecutor-0_0) [logmauk.com] Selenium operation timed out after 30 seconds for http://www.logmauk.com/
+[2025-05-16 00:46:49] WARNING – (ThreadPoolExecutor-0_1) [facebook.com] Selenium operation timed out after 30 seconds for https://www.facebook.com/rusholme-star-middle-eastern-restaurant-1795408137442818/
+[2025-05-16 00:46:50] INFO    – (ThreadPoolExecutor-0_1) [facebook.com] Main domain not accessible, skipping contact page checks
+[2025-05-16 00:46:50] INFO    – (ThreadPoolExecutor-0_1) [facebook.com] FAILED: Domain unreachable for https://www.facebook.com/rusholme-star-middle-eastern-restaurant-1795408137442818/.
+[2025-05-16 00:46:56] INFO    – (ThreadPoolExecutor-0_2) [phatboyz.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-16 00:46:56] INFO    – (ThreadPoolExecutor-0_2) [phatboyz.co.uk] FAILED: Domain unreachable for http://www.phatboyz.co.uk/.
+[2025-05-16 00:46:59] INFO    – (ThreadPoolExecutor-0_3) [mr-ts.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-16 00:46:59] INFO    – (ThreadPoolExecutor-0_3) [mr-ts.co.uk] FAILED: Domain unreachable for https://www.mr-ts.co.uk/.
+[2025-05-16 00:47:08] INFO    – (ThreadPoolExecutor-0_0) [logmauk.com] Main domain not accessible, skipping contact page checks
+[2025-05-16 00:47:08] INFO    – (ThreadPoolExecutor-0_0) [logmauk.com] SUCCESS for http://www.logmauk.com/: Found 1 emails.
+[2025-05-16 00:47:08] INFO    – (ThreadPoolExecutor-0_0) [logmauk.com]   Email 1: info@logmauk.com
+[2025-05-16 00:47:08] WARNING – (Thread-20 (selenium_with_timeout)) Error processing iframe for cookies: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF760CECF65+75717]
+	GetHandleVerifier [0x00007FF760CECFC0+75808]
+	(No symbol) [0x00007FF760AB8F9A]
+	(No symbol) [0x00007FF760ACF3D4]
+	(No symbol) [0x00007FF760ACDEA3]
+	(No symbol) [0x00007FF760AC16C9]
+	(No symbol) [0x00007FF760AC1843]
+	(No symbol) [0x00007FF760ABF54F]
+	(No symbol) [0x00007FF760AC3D51]
+	(No symbol) [0x00007FF760B605F8]
+	(No symbol) [0x00007FF760B3737A]
+	(No symbol) [0x00007FF760B5F39C]
+	(No symbol) [0x00007FF760B37153]
+	(No symbol) [0x00007FF760B00421]
+	(No symbol) [0x00007FF760B011B3]
+	GetHandleVerifier [0x00007FF760FED74D+3223469]
+	GetHandleVerifier [0x00007FF760FE7CF2+3200338]
+	GetHandleVerifier [0x00007FF761005B23+3322755]
+	GetHandleVerifier [0x00007FF760D06A3A+180890]
+	GetHandleVerifier [0x00007FF760D0E13F+211359]
+	GetHandleVerifier [0x00007FF760CF52B4+109332]
+	GetHandleVerifier [0x00007FF760CF5462+109762]
+	GetHandleVerifier [0x00007FF760CDBA79+4825]
+	BaseThreadInitThunk [0x00007FFD2122E8D7+23]
+	RtlUserThreadStart [0x00007FFD2239C5DC+44]
+
+[2025-05-16 00:47:18] WARNING – (Thread-17 (selenium_with_timeout)) [mr-ts.co.uk] Error in selenium_with_timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-05-16 00:47:20] INFO    – (Thread-6 (run_email_scrape_task)) Task ES_Manchester_restaurants_29372 progress: 5/5 records processed
+[2025-05-16 00:47:20] INFO    – (Thread-6 (run_email_scrape_task)) Task ES_Manchester_restaurants_29372 completed: 5/5 records processed, 2 emails found
+[2025-05-16 00:47:26] WARNING – (Thread-19 (selenium_with_timeout)) [phatboyz.co.uk] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=60855): Max retries exceeded with url: /session/8256fa9510fed98e8a6715d3384c2090/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CBCE561C70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 00:47:27] WARNING – (Thread-18 (selenium_with_timeout)) [mussarats.co.uk] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=60857): Max retries exceeded with url: /session/4e67cc81445178a64ee937d0b2466cef/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CBD1182780>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 00:47:28] WARNING – (Thread-21 (selenium_with_timeout)) [facebook.com] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=60854): Max retries exceeded with url: /session/80b472a5a02a26668b72cb0ca152926c/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CBD1182C00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 00:47:32] WARNING – (Thread-20 (selenium_with_timeout)) [logmauk.com] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=60853): Max retries exceeded with url: /session/9f54b512fedc555292c850384f9ebdc3/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CBD11A6480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 01:30:24] INFO    – (Thread-6 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_33264 for Manchester.restaurants
+[2025-05-16 01:30:24] INFO    – (Thread-6 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-16 01:30:24] INFO    – (Thread-6 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-16 01:30:24] INFO    – (Thread-6 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-16 01:30:24] INFO    – (Thread-6 (run_email_scrape_task)) Using 5 browser instances for task ES_Manchester_restaurants_33264
+[2025-05-16 01:30:24] INFO    – (ThreadPoolExecutor-0_0) Processing record ID: 682686c888fa8c08e7f2dcc0, Name: Lucky's Fallowfield, Website: https://luckysfallowfield.co.uk/
+[2025-05-16 01:30:24] INFO    – (ThreadPoolExecutor-0_1) Processing record ID: 682686f888fa8c08e7f2dcc2, Name: Fuzion Noodle Bar, Website: http://www.fuzionnoodlebar.co.uk/
+[2025-05-16 01:30:24] INFO    – (ThreadPoolExecutor-0_2) Processing record ID: 682686fe88fa8c08e7f2dcc3, Name: The Mexican Restaurant, Bar and Takeaway, Website: https://www.themexican.co.uk/
+[2025-05-16 01:30:24] INFO    – (ThreadPoolExecutor-0_3) Processing record ID: 6826871d88fa8c08e7f2dcc4, Name: Mussarat's Restaurant, Website: https://www.instagram.com/cuteemcr/profilecard/?igsh=bWxzMDJtM2syMjV5
+[2025-05-16 01:30:35] WARNING – (Thread-17 (selenium_with_timeout)) [fuzionnoodlebar.co.uk] Error in selenium_with_timeout: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-16 01:30:47] WARNING – (Thread-15 (selenium_with_timeout)) [themexican.co.uk] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=62276): Max retries exceeded with url: /session/8ea794dcdd8ff19d7fd4245d365e1526/title (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A647924920>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 01:30:51] ERROR   – (ThreadPoolExecutor-0_1) [fuzionnoodlebar.co.uk] Driver died before Selenium contact page attempt for http://www.fuzionnoodlebar.co.uk/contact
+[2025-05-16 01:31:00] WARNING – (ThreadPoolExecutor-0_3) [instagram.com] Selenium operation timed out after 30 seconds for https://www.instagram.com/cuteemcr/profilecard/?igsh=bwxzmdjtm2symjv5
+[2025-05-16 01:31:02] WARNING – (ThreadPoolExecutor-0_0) [luckysfallowfield.co.uk] Selenium operation timed out after 30 seconds for https://luckysfallowfield.co.uk/
+[2025-05-16 01:31:03] ERROR   – (ThreadPoolExecutor-0_2) [themexican.co.uk] Driver died before Selenium contact page attempt for https://www.themexican.co.uk/contact
+[2025-05-16 01:31:03] INFO    – (ThreadPoolExecutor-0_2) [themexican.co.uk] SUCCESS for https://www.themexican.co.uk/: Found 1 emails.
+[2025-05-16 01:31:03] INFO    – (ThreadPoolExecutor-0_2) [themexican.co.uk]   Email 1: 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com
+[2025-05-16 01:31:03] WARNING – (Thread-18 (selenium_with_timeout)) [luckysfallowfield.co.uk] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=62274): Max retries exceeded with url: /session/9dd7931eb838f82e8f10ad9328ea5fd8/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6479247D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 01:31:03] WARNING – (Thread-16 (selenium_with_timeout)) [instagram.com] Error in selenium_with_timeout: HTTPConnectionPool(host='localhost', port=62277): Max retries exceeded with url: /session/3f1c6a6abfd588322ebd963cc37ec9e6/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A647924380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-05-16 01:31:16] INFO    – (ThreadPoolExecutor-0_3) [instagram.com] Main domain not accessible, skipping contact page checks
+[2025-05-16 01:31:16] INFO    – (ThreadPoolExecutor-0_3) [instagram.com] FAILED: Domain unreachable for https://www.instagram.com/cuteemcr/profilecard/?igsh=bwxzmdjtm2symjv5.
+[2025-05-16 01:31:18] INFO    – (ThreadPoolExecutor-0_0) [luckysfallowfield.co.uk] Main domain not accessible, skipping contact page checks
+[2025-05-16 01:31:18] INFO    – (ThreadPoolExecutor-0_0) [luckysfallowfield.co.uk] FAILED: Domain unreachable for https://luckysfallowfield.co.uk/.

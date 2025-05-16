@@ -1,0 +1,196 @@
+[2025-05-16 00:42:53] INFO    – ================================================================================
+[2025-05-16 00:42:53] INFO    – Starting Google Maps scraper from API
+[2025-05-16 00:42:53] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_004253.log
+[2025-05-16 00:42:53] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 00:42:53] INFO    – ================================================================================
+[2025-05-16 00:42:53] INFO    – Connected to MongoDB successfully
+[2025-05-16 00:42:53] INFO    – Created queue index
+[2025-05-16 00:42:53] INFO    – Created indexes
+[2025-05-16 00:42:58] INFO    – Chrome driver initialized successfully
+[2025-05-16 00:42:58] INFO    – Processing all unprocessed subsectors
+[2025-05-16 00:42:58] INFO    – Total subsectors to process: 287
+[2025-05-16 00:42:58] INFO    – ==================================================
+[2025-05-16 00:42:58] INFO    – PROCESSING SUBSECTOR: M14 7 (1/287)
+[2025-05-16 00:42:59] INFO    – ============================================================
+[2025-05-16 00:42:59] INFO    – Starting scrape for subsector: M14 7
+[2025-05-16 00:42:59] INFO    – ============================================================
+[2025-05-16 00:43:03] INFO    – M14 7 -> search query launched: restaurants in M14 7 Manchester
+[2025-05-16 00:43:07] INFO    – M14 7 -> Found 5 unprocessed tiles
+[2025-05-16 00:43:07] INFO    – M14 7 -> Clicking tile 1/5: The Deansgate
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Business Name: The Deansgate
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Stars: 4.3
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Reviews: 1475
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+[2025-05-16 00:43:15] INFO    – M14 7 -> EXTRACTION: Phone: 1613888956
+[2025-05-16 00:43:15] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+[2025-05-16 00:43:15] INFO    – M14 7 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+[2025-05-16 00:43:16] INFO    – M14 7 -> Clicking tile 2/5: MyLahore Manchester
+[2025-05-16 00:43:20] INFO    – M14 7 -> Clicking tile 3/5: Jafra Restaurant مطعم جفرا
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Business Name: Jafra Restaurant مطعم جفرا
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Stars: 4.8
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Reviews: 5846
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Website: N/A
+[2025-05-16 00:43:36] INFO    – M14 7 -> EXTRACTION: Phone: 1619715602
+[2025-05-16 00:43:36] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Jafra Restaurant مطعم جفرا -> N/A
+[2025-05-16 00:43:36] INFO    – M14 7 -> Scraped: Jafra Restaurant مطعم جفرا (phone: 1619715602, address: 34-36 Wilmslow Rd, Manchester ..., website: N/A)
+[2025-05-16 00:43:37] INFO    – M14 7 -> Clicking tile 4/5: Bardez - Indian Street Food and Grill, Rusholme
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Business Name: Bardez - Indian Street Food and Grill, Rusholme
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Stars: 4.8
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Reviews: 750
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Address: 35 Wilmslow Rd, Rusholme, Manchester M14 5TB
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Website: https://bardez.co.uk/
+[2025-05-16 00:43:43] INFO    – M14 7 -> EXTRACTION: Phone: 1612484890
+[2025-05-16 00:43:43] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Bardez - Indian Street Food and Grill, Rusholme -> https://bardez.co.uk/
+[2025-05-16 00:43:43] INFO    – M14 7 -> Scraped: Bardez - Indian Street Food and Grill, Rusholme (phone: 1612484890, address: 35 Wilmslow Rd, Rusholme, Manc..., website: https://bardez.co.uk/)
+[2025-05-16 00:43:43] INFO    – M14 7 -> Clicking tile 5/5: Olives Grill&Dessert
+[2025-05-16 00:43:47] INFO    – M14 7 -> Processed 3 new tiles in this batch
+[2025-05-16 00:43:49] INFO    – M14 7 -> scrolled feed (tiles now 10)
+[2025-05-16 00:43:49] INFO    – M14 7 -> Total unique businesses processed in this subsector: 3
+[2025-05-16 00:43:50] INFO    – M14 7 -> Found 5 unprocessed tiles
+[2025-05-16 00:43:50] INFO    – M14 7 -> Clicking tile 1/5: Mughli Charcoal Pit
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Business Name: Mughli Charcoal Pit
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Stars: 4.2
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Reviews: 1651
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Address: 30 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Website: http://www.mughli.com/
+[2025-05-16 00:43:57] INFO    – M14 7 -> EXTRACTION: Phone: 1612480900
+[2025-05-16 00:43:57] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Mughli Charcoal Pit -> http://www.mughli.com/
+[2025-05-16 00:43:57] INFO    – M14 7 -> Scraped: Mughli Charcoal Pit (phone: 1612480900, address: 30 Wilmslow Rd, Manchester M14..., website: http://www.mughli.com/)
+[2025-05-16 00:43:57] INFO    – M14 7 -> Clicking tile 2/5: Oodles N’Oodles Restaurant Manchester
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Business Name: Oodles N’Oodles Restaurant Manchester
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Stars: 3.9
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Reviews: 2296
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Address: 7 Wilmslow Rd, Manchester M14 5FT
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Website: http://www.oodlesnoodlesmcr.com/
+[2025-05-16 00:44:03] INFO    – M14 7 -> EXTRACTION: Phone: 1612248164
+[2025-05-16 00:44:03] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Oodles N’Oodles Restaurant Manchester -> http://www.oodlesnoodlesmcr.com/
+[2025-05-16 00:44:03] INFO    – M14 7 -> Scraped: Oodles N’Oodles Restaurant Manchester (phone: 1612248164, address: 7 Wilmslow Rd, Manchester M14 ..., website: http://www.oodlesnoodlesmcr.co...)
+[2025-05-16 00:44:04] INFO    – M14 7 -> Clicking tile 3/5: Al Jazeera Restaurant
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Business Name: Al Jazeera Restaurant
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Stars: 4.4
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Reviews: 1648
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Address: 22 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Website: https://www.aljazeeraltd.com/
+[2025-05-16 00:44:12] INFO    – M14 7 -> EXTRACTION: Phone: 1612573337
+[2025-05-16 00:44:12] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Al Jazeera Restaurant -> https://www.aljazeeraltd.com/
+[2025-05-16 00:44:12] INFO    – M14 7 -> Scraped: Al Jazeera Restaurant (phone: 1612573337, address: 22 Wilmslow Rd, Manchester M14..., website: https://www.aljazeeraltd.com/)
+[2025-05-16 00:44:12] INFO    – M14 7 -> Clicking tile 4/5: Ziya Asian Grill
+[2025-05-16 00:44:16] INFO    – M14 7 -> Clicking tile 5/5: Camel One Restaurant, Grill & Tawa
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Business Name: Ziya Asian Grill
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Stars: 4.6
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Reviews: 2913
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Address: 117 Wilmslow Rd, Manchester M14 5AN
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Website: N/A
+[2025-05-16 00:44:23] INFO    – M14 7 -> EXTRACTION: Phone: 1612250250
+[2025-05-16 00:44:23] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Ziya Asian Grill -> N/A
+[2025-05-16 00:44:23] INFO    – M14 7 -> Scraped: Ziya Asian Grill (phone: 1612250250, address: 117 Wilmslow Rd, Manchester M1..., website: N/A)
+[2025-05-16 00:44:23] INFO    – M14 7 -> Processed 4 new tiles in this batch
+[2025-05-16 00:44:25] INFO    – M14 7 -> scrolled feed (tiles now 15)
+[2025-05-16 00:44:25] INFO    – M14 7 -> Total unique businesses processed in this subsector: 7
+[2025-05-16 00:44:27] INFO    – M14 7 -> Found 5 unprocessed tiles
+[2025-05-16 00:44:27] INFO    – M14 7 -> Clicking tile 1/5: Jaffa Restaurant
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Business Name: Camel One Restaurant, Grill & Tawa
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Stars: 4.5
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Reviews: 3331
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Address: 185 Wilmslow Rd, Manchester M14 5AP
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Website: https://jaffarestaurant.shop/
+[2025-05-16 00:44:34] INFO    – M14 7 -> EXTRACTION: Phone: 1612250800
+[2025-05-16 00:44:34] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Camel One Restaurant, Grill & Tawa -> https://jaffarestaurant.shop/
+[2025-05-16 00:44:34] INFO    – M14 7 -> Scraped: Camel One Restaurant, Grill & Tawa (phone: 1612250800, address: 185 Wilmslow Rd, Manchester M1..., website: https://jaffarestaurant.shop/)
+[2025-05-16 00:44:35] INFO    – M14 7 -> Clicking tile 2/5: Logma Restaurant
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Business Name: Jaffa Restaurant
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Stars: 4.5
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Reviews: 517
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Address: 44 Wilmslow Rd, Rusholme, Manchester M14 5TQ
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Website: http://www.logmauk.com/
+[2025-05-16 00:44:43] INFO    – M14 7 -> EXTRACTION: Phone: 1616377630
+[2025-05-16 00:44:43] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Jaffa Restaurant -> http://www.logmauk.com/
+[2025-05-16 00:44:43] INFO    – M14 7 -> Scraped: Jaffa Restaurant (phone: 1616377630, address: 44 Wilmslow Rd, Rusholme, Manc..., website: http://www.logmauk.com/)
+[2025-05-16 00:44:43] INFO    – Google Maps scraper found 1 new unique records (total: 1/5)
+[2025-05-16 00:44:43] INFO    – M14 7 -> Clicking tile 3/5: Alostora Seafood Restaurant
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Business Name: Logma Restaurant
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Stars: 4.1
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Reviews: 517
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Address: 199, 201 Wilmslow Rd, Manchester M14 5AQ
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Website: https://alostora.co.uk/
+[2025-05-16 00:44:51] INFO    – M14 7 -> EXTRACTION: Phone: 7828126978
+[2025-05-16 00:44:51] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Logma Restaurant -> https://alostora.co.uk/
+[2025-05-16 00:44:51] INFO    – M14 7 -> Scraped: Logma Restaurant (phone: 7828126978, address: 199, 201 Wilmslow Rd, Manchest..., website: https://alostora.co.uk/)
+[2025-05-16 00:44:51] INFO    – M14 7 -> Clicking tile 4/5: Afghan Cuisine Restaurant & Takeaway
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Business Name: Alostora Seafood Restaurant
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Stars: 4.3
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Reviews: 1875
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Address: 86 Wilmslow Rd, Manchester M14 5AL
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Website: https://afghancuisinerestauranttakeaway.shop/
+[2025-05-16 00:44:58] INFO    – M14 7 -> EXTRACTION: Phone: 1612485333
+[2025-05-16 00:44:58] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Alostora Seafood Restaurant -> https://afghancuisinerestauranttakeaway.shop/
+[2025-05-16 00:44:58] INFO    – M14 7 -> Scraped: Alostora Seafood Restaurant (phone: 1612485333, address: 86 Wilmslow Rd, Manchester M14..., website: https://afghancuisinerestauran...)
+[2025-05-16 00:44:58] INFO    – M14 7 -> Clicking tile 5/5: Pitmaster
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Business Name: Pitmaster
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Stars: 4.6
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Reviews: 2392
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Address: Pitmaster 31, Wilmslow Rd, Manchester M14 5TB
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Website: https://pitmaster.uk/
+[2025-05-16 00:45:06] INFO    – M14 7 -> EXTRACTION: Phone: 7483956934
+[2025-05-16 00:45:06] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Pitmaster -> https://pitmaster.uk/
+[2025-05-16 00:45:06] INFO    – M14 7 -> Scraped: Pitmaster (phone: 7483956934, address: Pitmaster 31, Wilmslow Rd, Man..., website: https://pitmaster.uk/)
+[2025-05-16 00:45:07] INFO    – M14 7 -> Processed 5 new tiles in this batch
+[2025-05-16 00:45:08] INFO    – M14 7 -> scrolled feed (tiles now 20)
+[2025-05-16 00:45:08] INFO    – M14 7 -> Total unique businesses processed in this subsector: 12
+[2025-05-16 00:45:12] INFO    – M14 7 -> Found 5 unprocessed tiles
+[2025-05-16 00:45:12] INFO    – M14 7 -> Clicking tile 1/5: Walnut Persian Restaurant
+[2025-05-16 00:45:16] INFO    – M14 7 -> Clicking tile 2/5: Kurdistan Restaurant
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Business Name: Kurdistan Restaurant
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Stars: 4.2
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Reviews: 836
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Address: 2 Grandale St, Manchester M14 5NS
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Website: https://www.facebook.com/Rusholme-Star-Middle-Eastern-Restaurant-1795408137442818/
+[2025-05-16 00:45:23] INFO    – M14 7 -> EXTRACTION: Phone: 1612251958
+[2025-05-16 00:45:23] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Kurdistan Restaurant -> https://www.facebook.com/Rusholme-Star-Middle-Eastern-Restaurant-1795408137442818/
+[2025-05-16 00:45:23] INFO    – M14 7 -> Scraped: Kurdistan Restaurant (phone: 1612251958, address: 2 Grandale St, Manchester M14 ..., website: https://www.facebook.com/Rusho...)
+[2025-05-16 00:45:23] INFO    – Google Maps scraper found 1 new unique records (total: 2/5)
+[2025-05-16 00:45:24] INFO    – M14 7 -> Clicking tile 3/5: Slemani Restaurant
+[2025-05-16 00:45:28] INFO    – M14 7 -> Clicking tile 4/5: Phatboyz Manchester
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Business Name: Slemani Restaurant
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Stars: 3.9
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Reviews: 501
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Address: 92 Wilmslow Rd, Manchester M14 5AL
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Website: http://www.phatboyz.co.uk/
+[2025-05-16 00:45:35] INFO    – M14 7 -> EXTRACTION: Phone: 1617575755
+[2025-05-16 00:45:35] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Slemani Restaurant -> http://www.phatboyz.co.uk/
+[2025-05-16 00:45:35] INFO    – M14 7 -> Scraped: Slemani Restaurant (phone: 1617575755, address: 92 Wilmslow Rd, Manchester M14..., website: http://www.phatboyz.co.uk/)
+[2025-05-16 00:45:35] INFO    – Google Maps scraper found 1 new unique records (total: 3/5)
+[2025-05-16 00:45:36] INFO    – M14 7 -> Clicking tile 5/5: Mr T’s Wilmslow Road
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Business Name: Phatboyz Manchester
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Stars: 4.5
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Reviews: 1064
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Address: 141-143, 141 Wilmslow Rd, Manchester M14 5AW
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Website: https://www.mr-ts.co.uk/
+[2025-05-16 00:45:41] INFO    – M14 7 -> EXTRACTION: Phone: 1618262270
+[2025-05-16 00:45:41] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Phatboyz Manchester -> https://www.mr-ts.co.uk/
+[2025-05-16 00:45:41] INFO    – M14 7 -> Scraped: Phatboyz Manchester (phone: 1618262270, address: 141-143, 141 Wilmslow Rd, Manc..., website: https://www.mr-ts.co.uk/)
+[2025-05-16 00:45:41] INFO    – Google Maps scraper found 1 new unique records (total: 4/5)
+[2025-05-16 00:45:42] INFO    – M14 7 -> Processed 3 new tiles in this batch
+[2025-05-16 00:45:44] INFO    – M14 7 -> scrolled feed (tiles now 21)
+[2025-05-16 00:45:44] INFO    – M14 7 -> Total unique businesses processed in this subsector: 15
+[2025-05-16 00:45:50] INFO    – M14 7 -> Found 1 unprocessed tiles
+[2025-05-16 00:45:50] INFO    – M14 7 -> Clicking tile 1/1: Mussarat's Restaurant
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Business Name: Mr T’s Wilmslow Road
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Stars: 4.8
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Reviews: 4122
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Address: 123-127 Wilmslow Rd, Manchester M14 5AN
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Website: http://www.mussarats.co.uk/
+[2025-05-16 00:45:56] INFO    – M14 7 -> EXTRACTION: Phone: 1612249999
+[2025-05-16 00:45:56] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: Mr T’s Wilmslow Road -> http://www.mussarats.co.uk/
+[2025-05-16 00:45:56] INFO    – M14 7 -> Scraped: Mr T’s Wilmslow Road (phone: 1612249999, address: 123-127 Wilmslow Rd, Mancheste..., website: http://www.mussarats.co.uk/)
+[2025-05-16 00:45:56] INFO    – Google Maps scraper found 1 new unique records (total: 5/5)
+[2025-05-16 00:45:56] INFO    – Reached 5 unique records with phone numbers (5), stopping Google Maps scraper
+[2025-05-16 00:45:56] INFO    – M14 7 -> Termination requested after record insertion
+[2025-05-16 00:45:56] INFO    – M14 7 -> skipped due to termination request
+[2025-05-16 00:45:56] INFO    – Google Maps scraper terminated by user request
+[2025-05-16 00:46:00] INFO    – Chrome driver closed
+[2025-05-16 00:46:00] INFO    – MongoDB connection closed
+[2025-05-16 00:46:00] INFO    – Starting email scraper for Manchester.restaurants
+[2025-05-16 00:46:00] INFO    – Google Maps scraper finished with success=False, unique_records=5

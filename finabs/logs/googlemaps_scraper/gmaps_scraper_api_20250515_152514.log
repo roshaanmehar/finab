@@ -1,0 +1,136 @@
+2025-05-15 15:25:14,189 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:25:14,195 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-15 15:25:14,197 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250515_152514.log
+2025-05-15 15:25:14,197 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-15 15:25:14,206 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:25:14,238 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-15 15:25:14,241 - googlemaps_scraper - INFO - Created queue index
+2025-05-15 15:25:14,245 - googlemaps_scraper - INFO - Created indexes
+2025-05-15 15:25:17,966 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-15 15:25:17,987 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-15 15:25:17,992 - googlemaps_scraper - INFO - Total subsectors to process: 288
+2025-05-15 15:25:18,094 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:25:18,124 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M13 9 (1/288)
+2025-05-15 15:25:18,293 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:25:18,295 - googlemaps_scraper - INFO - Starting scrape for subsector: M13 9
+2025-05-15 15:25:18,296 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:25:22,144 - googlemaps_scraper - INFO - M13 9 -> search query launched: restaurants in M13 9 Manchester
+2025-05-15 15:25:26,084 - googlemaps_scraper - INFO - M13 9 -> Found 5 unprocessed tiles
+2025-05-15 15:25:26,359 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+2025-05-15 15:25:34,661 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-15 15:25:34,662 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 4.3
+2025-05-15 15:25:34,663 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 2333
+2025-05-15 15:25:34,665 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-15 15:25:34,666 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-15 15:25:34,667 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 1615492175
+2025-05-15 15:25:34,668 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-15 15:25:34,670 - googlemaps_scraper - INFO - M13 9 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-15 15:25:34,686 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-15 15:25:35,354 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 2/5: TGI Fridays - Trafford Centre
+2025-05-15 15:25:38,723 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 3/5: Safire Restaurant & Grill
+2025-05-15 15:25:47,280 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: TGI Fridays - Trafford Centre
+2025-05-15 15:25:47,281 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 3.6
+2025-05-15 15:25:47,281 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 1808
+2025-05-15 15:25:47,283 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: The Great Hall, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA
+2025-05-15 15:25:47,283 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-15 15:25:47,285 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 3301759275
+2025-05-15 15:25:47,285 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: TGI Fridays - Trafford Centre -> https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-15 15:25:47,286 - googlemaps_scraper - INFO - M13 9 -> Scraped: TGI Fridays - Trafford Centre (phone: 3301759275, address: The Great Hall, The Trafford C..., website: https://www.tgifridays.co.uk/l...)
+2025-05-15 15:25:47,298 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/5)
+2025-05-15 15:25:47,880 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 4/5: Seoul Kimchi
+2025-05-15 15:25:50,258 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 5/5: Navarro Lounge
+2025-05-15 15:25:51,962 - googlemaps_scraper - INFO - M13 9 -> Processed 2 new tiles in this batch
+2025-05-15 15:25:54,627 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 1/6)
+2025-05-15 15:25:54,628 - googlemaps_scraper - INFO - M13 9 -> Total unique businesses processed in this subsector: 2
+2025-05-15 15:25:55,130 - googlemaps_scraper - INFO - M13 9 -> Found 0 unprocessed tiles
+2025-05-15 15:25:55,130 - googlemaps_scraper - INFO - M13 9 -> No new tiles to process, scrolling to find more
+2025-05-15 15:25:57,739 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 2/6)
+2025-05-15 15:25:58,336 - googlemaps_scraper - INFO - M13 9 -> Found 0 unprocessed tiles
+2025-05-15 15:25:58,337 - googlemaps_scraper - INFO - M13 9 -> No new tiles to process, scrolling to find more
+2025-05-15 15:26:01,077 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 3/6)
+2025-05-15 15:26:01,766 - googlemaps_scraper - INFO - M13 9 -> Found 0 unprocessed tiles
+2025-05-15 15:26:01,767 - googlemaps_scraper - INFO - M13 9 -> No new tiles to process, scrolling to find more
+2025-05-15 15:26:04,556 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 4/6)
+2025-05-15 15:26:05,055 - googlemaps_scraper - INFO - M13 9 -> Found 0 unprocessed tiles
+2025-05-15 15:26:05,056 - googlemaps_scraper - INFO - M13 9 -> No new tiles to process, scrolling to find more
+2025-05-15 15:26:07,658 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 5/6)
+2025-05-15 15:26:08,282 - googlemaps_scraper - INFO - M13 9 -> Found 0 unprocessed tiles
+2025-05-15 15:26:08,283 - googlemaps_scraper - INFO - M13 9 -> No new tiles to process, scrolling to find more
+2025-05-15 15:26:10,915 - googlemaps_scraper - INFO - M13 9 -> Scroll was not successful (attempt 6/6)
+2025-05-15 15:26:10,917 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:26:10,918 - googlemaps_scraper - INFO - M13 9 -> Scraping completed in 0:00:52.620720
+2025-05-15 15:26:10,920 - googlemaps_scraper - INFO - M13 9 -> Total cards scraped: 2 (unique businesses: 2)
+2025-05-15 15:26:10,922 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:26:10,926 - googlemaps_scraper - INFO - M13 9 -> JSON saved -> business_data\manchester_M13 9.json (2 records)
+2025-05-15 15:26:10,930 - googlemaps_scraper - INFO - M13 9 -> CSV saved -> business_data\manchester_M13 9.csv (2 records)
+2025-05-15 15:26:10,931 - googlemaps_scraper - INFO - M13 9 -> total records: 2 (with phone: 2)
+2025-05-15 15:26:10,937 - googlemaps_scraper - INFO - M13 9 -> done in 0:00:52.842621 • processed=1/288 (0.3%)
+2025-05-15 15:26:10,938 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:26:15,573 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:26:15,573 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 7 (2/288)
+2025-05-15 15:26:15,590 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:26:15,593 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:26:15,595 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:26:31,401 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:26:51,619 - googlemaps_scraper - ERROR - M14 7 -> No results found
+2025-05-15 15:26:51,619 - googlemaps_scraper - WARNING - M14 7 -> attempt 1/3 returned no results
+2025-05-15 15:26:51,643 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:26:51,644 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:26:51,645 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:27:06,855 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:27:27,125 - googlemaps_scraper - ERROR - M14 7 -> No results found
+2025-05-15 15:27:27,126 - googlemaps_scraper - WARNING - M14 7 -> attempt 2/3 returned no results
+2025-05-15 15:27:27,145 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:27:27,145 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:27:27,146 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:27:42,333 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:28:02,540 - googlemaps_scraper - ERROR - M14 7 -> No results found
+2025-05-15 15:28:02,542 - googlemaps_scraper - WARNING - M14 7 -> attempt 3/3 returned no results
+2025-05-15 15:28:02,548 - googlemaps_scraper - WARNING - M14 7 -> skipped after failed attempts
+2025-05-15 15:28:02,552 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:28:02,553 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 7 (2/288)
+2025-05-15 15:28:02,572 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:28:02,574 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:28:02,574 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:28:18,018 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:28:38,167 - googlemaps_scraper - ERROR - M14 7 -> No results found
+2025-05-15 15:28:38,168 - googlemaps_scraper - WARNING - M14 7 -> attempt 1/3 returned no results
+2025-05-15 15:28:38,206 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:28:38,207 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:28:38,208 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:28:54,023 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:28:58,249 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-15 15:28:58,327 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: The Deansgate
+2025-05-15 15:29:04,548 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: The Deansgate
+2025-05-15 15:29:04,548 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.3
+2025-05-15 15:29:04,550 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1475
+2025-05-15 15:29:04,550 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-15 15:29:04,552 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 15:29:04,552 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1613888956
+2025-05-15 15:29:04,553 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 15:29:04,555 - googlemaps_scraper - INFO - M14 7 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-15 15:29:04,568 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/5)
+2025-05-15 15:29:05,095 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 2/5: MyLahore Manchester
+2025-05-15 15:29:12,465 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-15 15:29:12,466 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-15 15:29:12,467 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 13332
+2025-05-15 15:29:12,469 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 15:29:12,472 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+2025-05-15 15:29:12,477 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612488887
+2025-05-15 15:29:12,478 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+2025-05-15 15:29:12,479 - googlemaps_scraper - INFO - M14 7 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+2025-05-15 15:29:12,493 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/5)
+2025-05-15 15:29:19,779 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.8
+2025-05-15 15:29:19,780 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 5842
+2025-05-15 15:29:19,781 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 15:29:19,782 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: N/A
+2025-05-15 15:29:19,783 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1619715602
+2025-05-15 15:29:19,813 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/5)
+2025-05-15 15:29:19,814 - googlemaps_scraper - INFO - Reached 5 unique records with phone numbers (5), stopping Google Maps scraper
+2025-05-15 15:29:19,815 - googlemaps_scraper - INFO - M14 7 -> Termination requested after record insertion
+2025-05-15 15:29:19,819 - googlemaps_scraper - INFO - M14 7 -> skipped due to termination request
+2025-05-15 15:29:19,820 - googlemaps_scraper - INFO - Google Maps scraper terminated by user request
+2025-05-15 15:29:22,292 - googlemaps_scraper - INFO - Chrome driver closed
+2025-05-15 15:29:22,296 - googlemaps_scraper - INFO - MongoDB connection closed
+2025-05-15 15:29:22,297 - googlemaps_scraper - INFO - Starting email scraper for Manchester.restaurants
+2025-05-15 15:29:22,299 - googlemaps_scraper - INFO - Google Maps scraper finished with success=False, unique_records=5

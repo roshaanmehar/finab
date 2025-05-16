@@ -1,0 +1,28 @@
+[
+    {
+        "subsector": "M13 9",
+        "businessname": "Las Iguanas - Manchester - Deansgate",
+        "address": "84 Deansgate, Manchester M3 2ER",
+        "stars": "4.3",
+        "numberofreviews": 2333,
+        "website": "https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-15T15:25:34.670722",
+        "city": "Manchester",
+        "phonenumber": 1615492175
+    },
+    {
+        "subsector": "M13 9",
+        "businessname": "TGI Fridays - Trafford Centre",
+        "address": "The Great Hall, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA",
+        "stars": "3.6",
+        "numberofreviews": 1808,
+        "website": "https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-15T15:25:47.286541",
+        "city": "Manchester",
+        "phonenumber": 3301759275
+    }
+]

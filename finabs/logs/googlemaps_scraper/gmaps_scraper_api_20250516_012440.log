@@ -1,0 +1,45 @@
+2025-05-16 01:24:40,012 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:24:40,013 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 01:24:40,015 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_012440.log
+2025-05-16 01:24:40,016 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 01:24:40,017 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:24:40,072 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 01:24:40,075 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 01:24:40,077 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 01:24:42,214 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 01:24:42,215 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 01:24:42,223 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-16 01:24:42,230 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 01:24:42,230 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 5 (1/287)
+2025-05-16 01:24:42,289 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:24:42,290 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 5
+2025-05-16 01:24:42,291 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:24:47,241 - googlemaps_scraper - INFO - M14 5 -> search query launched: restaurants in M14 5 Manchester
+2025-05-16 01:24:49,576 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:49,578 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:50,358 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:50,358 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:50,667 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:50,668 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:51,038 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:51,038 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:51,407 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:51,408 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:51,821 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:51,821 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:52,182 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:52,183 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:52,621 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:52,622 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:53,260 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:53,261 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:53,520 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:53,521 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:53,816 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:53,816 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:54,120 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:54,121 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:54,419 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:54,419 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0
+2025-05-16 01:24:54,741 - googlemaps_scraper - INFO - M14 5 -> Found 5 unprocessed tiles
+2025-05-16 01:24:54,742 - googlemaps_scraper - INFO - M14 5 -> Total unique businesses processed in this subsector: 0

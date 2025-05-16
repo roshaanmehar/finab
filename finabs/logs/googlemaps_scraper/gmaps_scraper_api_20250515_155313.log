@@ -1,0 +1,99 @@
+2025-05-15 15:53:13,262 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:53:13,263 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-15 15:53:13,264 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250515_155313.log
+2025-05-15 15:53:13,272 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-15 15:53:13,281 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:53:13,308 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-15 15:53:13,310 - googlemaps_scraper - INFO - Created queue index
+2025-05-15 15:53:13,312 - googlemaps_scraper - INFO - Created indexes
+2025-05-15 15:53:15,877 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-15 15:53:15,878 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-15 15:53:15,884 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-15 15:53:15,896 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:53:15,896 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 7 (1/287)
+2025-05-15 15:53:16,145 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:53:16,145 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 15:53:16,148 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:53:19,961 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 15:53:24,256 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-15 15:53:24,337 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: The Deansgate
+2025-05-15 15:53:32,121 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: The Deansgate
+2025-05-15 15:53:32,122 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.3
+2025-05-15 15:53:32,122 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1475
+2025-05-15 15:53:32,123 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-15 15:53:32,124 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 15:53:32,124 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1613888956
+2025-05-15 15:53:32,125 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 15:53:32,126 - googlemaps_scraper - INFO - M14 7 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-15 15:53:32,643 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 2/5: MyLahore Manchester
+2025-05-15 15:53:38,005 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-15 15:53:38,007 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-15 15:53:38,008 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 13331
+2025-05-15 15:53:38,009 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 15:53:38,011 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+2025-05-15 15:53:38,012 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612488887
+2025-05-15 15:53:38,014 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+2025-05-15 15:53:38,019 - googlemaps_scraper - INFO - M14 7 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+2025-05-15 15:53:41,392 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 4/5: Afghan Cuisine Restaurant & Takeaway
+2025-05-15 15:53:46,531 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Afghan Cuisine Restaurant & Takeaway
+2025-05-15 15:53:46,532 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.3
+2025-05-15 15:53:46,533 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1875
+2025-05-15 15:53:46,534 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 86 Wilmslow Rd, Manchester M14 5AL
+2025-05-15 15:53:46,535 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://afghancuisinerestauranttakeaway.shop/
+2025-05-15 15:53:46,536 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612485333
+2025-05-15 15:53:46,537 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Afghan Cuisine Restaurant & Takeaway -> https://afghancuisinerestauranttakeaway.shop/
+2025-05-15 15:53:46,540 - googlemaps_scraper - INFO - M14 7 -> Scraped: Afghan Cuisine Restaurant & Takeaway (phone: 1612485333, address: 86 Wilmslow Rd, Manchester M14..., website: https://afghancuisinerestauran...)
+2025-05-15 15:53:46,551 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-15 15:53:47,411 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 5/5: Camel One Restaurant, Grill & Tawa
+2025-05-15 15:53:53,683 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Camel One Restaurant, Grill & Tawa
+2025-05-15 15:53:53,684 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.5
+2025-05-15 15:53:53,685 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 155
+2025-05-15 15:53:53,686 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 117 Wilmslow Rd, Manchester M14 5AN
+2025-05-15 15:53:53,688 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: N/A
+2025-05-15 15:53:53,688 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612250250
+2025-05-15 15:53:53,690 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Camel One Restaurant, Grill & Tawa -> N/A
+2025-05-15 15:53:53,690 - googlemaps_scraper - INFO - M14 7 -> Scraped: Camel One Restaurant, Grill & Tawa (phone: 1612250250, address: 117 Wilmslow Rd, Manchester M1..., website: N/A)
+2025-05-15 15:53:53,710 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/5)
+2025-05-15 15:53:54,275 - googlemaps_scraper - INFO - M14 7 -> Processed 4 new tiles in this batch
+2025-05-15 15:53:55,915 - googlemaps_scraper - INFO - M14 7 -> scrolled feed (tiles now 10)
+2025-05-15 15:53:55,916 - googlemaps_scraper - INFO - M14 7 -> Total unique businesses processed in this subsector: 4
+2025-05-15 15:53:57,065 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-15 15:53:57,156 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: Walnut Persian Restaurant
+2025-05-15 15:54:03,397 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Walnut Persian Restaurant
+2025-05-15 15:54:03,398 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.7
+2025-05-15 15:54:03,398 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 2149
+2025-05-15 15:54:03,398 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 237 Wilmslow Rd, Manchester M14 5LW
+2025-05-15 15:54:03,399 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://walnutrestaurant.co.uk/
+2025-05-15 15:54:03,399 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612220894
+2025-05-15 15:54:03,399 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Walnut Persian Restaurant -> http://walnutrestaurant.co.uk/
+2025-05-15 15:54:03,399 - googlemaps_scraper - INFO - M14 7 -> Scraped: Walnut Persian Restaurant (phone: 1612220894, address: 237 Wilmslow Rd, Manchester M1..., website: http://walnutrestaurant.co.uk/)
+2025-05-15 15:54:03,403 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/5)
+2025-05-15 15:54:03,876 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 2/5: Al Jazeera Restaurant
+2025-05-15 15:54:07,525 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 3/5: Alostora Seafood Restaurant
+2025-05-15 15:54:13,897 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Alostora Seafood Restaurant
+2025-05-15 15:54:13,898 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.9
+2025-05-15 15:54:13,899 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 655
+2025-05-15 15:54:13,900 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 199, 201 Wilmslow Rd, Manchester M14 5AQ
+2025-05-15 15:54:13,901 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://alostora.co.uk/
+2025-05-15 15:54:13,901 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 7828126978
+2025-05-15 15:54:13,902 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Alostora Seafood Restaurant -> https://alostora.co.uk/
+2025-05-15 15:54:13,902 - googlemaps_scraper - INFO - M14 7 -> Scraped: Alostora Seafood Restaurant (phone: 7828126978, address: 199, 201 Wilmslow Rd, Manchest..., website: https://alostora.co.uk/)
+2025-05-15 15:54:13,914 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/5)
+2025-05-15 15:54:14,371 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 4/5: Oodles N’Oodles Restaurant Manchester
+2025-05-15 15:54:20,985 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Oodles N’Oodles Restaurant Manchester
+2025-05-15 15:54:20,985 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 3.9
+2025-05-15 15:54:20,987 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 2296
+2025-05-15 15:54:20,987 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 7 Wilmslow Rd, Manchester M14 5FT
+2025-05-15 15:54:20,988 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.oodlesnoodlesmcr.com/
+2025-05-15 15:54:20,989 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612248164
+2025-05-15 15:54:20,989 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Oodles N’Oodles Restaurant Manchester -> http://www.oodlesnoodlesmcr.com/
+2025-05-15 15:54:20,990 - googlemaps_scraper - INFO - M14 7 -> Scraped: Oodles N’Oodles Restaurant Manchester (phone: 1612248164, address: 7 Wilmslow Rd, Manchester M14 ..., website: http://www.oodlesnoodlesmcr.co...)
+2025-05-15 15:54:21,001 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/5)
+2025-05-15 15:54:21,002 - googlemaps_scraper - INFO - Reached 5 unique records with phone numbers (5), stopping Google Maps scraper
+2025-05-15 15:54:21,003 - googlemaps_scraper - INFO - M14 7 -> Termination requested after record insertion
+2025-05-15 15:54:21,005 - googlemaps_scraper - INFO - M14 7 -> skipped due to termination request
+2025-05-15 15:54:21,007 - googlemaps_scraper - INFO - Google Maps scraper terminated by user request
+2025-05-15 15:54:23,631 - googlemaps_scraper - INFO - Chrome driver closed
+2025-05-15 15:54:23,637 - googlemaps_scraper - INFO - MongoDB connection closed
+2025-05-15 15:54:23,638 - googlemaps_scraper - INFO - Starting email scraper for Manchester.restaurants
+2025-05-15 15:54:23,643 - googlemaps_scraper - INFO - Google Maps scraper finished with success=False, unique_records=5

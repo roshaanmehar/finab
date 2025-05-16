@@ -1,0 +1,104 @@
+2025-05-15 16:21:46,115 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 16:21:46,118 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-15 16:21:46,122 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250515_162146.log
+2025-05-15 16:21:46,124 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-15 16:21:46,128 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 16:21:46,151 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-15 16:21:46,156 - googlemaps_scraper - INFO - Created queue index
+2025-05-15 16:21:46,165 - googlemaps_scraper - INFO - Created indexes
+2025-05-15 16:21:47,946 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-15 16:21:47,947 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-15 16:21:47,950 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-15 16:21:47,955 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 16:21:47,957 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 7 (1/287)
+2025-05-15 16:21:48,098 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 16:21:48,100 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 7
+2025-05-15 16:21:48,108 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 16:21:51,484 - googlemaps_scraper - INFO - M14 7 -> search query launched: restaurants in M14 7 Manchester
+2025-05-15 16:21:54,065 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-15 16:21:54,263 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: The Deansgate
+2025-05-15 16:22:00,850 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: The Deansgate
+2025-05-15 16:22:00,851 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.3
+2025-05-15 16:22:00,852 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1475
+2025-05-15 16:22:00,852 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-15 16:22:00,852 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 16:22:00,853 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1613888956
+2025-05-15 16:22:00,853 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-15 16:22:00,853 - googlemaps_scraper - INFO - M14 7 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-15 16:22:01,457 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 2/5: MyLahore Manchester
+2025-05-15 16:22:07,381 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-15 16:22:07,382 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-15 16:22:07,382 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 13331
+2025-05-15 16:22:07,383 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 16:22:07,383 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+2025-05-15 16:22:07,383 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612488887
+2025-05-15 16:22:07,383 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+2025-05-15 16:22:07,384 - googlemaps_scraper - INFO - M14 7 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+2025-05-15 16:22:13,304 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.8
+2025-05-15 16:22:13,304 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 5842
+2025-05-15 16:22:13,304 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 16:22:13,305 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: N/A
+2025-05-15 16:22:13,305 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1619715602
+2025-05-15 16:22:13,838 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 4/5: Ziya Asian Grill
+2025-05-15 16:22:19,082 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Ziya Asian Grill
+2025-05-15 16:22:19,083 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-15 16:22:19,083 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 2913
+2025-05-15 16:22:19,083 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 65-67 Wilmslow Rd, Manchester M14 5TB
+2025-05-15 16:22:19,084 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.ziyarestaurant.co.uk/
+2025-05-15 16:22:19,085 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612572010
+2025-05-15 16:22:19,085 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Ziya Asian Grill -> http://www.ziyarestaurant.co.uk/
+2025-05-15 16:22:19,085 - googlemaps_scraper - INFO - M14 7 -> Scraped: Ziya Asian Grill (phone: 1612572010, address: 65-67 Wilmslow Rd, Manchester ..., website: http://www.ziyarestaurant.co.u...)
+2025-05-15 16:22:19,089 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-15 16:22:19,699 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 5/5: Mughli Charcoal Pit
+2025-05-15 16:22:24,520 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Mughli Charcoal Pit
+2025-05-15 16:22:24,520 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.2
+2025-05-15 16:22:24,521 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1651
+2025-05-15 16:22:24,521 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 30 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 16:22:24,522 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: http://www.mughli.com/
+2025-05-15 16:22:24,522 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612480900
+2025-05-15 16:22:24,522 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Mughli Charcoal Pit -> http://www.mughli.com/
+2025-05-15 16:22:24,523 - googlemaps_scraper - INFO - M14 7 -> Scraped: Mughli Charcoal Pit (phone: 1612480900, address: 30 Wilmslow Rd, Manchester M14..., website: http://www.mughli.com/)
+2025-05-15 16:22:24,527 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/5)
+2025-05-15 16:22:24,908 - googlemaps_scraper - INFO - M14 7 -> Processed 5 new tiles in this batch
+2025-05-15 16:22:26,480 - googlemaps_scraper - INFO - M14 7 -> scrolled feed (tiles now 10)
+2025-05-15 16:22:26,481 - googlemaps_scraper - INFO - M14 7 -> Total unique businesses processed in this subsector: 5
+2025-05-15 16:22:26,989 - googlemaps_scraper - INFO - M14 7 -> Found 5 unprocessed tiles
+2025-05-15 16:22:27,037 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 1/5: Pitmaster
+2025-05-15 16:22:32,033 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Pitmaster
+2025-05-15 16:22:32,034 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.6
+2025-05-15 16:22:32,034 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 2391
+2025-05-15 16:22:32,034 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: Pitmaster 31, Wilmslow Rd, Manchester M14 5TB
+2025-05-15 16:22:32,035 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://pitmaster.uk/
+2025-05-15 16:22:32,035 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 7483956934
+2025-05-15 16:22:32,036 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Pitmaster -> https://pitmaster.uk/
+2025-05-15 16:22:32,036 - googlemaps_scraper - INFO - M14 7 -> Scraped: Pitmaster (phone: 7483956934, address: Pitmaster 31, Wilmslow Rd, Man..., website: https://pitmaster.uk/)
+2025-05-15 16:22:32,041 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/5)
+2025-05-15 16:22:32,448 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 2/5: Bardez - Indian Street Food and Grill, Rusholme
+2025-05-15 16:22:37,967 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Bardez - Indian Street Food and Grill, Rusholme
+2025-05-15 16:22:37,968 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.8
+2025-05-15 16:22:37,968 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 749
+2025-05-15 16:22:37,968 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 35 Wilmslow Rd, Rusholme, Manchester M14 5TB
+2025-05-15 16:22:37,969 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://bardez.co.uk/
+2025-05-15 16:22:37,969 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612484890
+2025-05-15 16:22:37,969 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Bardez - Indian Street Food and Grill, Rusholme -> https://bardez.co.uk/
+2025-05-15 16:22:37,970 - googlemaps_scraper - INFO - M14 7 -> Scraped: Bardez - Indian Street Food and Grill, Rusholme (phone: 1612484890, address: 35 Wilmslow Rd, Rusholme, Manc..., website: https://bardez.co.uk/)
+2025-05-15 16:22:37,974 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/5)
+2025-05-15 16:22:38,614 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 3/5: Olives Grill&Dessert
+2025-05-15 16:22:41,413 - googlemaps_scraper - INFO - M14 7 -> Clicking tile 4/5: Al Jazeera Restaurant
+2025-05-15 16:22:46,309 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Business Name: Al Jazeera Restaurant
+2025-05-15 16:22:46,309 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Stars: 4.4
+2025-05-15 16:22:46,310 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Reviews: 1648
+2025-05-15 16:22:46,310 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Address: 22 Wilmslow Rd, Manchester M14 5TQ
+2025-05-15 16:22:46,310 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Website: https://www.aljazeeraltd.com/
+2025-05-15 16:22:46,310 - googlemaps_scraper - INFO - M14 7 -> EXTRACTION: Phone: 1612573337
+2025-05-15 16:22:46,310 - googlemaps_scraper - INFO - M14 7 -> BUSINESS-WEBSITE MAPPING: Al Jazeera Restaurant -> https://www.aljazeeraltd.com/
+2025-05-15 16:22:46,311 - googlemaps_scraper - INFO - M14 7 -> Scraped: Al Jazeera Restaurant (phone: 1612573337, address: 22 Wilmslow Rd, Manchester M14..., website: https://www.aljazeeraltd.com/)
+2025-05-15 16:22:46,314 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/5)
+2025-05-15 16:22:46,314 - googlemaps_scraper - INFO - Reached 5 unique records with phone numbers (5), stopping Google Maps scraper
+2025-05-15 16:22:46,315 - googlemaps_scraper - INFO - M14 7 -> Termination requested after record insertion
+2025-05-15 16:22:46,316 - googlemaps_scraper - INFO - M14 7 -> skipped due to termination request
+2025-05-15 16:22:46,317 - googlemaps_scraper - INFO - Google Maps scraper terminated by user request
+2025-05-15 16:22:48,917 - googlemaps_scraper - INFO - Chrome driver closed
+2025-05-15 16:22:48,919 - googlemaps_scraper - INFO - MongoDB connection closed
+2025-05-15 16:22:48,919 - googlemaps_scraper - INFO - Starting email scraper for Manchester.restaurants
+2025-05-15 16:22:48,920 - googlemaps_scraper - INFO - Google Maps scraper finished with success=False, unique_records=5

@@ -1,0 +1,178 @@
+[2025-05-15 15:06:27] INFO    – Logging to file: logs\googlemaps_scraper\gmaps_scraper_20250515_150627.log
+[2025-05-15 15:06:27] INFO    – ================================================================================
+[2025-05-15 15:06:27] INFO    – Starting Google Maps scraper from API
+[2025-05-15 15:06:27] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250515_150627.log
+[2025-05-15 15:06:27] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-15 15:06:27] INFO    – ================================================================================
+[2025-05-15 15:06:32] INFO    – Connected to MongoDB successfully
+[2025-05-15 15:06:32] INFO    – Created queue index
+[2025-05-15 15:06:32] INFO    – Created indexes
+[2025-05-15 15:06:37] INFO    – Chrome driver initialized successfully
+[2025-05-15 15:06:37] INFO    – Processing all unprocessed subsectors
+[2025-05-15 15:06:37] INFO    – Total subsectors to process: 301
+[2025-05-15 15:06:37] INFO    – ==================================================
+[2025-05-15 15:06:37] INFO    – PROCESSING SUBSECTOR: M1 6 (1/301)
+[2025-05-15 15:06:37] INFO    – ============================================================
+[2025-05-15 15:06:37] INFO    – Starting scrape for subsector: M1 6
+[2025-05-15 15:06:37] INFO    – ============================================================
+[2025-05-15 15:06:43] INFO    – M1 6 -> search query launched: restaurants in M1 6 Manchester
+[2025-05-15 15:06:48] INFO    – M1 6 -> Found 5 unprocessed tiles
+[2025-05-15 15:06:48] INFO    – M1 6 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Stars: 4.3
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Reviews: 2333
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-15 15:06:56] INFO    – M1 6 -> EXTRACTION: Phone: 1615492175
+[2025-05-15 15:06:56] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-15 15:06:56] INFO    – M1 6 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+[2025-05-15 15:06:57] INFO    – M1 6 -> Clicking tile 2/5: Higher Ground
+[2025-05-15 15:07:00] INFO    – M1 6 -> Clicking tile 3/5: Namii Kitchen & Cocktails
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Business Name: Namii Kitchen & Cocktails
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Stars: 4.6
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Reviews: 1184
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Address: New York St, Manchester M1 4HN
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Website: http://namii.co.uk/
+[2025-05-15 15:07:07] INFO    – M1 6 -> EXTRACTION: Phone: 1612371979
+[2025-05-15 15:07:07] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Namii Kitchen & Cocktails -> http://namii.co.uk/
+[2025-05-15 15:07:07] INFO    – M1 6 -> Scraped: Namii Kitchen & Cocktails (phone: 1612371979, address: New York St, Manchester M1 4HN, website: http://namii.co.uk/)
+[2025-05-15 15:07:07] INFO    – Google Maps scraper found 1 new unique records (total: 1/120)
+[2025-05-15 15:07:08] INFO    – M1 6 -> Clicking tile 4/5: Turtle Bay Manchester Oxford Rd
+[2025-05-15 15:07:11] INFO    – M1 6 -> Clicking tile 5/5: Blacklock Manchester
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Business Name: Turtle Bay Manchester Oxford Rd
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Stars: 4.8
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Reviews: 18726
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Address: 37 Peter St, Manchester M2 5GB
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Website: https://theblacklock.com/restaurants/manchester/
+[2025-05-15 15:07:19] INFO    – M1 6 -> EXTRACTION: Phone: 1614140225
+[2025-05-15 15:07:19] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Turtle Bay Manchester Oxford Rd -> https://theblacklock.com/restaurants/manchester/
+[2025-05-15 15:07:19] INFO    – M1 6 -> Scraped: Turtle Bay Manchester Oxford Rd (phone: 1614140225, address: 37 Peter St, Manchester M2 5GB, website: https://theblacklock.com/resta...)
+[2025-05-15 15:07:19] INFO    – M1 6 -> Processed 3 new tiles in this batch
+[2025-05-15 15:07:21] INFO    – M1 6 -> scrolled feed (tiles now 10)
+[2025-05-15 15:07:21] INFO    – M1 6 -> Total unique businesses processed in this subsector: 3
+[2025-05-15 15:07:22] INFO    – M1 6 -> Found 5 unprocessed tiles
+[2025-05-15 15:07:22] INFO    – M1 6 -> Clicking tile 1/5: Tattu Manchester
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Business Name: Blacklock Manchester
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Stars: 4.5
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Reviews: 3150
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Address: 3 Hardman Square, Gartside St, Manchester M3 3EB
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Website: https://tattu.co.uk/locations/manchester/
+[2025-05-15 15:07:30] INFO    – M1 6 -> EXTRACTION: Phone: 1618192060
+[2025-05-15 15:07:30] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Blacklock Manchester -> https://tattu.co.uk/locations/manchester/
+[2025-05-15 15:07:30] INFO    – M1 6 -> Scraped: Blacklock Manchester (phone: 1618192060, address: 3 Hardman Square, Gartside St,..., website: https://tattu.co.uk/locations/...)
+[2025-05-15 15:07:30] INFO    – Google Maps scraper found 1 new unique records (total: 2/120)
+[2025-05-15 15:07:30] INFO    – M1 6 -> Clicking tile 2/5: Another hand
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Business Name: Tattu Manchester
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Stars: 4.5
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Reviews: 3150
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Address: Unit F, 253 Deansgate, Manchester M3 4EN
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Website: http://anotherhandmcr.com/
+[2025-05-15 15:07:36] INFO    – M1 6 -> EXTRACTION: Phone: 1618342988
+[2025-05-15 15:07:36] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Tattu Manchester -> http://anotherhandmcr.com/
+[2025-05-15 15:07:36] INFO    – M1 6 -> Scraped: Tattu Manchester (phone: 1618342988, address: Unit F, 253 Deansgate, Manches..., website: http://anotherhandmcr.com/)
+[2025-05-15 15:07:37] INFO    – M1 6 -> Clicking tile 3/5: Manchester Sora Restaurant
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Business Name: Another hand
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Stars: 4.8
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Reviews: 348
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Address: 23 Princess St, Manchester M2 4EB
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Website: https://www.malmaison.com/locations/manchester-deansgate/sora/
+[2025-05-15 15:07:43] INFO    – M1 6 -> EXTRACTION: Phone: 3300160380
+[2025-05-15 15:07:43] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Another hand -> https://www.malmaison.com/locations/manchester-deansgate/sora/
+[2025-05-15 15:07:43] INFO    – M1 6 -> Scraped: Another hand (phone: 3300160380, address: 23 Princess St, Manchester M2 ..., website: https://www.malmaison.com/loca...)
+[2025-05-15 15:07:43] INFO    – Google Maps scraper found 1 new unique records (total: 3/120)
+[2025-05-15 15:07:44] INFO    – M1 6 -> Clicking tile 4/5: Bundobust Manchester Piccadilly
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Business Name: Manchester Sora Restaurant
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Stars: 4.7
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Reviews: 113
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Address: 61 Piccadilly, Manchester M1 2AG
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Website: http://www.bundobust.com/
+[2025-05-15 15:07:50] INFO    – M1 6 -> EXTRACTION: Phone: 1613596757
+[2025-05-15 15:07:50] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Manchester Sora Restaurant -> http://www.bundobust.com/
+[2025-05-15 15:07:50] INFO    – M1 6 -> Scraped: Manchester Sora Restaurant (phone: 1613596757, address: 61 Piccadilly, Manchester M1 2..., website: http://www.bundobust.com/)
+[2025-05-15 15:07:50] INFO    – M1 6 -> Clicking tile 5/5: Do Eat Restaurant Manchester
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Business Name: Bundobust Manchester Piccadilly
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Stars: 4.6
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Reviews: 3701
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Address: Unit B1, City Tower, Mosley St, Manchester M1 4AH
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Website: N/A
+[2025-05-15 15:07:57] INFO    – M1 6 -> EXTRACTION: Phone: 1614253560
+[2025-05-15 15:07:57] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Bundobust Manchester Piccadilly -> N/A
+[2025-05-15 15:07:57] INFO    – M1 6 -> Scraped: Bundobust Manchester Piccadilly (phone: 1614253560, address: Unit B1, City Tower, Mosley St..., website: N/A)
+[2025-05-15 15:07:57] INFO    – Google Maps scraper found 1 new unique records (total: 4/120)
+[2025-05-15 15:07:57] INFO    – M1 6 -> Processed 5 new tiles in this batch
+[2025-05-15 15:07:59] INFO    – M1 6 -> scrolled feed (tiles now 15)
+[2025-05-15 15:07:59] INFO    – M1 6 -> Total unique businesses processed in this subsector: 8
+[2025-05-15 15:08:00] INFO    – M1 6 -> Found 5 unprocessed tiles
+[2025-05-15 15:08:01] INFO    – M1 6 -> Clicking tile 1/5: 20 Stories
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Business Name: Do Eat Restaurant Manchester
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Stars: 4.2
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Reviews: 135
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Address: 1 Hardman St, Manchester M3 3AQ
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Website: http://20stories.co.uk/
+[2025-05-15 15:08:07] INFO    – M1 6 -> EXTRACTION: Phone: 1612043333
+[2025-05-15 15:08:07] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Do Eat Restaurant Manchester -> http://20stories.co.uk/
+[2025-05-15 15:08:07] INFO    – M1 6 -> Scraped: Do Eat Restaurant Manchester (phone: 1612043333, address: 1 Hardman St, Manchester M3 3A..., website: http://20stories.co.uk/)
+[2025-05-15 15:08:07] INFO    – Google Maps scraper found 1 new unique records (total: 5/120)
+[2025-05-15 15:08:07] INFO    – M1 6 -> Clicking tile 2/5: Albert's Shed Restaurant Manchester
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Business Name: 20 Stories
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Stars: 4.3
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Reviews: 4571
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Address: 18-20 Castle St, Manchester M3 4LZ
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Website: http://alberts-restaurants.com/shed/
+[2025-05-15 15:08:13] INFO    – M1 6 -> EXTRACTION: Phone: 1618399818
+[2025-05-15 15:08:13] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: 20 Stories -> http://alberts-restaurants.com/shed/
+[2025-05-15 15:08:13] INFO    – M1 6 -> Scraped: 20 Stories (phone: 1618399818, address: 18-20 Castle St, Manchester M3..., website: http://alberts-restaurants.com...)
+[2025-05-15 15:08:13] INFO    – Google Maps scraper found 1 new unique records (total: 6/120)
+[2025-05-15 15:08:14] INFO    – M1 6 -> Clicking tile 3/5: El Gato Negro Tapas Manchester
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Business Name: Albert's Shed Restaurant Manchester
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Stars: 4.4
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Reviews: 3757
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Address: 52 King St, Manchester M2 4LY
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Website: https://www.elgatonegrotapas.com/
+[2025-05-15 15:08:21] INFO    – M1 6 -> EXTRACTION: Phone: 1616948585
+[2025-05-15 15:08:21] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Albert's Shed Restaurant Manchester -> https://www.elgatonegrotapas.com/
+[2025-05-15 15:08:21] INFO    – M1 6 -> Scraped: Albert's Shed Restaurant Manchester (phone: 1616948585, address: 52 King St, Manchester M2 4LY, website: https://www.elgatonegrotapas.c...)
+[2025-05-15 15:08:21] INFO    – Google Maps scraper found 1 new unique records (total: 7/120)
+[2025-05-15 15:08:22] INFO    – M1 6 -> Clicking tile 4/5: Mowgli Street Food Corn Exchange
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Business Name: El Gato Negro Tapas Manchester
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Stars: 4.6
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Reviews: 3757
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Address: 16, Corn Exchange House, 37 Exchange St, Manchester M4 3TR
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Website: https://www.mowglistreetfood.com/restaurants/manchester/
+[2025-05-15 15:08:28] INFO    – M1 6 -> EXTRACTION: Phone: 1618320566
+[2025-05-15 15:08:28] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: El Gato Negro Tapas Manchester -> https://www.mowglistreetfood.com/restaurants/manchester/
+[2025-05-15 15:08:28] INFO    – M1 6 -> Scraped: El Gato Negro Tapas Manchester (phone: 1618320566, address: 16, Corn Exchange House, 37 Ex..., website: https://www.mowglistreetfood.c...)
+[2025-05-15 15:08:29] INFO    – M1 6 -> Clicking tile 5/5: Maray Manchester
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Business Name: Mowgli Street Food Corn Exchange
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Stars: 4.3
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Reviews: 1993
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Address: 16, Corn Exchange House, 37 Exchange St, Manchester M4 3TR
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Website: https://maray.co.uk/
+[2025-05-15 15:08:35] INFO    – M1 6 -> EXTRACTION: Phone: 1513470214
+[2025-05-15 15:08:35] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Mowgli Street Food Corn Exchange -> https://maray.co.uk/
+[2025-05-15 15:08:35] INFO    – M1 6 -> Scraped: Mowgli Street Food Corn Exchange (phone: 1513470214, address: 16, Corn Exchange House, 37 Ex..., website: https://maray.co.uk/)
+[2025-05-15 15:08:36] INFO    – M1 6 -> Processed 5 new tiles in this batch
+[2025-05-15 15:08:37] INFO    – M1 6 -> scrolled feed (tiles now 20)
+[2025-05-15 15:08:37] INFO    – M1 6 -> Total unique businesses processed in this subsector: 13
+[2025-05-15 15:08:39] INFO    – M1 6 -> Found 5 unprocessed tiles
+[2025-05-15 15:08:39] INFO    – M1 6 -> Clicking tile 1/5: Tampopo Corn Exchange
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Business Name: Maray Manchester
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Stars: 4.7
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Reviews: 542
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Address: Corn Exchange, Exchange Sq, Manchester M4 3TR
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Website: https://tampopo.co.uk/
+[2025-05-15 15:08:46] INFO    – M1 6 -> EXTRACTION: Phone: 1618396484
+[2025-05-15 15:08:46] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Maray Manchester -> https://tampopo.co.uk/
+[2025-05-15 15:08:46] INFO    – M1 6 -> Scraped: Maray Manchester (phone: 1618396484, address: Corn Exchange, Exchange Sq, Ma..., website: https://tampopo.co.uk/)
+[2025-05-15 15:08:46] INFO    – Google Maps scraper found 1 new unique records (total: 8/120)
+[2025-05-15 15:08:47] INFO    – M1 6 -> Clicking tile 2/5: MAYA
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Business Name: Tampopo Corn Exchange
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Stars: 4.7
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Reviews: 1738
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Address: 40 Chorlton St., Manchester M1 3HW
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Website: https://www.mayamanchester.com/
+[2025-05-15 15:08:54] INFO    – M1 6 -> EXTRACTION: Phone: 1615170000
+[2025-05-15 15:08:54] INFO    – M1 6 -> BUSINESS-WEBSITE MAPPING: Tampopo Corn Exchange -> https://www.mayamanchester.com/
+[2025-05-15 15:08:54] INFO    – M1 6 -> Scraped: Tampopo Corn Exchange (phone: 1615170000, address: 40 Chorlton St., Manchester M1..., website: https://www.mayamanchester.com...)
+[2025-05-15 15:08:54] INFO    – Google Maps scraper found 1 new unique records (total: 9/120)
+[2025-05-15 15:08:55] INFO    – M1 6 -> Clicking tile 3/5: One Plus Chinese Restaurant

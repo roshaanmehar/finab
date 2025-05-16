@@ -1,0 +1,29 @@
+[2025-05-16 00:56:13] INFO    – ================================================================================
+[2025-05-16 00:56:13] INFO    – Starting Google Maps scraper from API
+[2025-05-16 00:56:13] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_005613.log
+[2025-05-16 00:56:13] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 00:56:13] INFO    – ================================================================================
+[2025-05-16 00:56:13] INFO    – Connected to MongoDB successfully
+[2025-05-16 00:56:13] INFO    – Created queue index
+[2025-05-16 00:56:13] INFO    – Created indexes
+[2025-05-16 00:56:17] INFO    – Chrome driver initialized successfully
+[2025-05-16 00:56:17] INFO    – Processing all unprocessed subsectors
+[2025-05-16 00:56:17] INFO    – Total subsectors to process: 287
+[2025-05-16 00:56:17] INFO    – ==================================================
+[2025-05-16 00:56:17] INFO    – PROCESSING SUBSECTOR: M14 7 (1/287)
+[2025-05-16 00:56:17] INFO    – ============================================================
+[2025-05-16 00:56:17] INFO    – Starting scrape for subsector: M14 7
+[2025-05-16 00:56:17] INFO    – ============================================================
+[2025-05-16 00:56:23] INFO    – M14 7 -> search query launched: restaurants in M14 7 Manchester
+[2025-05-16 00:56:27] INFO    – M14 7 -> Found 5 unprocessed tiles
+[2025-05-16 00:56:27] INFO    – M14 7 -> Clicking tile 1/5: MyLahore Manchester
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Business Name: MyLahore Manchester
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Stars: 4.6
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Reviews: 13336
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+[2025-05-16 00:56:43] INFO    – M14 7 -> EXTRACTION: Phone: 1612488887
+[2025-05-16 00:56:43] INFO    – M14 7 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+[2025-05-16 00:56:43] INFO    – M14 7 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+[2025-05-16 00:56:44] INFO    – M14 7 -> Clicking tile 2/5: Jafra Restaurant مطعم جفرا
+[2025-05-16 00:56:49] INFO    – M14 7 -> Clicking tile 3/5: Ziya Asian Grill

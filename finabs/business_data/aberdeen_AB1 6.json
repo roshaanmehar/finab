@@ -1,0 +1,54 @@
+[
+    {
+        "subsector": "AB1 6",
+        "businessname": "Grays Inn",
+        "address": "1 Greenfern Rd, Aberdeen AB16 5PY",
+        "stars": "4.3",
+        "numberofreviews": 497,
+        "website": "https://www.greeneking.co.uk/pubs/aberdeenshire/grays-inn?utm_source=g_places&utm_medium=locations&utm_campaign=FG_pubpage",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-11T20:51:22.143429",
+        "city": "Aberdeen",
+        "phonenumber": 1224684573
+    },
+    {
+        "subsector": "AB1 6",
+        "businessname": "DHANOLA\u2019S",
+        "address": "6, Cornhill Shopping Centre Arcade, Foresterhill Rd, Aberdeen AB16 5UT",
+        "stars": "4.9",
+        "numberofreviews": 45,
+        "website": "https://www.easterneyeaberdeen.co.uk/",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-11T20:51:32.541307",
+        "city": "Aberdeen",
+        "phonenumber": 1224662821
+    },
+    {
+        "subsector": "AB1 6",
+        "businessname": "Zee's Peri Peri Grill Aberdeen",
+        "address": "15 Stocket Parade, Aberdeen AB16 5QN",
+        "stars": "4.2",
+        "numberofreviews": 146,
+        "website": "http://www.zeesperiperigrill.com/",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-11T20:51:39.847998",
+        "city": "Aberdeen",
+        "phonenumber": 1224695359
+    },
+    {
+        "subsector": "AB1 6",
+        "businessname": "Asia Kitchen Aberdeen",
+        "address": "3 Stockethill Cres, Aberdeen AB16 5TT",
+        "stars": "4.7",
+        "numberofreviews": 40,
+        "website": "https://www.asiakitchenaberdeen.co.uk/",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-11T20:51:54.283158",
+        "city": "Aberdeen",
+        "phonenumber": 1224684777
+    }
+]

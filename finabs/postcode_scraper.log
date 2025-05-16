@@ -1,0 +1,756 @@
+2025-05-11 13:43:15,324 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-11 13:43:15,326 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 13:44:05,667 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Manchester_restaurants_subsector_queue_14536
+2025-05-11 13:44:09,072 - postcode_scraper - INFO - Google Maps scraper task GM_Manchester_restaurants_subsector_queue_14536 terminated before completion
+2025-05-11 14:22:34,739 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (0 unprocessed)
+2025-05-11 14:22:34,742 - postcode_scraper - WARNING - No unprocessed subsectors found in Leeds.restaurants_subsector_queue. Google Maps scraper may not process any records.
+2025-05-11 14:22:34,743 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 14:22:40,066 - postcode_scraper - INFO - Google Maps scraper finished with success=False
+2025-05-11 14:25:09,153 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-11 14:25:09,155 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 14:25:50,143 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Manchester_restaurants_subsector_queue_10084
+2025-05-11 14:25:58,195 - postcode_scraper - INFO - Google Maps scraper task GM_Manchester_restaurants_subsector_queue_10084 terminated before completion
+2025-05-11 14:26:31,270 - postcode_scraper - ERROR - Error in postcode scraping task PS_AB_Aberdeen_restaurants_39464: name 'create_worker' is not defined
+2025-05-11 14:29:33,053 - postcode_scraper - INFO - Terminating postcode scraper task PS_AB_Aberdeen_restaurants_11068
+2025-05-11 14:29:33,846 - postcode_scraper - INFO - Postcode scraper task PS_AB_Aberdeen_restaurants_11068 is terminating, not waiting for threads
+2025-05-11 14:29:33,848 - postcode_scraper - INFO - Postcode scraper task PS_AB_Aberdeen_restaurants_11068 terminated before completion
+2025-05-11 14:30:22,117 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (0 unprocessed)
+2025-05-11 14:30:22,118 - postcode_scraper - WARNING - No unprocessed subsectors found in Leeds.restaurants_subsector_queue. Google Maps scraper may not process any records.
+2025-05-11 14:30:22,118 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 14:30:26,568 - postcode_scraper - INFO - Google Maps scraper finished with success=False
+2025-05-11 16:23:21,188 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (0 unprocessed)
+2025-05-11 16:23:21,191 - postcode_scraper - WARNING - No unprocessed subsectors found in Leeds.restaurants_subsector_queue. Google Maps scraper may not process any records.
+2025-05-11 16:23:21,192 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 16:23:27,516 - postcode_scraper - INFO - Google Maps scraper finished with success=False
+2025-05-11 20:07:40,112 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-11 20:07:40,113 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 20:14:22,821 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Manchester_restaurants_subsector_queue_28892
+2025-05-11 20:15:01,759 - postcode_scraper - INFO - Google Maps scraper task GM_Manchester_restaurants_subsector_queue_28892 terminated before completion
+2025-05-11 20:16:30,210 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-11 20:16:30,213 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 20:16:41,639 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Manchester_restaurants_subsector_queue_1624
+2025-05-11 20:16:46,444 - postcode_scraper - INFO - Google Maps scraper task GM_Manchester_restaurants_subsector_queue_1624 terminated before completion
+2025-05-11 20:29:16,951 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-11 20:29:16,952 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-11 20:29:38,146 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Manchester_restaurants_subsector_queue_37748
+2025-05-11 20:30:08,651 - postcode_scraper - INFO - Google Maps scraper task GM_Manchester_restaurants_subsector_queue_37748 terminated before completion
+2025-05-11 20:46:19,148 - postcode_scraper - INFO - Found 180 total subsectors in Aberdeen.restaurants_subsector_queue (180 unprocessed)
+2025-05-11 20:46:19,151 - postcode_scraper - INFO - Starting Google Maps scraper for Aberdeen, queue: restaurants_subsector_queue, business: restaurants
+2025-05-12 00:05:49,885 - postcode_scraper - INFO - Terminating postcode scraper task PS_M_Manchester_restaurants_7412
+2025-05-12 00:05:50,001 - postcode_scraper - INFO - Postcode scraper task PS_M_Manchester_restaurants_7412 is terminating, not waiting for threads
+2025-05-12 00:12:25,432 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (151 unprocessed)
+2025-05-12 00:12:25,432 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-12 16:08:34,331 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (123 unprocessed)
+2025-05-12 16:08:34,333 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-12 16:10:34,458 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Leeds_restaurants_subsector_queue_31028
+2025-05-12 16:11:04,542 - postcode_scraper - INFO - Google Maps scraper task GM_Leeds_restaurants_subsector_queue_31028 terminated before completion
+2025-05-12 16:16:08,077 - postcode_scraper - INFO - Found 151 total subsectors in Leeds.restaurants_subsector_queue (123 unprocessed)
+2025-05-12 16:16:08,078 - postcode_scraper - INFO - Starting Google Maps scraper for Leeds, queue: restaurants_subsector_queue, business: restaurants
+2025-05-12 16:17:27,797 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Leeds_restaurants_subsector_queue_32908
+2025-05-12 16:17:44,711 - postcode_scraper - INFO - Google Maps scraper task GM_Leeds_restaurants_subsector_queue_32908 terminated before completion
+2025-05-12 20:02:36,875 - postcode_scraper - INFO - Starting integrated workflow WF_Aberdeen_restaurants_28328 for Aberdeen with keyword restaurants
+2025-05-12 20:32:40,915 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:40,921 - postcode_scraper - INFO - Starting integrated workflow WF_Aberdeen_restaurants_11520 for Aberdeen with keyword restaurants
+2025-05-12 20:32:40,925 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:53,771 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:53,773 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:53,774 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:54,777 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:55,798 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:56,944 - postcode_scraper - INFO - Saved 1 workflows to file
+2025-05-12 20:32:58,938 - postcode_scraper - INFO - Loaded 1 workflows from file
+2025-05-12 20:37:07,860 - postcode_scraper - INFO - Loaded 1 workflows from file
+2025-05-12 20:37:16,422 - postcode_scraper - INFO - Loaded 1 workflows from file
+2025-05-12 20:37:23,559 - postcode_scraper - INFO - Loaded 1 workflows from file
+2025-05-12 20:37:24,590 - postcode_scraper - INFO - Loaded 1 workflows from file
+2025-05-12 20:37:38,552 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:38,558 - postcode_scraper - INFO - Starting integrated workflow WF_Aberdeen_restaurants_1336 for Aberdeen with keyword restaurants
+2025-05-12 20:37:38,562 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:51,205 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:51,206 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:51,209 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:52,212 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:53,596 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:54,805 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:56,545 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:58,023 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:37:59,399 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:00,697 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:01,760 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:02,775 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:03,790 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:04,824 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:05,914 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:06,943 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:07,962 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:08,976 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:09,981 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:10,985 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:11,989 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:12,994 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:13,998 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:15,002 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:16,005 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:17,172 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:18,415 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:19,505 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:20,528 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:21,537 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:22,553 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:23,562 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:24,565 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:25,568 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:26,702 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:27,967 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:28,987 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:29,990 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:30,996 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:32,001 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:33,004 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:34,006 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:35,125 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:36,440 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:37,456 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:38,460 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:39,463 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:40,468 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:41,470 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:42,477 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:43,674 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:44,867 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:45,896 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:46,899 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:47,904 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:48,908 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:49,911 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:50,916 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:51,918 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:53,040 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:54,339 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:55,388 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:56,391 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:57,399 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:58,401 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:38:59,403 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:00,406 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:01,719 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:03,204 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:04,302 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:05,305 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:06,311 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:07,316 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:08,322 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:09,325 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:10,400 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:11,898 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:12,922 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:13,926 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:14,930 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:15,932 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:16,934 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:17,939 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:19,031 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:20,739 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:21,770 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:22,774 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:23,776 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:24,780 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:25,782 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:26,786 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:27,841 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:28,940 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:29,994 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:30,997 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:32,003 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:33,009 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:34,014 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:35,017 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:36,236 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:37,361 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:38,373 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:39,378 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:40,381 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:41,384 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:42,388 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:43,391 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:44,439 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:45,834 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:46,854 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:47,868 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:48,902 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:49,915 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:50,930 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:51,934 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:52,963 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:53,987 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:54,995 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:56,013 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:57,018 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:58,037 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:39:59,227 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:00,830 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:02,048 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:03,132 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:04,153 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:05,158 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:06,163 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:07,168 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:08,174 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:09,181 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:10,185 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:11,218 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:12,271 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:13,284 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:14,298 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:15,306 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:16,405 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:17,480 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:18,495 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:19,503 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:20,509 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:21,516 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:22,525 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:23,559 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:24,561 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:25,564 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:26,567 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:27,777 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:28,802 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:29,808 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:30,810 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:31,815 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:32,824 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:33,830 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:34,834 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:35,836 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:36,843 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:37,900 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:39,050 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:40,056 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:41,061 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:42,064 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:43,067 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:44,079 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:45,085 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:46,089 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:47,093 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:48,203 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:49,253 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:50,259 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:51,264 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:52,279 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:53,283 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:54,290 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:55,303 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:56,443 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:57,448 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:58,452 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:40:59,459 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:00,497 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:02,279 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:03,830 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:04,858 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:05,865 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:06,872 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:07,881 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:08,885 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:09,890 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:10,893 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:11,947 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:13,249 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:14,479 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:15,483 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:16,498 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:17,501 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:18,510 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:19,577 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:20,585 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:21,595 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:22,598 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:23,602 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:24,611 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:26,178 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:27,631 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:28,707 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:29,711 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:30,770 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:31,820 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:32,823 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:33,860 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:34,864 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:35,867 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:37,085 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:38,239 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:39,252 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:40,256 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:41,258 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:42,260 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:43,264 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:44,270 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:45,459 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:46,587 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:47,676 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:48,679 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:49,682 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:50,686 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:51,690 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:52,693 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:54,168 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:55,490 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:56,506 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:57,510 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:58,513 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:41:59,515 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:00,521 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:01,526 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:02,528 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:03,611 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:04,658 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:05,692 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:06,744 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:08,519 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:09,539 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:10,551 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:11,555 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:12,563 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:13,576 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:14,589 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:15,596 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:16,602 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:17,671 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:18,704 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:19,774 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:20,780 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:21,791 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:22,797 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:23,802 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:24,805 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:25,808 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:26,811 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:27,873 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:29,136 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:30,445 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:31,564 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:32,568 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:33,572 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:34,578 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:35,581 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:36,584 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:37,603 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:38,778 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:39,843 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:40,856 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:41,862 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:42,872 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:43,875 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:44,878 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:45,883 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:46,924 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:48,136 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:49,289 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:50,378 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:51,382 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:52,386 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:53,389 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:54,392 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:55,416 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:56,473 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:57,602 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:58,612 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:42:59,617 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:00,620 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:01,623 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:02,626 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:03,630 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:04,655 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:05,742 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:06,745 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:07,749 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:08,753 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:09,756 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:10,790 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:11,821 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:12,926 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:13,951 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:14,954 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:15,957 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:16,961 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:17,966 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:18,968 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:20,091 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:21,197 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:22,269 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:23,272 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:24,274 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:25,277 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:26,308 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:27,453 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:28,727 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:29,729 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:30,733 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:31,741 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:32,745 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:33,748 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:34,923 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:36,188 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:37,197 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:38,199 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:39,203 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:40,205 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:41,213 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:42,216 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:43,232 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:44,275 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:45,305 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:46,313 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:47,316 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:48,320 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:49,326 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:50,334 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:51,339 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:52,343 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:53,345 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:54,421 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:55,849 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:56,968 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:57,975 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:43:59,028 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:00,045 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:01,049 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:02,110 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:03,152 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:04,293 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:05,307 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:06,310 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:07,312 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:08,315 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:09,323 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:10,372 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:11,635 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:12,990 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:14,000 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:15,003 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:16,007 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:17,013 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:18,016 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:19,024 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:20,101 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:21,194 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:22,198 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:23,203 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:24,208 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:25,213 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:26,250 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:27,574 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:29,003 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:30,011 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:31,017 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:32,023 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:33,026 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:34,028 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:35,036 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:36,057 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:37,073 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:38,078 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:39,087 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:40,094 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:41,101 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:42,103 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:43,107 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:44,348 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:45,365 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:46,369 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:47,370 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:48,372 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:49,375 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:50,377 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:51,381 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:52,400 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:53,415 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:54,421 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:55,425 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:56,427 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:57,429 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:58,433 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:44:59,437 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:00,531 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:01,626 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:02,636 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:03,640 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:04,647 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:05,649 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:06,699 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:07,869 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:09,097 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:10,107 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:11,109 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:12,111 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:13,114 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:14,118 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:15,121 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:16,393 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:17,436 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:18,441 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:19,444 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:20,449 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:21,452 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:22,514 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:23,638 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:24,668 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:25,685 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:26,690 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:27,693 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:28,695 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:29,701 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:30,707 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:31,834 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:32,947 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:33,953 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:34,956 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:35,959 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:36,962 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:37,964 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:38,984 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:40,049 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:41,096 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:42,098 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:43,103 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:44,108 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:45,110 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:46,142 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:47,145 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:48,210 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:49,233 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:50,235 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:51,239 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:52,241 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:53,244 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:54,337 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:55,588 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:56,842 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:57,845 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:58,849 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:45:59,852 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:00,856 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:01,859 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:02,863 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:03,899 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:04,912 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:05,918 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:06,921 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:07,927 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:08,929 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:09,932 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:10,934 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:11,938 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:12,940 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:13,943 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:14,945 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:15,947 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:16,949 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:17,951 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:18,953 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:19,955 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:20,958 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:21,961 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:22,963 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:23,966 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:24,968 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:25,971 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:26,973 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:27,976 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:28,978 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:29,980 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:30,983 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:30,986 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:30,988 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:30,991 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:31,993 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:32,995 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:33,997 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:34,999 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:36,002 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:37,005 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:38,011 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:39,015 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:40,017 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:41,022 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:42,024 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:43,026 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:43,544 - postcode_scraper - INFO - Found 180 total subsectors in Aberdeen.restaurants_subsector_queue (180 unprocessed)
+2025-05-12 20:46:43,575 - postcode_scraper - INFO - Starting Google Maps scraper for Aberdeen, queue: restaurants_subsector_queue, business: restaurants, target: 120 unique records
+2025-05-12 20:46:43,578 - postcode_scraper - ERROR - Error in Google Maps scraper: setup_logging() got an unexpected keyword argument 'debug'
+2025-05-12 20:46:44,029 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:46:44,030 - postcode_scraper - INFO - Saved 2 workflows to file
+2025-05-12 20:56:24,758 - postcode_scraper - INFO - Loaded 2 workflows from file
+2025-05-12 20:56:32,770 - postcode_scraper - INFO - Saved 3 workflows to file
+2025-05-12 20:56:32,773 - postcode_scraper - INFO - Starting integrated workflow WF_Aberdeen_restaurants_4564 for Aberdeen with keyword restaurants
+2025-05-12 20:56:32,776 - postcode_scraper - INFO - Saved 3 workflows to file
+2025-05-12 20:56:46,471 - postcode_scraper - INFO - Loaded 3 workflows from file
+2025-05-12 21:04:23,255 - postcode_scraper - INFO - Loaded 3 workflows from file
+2025-05-12 21:04:29,012 - postcode_scraper - INFO - Loaded 3 workflows from file
+2025-05-12 21:04:30,594 - postcode_scraper - INFO - Loaded 3 workflows from file
+2025-05-12 21:04:31,161 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:31,161 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Starting integrated workflow for Aberdeen with keyword 'restaurants'
+2025-05-12 21:04:31,164 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:31,164 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Connecting to MongoDB and checking for existing data
+2025-05-12 21:04:44,303 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Found existing data: database=True, collection=True, records=180
+2025-05-12 21:04:44,303 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] STAGE 1: Postcode Scraping SKIPPED - Data already exists
+2025-05-12 21:04:44,304 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:44,304 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Starting STAGE 2: Google Maps Scraping
+2025-05-12 21:04:44,305 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:44,307 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:44,307 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Launching Google Maps scraper task GM_Aberdeen_restaurants_subsector_queue_3004 with target of 120 unique records
+2025-05-12 21:04:44,308 - postcode_scraper - INFO - [Task GM_Aberdeen_restaurants_subsector_queue_3004] Starting Google Maps scraper with target of 120 unique records
+2025-05-12 21:04:44,308 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_2332] Google Maps scraping progress: 0/120 unique records
+2025-05-12 21:04:44,308 - postcode_scraper - INFO - [Task GM_Aberdeen_restaurants_subsector_queue_3004] Parameters: db=Aberdeen, queue=restaurants_subsector_queue, business=restaurants
+2025-05-12 21:04:44,310 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:45,312 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:46,314 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:47,316 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:48,318 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:49,321 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:50,325 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:04:52,624 - postcode_scraper - ERROR - Error loading workflow data: Ran out of input
+2025-05-12 21:09:12,601 - postcode_scraper - ERROR - Error loading workflow data: Ran out of input
+2025-05-12 21:09:18,127 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:18,129 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Starting integrated workflow for Aberdeen with keyword 'restaurants'
+2025-05-12 21:09:18,132 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:18,132 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Connecting to MongoDB and checking for existing data
+2025-05-12 21:09:30,957 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Found existing data: database=True, collection=True, records=180
+2025-05-12 21:09:30,957 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] STAGE 1: Postcode Scraping SKIPPED - Data already exists
+2025-05-12 21:09:30,959 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:30,960 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Starting STAGE 2: Google Maps Scraping
+2025-05-12 21:09:30,961 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:30,962 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:30,962 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Launching Google Maps scraper task GM_Aberdeen_restaurants_subsector_queue_42248 with target of 120 unique records
+2025-05-12 21:09:30,963 - postcode_scraper - INFO - [Task GM_Aberdeen_restaurants_subsector_queue_42248] Starting Google Maps scraper with target of 120 unique records
+2025-05-12 21:09:30,963 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_23304] Google Maps scraping progress: 0/120 unique records
+2025-05-12 21:09:30,964 - postcode_scraper - INFO - [Task GM_Aberdeen_restaurants_subsector_queue_42248] Parameters: db=Aberdeen, queue=restaurants_subsector_queue, business=restaurants
+2025-05-12 21:09:30,965 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:31,967 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:32,970 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:33,972 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:34,974 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:35,976 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:36,979 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:37,981 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:38,983 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:39,985 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:40,988 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:09:41,995 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:32,476 - postcode_scraper - ERROR - Error loading workflow data: Ran out of input
+2025-05-12 21:25:33,539 - postcode_scraper - ERROR - Error loading workflow data: Ran out of input
+2025-05-12 21:25:39,561 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:39,580 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] Starting integrated workflow for Aberdeen with keyword 'restaurants'
+2025-05-12 21:25:39,629 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:39,637 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] Connecting to MongoDB and checking for existing data
+2025-05-12 21:25:52,491 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] Found existing data: database=True, collection=True, records=180
+2025-05-12 21:25:52,491 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] STAGE 1: Postcode Scraping SKIPPED - Data already exists
+2025-05-12 21:25:52,494 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:52,498 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] Starting STAGE 2: Google Maps Scraping
+2025-05-12 21:25:52,502 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:52,506 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:25:52,508 - postcode_scraper - INFO - [Workflow WF_Aberdeen_restaurants_21296] Launching Google Maps scraper task GM_Aberdeen_restaurants_subsector_queue_26488 with target of 120 unique records
+2025-05-12 21:25:52,509 - postcode_scraper - ERROR - [Workflow WF_Aberdeen_restaurants_21296] Error in integrated workflow: name 'run_gmaps_scrape_task_with_limit' is not defined
+2025-05-12 21:25:52,522 - postcode_scraper - ERROR - [Workflow WF_Aberdeen_restaurants_21296] Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Downloads\finabs\flask_app.py", line 1753, in run_integrated_workflow
+    target=run_gmaps_scrape_task_with_limit,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'run_gmaps_scrape_task_with_limit' is not defined. Did you mean: 'run_gmaps_scrape_task_with_limit_and_email'?
+
+2025-05-12 21:25:52,526 - postcode_scraper - ERROR - Error saving workflow data: cannot access local variable 'workflows' where it is not associated with a value
+2025-05-12 21:39:57,698 - postcode_scraper - INFO - Found 180 total subsectors in Aberdeen.restaurants_subsector_queue (180 unprocessed)
+2025-05-12 21:39:57,700 - postcode_scraper - INFO - Starting Google Maps scraper for Aberdeen, queue: restaurants_subsector_queue, business: restaurants
+2025-05-12 21:39:57,733 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-12 22:32:33,104 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:32:39,955 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:32:46,929 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:32:55,738 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:33:04,674 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:33:04,720 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:33:04,815 - postcode_scraper - INFO - Reached 120 unique records with phone numbers (120), stopping Google Maps scraper
+2025-05-12 22:33:13,222 - postcode_scraper - INFO - Starting email scraper for Aberdeen.restaurants
+2025-05-12 22:33:13,231 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=120
+2025-05-13 11:45:26,617 - postcode_scraper - INFO - Found 68 total subsectors in Truro.restaurants_subsector_queue (64 unprocessed)
+2025-05-13 11:45:26,618 - postcode_scraper - INFO - Starting Google Maps scraper for Truro, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 11:45:26,651 - postcode_scraper - INFO - Initial count of records with phone numbers: 97
+2025-05-13 11:53:38,351 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (22 unprocessed)
+2025-05-13 11:53:38,352 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 11:53:38,365 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-13 12:07:49,039 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (20 unprocessed)
+2025-05-13 12:07:49,039 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 12:07:49,065 - postcode_scraper - INFO - Initial count of records with phone numbers: 30
+2025-05-13 12:31:23,347 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (18 unprocessed)
+2025-05-13 12:31:23,348 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 12:31:23,363 - postcode_scraper - INFO - Initial count of records with phone numbers: 31
+2025-05-13 12:35:17,602 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Kirkwall_restaurants_subsector_queue_23300
+2025-05-13 12:35:22,926 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23300 terminated by user request
+2025-05-13 12:35:22,927 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23300 terminated by user request
+2025-05-13 12:35:22,947 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23300 terminated by user request
+2025-05-13 12:35:26,003 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=0
+2025-05-13 12:36:05,847 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (17 unprocessed)
+2025-05-13 12:36:05,848 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 12:36:05,863 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-13 12:38:18,905 - postcode_scraper - INFO - Google Maps scraper progress: 10/10 unique records
+2025-05-13 12:38:18,913 - postcode_scraper - INFO - Reached 10 unique records with phone numbers (10), stopping Google Maps scraper
+2025-05-13 12:38:18,941 - postcode_scraper - INFO - Google Maps scraper progress: 10/10 unique records
+2025-05-13 12:38:18,954 - postcode_scraper - INFO - Reached 10 unique records with phone numbers (10), stopping Google Maps scraper
+2025-05-13 12:38:19,000 - postcode_scraper - INFO - Google Maps scraper progress: 10/10 unique records
+2025-05-13 12:38:19,003 - postcode_scraper - INFO - Reached 10 unique records with phone numbers (10), stopping Google Maps scraper
+2025-05-13 12:38:22,365 - postcode_scraper - INFO - Starting email scraper for Kirkwall.restaurants
+2025-05-13 12:38:22,370 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=10
+2025-05-13 12:43:38,486 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (17 unprocessed)
+2025-05-13 12:43:38,487 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 12:43:38,502 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-13 12:44:00,728 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-13 12:44:15,379 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-13 12:44:21,198 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/120)
+2025-05-13 12:44:32,615 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/120)
+2025-05-13 12:44:38,656 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/120)
+2025-05-13 12:45:06,514 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 6/120)
+2025-05-13 12:45:16,822 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 7/120)
+2025-05-13 12:45:29,193 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 8/120)
+2025-05-13 12:45:36,129 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 9/120)
+2025-05-13 12:45:41,921 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 10/120)
+2025-05-13 12:45:48,131 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 11/120)
+2025-05-13 12:47:14,239 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (17 unprocessed)
+2025-05-13 12:47:14,240 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 12:47:14,254 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-13 12:47:48,485 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/10)
+2025-05-13 12:47:54,511 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/10)
+2025-05-13 12:48:00,331 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/10)
+2025-05-13 12:48:06,032 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/10)
+2025-05-13 12:48:14,237 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/10)
+2025-05-13 12:48:19,842 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 6/10)
+2025-05-13 12:48:25,739 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 7/10)
+2025-05-13 12:48:37,275 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 8/10)
+2025-05-13 12:48:46,215 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 9/10)
+2025-05-13 12:48:52,470 - postcode_scraper - INFO - Google Maps scraper found 1 new unique records (total: 10/10)
+2025-05-13 12:48:52,472 - postcode_scraper - INFO - Reached 10 unique records with phone numbers (10), stopping Google Maps scraper
+2025-05-13 12:48:55,115 - postcode_scraper - INFO - Starting email scraper for Kirkwall.restaurants
+2025-05-13 12:48:55,118 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=10
+2025-05-13 21:32:01,512 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.restaurants_subsector_queue (17 unprocessed)
+2025-05-13 21:32:01,514 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: restaurants_subsector_queue, business: restaurants
+2025-05-13 21:32:01,548 - postcode_scraper - INFO - Initial count of records with phone numbers: 10
+2025-05-13 21:32:56,919 - postcode_scraper - INFO - Terminating Google Maps scraper task GM_Kirkwall_restaurants_subsector_queue_23624
+2025-05-13 21:32:57,457 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23624 terminated by user request
+2025-05-13 21:32:57,461 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23624 terminated by user request
+2025-05-13 21:32:57,508 - postcode_scraper - INFO - Task GM_Kirkwall_restaurants_subsector_queue_23624 terminated by user request
+2025-05-13 21:32:59,904 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=0
+2025-05-13 22:35:00,731 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.cafes_subsector_queue (18 unprocessed)
+2025-05-13 22:35:00,732 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: cafes_subsector_queue, business: cafes
+2025-05-13 22:49:46,011 - postcode_scraper - INFO - Found 22 total subsectors in Kirkwall.cafes_subsector_queue (18 unprocessed)
+2025-05-13 22:49:46,083 - postcode_scraper - INFO - Initial count of records with phone numbers: 30
+2025-05-13 22:49:46,084 - postcode_scraper - INFO - Starting Google Maps scraper for Kirkwall, queue: cafes_subsector_queue, business: cafes
+2025-05-13 22:51:28,726 - postcode_scraper - INFO - Reached maximum unique results limit (5). Terminating Google Maps scraper.
+2025-05-13 22:51:28,809 - postcode_scraper - INFO - Reached maximum unique results limit (5). Terminating Google Maps scraper.
+2025-05-13 22:51:28,926 - postcode_scraper - INFO - Reached maximum unique results limit (5). Terminating Google Maps scraper.
+2025-05-13 22:51:31,588 - postcode_scraper - INFO - Final count of records with phone numbers: 35
+2025-05-13 22:51:31,596 - postcode_scraper - INFO - Unique records added: 5
+2025-05-13 22:51:31,614 - postcode_scraper - INFO - Started Email scraper task ES_Kirkwall_cafes_23608 for Kirkwall.cafes
+2025-05-13 22:51:31,638 - postcode_scraper - INFO - Google Maps scraper finished with success=False, unique_records=5, limit_reached=True
+2025-05-15 14:56:48,888 - postcode_scraper - INFO - Found 302 total subsectors in Manchester.restaurants_subsector_queue (288 unprocessed)
+2025-05-15 14:56:48,897 - postcode_scraper - INFO - Initial count of records with phone numbers: 0
+2025-05-15 14:56:48,898 - postcode_scraper - INFO - Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+2025-05-15 14:56:48,898 - postcode_scraper - ERROR - Error in Google Maps scraper: run_scraper() got an unexpected keyword argument 'service'

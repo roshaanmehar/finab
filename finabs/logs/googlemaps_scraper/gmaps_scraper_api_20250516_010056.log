@@ -1,0 +1,122 @@
+2025-05-16 01:00:56,133 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:00:56,134 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 01:00:56,136 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_010056.log
+2025-05-16 01:00:56,142 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 01:00:56,145 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:00:56,160 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 01:00:56,162 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 01:00:56,165 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 01:01:02,077 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 01:01:02,079 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 01:01:02,092 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-16 01:01:02,111 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 01:01:02,130 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 9 (1/287)
+2025-05-16 01:01:02,291 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:01:02,292 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 9
+2025-05-16 01:01:02,292 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:01:06,519 - googlemaps_scraper - INFO - M14 9 -> search query launched: restaurants in M14 9 Manchester
+2025-05-16 01:01:09,531 - googlemaps_scraper - INFO - M14 9 -> Found 5 unprocessed tiles
+2025-05-16 01:01:09,715 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 1/5: My Peshawar Manchester
+2025-05-16 01:01:26,949 - googlemaps_scraper - WARNING - M14 9 -> Timeout loading website https://www.mypeshawar.uk/ for business My Peshawar Manchester
+2025-05-16 01:01:27,149 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: My Peshawar Manchester
+2025-05-16 01:01:27,153 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:01:27,157 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 912
+2025-05-16 01:01:27,158 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 50-52 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 01:01:27,162 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:01:27,174 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1617100112
+2025-05-16 01:01:27,189 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: My Peshawar Manchester
+2025-05-16 01:01:27,196 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: My Peshawar Manchester -> N/A
+2025-05-16 01:01:27,202 - googlemaps_scraper - INFO - M14 9 -> Scraped: My Peshawar Manchester (phone: 1617100112, address: 50-52 Wilmslow Rd, Manchester ..., website: N/A)
+2025-05-16 01:01:27,240 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-16 01:01:33,095 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 3/5: MyLahore Manchester
+2025-05-16 01:01:50,072 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:01:50,074 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 5846
+2025-05-16 01:01:50,104 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 01:01:50,122 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:01:50,140 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612488887
+2025-05-16 01:01:51,197 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 4/5: Oodles N’Oodles Restaurant Manchester
+2025-05-16 01:02:03,263 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-16 01:02:03,273 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:02:03,278 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 13336
+2025-05-16 01:02:03,286 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 7 Wilmslow Rd, Manchester M14 5FT
+2025-05-16 01:02:03,320 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: http://www.oodlesnoodlesmcr.com/
+2025-05-16 01:02:03,329 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612248164
+2025-05-16 01:02:03,339 - googlemaps_scraper - INFO - M14 9 -> Website detected for business: MyLahore Manchester
+2025-05-16 01:02:03,347 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.oodlesnoodlesmcr.com/
+2025-05-16 01:02:03,353 - googlemaps_scraper - INFO - M14 9 -> Scraped: MyLahore Manchester (phone: 1612248164, address: 7 Wilmslow Rd, Manchester M14 ..., website: http://www.oodlesnoodlesmcr.co...)
+2025-05-16 01:02:04,131 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 5/5: Al Jazeera Restaurant
+2025-05-16 01:02:12,699 - googlemaps_scraper - WARNING - M14 9 -> Website title doesn't match business name: aljazeera restaurant & take away vs Oodles N’Oodles Restaurant Manchester
+2025-05-16 01:02:12,857 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Oodles N’Oodles Restaurant Manchester
+2025-05-16 01:02:12,860 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 3.9
+2025-05-16 01:02:12,862 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 2296
+2025-05-16 01:02:12,868 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 22 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 01:02:12,873 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:02:12,878 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612573337
+2025-05-16 01:02:12,922 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Oodles N’Oodles Restaurant Manchester
+2025-05-16 01:02:12,979 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Oodles N’Oodles Restaurant Manchester -> N/A
+2025-05-16 01:02:12,994 - googlemaps_scraper - INFO - M14 9 -> Scraped: Oodles N’Oodles Restaurant Manchester (phone: 1612573337, address: 22 Wilmslow Rd, Manchester M14..., website: N/A)
+2025-05-16 01:02:13,443 - googlemaps_scraper - INFO - M14 9 -> Processed 4 new tiles in this batch
+2025-05-16 01:02:15,148 - googlemaps_scraper - INFO - M14 9 -> scrolled feed (tiles now 10)
+2025-05-16 01:02:15,149 - googlemaps_scraper - INFO - M14 9 -> Total unique businesses processed in this subsector: 4
+2025-05-16 01:02:16,695 - googlemaps_scraper - INFO - M14 9 -> Found 5 unprocessed tiles
+2025-05-16 01:02:16,784 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 1/5: Alostora Seafood Restaurant
+2025-05-16 01:02:26,106 - googlemaps_scraper - WARNING - M14 9 -> Website title doesn't match business name: alostora vs Al Jazeera Restaurant
+2025-05-16 01:02:26,542 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Al Jazeera Restaurant
+2025-05-16 01:02:26,542 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.4
+2025-05-16 01:02:26,542 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 1648
+2025-05-16 01:02:26,543 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 199, 201 Wilmslow Rd, Manchester M14 5AQ
+2025-05-16 01:02:26,543 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:02:26,546 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 7828126978
+2025-05-16 01:02:26,562 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Al Jazeera Restaurant
+2025-05-16 01:02:26,567 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Al Jazeera Restaurant -> N/A
+2025-05-16 01:02:26,593 - googlemaps_scraper - INFO - M14 9 -> Scraped: Al Jazeera Restaurant (phone: 7828126978, address: 199, 201 Wilmslow Rd, Manchest..., website: N/A)
+2025-05-16 01:02:27,187 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 2/5: Afghan Cuisine Restaurant & Takeaway
+2025-05-16 01:02:39,962 - googlemaps_scraper - WARNING - M14 9 -> Website title doesn't match business name: afghan cuisine restaurant & takeaway: authentic flavors of afghanistan in manchester vs Alostora Seafood Restaurant
+2025-05-16 01:02:40,381 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Alostora Seafood Restaurant
+2025-05-16 01:02:40,382 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.9
+2025-05-16 01:02:40,388 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 656
+2025-05-16 01:02:40,391 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 86 Wilmslow Rd, Manchester M14 5AL
+2025-05-16 01:02:40,496 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:02:40,514 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612485333
+2025-05-16 01:02:40,528 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Alostora Seafood Restaurant
+2025-05-16 01:02:40,531 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Alostora Seafood Restaurant -> N/A
+2025-05-16 01:02:40,533 - googlemaps_scraper - INFO - M14 9 -> Scraped: Alostora Seafood Restaurant (phone: 1612485333, address: 86 Wilmslow Rd, Manchester M14..., website: N/A)
+2025-05-16 01:02:41,939 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 3/5: Ziya Asian Grill
+2025-05-16 01:02:58,937 - googlemaps_scraper - WARNING - M14 9 -> Timeout loading website http://www.ziyarestaurant.co.uk/ for business Afghan Cuisine Restaurant & Takeaway
+2025-05-16 01:02:59,212 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Afghan Cuisine Restaurant & Takeaway
+2025-05-16 01:02:59,213 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:02:59,213 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 1875
+2025-05-16 01:02:59,213 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 86 Wilmslow Rd, Manchester M14 5AL
+2025-05-16 01:02:59,213 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:02:59,214 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612572010
+2025-05-16 01:02:59,215 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Afghan Cuisine Restaurant & Takeaway
+2025-05-16 01:02:59,215 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Afghan Cuisine Restaurant & Takeaway -> N/A
+2025-05-16 01:02:59,218 - googlemaps_scraper - INFO - M14 9 -> Scraped: Afghan Cuisine Restaurant & Takeaway (phone: 1612572010, address: 86 Wilmslow Rd, Manchester M14..., website: N/A)
+2025-05-16 01:03:00,971 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 4/5: Mughli Charcoal Pit
+2025-05-16 01:03:12,879 - googlemaps_scraper - WARNING - M14 9 -> Website title doesn't match business name: mughli charcoal pit | indian street food manchester | greater manchester | link tree vs Ziya Asian Grill
+2025-05-16 01:03:14,051 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Ziya Asian Grill
+2025-05-16 01:03:14,056 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:03:14,061 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 2913
+2025-05-16 01:03:14,068 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 65-67 Wilmslow Rd, Manchester M14 5TB
+2025-05-16 01:03:14,074 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:03:14,080 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612480900
+2025-05-16 01:03:14,105 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Ziya Asian Grill
+2025-05-16 01:03:14,117 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Ziya Asian Grill -> N/A
+2025-05-16 01:03:14,119 - googlemaps_scraper - INFO - M14 9 -> Scraped: Ziya Asian Grill (phone: 1612480900, address: 65-67 Wilmslow Rd, Manchester ..., website: N/A)
+2025-05-16 01:03:14,835 - googlemaps_scraper - INFO - M14 9 -> Clicking tile 5/5: Jaffa Restaurant
+2025-05-16 01:03:28,847 - googlemaps_scraper - WARNING - M14 9 -> Website title doesn't match business name: jaffa restaurant: authentic halal middle eastern cuisine in manchester vs Mughli Charcoal Pit
+2025-05-16 01:03:29,390 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Business Name: Mughli Charcoal Pit
+2025-05-16 01:03:29,404 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Stars: 4.2
+2025-05-16 01:03:29,422 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Reviews: 1651
+2025-05-16 01:03:29,461 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Address: 185 Wilmslow Rd, Manchester M14 5AP
+2025-05-16 01:03:29,574 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Website: N/A
+2025-05-16 01:03:29,589 - googlemaps_scraper - INFO - M14 9 -> EXTRACTION: Phone: 1612250800
+2025-05-16 01:03:29,593 - googlemaps_scraper - INFO - M14 9 -> No website detected for business: Mughli Charcoal Pit
+2025-05-16 01:03:29,607 - googlemaps_scraper - INFO - M14 9 -> BUSINESS-WEBSITE MAPPING: Mughli Charcoal Pit -> N/A
+2025-05-16 01:03:29,610 - googlemaps_scraper - INFO - M14 9 -> Scraped: Mughli Charcoal Pit (phone: 1612250800, address: 185 Wilmslow Rd, Manchester M1..., website: N/A)
+2025-05-16 01:03:29,657 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/5)
+2025-05-16 01:03:30,279 - googlemaps_scraper - INFO - M14 9 -> Processed 5 new tiles in this batch
+2025-05-16 01:03:32,006 - googlemaps_scraper - INFO - M14 9 -> scrolled feed (tiles now 15)
+2025-05-16 01:03:32,008 - googlemaps_scraper - INFO - M14 9 -> Total unique businesses processed in this subsector: 9
+2025-05-16 01:03:33,940 - googlemaps_scraper - INFO - M14 9 -> Found 5 unprocessed tiles
+2025-05-16 01:03:47,594 - googlemaps_scraper - WARNING - M14 9 -> Error verifying website http://ariyadharabicrestaurant.com/ for business Jaffa Restaurant: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

@@ -1,0 +1,104 @@
+[2025-05-16 01:19:56] INFO    – ================================================================================
+[2025-05-16 01:19:56] INFO    – Starting Google Maps scraper from API
+[2025-05-16 01:19:56] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_011956.log
+[2025-05-16 01:19:56] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 01:19:56] INFO    – ================================================================================
+[2025-05-16 01:19:56] INFO    – Connected to MongoDB successfully
+[2025-05-16 01:19:56] INFO    – Created queue index
+[2025-05-16 01:19:56] INFO    – Created indexes
+[2025-05-16 01:19:58] INFO    – Chrome driver initialized successfully
+[2025-05-16 01:19:58] INFO    – Processing all unprocessed subsectors
+[2025-05-16 01:19:58] INFO    – Total subsectors to process: 287
+[2025-05-16 01:19:58] INFO    – ==================================================
+[2025-05-16 01:19:58] INFO    – PROCESSING SUBSECTOR: M14 6 (1/287)
+[2025-05-16 01:19:58] INFO    – ============================================================
+[2025-05-16 01:19:58] INFO    – Starting scrape for subsector: M14 6
+[2025-05-16 01:19:58] INFO    – ============================================================
+[2025-05-16 01:20:03] INFO    – M14 6 -> search query launched: restaurants in M14 6 Manchester
+[2025-05-16 01:20:07] INFO    – M14 6 -> Found 5 unprocessed tiles
+[2025-05-16 01:20:07] INFO    – M14 6 -> Clicking tile 1/5: MyLahore Manchester
+[2025-05-16 01:20:14] INFO    – WEBSITE-BUSINESS MAPPING: Found website http://www.mylahore.co.uk/ for business MyLahore Manchester
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Business Name: MyLahore Manchester
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Stars: 4.6
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Reviews: 13336
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+[2025-05-16 01:20:15] INFO    – M14 6 -> EXTRACTION: Phone: 1612488887
+[2025-05-16 01:20:15] INFO    – M14 6 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+[2025-05-16 01:20:15] INFO    – M14 6 -> BUSINESS DATA SUMMARY: Name='MyLahore Manchester', Website='http://www.mylahore.co.uk/', Phone='1612488887', Address='14-18 Wilmslow Rd, Manchester ...'
+[2025-05-16 01:20:15] INFO    – M14 6 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+[2025-05-16 01:20:15] INFO    – M14 6 -> Clicking tile 2/5: Jafra Restaurant مطعم جفرا
+[2025-05-16 01:20:17] WARNING – M14 6 -> Card name 'MyLahore Manchester' doesn't match tile name 'Jafra Restaurant مطعم جفرا', closing and skipping
+[2025-05-16 01:20:19] INFO    – M14 6 -> Clicking tile 3/5: Al Jazeera Restaurant
+[2025-05-16 01:20:21] WARNING – M14 6 -> Card name 'Jafra Restaurant مطعم جفرا' doesn't match tile name 'Al Jazeera Restaurant', closing and skipping
+[2025-05-16 01:20:21] INFO    – M14 6 -> Clicking tile 4/5: Afghan Cuisine Restaurant & Takeaway
+[2025-05-16 01:20:23] WARNING – M14 6 -> Card name 'Al Jazeera Restaurant' doesn't match tile name 'Afghan Cuisine Restaurant & Takeaway', closing and skipping
+[2025-05-16 01:20:23] INFO    – M14 6 -> Clicking tile 5/5: Oodles N’Oodles Restaurant Manchester
+[2025-05-16 01:20:25] WARNING – M14 6 -> Card name 'Afghan Cuisine Restaurant & Takeaway' doesn't match tile name 'Oodles N’Oodles Restaurant Manchester', closing and skipping
+[2025-05-16 01:20:25] INFO    – M14 6 -> Processed 1 new tiles in this batch
+[2025-05-16 01:20:27] INFO    – M14 6 -> scrolled feed (tiles now 11)
+[2025-05-16 01:20:27] INFO    – M14 6 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 01:20:28] INFO    – M14 6 -> Found 6 unprocessed tiles
+[2025-05-16 01:20:28] INFO    – M14 6 -> Clicking tile 1/6: Alostora Seafood Restaurant
+[2025-05-16 01:20:29] WARNING – M14 6 -> Card name 'Oodles N’Oodles Restaurant Manchester' doesn't match tile name 'Alostora Seafood Restaurant', closing and skipping
+[2025-05-16 01:20:30] INFO    – M14 6 -> Clicking tile 2/6: Olives Grill&Dessert
+[2025-05-16 01:20:31] WARNING – M14 6 -> Card name 'Alostora Seafood Restaurant' doesn't match tile name 'Olives Grill&Dessert', closing and skipping
+[2025-05-16 01:20:32] INFO    – M14 6 -> Clicking tile 3/6: Mughli Charcoal Pit
+[2025-05-16 01:20:33] WARNING – M14 6 -> Card name 'Olives Grill&Dessert' doesn't match tile name 'Mughli Charcoal Pit', closing and skipping
+[2025-05-16 01:20:34] INFO    – M14 6 -> Clicking tile 4/6: Ziya Asian Grill
+[2025-05-16 01:20:36] WARNING – M14 6 -> Card name 'Mughli Charcoal Pit' doesn't match tile name 'Ziya Asian Grill', closing and skipping
+[2025-05-16 01:20:36] INFO    – M14 6 -> Clicking tile 5/6: Jaffa Restaurant
+[2025-05-16 01:20:38] WARNING – M14 6 -> Card name 'Ziya Asian Grill' doesn't match tile name 'Jaffa Restaurant', closing and skipping
+[2025-05-16 01:20:41] INFO    – M14 6 -> Clicking tile 6/6: 
+[2025-05-16 01:20:42] WARNING – M14 6 -> Stale element, max retries reached for tile: 
+[2025-05-16 01:20:42] INFO    – M14 6 -> No new tiles processed in this batch
+[2025-05-16 01:20:43] INFO    – M14 6 -> scrolled feed (tiles now 15)
+[2025-05-16 01:20:43] INFO    – M14 6 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 01:20:44] INFO    – M14 6 -> Found 5 unprocessed tiles
+[2025-05-16 01:20:44] INFO    – M14 6 -> Clicking tile 1/5: Walnut Persian Restaurant
+[2025-05-16 01:20:45] WARNING – M14 6 -> Card name 'Jaffa Restaurant' doesn't match tile name 'Walnut Persian Restaurant', closing and skipping
+[2025-05-16 01:20:46] INFO    – M14 6 -> Clicking tile 2/5: Phatboyz Manchester
+[2025-05-16 01:20:48] WARNING – M14 6 -> Card name 'Walnut Persian Restaurant' doesn't match tile name 'Phatboyz Manchester', closing and skipping
+[2025-05-16 01:20:49] INFO    – M14 6 -> Clicking tile 3/5: Bardez - Indian Street Food and Grill, Rusholme
+[2025-05-16 01:20:50] WARNING – M14 6 -> Card name 'Phatboyz Manchester' doesn't match tile name 'Bardez - Indian Street Food and Grill, Rusholme', closing and skipping
+[2025-05-16 01:20:51] INFO    – M14 6 -> Clicking tile 4/5: Pitmaster
+[2025-05-16 01:20:52] WARNING – M14 6 -> Card name 'Phatboyz Manchester' doesn't match tile name 'Pitmaster', closing and skipping
+[2025-05-16 01:20:53] INFO    – M14 6 -> Clicking tile 5/5: Kurdistan Restaurant
+[2025-05-16 01:20:55] WARNING – M14 6 -> Card name 'Pitmaster' doesn't match tile name 'Kurdistan Restaurant', closing and skipping
+[2025-05-16 01:20:56] INFO    – M14 6 -> No new tiles processed in this batch
+[2025-05-16 01:20:58] INFO    – M14 6 -> scrolled feed (tiles now 20)
+[2025-05-16 01:20:58] INFO    – M14 6 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 01:21:01] INFO    – M14 6 -> Found 5 unprocessed tiles
+[2025-05-16 01:21:01] INFO    – M14 6 -> Clicking tile 1/5: Mussarat's Restaurant
+[2025-05-16 01:21:02] WARNING – M14 6 -> Card name 'Kurdistan Restaurant' doesn't match tile name 'Mussarat's Restaurant', closing and skipping
+[2025-05-16 01:21:03] INFO    – M14 6 -> Clicking tile 2/5: Afrikana Restaurant Manchester
+[2025-05-16 01:21:04] WARNING – M14 6 -> Card name 'Mussarat's Restaurant' doesn't match tile name 'Afrikana Restaurant Manchester', closing and skipping
+[2025-05-16 01:21:05] INFO    – M14 6 -> Clicking tile 3/5: Logma Restaurant
+[2025-05-16 01:21:06] WARNING – M14 6 -> Card name 'Mussarat's Restaurant' doesn't match tile name 'Logma Restaurant', closing and skipping
+[2025-05-16 01:21:06] INFO    – M14 6 -> Clicking tile 4/5: Slemani Restaurant
+[2025-05-16 01:21:08] WARNING – M14 6 -> Card name 'Logma Restaurant' doesn't match tile name 'Slemani Restaurant', closing and skipping
+[2025-05-16 01:21:09] INFO    – M14 6 -> Clicking tile 5/5: Fresh Almalaky
+[2025-05-16 01:21:10] WARNING – M14 6 -> Card name 'Logma Restaurant' doesn't match tile name 'Fresh Almalaky', closing and skipping
+[2025-05-16 01:21:10] INFO    – M14 6 -> No new tiles processed in this batch
+[2025-05-16 01:21:12] INFO    – M14 6 -> scrolled feed (tiles now 25)
+[2025-05-16 01:21:12] INFO    – M14 6 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 01:21:14] INFO    – M14 6 -> Found 5 unprocessed tiles
+[2025-05-16 01:21:14] INFO    – M14 6 -> Clicking tile 1/5: Mr T’s Wilmslow Road
+[2025-05-16 01:21:15] WARNING – M14 6 -> Card name 'Fresh Almalaky' doesn't match tile name 'Mr T’s Wilmslow Road', closing and skipping
+[2025-05-16 01:21:16] INFO    – M14 6 -> Clicking tile 2/5: Ariyadh Arabic Restaurant - مطعم الرياض العربي
+[2025-05-16 01:21:18] WARNING – M14 6 -> Card name 'Mr T’s Wilmslow Road' doesn't match tile name 'Ariyadh Arabic Restaurant - مطعم الرياض العربي', closing and skipping
+[2025-05-16 01:21:18] INFO    – M14 6 -> Clicking tile 3/5: Dream Restaurant
+[2025-05-16 01:21:20] WARNING – M14 6 -> Card name 'Mr T’s Wilmslow Road' doesn't match tile name 'Dream Restaurant', closing and skipping
+[2025-05-16 01:21:21] INFO    – M14 6 -> Clicking tile 4/5: Chit 'N' Chaat Rusholme
+[2025-05-16 01:21:23] WARNING – M14 6 -> Card name 'Dream Restaurant' doesn't match tile name 'Chit 'N' Chaat Rusholme', closing and skipping
+[2025-05-16 01:21:24] INFO    – M14 6 -> Clicking tile 5/5: Legends Desserts & Burger Bar Rusholme
+[2025-05-16 01:21:28] WARNING – M14 6 -> Card name 'Dream Restaurant' doesn't match tile name 'Legends Desserts & Burger Bar Rusholme', closing and skipping
+[2025-05-16 01:21:28] INFO    – M14 6 -> No new tiles processed in this batch
+[2025-05-16 01:21:30] INFO    – M14 6 -> scrolled feed (tiles now 30)
+[2025-05-16 01:21:30] INFO    – M14 6 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 01:21:35] INFO    – M14 6 -> Found 5 unprocessed tiles
+[2025-05-16 01:21:35] INFO    – M14 6 -> Clicking tile 1/5: Toro's Steakhouse Manchester
+[2025-05-16 01:21:36] WARNING – M14 6 -> Card name 'Legends Desserts & Burger Bar Rusholme' doesn't match tile name 'Toro's Steakhouse Manchester', closing and skipping
+[2025-05-16 01:21:37] INFO    – M14 6 -> Clicking tile 2/5: Cafe Begum Manchester
+[2025-05-16 01:21:38] WARNING – M14 6 -> Card name 'Toro's Steakhouse Manchester' doesn't match tile name 'Cafe Begum Manchester', closing and skipping
+[2025-05-16 01:21:39] INFO    – M14 6 -> Clicking tile 3/5: Jilani's

@@ -1,0 +1,204 @@
+# Postcode Scraper and Google Maps Scraper API Endpoints
+
+## Postcode Scraper Endpoints
+
+### 1. Check if Postcode Data Exists
+- Endpoint: /api/dataPS
+- Method: GET
+- Parameters:
+  - city (required): The city name (e.g., "Leeds")
+  - keyword (optional): The keyword to use (e.g., "restaurants")
+- Description: Checks if postcode data exists for the city and keyword
+- Example: http://127.0.0.1:5000/api/dataPS?city=Leeds&keyword=restaurants
+- Response:
+  {
+    "city": "Leeds",
+    "keyword": "restaurants",
+    "database_exists": true,
+    "exists": true,
+    "collection": {
+      "name": "restaurants_subsector_queue",
+      "exists": true,
+      "count": 200
+    }
+  }
+
+### 2. Start Postcode Scraping Task
+- Endpoint: /api/scrapePS
+- Method: GET
+- Parameters:
+  - city (required): The city name (e.g., "Leeds")
+  - keyword (optional): The keyword to use (e.g., "restaurants")
+  - auto_run_gmaps (optional): Whether to run Google Maps scraper after postcode scraper completes (default: false)
+- Description: Starts a postcode scraping task
+- Example: http://127.0.0.1:5000/api/scrapePS?city=Leeds&keyword=restaurants&auto_run_gmaps=true
+- Response:
+  {
+    "task_id": "PS_LS_Leeds_restaurants_12345",
+    "message": "Postcode scraping task started for LS in Leeds with keyword restaurants",
+    "status_url": "/api/statusPS/PS_LS_Leeds_restaurants_12345"
+  }
+
+### 3. Check Postcode Task Status
+- Endpoint: /api/statusPS/<task_id>
+- Method: GET
+- Parameters: None (task_id is in the URL path)
+- Description: Returns the status of a running or completed postcode scraping task
+- Example: http://127.0.0.1:5000/api/statusPS/PS_LS_Leeds_restaurants_12345
+- Response (with Google Maps scraping triggered):
+  {
+    "status": "completed",
+    "progress": 100,
+    "postcodes_count": 600,
+    "sectors_count": 25,
+    "subsectors_count": 75,
+    "city": "Leeds",
+    "prefix": "LS",
+    "keyword": "restaurants",
+    "database": "Leeds",
+    "collection": "restaurants_subsector_queue",
+    "gmaps_task_id": "GM_Leeds_restaurants_subsector_queue_12346",
+    "gmaps_status_url": "/api/statusGM/GM_Leeds_restaurants_subsector_queue_12346"
+  }
+
+### 4. Terminate Postcode Scraping Task
+- Endpoint: /api/terminatePS/<task_id>
+- Method: POST
+- Parameters: None (task_id is in the URL path)
+- Description: Terminates a running postcode scraping task
+- Example: POST http://127.0.0.1:5000/api/terminatePS/PS_LS_Leeds_restaurants_12345
+- Response:
+  {
+    "message": "Task PS_LS_Leeds_restaurants_12345 has been terminated",
+    "status": "terminated"
+  }
+
+## Google Maps Scraper Endpoints
+
+### 1. Check if Google Maps Data Exists
+- Endpoint: /api/dataGM
+- Method: GET
+- Parameters:
+  - db_name (required): The database name (e.g., "Leeds")
+  - business_collection (optional): The business collection name (default: "restaurants")
+- Description: Checks if Google Maps data exists for the database and collection
+- Example: http://127.0.0.1:5000/api/dataGM?db_name=Leeds&business_collection=restaurants
+- Response:
+  {
+    "db_name": "Leeds",
+    "business_collection": "restaurants",
+    "database_exists": true,
+    "exists": true,
+    "collection": {
+      "name": "restaurants",
+      "exists": true,
+      "count": 500
+    }
+  }
+
+### 2. Start Google Maps Scraping Task
+- Endpoint: /api/scrapeGM
+- Method: GET
+- Parameters:
+  - db_name (required): The database name (e.g., "Leeds")
+  - queue_collection (optional): The queue collection name (default: "subsector_queue")
+  - business_collection (optional): The business collection name (default: derived from queue_collection)
+- Description: Starts a Google Maps scraping task
+- Example: http://127.0.0.1:5000/api/scrapeGM?db_name=Leeds&queue_collection=restaurants_subsector_queue
+- Response:
+  {
+    "task_id": "GM_Leeds_restaurants_subsector_queue_12345",
+    "message": "Google Maps scraping task started for Leeds.restaurants_subsector_queue",
+    "status_url": "/api/statusGM/GM_Leeds_restaurants_subsector_queue_12345"
+  }
+
+### 3. Check Google Maps Task Status
+- Endpoint: /api/statusGM/<task_id>
+- Method: GET
+- Parameters: None (task_id is in the URL path)
+- Description: Returns the status of a running or completed Google Maps scraping task
+- Example: http://127.0.0.1:5000/api/statusGM/GM_Leeds_restaurants_subsector_queue_12345
+- Response:
+  {
+    "status": "completed",
+    "db_name": "Leeds",
+    "queue_collection": "restaurants_subsector_queue",
+    "business_collection": "restaurants",
+    "message": "Google Maps scraping completed successfully"
+  }
+
+### 4. Terminate Google Maps Scraping Task
+- Endpoint: /api/terminateGM/<task_id>
+- Method: POST
+- Parameters: None (task_id is in the URL path)
+- Description: Terminates a running Google Maps scraping task
+- Example: POST http://127.0.0.1:5000/api/terminateGM/GM_Leeds_restaurants_subsector_queue_12345
+- Response:
+  {
+    "message": "Task GM_Leeds_restaurants_subsector_queue_12345 has been terminated",
+    "status": "terminated"
+  }
+
+## Legacy Endpoints (for backward compatibility)
+
+### 1. Check if Data Exists
+- Endpoint: /api/data
+- Method: GET
+- Parameters: Same as /api/dataPS
+- Description: Redirects to /api/dataPS
+
+### 2. Start Scraping Task
+- Endpoint: /api/scrape
+- Method: GET
+- Parameters: Same as /api/scrapePS with run_gmaps instead of auto_run_gmaps
+- Description: Starts a postcode scraping task and optionally a Google Maps scraping task
+
+### 3. Check Task Status
+- Endpoint: /api/status/<task_id>
+- Method: GET
+- Parameters: None (task_id is in the URL path)
+- Description: Redirects to /api/statusPS or /api/statusGM based on the task_id prefix
+
+### 4. Terminate Task (Generic)
+- Endpoint: /api/terminate/<task_id>
+- Method: POST
+- Parameters: None (task_id is in the URL path)
+- Description: Terminates a running task (for backward compatibility)
+- Example: POST http://127.0.0.1:5000/api/terminate/PS_LS_Leeds_restaurants_12345
+- Response:
+  {
+    "message": "Task PS_LS_Leeds_restaurants_12345 has been terminated",
+    "status": "terminated"
+  }
+
+## Notes for Frontend Implementation and Testing:
+1. Always check if data exists first using /api/dataPS or /api/dataGM before starting a scraping task
+2. Use /api/scrapePS to start a postcode scraping task
+3. Use /api/scrapeGM to start a Google Maps scraping task
+4. Use the task_id from the response to check the status with /api/statusPS/<task_id> or /api/statusGM/<task_id>
+5. If you need to stop a running task, use /api/terminatePS/<task_id> or /api/terminateGM/<task_id>
+6. Poll the status endpoint periodically (e.g., every 5 seconds) to update the UI with the latest status
+7. If auto_run_gmaps=true for postcode scraping, check the gmaps_task_id and gmaps_status_url in the response
+8. Display appropriate error messages if the task fails
+
+### Using Postman for Testing:
+1. Create a collection for the scraper API
+2. Set up requests for each endpoint:
+   - GET request for /api/dataPS with query parameters
+   - GET request for /api/scrapePS with query parameters
+   - GET request for /api/statusPS/:task_id (use variable for task_id)
+   - POST request for /api/terminatePS/:task_id (use variable for task_id)
+   - Repeat for Google Maps endpoints
+3. Use environment variables to store task IDs between requests
+4. Create a test script that:
+   - Checks if data exists
+   - Starts a scraping task if needed
+   - Monitors status
+   - Terminates the task if needed
+
+Example Postman test flow:
+1. GET /api/dataPS?city=Leeds&keyword=restaurants
+2. GET /api/scrapePS?city=Leeds&keyword=restaurants
+3. Save task_id from response
+4. GET /api/statusPS/{task_id} (poll until complete or after a few seconds)
+5. POST /api/terminatePS/{task_id} (if you want to stop the task)

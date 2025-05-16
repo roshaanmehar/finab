@@ -1,0 +1,52 @@
+2025-05-16 01:10:15,299 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:10:15,301 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 01:10:15,302 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_011015.log
+2025-05-16 01:10:15,303 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 01:10:15,322 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:10:15,370 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 01:10:15,374 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 01:10:15,378 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 01:10:18,596 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 01:10:18,600 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 01:10:18,611 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-16 01:10:18,625 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 01:10:18,652 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 0 (1/287)
+2025-05-16 01:10:18,764 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:10:18,772 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 0
+2025-05-16 01:10:18,779 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:10:24,795 - googlemaps_scraper - INFO - M14 0 -> search query launched: restaurants in M14 0 Manchester
+2025-05-16 01:10:27,682 - googlemaps_scraper - INFO - M14 0 -> Found 5 unprocessed tiles
+2025-05-16 01:10:27,903 - googlemaps_scraper - INFO - M14 0 -> Clicking tile 1/5: Royal Oak
+2025-05-16 01:10:41,955 - googlemaps_scraper - WARNING - M14 0 -> Timeout loading website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+2025-05-16 01:10:42,085 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Business Name: Royal Oak
+2025-05-16 01:10:42,086 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Stars: 4.1
+2025-05-16 01:10:42,087 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Reviews: 716
+2025-05-16 01:10:42,088 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+2025-05-16 01:10:42,089 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Website: N/A
+2025-05-16 01:10:42,090 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Phone: 1618607438
+2025-05-16 01:10:42,090 - googlemaps_scraper - INFO - M14 0 -> No website detected for business: Royal Oak
+2025-05-16 01:10:42,090 - googlemaps_scraper - INFO - M14 0 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> N/A
+2025-05-16 01:10:42,114 - googlemaps_scraper - INFO - M14 0 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: N/A)
+2025-05-16 01:10:42,132 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-16 01:10:42,680 - googlemaps_scraper - INFO - M14 0 -> Clicking tile 2/5: MyLahore Manchester
+2025-05-16 01:10:46,575 - googlemaps_scraper - INFO - M14 0 -> Clicking tile 3/5: My Peshawar Manchester
+2025-05-16 01:10:59,352 - googlemaps_scraper - WARNING - M14 0 -> Website title doesn't match business name: my peshawar - bradford's no. 1 family restaurant! | my peshawar vs MyLahore Manchester
+2025-05-16 01:10:59,583 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-16 01:10:59,602 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:10:59,809 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Reviews: 13336
+2025-05-16 01:10:59,824 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Address: 50-52 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 01:10:59,876 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Website: N/A
+2025-05-16 01:10:59,901 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Phone: 1617100112
+2025-05-16 01:10:59,917 - googlemaps_scraper - INFO - M14 0 -> No website detected for business: MyLahore Manchester
+2025-05-16 01:10:59,956 - googlemaps_scraper - INFO - M14 0 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> N/A
+2025-05-16 01:10:59,962 - googlemaps_scraper - INFO - M14 0 -> Scraped: MyLahore Manchester (phone: 1617100112, address: 50-52 Wilmslow Rd, Manchester ..., website: N/A)
+2025-05-16 01:11:08,151 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Business Name: My Peshawar Manchester
+2025-05-16 01:11:08,152 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:11:08,153 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Reviews: 912
+2025-05-16 01:11:08,153 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+2025-05-16 01:11:08,155 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Website: N/A
+2025-05-16 01:11:08,156 - googlemaps_scraper - INFO - M14 0 -> EXTRACTION: Phone: 1619715602
+2025-05-16 01:11:08,157 - googlemaps_scraper - INFO - M14 0 -> No website detected for business: My Peshawar Manchester
+2025-05-16 01:11:08,157 - googlemaps_scraper - INFO - M14 0 -> BUSINESS-WEBSITE MAPPING: My Peshawar Manchester -> N/A
+2025-05-16 01:11:08,158 - googlemaps_scraper - INFO - M14 0 -> Scraped: My Peshawar Manchester (phone: 1619715602, address: 34-36 Wilmslow Rd, Manchester ..., website: N/A)
+2025-05-16 01:11:08,673 - googlemaps_scraper - INFO - M14 0 -> Clicking tile 5/5: Alostora Seafood Restaurant

@@ -1,0 +1,27 @@
+[2025-05-11 14:20:04] INFO    – (Thread-2 (process_request_thread)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:20:04] INFO    – (Thread-2 (process_request_thread)) Connected to MongoDB: Manchester/restaurants
+[2025-05-11 14:20:04] INFO    – (Thread-2 (process_request_thread)) Verified/created necessary MongoDB indexes.
+[2025-05-11 14:20:14] INFO    – (Thread-3 (process_request_thread)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:20:14] INFO    – (Thread-3 (process_request_thread)) Connected to MongoDB: Manchester/restaurants
+[2025-05-11 14:20:14] INFO    – (Thread-3 (process_request_thread)) Verified/created necessary MongoDB indexes.
+[2025-05-11 14:20:14] INFO    – (Thread-4 (run_email_scrape_task)) Starting email scraping task ES_Manchester_restaurants_25108 for Manchester.restaurants
+[2025-05-11 14:20:14] INFO    – (Thread-4 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:20:14] INFO    – (Thread-4 (run_email_scrape_task)) Connected to MongoDB: Manchester/restaurants
+[2025-05-11 14:20:14] INFO    – (Thread-4 (run_email_scrape_task)) Verified/created necessary MongoDB indexes.
+[2025-05-11 14:20:14] INFO    – (Thread-4 (run_email_scrape_task)) Processing record ID: 681ce1701ce74f6b63ade830, Name: Bill's Leeds Restaurant, Website: https://bills-website.co.uk/restaurants/leeds/?utm_source=LocalGoogle&utm_medium=Organic
+[2025-05-11 14:20:45] INFO    – (Thread-9 (process_request_thread)) Terminating email scraper task ES_Manchester_restaurants_25108
+[2025-05-11 14:30:40] INFO    – (Thread-24 (process_request_thread)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:30:40] INFO    – (Thread-24 (process_request_thread)) Connected to MongoDB: Leeds/restaurants
+[2025-05-11 14:30:40] WARNING – (Thread-24 (process_request_thread)) MongoDB index check/creation issue (continuing): Index already exists with a different name: emailstatus_1, full error: {'ok': 0.0, 'errmsg': 'Index already exists with a different name: emailstatus_1', 'code': 85, 'codeName': 'IndexOptionsConflict'}
+[2025-05-11 14:30:51] INFO    – (Thread-25 (process_request_thread)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:30:51] INFO    – (Thread-25 (process_request_thread)) Connected to MongoDB: Leeds/restaurants
+[2025-05-11 14:30:51] WARNING – (Thread-25 (process_request_thread)) MongoDB index check/creation issue (continuing): Index already exists with a different name: emailstatus_1, full error: {'ok': 0.0, 'errmsg': 'Index already exists with a different name: emailstatus_1', 'code': 85, 'codeName': 'IndexOptionsConflict'}
+[2025-05-11 14:30:51] INFO    – (Thread-26 (run_email_scrape_task)) Starting email scraping task ES_Leeds_restaurants_39024 for Leeds.restaurants
+[2025-05-11 14:30:51] INFO    – (Thread-26 (run_email_scrape_task)) Attempting MongoDB connection (1/3) to mongodb://localhost:27017...
+[2025-05-11 14:30:51] INFO    – (Thread-26 (run_email_scrape_task)) Connected to MongoDB: Leeds/restaurants
+[2025-05-11 14:30:51] WARNING – (Thread-26 (run_email_scrape_task)) MongoDB index check/creation issue (continuing): Index already exists with a different name: emailstatus_1, full error: {'ok': 0.0, 'errmsg': 'Index already exists with a different name: emailstatus_1', 'code': 85, 'codeName': 'IndexOptionsConflict'}
+[2025-05-11 14:30:51] INFO    – (Thread-26 (run_email_scrape_task)) Processing record ID: 68174f69bd576f66e3530d25, Name: Fazenda Rodizio Bar & Grill Leeds, Website: https://fazenda.co.uk/location/leeds?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-listing&utm_content=fazenda-leeds
+[2025-05-11 14:31:18] INFO    – (Thread-31 (process_request_thread)) Terminating email scraper task ES_Leeds_restaurants_39024
+[2025-05-11 14:56:52] INFO    – (Thread-26 (run_email_scrape_task)) [fazenda.co.uk] CHECKED: No emails found for https://fazenda.co.uk/location/leeds?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-listing&utm_content=fazenda-leeds.
+[2025-05-11 14:56:55] INFO    – (Thread-26 (run_email_scrape_task)) Task ES_Leeds_restaurants_39024 termination requested, stopping processing
+[2025-05-11 14:56:55] INFO    – (Thread-26 (run_email_scrape_task)) Task ES_Leeds_restaurants_39024 completed: 1/50 records processed, 0 emails found

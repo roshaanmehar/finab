@@ -1,0 +1,53 @@
+[2025-05-16 01:10:15] INFO    – ================================================================================
+[2025-05-16 01:10:15] INFO    – Starting Google Maps scraper from API
+[2025-05-16 01:10:15] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_011015.log
+[2025-05-16 01:10:15] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 01:10:15] INFO    – ================================================================================
+[2025-05-16 01:10:15] INFO    – Connected to MongoDB successfully
+[2025-05-16 01:10:15] INFO    – Created queue index
+[2025-05-16 01:10:15] INFO    – Created indexes
+[2025-05-16 01:10:18] INFO    – Chrome driver initialized successfully
+[2025-05-16 01:10:18] INFO    – Processing all unprocessed subsectors
+[2025-05-16 01:10:18] INFO    – Total subsectors to process: 287
+[2025-05-16 01:10:18] INFO    – ==================================================
+[2025-05-16 01:10:18] INFO    – PROCESSING SUBSECTOR: M14 0 (1/287)
+[2025-05-16 01:10:18] INFO    – ============================================================
+[2025-05-16 01:10:18] INFO    – Starting scrape for subsector: M14 0
+[2025-05-16 01:10:18] INFO    – ============================================================
+[2025-05-16 01:10:24] INFO    – M14 0 -> search query launched: restaurants in M14 0 Manchester
+[2025-05-16 01:10:27] INFO    – M14 0 -> Found 5 unprocessed tiles
+[2025-05-16 01:10:27] INFO    – M14 0 -> Clicking tile 1/5: Royal Oak
+[2025-05-16 01:10:41] WARNING – M14 0 -> Timeout loading website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Business Name: Royal Oak
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Stars: 4.1
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Reviews: 716
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Website: N/A
+[2025-05-16 01:10:42] INFO    – M14 0 -> EXTRACTION: Phone: 1618607438
+[2025-05-16 01:10:42] INFO    – M14 0 -> No website detected for business: Royal Oak
+[2025-05-16 01:10:42] INFO    – M14 0 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> N/A
+[2025-05-16 01:10:42] INFO    – M14 0 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: N/A)
+[2025-05-16 01:10:42] INFO    – Google Maps scraper found 1 new unique records (total: 1/5)
+[2025-05-16 01:10:42] INFO    – M14 0 -> Clicking tile 2/5: MyLahore Manchester
+[2025-05-16 01:10:46] INFO    – M14 0 -> Clicking tile 3/5: My Peshawar Manchester
+[2025-05-16 01:10:59] WARNING – M14 0 -> Website title doesn't match business name: my peshawar - bradford's no. 1 family restaurant! | my peshawar vs MyLahore Manchester
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Business Name: MyLahore Manchester
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Stars: 4.6
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Reviews: 13336
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Address: 50-52 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Website: N/A
+[2025-05-16 01:10:59] INFO    – M14 0 -> EXTRACTION: Phone: 1617100112
+[2025-05-16 01:10:59] INFO    – M14 0 -> No website detected for business: MyLahore Manchester
+[2025-05-16 01:10:59] INFO    – M14 0 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> N/A
+[2025-05-16 01:10:59] INFO    – M14 0 -> Scraped: MyLahore Manchester (phone: 1617100112, address: 50-52 Wilmslow Rd, Manchester ..., website: N/A)
+[2025-05-16 01:11:00] INFO    – M14 0 -> Clicking tile 4/5: Jafra Restaurant مطعم جفرا
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Business Name: My Peshawar Manchester
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Stars: 4.8
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Reviews: 912
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Website: N/A
+[2025-05-16 01:11:08] INFO    – M14 0 -> EXTRACTION: Phone: 1619715602
+[2025-05-16 01:11:08] INFO    – M14 0 -> No website detected for business: My Peshawar Manchester
+[2025-05-16 01:11:08] INFO    – M14 0 -> BUSINESS-WEBSITE MAPPING: My Peshawar Manchester -> N/A
+[2025-05-16 01:11:08] INFO    – M14 0 -> Scraped: My Peshawar Manchester (phone: 1619715602, address: 34-36 Wilmslow Rd, Manchester ..., website: N/A)
+[2025-05-16 01:11:08] INFO    – M14 0 -> Clicking tile 5/5: Alostora Seafood Restaurant

@@ -1,0 +1,78 @@
+address,businessname,city,email,emailstatus,numberofreviews,phonenumber,scraped_at,stars,subsector,website
+"10 Queen's Terrace, Aberdeen AB10 1XL",No.10 Bar and Restaurant,Aberdeen,N/A,pending,981,1224631928,2025-05-12 22:00:04.643693,4.5,AB1 7,http://no10aberdeen.co.uk/
+"11 Holburn St, Aberdeen AB10 6BS",Estabulo Rodizio Bar & Grill - Aberdeen,Aberdeen,N/A,pending,1105,1224588909,2025-05-12 22:00:16.608266,4.8,AB1 7,https://www.travancorerestaurant.co.uk/
+"5 Bon-Accord St, Aberdeen AB11 6FX",Travancore Restaurant Aberdeen,Aberdeen,N/A,pending,1857,1224581100,2025-05-12 22:00:23.933671,4.5,AB1 7,https://www.cafeandaluz.com/
+"Pocra Quay, Aberdeen AB11 5DQ",Cafe Andaluz,Aberdeen,N/A,pending,1857,1224576229,2025-05-12 22:00:30.876351,4.5,AB1 7,http://www.thesilverdarling.co.uk/
+"1 Union Terrace, Aberdeen AB10 1NJ",The Silver Darling,Aberdeen,N/A,pending,1329,1224918005,2025-05-12 22:00:40.595690,4.6,AB1 7,https://chaophraya.co.uk/aberdeen/
+"50 Chapel St, Aberdeen AB10 1SN",Chaophraya,Aberdeen,N/A,pending,204,1224501529,2025-05-12 22:00:47.786275,4.3,AB1 7,http://www.theatriumaberdeen.com/
+"263 Union St, Aberdeen AB11 6BR",The Atrium Restaurant & Bar,Aberdeen,N/A,pending,204,1224002187,2025-05-12 22:00:55.238027,4.3,AB1 7,http://www.gidigrill.com/
+"242 Holburn St, Aberdeen AB10 6DB","Gidi Grill, Aberdeen",Aberdeen,N/A,pending,239,1224032104,2025-05-12 22:01:03.267414,4.6,AB1 7,http://www.peragrillandbar.co.uk/
+"26 Union St, Aberdeen AB10 1BD",Miller & Carter Aberdeen,Aberdeen,N/A,pending,4774,1224531074,2025-05-12 22:01:11.677420,4.7,AB1 7,https://www.millerandcarter.co.uk/restaurants/scotland-and-northern-ireland/millerandcarteraberdeen?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage
+"347 Union St, Aberdeen AB11 6BT",8848 Restaurant,Aberdeen,N/A,pending,679,1224595588,2025-05-12 22:01:24.746379,4.6,AB1 7,http://www.8848restaurant.co.uk/
+"15 Bon-Accord St, Aberdeen AB11 6EA",Chop Grill & Bar,Aberdeen,N/A,pending,208,7500705431,2025-05-12 22:01:37.260910,4.3,AB1 7,https://alfresco-aberdeen.com/
+"7 Summer St, Aberdeen AB10 1SB",AL FRESCO Italian Restaurant Aberdeen,Aberdeen,N/A,pending,340,1224460211,2025-05-12 22:01:44.064814,4.7,AB1 7,http://madamemews.com/
+"11 Albyn Pl, Aberdeen AB10 1YE",Madame Mew's,Aberdeen,N/A,pending,673,1224973855,2025-05-12 22:01:52.562259,4.6,AB1 7,https://www.thealbyn.co.uk/
+"73-75 Skene St, Aberdeen AB10 1QD",The Albyn,Aberdeen,N/A,pending,167,1224356826,2025-05-12 22:02:03.845384,4.4,AB1 7,https://viet-an.co.uk/
+"39 Summer St, Aberdeen AB10 1SB",Viet An,Aberdeen,N/A,pending,167,1224620333,2025-05-12 22:02:11.728872,4.7,AB1 7,http://www.thebraidedfig.co.uk/
+"257-259 Union St, Aberdeen AB11 6BR",The Braided Fig,Aberdeen,N/A,pending,386,1224590300,2025-05-12 22:02:18.949042,4.2,AB1 7,http://amaronerestaurant.co.uk/
+"23 Windmill Brae, Aberdeen AB11 6HU",Café Bohème,Aberdeen,N/A,pending,523,1224210677,2025-05-12 22:02:25.410313,4.7,AB1 7,http://cafebohemerestaurant.co.uk/
+"62 Union Row, Aberdeen AB10 1SA",Da Vinci Italian Restaurant,Aberdeen,N/A,pending,359,1224658444,2025-05-12 22:02:44.181157,4.5,AB1 7,http://www.rustico-restaurant.co.uk/
+"1 Queen's Terrace, Aberdeen AB10 1XL",Rustico,Aberdeen,N/A,pending,1257,1224611909,2025-05-12 22:02:51.912672,4.5,AB1 7,http://www.amuse-restaurant.com/
+"S Silver St, Aberdeen AB10 1PR",Amuse by Kevin Dalgleish,Aberdeen,N/A,pending,158,1224518616,2025-05-12 22:03:02.408583,4.3,AB1 7,https://thetownhouseaberdeen.com/
+"Unit 1, 2 The Grn, Aberdeen AB11 6NY",The TownHouse,Aberdeen,N/A,pending,80,1224586180,2025-05-12 22:03:09.604296,4.1,AB1 7,http://www.bistroverdeaberdeen.co.uk/
+"80-82 Huntly St, Aberdeen AB10 1TD",Bistro Verde,Aberdeen,N/A,pending,303,1224639198,2025-05-12 22:03:17.017267,4.4,AB1 7,https://www.amoreitalianrestaurant.co.uk/
+"17 Adelphi, Aberdeen AB11 5BL",Mi Amore,Aberdeen,N/A,nowebsite,1041,1224210530,2025-05-12 22:03:25.327504,4.6,AB1 7,N/A
+"17 Adelphi, Aberdeen AB11 5BL",Goulash,Aberdeen,N/A,pending,351,1224640483,2025-05-12 22:03:33.580556,4.7,AB1 7,http://www.thenooseandmonkey.com/
+"31-35 Rosemount Viaduct, Aberdeen AB25 1NQ",Noose & Monkey,Aberdeen,N/A,pending,574,1224675844,2025-05-12 22:03:48.542198,4.4,AB1 7,https://chaiiwala.co.uk/
+"49-53 Queen's Rd, Aberdeen AB15 4YP",chaiiwala Aberdeen,Aberdeen,N/A,pending,562,1224507097,2025-05-12 22:03:54.906189,4.8,AB1 7,https://www.malmaison.com/food-drink/brasserie/
+"11-15 Thistle St, Aberdeen AB10 1XZ",Chez Mal Aberdeen,Aberdeen,N/A,pending,485,1115101,2025-05-12 22:04:01.540240,4.4,AB1 7,http://foodstorycafe.co.uk/
+"38 Union St, Aberdeen AB10 1BD",Foodstory,Aberdeen,N/A,pending,1189,1224634815,2025-05-12 22:04:09.840781,4.5,AB1 7,http://www.theesslemont.co.uk/
+"58-60 Justice Mill Ln, Aberdeen AB11 6EP",The Esslemont Bar & Restaurant,Aberdeen,N/A,pending,301,1224036806,2025-05-12 22:04:21.777885,4.5,AB1 7,https://www.dosamigos.co.uk/
+"Guild St, Aberdeen AB11 5RG",DOS Amigos Aberdeen,Aberdeen,N/A,pending,227,1224588555,2025-05-12 22:04:30.371125,4.7,AB1 7,https://www.cosmo-restaurants.co.uk/restaurants/aberdeen?utm_source=local&utm_medium=organic&utm_campaign=gmb_aberdeen
+"367 Union St, Aberdeen AB11 6BT",COSMO All You Can Eat World Buffet Restaurant | Aberdeen,Aberdeen,N/A,pending,2289,1224002555,2025-05-12 22:04:38.626631,4.3,AB1 7,https://www.sixbynico.co.uk/aberdeen/
+"21 Bon-Accord Terrace, Aberdeen AB11 6DP",Six by Nico Aberdeen,Aberdeen,N/A,pending,314,1224588000,2025-05-12 22:04:45.609248,4.4,AB1 7,http://www.cafeharmony.co.uk/
+"7 St Nicholas Ln, Aberdeen AB10 1HF",Cafe Harmony,Aberdeen,N/A,pending,420,1224640597,2025-05-12 22:05:12.616791,4.7,AB1 7,https://www.belhaven.co.uk/pubs/aberdeen/prince-of-wales?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+"201 Union St, Aberdeen AB11 6BB",Prince Of Wales,Aberdeen,N/A,pending,1578,1224452682,2025-05-12 22:05:21.992099,4.4,AB1 7,https://glenhouseaberdeen.co.uk/
+"77-79 Skene St, Aberdeen AB10 1QD",Glenhouse Aberdeen,Aberdeen,N/A,nowebsite,1,1224636093,2025-05-12 22:05:30.855576,5.0,AB1 7,N/A
+"1 Mid Stocket Rd, Aberdeen AB15 5NE",Nargile Restaurant,Aberdeen,N/A,pending,416,1224977896,2025-05-12 22:05:40.382553,4.5,AB1 7,http://www.miltononthecorner.co.uk/
+"1 Mid Stocket Rd, Aberdeen AB15 5NE",Milton on the Corner,Aberdeen,N/A,pending,416,1224211857,2025-05-12 22:05:49.230132,4.5,AB1 7,http://www.miltononthecorner.co.uk/
+"210 Market St, Aberdeen AB11 5PQ",210 Bistro,Aberdeen,N/A,pending,207,1224596537,2025-05-12 22:06:16.767857,4.4,AB1 7,https://www.seoul-aberdeen.co.uk/
+"Unit 2, Marischal Square, Aberdeen AB10 1BL",Seoul Restaurant Korean BBQ & Japanese Aberdeen,Aberdeen,N/A,pending,282,1224635330,2025-05-12 22:06:33.329753,4.2,AB1 7,http://maggiesgrill.co.uk/
+"Unit 2, Marischal Square, Aberdeen AB10 1BL",Maggie's Grill,Aberdeen,N/A,pending,959,1224649592,2025-05-12 22:06:40.837808,4.7,AB1 7,https://thecitybaranddiner.wordpress.com/
+"37-39 Netherkirkgate, Aberdeen AB10 1AU",The City Bar and Diner,Aberdeen,N/A,pending,259,1224631640,2025-05-12 22:06:49.660521,4.5,AB1 7,https://www.99aberdeen.co.uk/
+"academy centre courtyard, Aberdeen AB10 1LB",Ninety-Nine,Aberdeen,N/A,pending,649,1224608585,2025-05-12 22:08:24.962021,4.5,AB1 7,https://www.revoluciondecuba.com/bar/aberdeen?utm_source=Google&utm_medium=Yext&y_source=1_NTA1MTM5MjUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+"210-212 George St, Aberdeen AB25 1BS",Revolución de Cuba Aberdeen,Aberdeen,N/A,pending,1205,1224633610,2025-05-12 22:08:42.140774,4.3,AB1 7,https://www.rishistakeawayaberdeen.co.uk/
+"210-212 George St, Aberdeen AB25 1BS",Rishi's Indian Aroma Aberdeen,Aberdeen,N/A,pending,868,1224581922,2025-05-12 22:08:59.193602,4.5,AB1 7,https://www.belhaven.co.uk/pubs/aberdeen/old-blackfriars?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+"52 Castlegate, Aberdeen AB11 5BB",Old Blackfriars,Aberdeen,N/A,pending,1373,1224647777,2025-05-12 22:09:16.416652,4.4,AB1 7,http://www.poldinos.co.uk/
+"7 Little Belmont St, Aberdeen AB10 1JG",Poldino's Restaurant & Pizzeria,Aberdeen,N/A,pending,513,7528235094,2025-05-12 22:09:54.368644,4.6,AB1 7,http://www.yorokobibycj.co.uk/
+"101 Crown St, Aberdeen AB11 6HH",Yorokobi by CJ,Aberdeen,N/A,pending,724,2045244246,2025-05-12 22:10:17.007553,4.5,AB1 7,https://www.instagram.com/oyo_brentwood_restaurant
+"13 Castle St, Aberdeen AB11 5BQ",Brentwood Restaurant,Aberdeen,N/A,pending,365,1224636888,2025-05-12 22:10:34.100561,4.4,AB1 7,http://www.siam-cottage.co.uk/
+"21 Union St, Aberdeen AB11 5BU",Siam Cottage,Aberdeen,N/A,pending,365,21115,2025-05-12 22:11:42.838149,4.6,AB1 7,https://www.feedmeonline.co.uk/takeaways/Aberdeen/AB11/union-cafe-and-bistro/menu/?custom=1
+"21 Union St, Aberdeen AB11 5BU",Union Cafe & Bistro,Aberdeen,N/A,pending,511,1224641171,2025-05-12 22:12:01.432625,4.4,AB1 7,https://www.the-globe-inn.com/
+"13 - 15 N Silver St, Aberdeen AB10 1RJ",The Globe Inn,Aberdeen,N/A,pending,778,1224595333,2025-05-12 22:12:31.940084,4.4,AB1 7,https://muzosturkishkitchen.co.uk/
+"Unit 1, 9 Sea, Beach Blvd, Esplanade, Aberdeen AB24 5NS",Muzo’s Turkish Kitchen,Aberdeen,N/A,pending,1362,1224322555,2025-05-12 22:13:22.466398,4.7,AB1 7,http://www.dutchmill.co.uk/
+"7 Queen's Rd, Aberdeen AB15 4NR",The Dutch Mill Hotel,Aberdeen,N/A,pending,889,1224323700,2025-05-12 22:13:55.561025,4.4,AB1 7,http://www.rendezvousatnargile.co.uk/
+"106-108 Forest Ave, Aberdeen AB15 4UP",Rendezvous | Nargile,Aberdeen,N/A,pending,312,1224590030,2025-05-12 22:14:25.266114,4.7,AB1 7,http://www.rendezvousatnargile.co.uk/
+"20 Bridge St, Aberdeen AB11 6JJ",Monsoona Healthy Indian cuisine,Aberdeen,N/A,pending,449,1224379920,2025-05-12 22:15:16.301140,4.4,AB1 7,https://www.namastedelhi.co.uk/
+"2, 8 King St, Aberdeen AB24 5AX",Namaste Delhi,Aberdeen,N/A,pending,299,1224453801,2025-05-12 22:16:05.268163,4.6,AB1 7,http://www.la-lombarda.co.uk/
+"2, 8 King St, Aberdeen AB24 5AX",Gio's by La Lombarda,Aberdeen,N/A,pending,65,1224647295,2025-05-12 22:16:18.461865,4.3,AB1 7,https://lahorekarahiaberdeen.co.uk/mSpY
+"145 King St, Aberdeen AB24 5AE",Lahore Karahi,Aberdeen,N/A,pending,526,1224413163,2025-05-12 22:17:08.435662,4.3,AB1 7,https://lahorekarahiaberdeen.co.uk/mSpY
+"27 Union Terrace, Aberdeen AB10 1NN",Tarragon On The Terrace,Aberdeen,N/A,pending,29,7469281355,2025-05-12 22:17:53.757310,3.7,AB1 7,http://diwanaberdeen.co.uk/
+"176 King St, Aberdeen AB24 5BH",Diwan Restaurant Aberdeen,Aberdeen,N/A,pending,73,1224422255,2025-05-12 22:18:14.697555,4.2,AB1 7,https://www.smokeandsoul.co.uk/
+"6 Littlejohn St, Aberdeen AB10 1FF",Six°North / Smoke & Soul,Aberdeen,N/A,pending,879,1224443322,2025-05-12 22:19:03.025291,4.5,AB1 7,https://www.lafiammapizzeria.com/
+"188 King St, Aberdeen AB24 5BH",La fiamma stone baked pizza,Aberdeen,N/A,pending,227,1224626490,2025-05-12 22:19:22.456266,4.8,AB1 7,https://www.lafiammapizzeria.com/
+"Little Belmont St, Aberdeen AB10 1JG",The Old School House,Aberdeen,N/A,pending,1047,1224640840,2025-05-12 22:20:10.302324,4.1,AB1 7,https://www.belhaven.co.uk/pubs/aberdeen/old-school-house?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+"22 King St, Aberdeen AB24 5AX",Flakes Diner,Aberdeen,N/A,nowebsite,198,261116,2025-05-12 22:20:46.298077,4.2,AB1 7,N/A
+"261 Union St, Aberdeen AB11 6BR",Thai Palace Restaurant,Aberdeen,N/A,nowebsite,2,1224211150,2025-05-12 22:21:03.295663,5.0,AB1 7,N/A
+"333 Union St, Aberdeen AB11 6BS",Soul,Aberdeen,N/A,pending,1087,1224624040,2025-05-12 22:21:14.358109,4.0,AB1 7,https://www.soulaberdeen.co.uk/
+"224 Union St, Aberdeen AB10 1TL",Molly Malones,Aberdeen,N/A,pending,1009,3301759230,2025-05-12 22:22:14.592016,4.2,AB1 7,https://www.tgifridays.co.uk/locations/aberdeen-union-square/?utm_source=localGMB&utm_medium=organic&utm_campaign=676
+"14/15 First Level Mall, Guild St, Aberdeen AB11 5RG",TGI Fridays - Aberdeen Union Square,Aberdeen,N/A,pending,1473,1224620987,2025-05-12 22:22:37.471534,4.2,AB1 7,https://www.tgifridays.co.uk/locations/aberdeen-union-square/?utm_source=localGMB&utm_medium=organic&utm_campaign=676
+"75 Huntly St, Aberdeen AB10 1TE",J.W.'s Sushi,Aberdeen,N/A,pending,261,1224379600,2025-05-12 22:23:46.984782,4.7,AB1 7,https://maduraichettinadurestaurant.com/
+"24 King St, Aberdeen AB24 5AX",Madurai Chettinadu South Indian Restaurant,Aberdeen,N/A,pending,239,1224587717,2025-05-12 22:23:57.574807,4.6,AB1 7,https://maduraichettinadurestaurant.com/
+"33 Summer St, Aberdeen AB10 1SB",The Nawaabs Tandoori Aberdeen,Aberdeen,N/A,pending,147,1224621800,2025-05-12 22:25:19.627714,3.9,AB1 7,https://www.nawaabsaberdeen.co.uk/
+"Unit 10, The Academy, Belmont St, Aberdeen AB10 1LB",Nando's Aberdeen - Belmont Street,Aberdeen,N/A,pending,472,1224625589,2025-05-12 22:25:45.684957,4.0,AB1 7,https://www.nandos.co.uk/restaurants/aberdeen-belmont-street?utm_campaign=websitecta_NA&utm_content=Multi-Chan_GB_NA_NA_NA_all_NA_NA_aberdeen-belmont-street&utm_medium=mybusiness&utm_source=google&utm_term=Local
+"44-46, Upperkirkgate, Aberdeen AB10 1BA",Upperkrust Aberdeen,Aberdeen,N/A,nowebsite,134,1224622334,2025-05-12 22:26:34.353060,4.8,AB1 7,N/A
+"206 Union St, Aberdeen AB10 1QS",Heavenly Desserts Aberdeen,Aberdeen,N/A,pending,404,1224630201,2025-05-12 22:26:53.953545,4.6,AB1 7,https://www.heavenlydesserts.co.uk/stores/aberdeen
+"1-3 Justice St, Aberdeen AB11 5HU",Eves Kitchen,Aberdeen,N/A,nowebsite,4,7478529103,2025-05-12 22:27:44.543620,3.0,AB1 7,N/A
+"21 Rose St, Aberdeen AB10 1TX",Marmaris Aberdeen,Aberdeen,N/A,pending,532,1224641052,2025-05-12 22:28:31.895430,4.4,AB1 7,http://www.marmarisaberdeen.co.uk/
+"47 Thistle St, Aberdeen AB10 1UY",The Eatery,Aberdeen,N/A,nowebsite,16,1224011625,2025-05-12 22:29:25.254055,4.4,AB1 7,N/A

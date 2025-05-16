@@ -1,0 +1,81 @@
+2025-05-15 15:15:11,958 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:15:11,961 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-15 15:15:11,966 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250515_151511.log
+2025-05-15 15:15:11,967 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-15 15:15:11,976 - googlemaps_scraper - INFO - ================================================================================
+2025-05-15 15:15:12,032 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-15 15:15:12,046 - googlemaps_scraper - INFO - Created queue index
+2025-05-15 15:15:12,053 - googlemaps_scraper - INFO - Created indexes
+2025-05-15 15:15:17,066 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-15 15:15:17,070 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-15 15:15:17,075 - googlemaps_scraper - INFO - Total subsectors to process: 288
+2025-05-15 15:15:17,090 - googlemaps_scraper - INFO - ==================================================
+2025-05-15 15:15:17,095 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M13 9 (1/288)
+2025-05-15 15:15:17,159 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:15:17,162 - googlemaps_scraper - INFO - Starting scrape for subsector: M13 9
+2025-05-15 15:15:17,163 - googlemaps_scraper - INFO - ============================================================
+2025-05-15 15:15:20,468 - googlemaps_scraper - INFO - M13 9 -> search query launched: restaurants in M13 9 Manchester
+2025-05-15 15:15:25,383 - googlemaps_scraper - INFO - M13 9 -> Found 5 unprocessed tiles
+2025-05-15 15:15:25,600 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+2025-05-15 15:15:35,448 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-15 15:15:35,449 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 4.3
+2025-05-15 15:15:35,449 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 2333
+2025-05-15 15:15:35,451 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-15 15:15:35,451 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-15 15:15:35,452 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 1615492175
+2025-05-15 15:15:35,453 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-15 15:15:35,454 - googlemaps_scraper - INFO - M13 9 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-15 15:15:35,477 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/5)
+2025-05-15 15:15:36,174 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 2/5: TGI Fridays - Trafford Centre
+2025-05-15 15:15:42,345 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 3/5: Safire Restaurant & Grill
+2025-05-15 15:15:48,596 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: TGI Fridays - Trafford Centre
+2025-05-15 15:15:48,598 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 3.6
+2025-05-15 15:15:48,598 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 1808
+2025-05-15 15:15:48,599 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 275A Upper Brook St, Manchester M13 0HR
+2025-05-15 15:15:48,600 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: http://www.safire.restaurant/
+2025-05-15 15:15:48,601 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 1612484848
+2025-05-15 15:15:48,602 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: TGI Fridays - Trafford Centre -> http://www.safire.restaurant/
+2025-05-15 15:15:48,603 - googlemaps_scraper - INFO - M13 9 -> Scraped: TGI Fridays - Trafford Centre (phone: 1612484848, address: 275A Upper Brook St, Mancheste..., website: http://www.safire.restaurant/)
+2025-05-15 15:15:48,615 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/5)
+2025-05-15 15:15:49,308 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 4/5: Seoul Kimchi
+2025-05-15 15:15:57,473 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: Safire Restaurant & Grill
+2025-05-15 15:15:57,476 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 4.5
+2025-05-15 15:15:57,476 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 1276
+2025-05-15 15:15:57,483 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 275A Upper Brook St, Manchester M13 0HR
+2025-05-15 15:15:57,486 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: https://www.facebook.com/seoulkimchimanchester/
+2025-05-15 15:15:57,489 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 7745527603
+2025-05-15 15:15:57,491 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: Safire Restaurant & Grill -> https://www.facebook.com/seoulkimchimanchester/
+2025-05-15 15:15:57,499 - googlemaps_scraper - INFO - M13 9 -> Scraped: Safire Restaurant & Grill (phone: 7745527603, address: 275A Upper Brook St, Mancheste..., website: https://www.facebook.com/seoul...)
+2025-05-15 15:15:57,525 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/5)
+2025-05-15 15:15:58,086 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 5/5: Navarro Lounge
+2025-05-15 15:16:03,898 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: Seoul Kimchi
+2025-05-15 15:16:03,899 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 4.6
+2025-05-15 15:16:03,900 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 906
+2025-05-15 15:16:03,901 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 144 Oxford Rd, Manchester M13 9GP
+2025-05-15 15:16:03,902 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: https://thelounges.co.uk/navarro/
+2025-05-15 15:16:03,903 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 1612759970
+2025-05-15 15:16:03,905 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: Seoul Kimchi -> https://thelounges.co.uk/navarro/
+2025-05-15 15:16:03,907 - googlemaps_scraper - INFO - M13 9 -> Scraped: Seoul Kimchi (phone: 1612759970, address: 144 Oxford Rd, Manchester M13 ..., website: https://thelounges.co.uk/navar...)
+2025-05-15 15:16:03,924 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/5)
+2025-05-15 15:16:04,328 - googlemaps_scraper - INFO - M13 9 -> Processed 4 new tiles in this batch
+2025-05-15 15:16:05,989 - googlemaps_scraper - INFO - M13 9 -> scrolled feed (tiles now 10)
+2025-05-15 15:16:05,991 - googlemaps_scraper - INFO - M13 9 -> Total unique businesses processed in this subsector: 4
+2025-05-15 15:16:07,658 - googlemaps_scraper - INFO - M13 9 -> Found 5 unprocessed tiles
+2025-05-15 15:16:07,782 - googlemaps_scraper - INFO - M13 9 -> Clicking tile 1/5: Albert's Shed Restaurant Manchester
+2025-05-15 15:16:14,581 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Business Name: Navarro Lounge
+2025-05-15 15:16:14,582 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Stars: 4.5
+2025-05-15 15:16:14,582 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Reviews: 492
+2025-05-15 15:16:14,583 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Address: 18-20 Castle St, Manchester M3 4LZ
+2025-05-15 15:16:14,583 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Website: http://alberts-restaurants.com/shed/
+2025-05-15 15:16:14,584 - googlemaps_scraper - INFO - M13 9 -> EXTRACTION: Phone: 1618399818
+2025-05-15 15:16:14,585 - googlemaps_scraper - INFO - M13 9 -> BUSINESS-WEBSITE MAPPING: Navarro Lounge -> http://alberts-restaurants.com/shed/
+2025-05-15 15:16:14,585 - googlemaps_scraper - INFO - M13 9 -> Scraped: Navarro Lounge (phone: 1618399818, address: 18-20 Castle St, Manchester M3..., website: http://alberts-restaurants.com...)
+2025-05-15 15:16:14,590 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/5)
+2025-05-15 15:16:14,590 - googlemaps_scraper - INFO - Reached 5 unique records with phone numbers (5), stopping Google Maps scraper
+2025-05-15 15:16:14,592 - googlemaps_scraper - INFO - M13 9 -> Termination requested after record insertion
+2025-05-15 15:16:14,596 - googlemaps_scraper - INFO - M13 9 -> skipped due to termination request
+2025-05-15 15:16:14,597 - googlemaps_scraper - INFO - Google Maps scraper terminated by user request
+2025-05-15 15:16:17,139 - googlemaps_scraper - INFO - Chrome driver closed
+2025-05-15 15:16:17,147 - googlemaps_scraper - INFO - MongoDB connection closed
+2025-05-15 15:16:17,148 - googlemaps_scraper - INFO - Starting email scraper for Manchester.restaurants
+2025-05-15 15:16:17,152 - googlemaps_scraper - INFO - Google Maps scraper finished with success=False, unique_records=5
