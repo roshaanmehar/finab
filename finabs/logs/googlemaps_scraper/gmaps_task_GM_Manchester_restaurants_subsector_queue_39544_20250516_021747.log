@@ -1,0 +1,7 @@
+[2025-05-16 02:17:47] INFO    – ================================================================================
+[2025-05-16 02:17:47] INFO    – Starting Google Maps scraper task GM_Manchester_restaurants_subsector_queue_39544
+[2025-05-16 02:17:47] INFO    – Database: Manchester, Queue: restaurants_subsector_queue, Business: restaurants
+[2025-05-16 02:17:47] INFO    – ================================================================================
+[2025-05-16 02:17:52] INFO    – Found 302 total subsectors in Manchester.restaurants_subsector_queue (298 unprocessed)
+[2025-05-16 02:17:52] INFO    – Starting Google Maps scraper for Manchester, queue: restaurants_subsector_queue, business: restaurants
+[2025-05-16 02:17:52] INFO    – Initial count of records with phone numbers: 248

@@ -1,0 +1,109 @@
+[2025-05-16 02:17:52] INFO    – ================================================================================
+[2025-05-16 02:17:52] INFO    – Starting Google Maps scraper from API
+[2025-05-16 02:17:52] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_021752.log
+[2025-05-16 02:17:52] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 02:17:52] INFO    – ================================================================================
+[2025-05-16 02:17:56] INFO    – Connected to MongoDB successfully
+[2025-05-16 02:17:56] INFO    – Created queue index
+[2025-05-16 02:17:56] INFO    – Created indexes
+[2025-05-16 02:17:58] INFO    – Chrome driver initialized successfully
+[2025-05-16 02:17:58] INFO    – Processing all unprocessed subsectors
+[2025-05-16 02:17:58] INFO    – Total subsectors to process: 298
+[2025-05-16 02:17:58] INFO    – ==================================================
+[2025-05-16 02:17:58] INFO    – PROCESSING SUBSECTOR: M10 9 (1/298)
+[2025-05-16 02:17:58] INFO    – ============================================================
+[2025-05-16 02:17:58] INFO    – Starting scrape for subsector: M10 9
+[2025-05-16 02:17:58] INFO    – ============================================================
+[2025-05-16 02:18:02] INFO    – M10 9 -> search query launched: restaurants in M10 9 Manchester
+[2025-05-16 02:18:05] INFO    – M10 9 -> Found 5 unprocessed tiles
+[2025-05-16 02:18:05] INFO    – M10 9 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:18:12] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Stars: 4.3
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Reviews: 2333
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-16 02:18:13] INFO    – M10 9 -> EXTRACTION: Phone: 1615492175
+[2025-05-16 02:18:13] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-16 02:18:13] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+[2025-05-16 02:18:13] INFO    – M10 9 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+[2025-05-16 02:18:13] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:18:19] INFO    – M10 9 -> Clicking tile 2/5: 10 Tib Lane
+[2025-05-16 02:18:24] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.10tiblane.com/ for business 10 Tib Lane
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Business Name: 10 Tib Lane
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Stars: 4.6
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Reviews: 308
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Address: 10 Tib Ln, Manchester M2 4JB
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Website: https://www.10tiblane.com/
+[2025-05-16 02:18:25] INFO    – M10 9 -> EXTRACTION: Phone: 1618331034
+[2025-05-16 02:18:25] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: 10 Tib Lane -> https://www.10tiblane.com/
+[2025-05-16 02:18:25] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='10 Tib Lane', Website='https://www.10tiblane.com/', Phone='1618331034', Address='10 Tib Ln, Manchester M2 4JB'
+[2025-05-16 02:18:25] INFO    – M10 9 -> Scraped: 10 Tib Lane (phone: 1618331034, address: 10 Tib Ln, Manchester M2 4JB, website: https://www.10tiblane.com/)
+[2025-05-16 02:18:25] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:18:32] INFO    – M10 9 -> Clicking tile 3/5: Albert's Shed Restaurant Manchester
+[2025-05-16 02:18:36] INFO    – WEBSITE-BUSINESS MAPPING: Found website http://alberts-restaurants.com/shed/ for business Albert's Shed Restaurant Manchester
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Business Name: Albert's Shed Restaurant Manchester
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Stars: 4.4
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Reviews: 1866
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Address: 18-20 Castle St, Manchester M3 4LZ
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Website: http://alberts-restaurants.com/shed/
+[2025-05-16 02:18:37] INFO    – M10 9 -> EXTRACTION: Phone: 1618399818
+[2025-05-16 02:18:37] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: Albert's Shed Restaurant Manchester -> http://alberts-restaurants.com/shed/
+[2025-05-16 02:18:37] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='Albert's Shed Restaurant Manchester', Website='http://alberts-restaurants.com/shed/', Phone='1618399818', Address='18-20 Castle St, Manchester M3...'
+[2025-05-16 02:18:37] INFO    – M10 9 -> Scraped: Albert's Shed Restaurant Manchester (phone: 1618399818, address: 18-20 Castle St, Manchester M3..., website: http://alberts-restaurants.com...)
+[2025-05-16 02:18:37] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:18:44] INFO    – M10 9 -> Clicking tile 4/5: Italiana FiftyFive - Italian Restaurant Manchester
+[2025-05-16 02:18:49] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://italianafiftyfive.co.uk/ for business Italiana FiftyFive - Italian Restaurant Manchester
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Business Name: Italiana FiftyFive - Italian Restaurant Manchester
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Stars: 4.5
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Reviews: 1870
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Address: 3-11 Liverpool Rd, Manchester M3 4NW
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Website: https://italianafiftyfive.co.uk/
+[2025-05-16 02:18:50] INFO    – M10 9 -> EXTRACTION: Phone: 1618349741
+[2025-05-16 02:18:50] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: Italiana FiftyFive - Italian Restaurant Manchester -> https://italianafiftyfive.co.uk/
+[2025-05-16 02:18:50] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='Italiana FiftyFive - Italian Restaurant Manchester', Website='https://italianafiftyfive.co.uk/', Phone='1618349741', Address='3-11 Liverpool Rd, Manchester ...'
+[2025-05-16 02:18:50] INFO    – M10 9 -> Scraped: Italiana FiftyFive - Italian Restaurant Manchester (phone: 1618349741, address: 3-11 Liverpool Rd, Manchester ..., website: https://italianafiftyfive.co.u...)
+[2025-05-16 02:18:50] INFO    – Google Maps scraper found 1 new unique records (total: 1/120)
+[2025-05-16 02:18:50] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:18:57] INFO    – M10 9 -> Clicking tile 5/5: WOOD Manchester by Simon Wood
+[2025-05-16 02:19:01] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://woodrestaurantgroup.com/ for business WOOD Manchester by Simon Wood
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Business Name: WOOD Manchester by Simon Wood
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Stars: 4.5
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Reviews: 734
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Address: Jack Rosenthal St, Manchester M15 4RA
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Website: https://woodrestaurantgroup.com/
+[2025-05-16 02:19:02] INFO    – M10 9 -> EXTRACTION: Phone: 1612365211
+[2025-05-16 02:19:02] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: WOOD Manchester by Simon Wood -> https://woodrestaurantgroup.com/
+[2025-05-16 02:19:02] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='WOOD Manchester by Simon Wood', Website='https://woodrestaurantgroup.com/', Phone='1612365211', Address='Jack Rosenthal St, Manchester ...'
+[2025-05-16 02:19:02] INFO    – M10 9 -> Scraped: WOOD Manchester by Simon Wood (phone: 1612365211, address: Jack Rosenthal St, Manchester ..., website: https://woodrestaurantgroup.co...)
+[2025-05-16 02:19:02] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:19:08] INFO    – M10 9 -> Processed 5 new tiles in this batch
+[2025-05-16 02:19:10] INFO    – M10 9 -> scrolled feed (tiles now 10)
+[2025-05-16 02:19:10] INFO    – M10 9 -> Total unique businesses processed in this subsector: 5
+[2025-05-16 02:19:11] INFO    – M10 9 -> Found 5 unprocessed tiles
+[2025-05-16 02:19:11] INFO    – M10 9 -> Clicking tile 1/5: Tattu Manchester
+[2025-05-16 02:19:15] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://tattu.co.uk/locations/manchester/ for business Tattu Manchester
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Business Name: Tattu Manchester
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Stars: 4.5
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Reviews: 3150
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Address: 3 Hardman Square, Gartside St, Manchester M3 3EB
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Website: https://tattu.co.uk/locations/manchester/
+[2025-05-16 02:19:16] INFO    – M10 9 -> EXTRACTION: Phone: 1618192060
+[2025-05-16 02:19:16] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: Tattu Manchester -> https://tattu.co.uk/locations/manchester/
+[2025-05-16 02:19:16] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='Tattu Manchester', Website='https://tattu.co.uk/locations/manchester/', Phone='1618192060', Address='3 Hardman Square, Gartside St,...'
+[2025-05-16 02:19:16] INFO    – M10 9 -> Scraped: Tattu Manchester (phone: 1618192060, address: 3 Hardman Square, Gartside St,..., website: https://tattu.co.uk/locations/...)
+[2025-05-16 02:19:16] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card
+[2025-05-16 02:19:23] INFO    – M10 9 -> Clicking tile 2/5: Sapporo Teppanyaki Manchester
+[2025-05-16 02:19:25] INFO    – M10 9 -> Clicking tile 3/5: Rudy's Pizza Napoletana - Ancoats
+[2025-05-16 02:19:30] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.rudyspizza.co.uk/pizzerias/ancoats for business Rudy's Pizza Napoletana - Ancoats
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Business Name: Rudy's Pizza Napoletana - Ancoats
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Stars: 4.7
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Reviews: 4380
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Address: 9 Cotton St, Ancoats, Manchester M4 5BF
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Website: https://www.rudyspizza.co.uk/pizzerias/ancoats
+[2025-05-16 02:19:31] INFO    – M10 9 -> EXTRACTION: Phone: 1618208292
+[2025-05-16 02:19:31] INFO    – M10 9 -> BUSINESS-WEBSITE MAPPING: Rudy's Pizza Napoletana - Ancoats -> https://www.rudyspizza.co.uk/pizzerias/ancoats
+[2025-05-16 02:19:31] INFO    – M10 9 -> BUSINESS DATA SUMMARY: Name='Rudy's Pizza Napoletana - Ancoats', Website='https://www.rudyspizza.co.uk/pizzerias/ancoats', Phone='1618208292', Address='9 Cotton St, Ancoats, Manchest...'
+[2025-05-16 02:19:31] INFO    – M10 9 -> Scraped: Rudy's Pizza Napoletana - Ancoats (phone: 1618208292, address: 9 Cotton St, Ancoats, Manchest..., website: https://www.rudyspizza.co.uk/p...)
+[2025-05-16 02:19:31] INFO    – Google Maps scraper found 1 new unique records (total: 2/120)
+[2025-05-16 02:19:31] INFO    – M10 9 -> Waiting for 6.0 seconds before closing card

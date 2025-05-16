@@ -1,0 +1,40 @@
+[2025-05-16 02:07:19] INFO    – ================================================================================
+[2025-05-16 02:07:19] INFO    – Starting Google Maps scraper from API
+[2025-05-16 02:07:19] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_020719.log
+[2025-05-16 02:07:19] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 02:07:19] INFO    – ================================================================================
+[2025-05-16 02:07:24] INFO    – Connected to MongoDB successfully
+[2025-05-16 02:07:24] INFO    – Created queue index
+[2025-05-16 02:07:24] INFO    – Created indexes
+[2025-05-16 02:07:26] INFO    – Chrome driver initialized successfully
+[2025-05-16 02:07:26] INFO    – Processing all unprocessed subsectors
+[2025-05-16 02:07:26] INFO    – Total subsectors to process: 298
+[2025-05-16 02:07:26] INFO    – ==================================================
+[2025-05-16 02:07:26] INFO    – PROCESSING SUBSECTOR: M10 7 (1/298)
+[2025-05-16 02:07:26] INFO    – ============================================================
+[2025-05-16 02:07:26] INFO    – Starting scrape for subsector: M10 7
+[2025-05-16 02:07:26] INFO    – ============================================================
+[2025-05-16 02:07:31] INFO    – M10 7 -> search query launched: restaurants in M10 7 Manchester
+[2025-05-16 02:07:33] INFO    – M10 7 -> Found 5 unprocessed tiles
+[2025-05-16 02:07:34] INFO    – M10 7 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:07:39] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Stars: 4.3
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Reviews: 2333
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-16 02:07:40] INFO    – M10 7 -> EXTRACTION: Phone: 1615492175
+[2025-05-16 02:07:40] INFO    – M10 7 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-16 02:07:40] INFO    – M10 7 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+[2025-05-16 02:07:40] INFO    – M10 7 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+[2025-05-16 02:07:47] WARNING – M10 7 -> Card may not be fully closed, attempting force close
+[2025-05-16 02:07:49] INFO    – M10 7 -> Clicking tile 2/5: 
+[2025-05-16 02:07:50] INFO    – M10 7 -> Clicking tile 3/5: 
+[2025-05-16 02:07:50] INFO    – M10 7 -> Clicking tile 4/5: 
+[2025-05-16 02:07:51] INFO    – M10 7 -> Clicking tile 5/5: 
+[2025-05-16 02:07:51] INFO    – M10 7 -> Processed 1 new tiles in this batch
+[2025-05-16 02:07:54] INFO    – M10 7 -> Scroll was not successful (attempt 1/6)
+[2025-05-16 02:07:54] INFO    – M10 7 -> Total unique businesses processed in this subsector: 1
+[2025-05-16 02:07:54] INFO    – M10 7 -> Found 5 unprocessed tiles
+[2025-05-16 02:07:54] INFO    – M10 7 -> Clicking tile 1/5: 
+[2025-05-16 02:07:55] INFO    – M10 7 -> Clicking tile 2/5: 

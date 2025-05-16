@@ -1,0 +1,702 @@
+2025-05-16 01:54:27,407 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:54:27,412 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 01:54:27,415 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_015427.log
+2025-05-16 01:54:27,418 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 01:54:27,425 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 01:54:31,815 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 01:54:31,851 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 01:54:31,961 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 01:54:34,280 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 01:54:34,280 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 01:54:34,318 - googlemaps_scraper - INFO - Total subsectors to process: 299
+2025-05-16 01:54:34,380 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 01:54:34,386 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M1 1 (1/299)
+2025-05-16 01:54:34,440 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:54:34,442 - googlemaps_scraper - INFO - Starting scrape for subsector: M1 1
+2025-05-16 01:54:34,444 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 01:54:38,909 - googlemaps_scraper - INFO - M1 1 -> search query launched: restaurants in M1 1 Manchester
+2025-05-16 01:54:41,564 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:54:41,631 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+2025-05-16 01:54:46,808 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+2025-05-16 01:54:47,905 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-16 01:54:47,905 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:54:47,905 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2333
+2025-05-16 01:54:47,906 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-16 01:54:47,906 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-16 01:54:47,907 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1615492175
+2025-05-16 01:54:47,907 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-16 01:54:47,907 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+2025-05-16 01:54:47,908 - googlemaps_scraper - INFO - M1 1 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-16 01:54:48,571 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Peter Street Kitchen
+2025-05-16 01:54:51,843 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Higher Ground
+2025-05-16 01:54:57,317 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://highergroundmcr.co.uk/ for business Higher Ground
+2025-05-16 01:54:58,348 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Higher Ground
+2025-05-16 01:54:58,348 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.7
+2025-05-16 01:54:58,349 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 318
+2025-05-16 01:54:58,349 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Faulkner House, New York St, Manchester M1 4DY
+2025-05-16 01:54:58,350 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://highergroundmcr.co.uk/
+2025-05-16 01:54:58,350 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612362931
+2025-05-16 01:54:58,351 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Higher Ground -> http://highergroundmcr.co.uk/
+2025-05-16 01:54:58,351 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Higher Ground', Website='http://highergroundmcr.co.uk/', Phone='1612362931', Address='Faulkner House, New York St, M...'
+2025-05-16 01:54:58,351 - googlemaps_scraper - INFO - M1 1 -> Scraped: Higher Ground (phone: 1612362931, address: Faulkner House, New York St, M..., website: http://highergroundmcr.co.uk/)
+2025-05-16 01:54:58,885 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Store Street Exchange Restaurant
+2025-05-16 01:55:03,533 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.storestreetmanchester.co.uk/ for business Store Street Exchange Restaurant
+2025-05-16 01:55:04,584 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Store Street Exchange Restaurant
+2025-05-16 01:55:04,584 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.1
+2025-05-16 01:55:04,584 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 280
+2025-05-16 01:55:04,585 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Ground Floor, Store Street Exchange, One Piccadilly Place, 1 Piccadilly, Auburn St, Manchester M1 3DG
+2025-05-16 01:55:04,585 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.storestreetmanchester.co.uk/
+2025-05-16 01:55:04,585 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612421020
+2025-05-16 01:55:04,586 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Store Street Exchange Restaurant -> http://www.storestreetmanchester.co.uk/
+2025-05-16 01:55:04,586 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Store Street Exchange Restaurant', Website='http://www.storestreetmanchester.co.uk/', Phone='1612421020', Address='Ground Floor, Store Street Exc...'
+2025-05-16 01:55:04,587 - googlemaps_scraper - INFO - M1 1 -> Scraped: Store Street Exchange Restaurant (phone: 1612421020, address: Ground Floor, Store Street Exc..., website: http://www.storestreetmanchest...)
+2025-05-16 01:55:05,289 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Turtle Bay Manchester Northern Quarter
+2025-05-16 01:55:10,380 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://turtlebay.co.uk/restaurants/manchester-nq?utm_source=ExtNet&utm_medium=Yext for business Turtle Bay Manchester Northern Quarter
+2025-05-16 01:55:11,426 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Turtle Bay Manchester Northern Quarter
+2025-05-16 01:55:11,426 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:55:11,427 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 14403
+2025-05-16 01:55:11,427 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 46-50 Oldham St, Manchester M4 1LE
+2025-05-16 01:55:11,427 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://turtlebay.co.uk/restaurants/manchester-nq?utm_source=ExtNet&utm_medium=Yext
+2025-05-16 01:55:11,428 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612358411
+2025-05-16 01:55:11,428 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Turtle Bay Manchester Northern Quarter -> https://turtlebay.co.uk/restaurants/manchester-nq?utm_source=ExtNet&utm_medium=Yext
+2025-05-16 01:55:11,429 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Turtle Bay Manchester Northern Quarter', Website='https://turtlebay.co.uk/restaurants/manchester-nq?utm_source=ExtNet&utm_medium=Yext', Phone='1612358411', Address='46-50 Oldham St, Manchester M4...'
+2025-05-16 01:55:11,429 - googlemaps_scraper - INFO - M1 1 -> Scraped: Turtle Bay Manchester Northern Quarter (phone: 1612358411, address: 46-50 Oldham St, Manchester M4..., website: https://turtlebay.co.uk/restau...)
+2025-05-16 01:55:11,792 - googlemaps_scraper - INFO - M1 1 -> Processed 4 new tiles in this batch
+2025-05-16 01:55:13,366 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 10)
+2025-05-16 01:55:13,366 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 4
+2025-05-16 01:55:13,988 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:55:14,041 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Aplus Oriental Restaurant
+2025-05-16 01:55:16,925 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Chez Mal Manchester
+2025-05-16 01:55:21,785 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.malmaison.com/locations/manchester/chez-mal-brasserie-bar/ for business Aplus Oriental Restaurant
+2025-05-16 01:55:22,834 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Aplus Oriental Restaurant
+2025-05-16 01:55:22,835 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.1
+2025-05-16 01:55:22,835 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 213
+2025-05-16 01:55:22,836 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Malmaison Manchester, 1-3 Piccadilly, Manchester M1 1LZ
+2025-05-16 01:55:22,836 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.malmaison.com/locations/manchester/chez-mal-brasserie-bar/
+2025-05-16 01:55:22,836 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: None
+2025-05-16 01:55:22,837 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Aplus Oriental Restaurant -> https://www.malmaison.com/locations/manchester/chez-mal-brasserie-bar/
+2025-05-16 01:55:22,837 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Aplus Oriental Restaurant', Website='https://www.malmaison.com/locations/manchester/chez-mal-brasserie-bar/', Phone='None', Address='Malmaison Manchester, 1-3 Picc...'
+2025-05-16 01:55:22,838 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Aplus Oriental Restaurant' differs from tile name 'Chez Mal Manchester' (expected due to UI lag)
+2025-05-16 01:55:22,838 - googlemaps_scraper - INFO - M1 1 -> Scraped: Aplus Oriental Restaurant (phone: none, address: Malmaison Manchester, 1-3 Picc..., website: https://www.malmaison.com/loca...)
+2025-05-16 01:55:23,424 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: TNQ - The Northern Quarter Restaurant & Bar
+2025-05-16 01:55:28,194 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.tnq.co.uk/#tnq-northern-quarter-restaurant-home for business TNQ - The Northern Quarter Restaurant & Bar
+2025-05-16 01:55:29,274 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: TNQ - The Northern Quarter Restaurant & Bar
+2025-05-16 01:55:29,274 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 01:55:29,274 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1224
+2025-05-16 01:55:29,275 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 108 High St, Manchester M4 1HQ
+2025-05-16 01:55:29,275 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.tnq.co.uk/#tnq-northern-quarter-restaurant-home
+2025-05-16 01:55:29,276 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618327115
+2025-05-16 01:55:29,276 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: TNQ - The Northern Quarter Restaurant & Bar -> https://www.tnq.co.uk/#tnq-northern-quarter-restaurant-home
+2025-05-16 01:55:29,277 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='TNQ - The Northern Quarter Restaurant & Bar', Website='https://www.tnq.co.uk/#tnq-northern-quarter-restaurant-home', Phone='1618327115', Address='108 High St, Manchester M4 1HQ'
+2025-05-16 01:55:29,277 - googlemaps_scraper - INFO - M1 1 -> Scraped: TNQ - The Northern Quarter Restaurant & Bar (phone: 1618327115, address: 108 High St, Manchester M4 1HQ, website: https://www.tnq.co.uk/#tnq-nor...)
+2025-05-16 01:55:29,800 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Lazy Panda Pan Asian
+2025-05-16 01:55:32,815 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Bundobust Manchester Piccadilly
+2025-05-16 01:55:37,656 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.bundobust.com/ for business Bundobust Manchester Piccadilly
+2025-05-16 01:55:38,732 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Bundobust Manchester Piccadilly
+2025-05-16 01:55:38,732 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:55:38,733 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 3701
+2025-05-16 01:55:38,733 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 61 Piccadilly, Manchester M1 2AG
+2025-05-16 01:55:38,733 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.bundobust.com/
+2025-05-16 01:55:38,734 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1613596757
+2025-05-16 01:55:38,734 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Bundobust Manchester Piccadilly -> http://www.bundobust.com/
+2025-05-16 01:55:38,734 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Bundobust Manchester Piccadilly', Website='http://www.bundobust.com/', Phone='1613596757', Address='61 Piccadilly, Manchester M1 2...'
+2025-05-16 01:55:38,735 - googlemaps_scraper - INFO - M1 1 -> Scraped: Bundobust Manchester Piccadilly (phone: 1613596757, address: 61 Piccadilly, Manchester M1 2..., website: http://www.bundobust.com/)
+2025-05-16 01:55:39,456 - googlemaps_scraper - INFO - M1 1 -> Processed 3 new tiles in this batch
+2025-05-16 01:55:41,025 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 15)
+2025-05-16 01:55:41,026 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 7
+2025-05-16 01:55:42,004 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:55:42,039 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Sandbar Manchester
+2025-05-16 01:55:46,600 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://sandbarmanchester.co.uk/ for business Sandbar Manchester
+2025-05-16 01:55:47,644 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Sandbar Manchester
+2025-05-16 01:55:47,645 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:55:47,645 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1163
+2025-05-16 01:55:47,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 120 Grosvenor St, Manchester M1 7HL
+2025-05-16 01:55:47,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://sandbarmanchester.co.uk/
+2025-05-16 01:55:47,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 7572266261
+2025-05-16 01:55:47,647 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Sandbar Manchester -> http://sandbarmanchester.co.uk/
+2025-05-16 01:55:47,647 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Sandbar Manchester', Website='http://sandbarmanchester.co.uk/', Phone='7572266261', Address='120 Grosvenor St, Manchester M...'
+2025-05-16 01:55:47,648 - googlemaps_scraper - INFO - M1 1 -> Scraped: Sandbar Manchester (phone: 7572266261, address: 120 Grosvenor St, Manchester M..., website: http://sandbarmanchester.co.uk...)
+2025-05-16 01:55:47,725 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-16 01:55:48,144 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Turtle Bay Manchester Oxford Rd
+2025-05-16 01:55:52,984 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.turtlebay.co.uk/locations/manchester-oxford-st/?utm_source=ExtNet&utm_medium=Yext for business Turtle Bay Manchester Oxford Rd
+2025-05-16 01:55:54,032 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Turtle Bay Manchester Oxford Rd
+2025-05-16 01:55:54,033 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:55:54,033 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 18732
+2025-05-16 01:55:54,033 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 33-35 Oxford St, Manchester M1 4WB
+2025-05-16 01:55:54,034 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.turtlebay.co.uk/locations/manchester-oxford-st/?utm_source=ExtNet&utm_medium=Yext
+2025-05-16 01:55:54,034 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612364101
+2025-05-16 01:55:54,035 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Turtle Bay Manchester Oxford Rd -> http://www.turtlebay.co.uk/locations/manchester-oxford-st/?utm_source=ExtNet&utm_medium=Yext
+2025-05-16 01:55:54,035 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Turtle Bay Manchester Oxford Rd', Website='http://www.turtlebay.co.uk/locations/manchester-oxford-st/?utm_source=ExtNet&utm_medium=Yext', Phone='1612364101', Address='33-35 Oxford St, Manchester M1...'
+2025-05-16 01:55:54,035 - googlemaps_scraper - INFO - M1 1 -> Scraped: Turtle Bay Manchester Oxford Rd (phone: 1612364101, address: 33-35 Oxford St, Manchester M1..., website: http://www.turtlebay.co.uk/loc...)
+2025-05-16 01:55:54,526 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Fumo by San Carlo - Manchester
+2025-05-16 01:55:59,490 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://sancarlo.co.uk/restaurants/fumo-manchester/?utm_source=google&utm_medium=organic_gbp&utm_campaign=manchester for business Fumo by San Carlo - Manchester
+2025-05-16 01:56:00,539 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Fumo by San Carlo - Manchester
+2025-05-16 01:56:00,539 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 3.9
+2025-05-16 01:56:00,540 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1263
+2025-05-16 01:56:00,540 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1 St Peter's Sq, Oxford St, Manchester M1 5AN
+2025-05-16 01:56:00,541 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://sancarlo.co.uk/restaurants/fumo-manchester/?utm_source=google&utm_medium=organic_gbp&utm_campaign=manchester
+2025-05-16 01:56:00,541 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612367344
+2025-05-16 01:56:00,542 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Fumo by San Carlo - Manchester -> https://sancarlo.co.uk/restaurants/fumo-manchester/?utm_source=google&utm_medium=organic_gbp&utm_campaign=manchester
+2025-05-16 01:56:00,542 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Fumo by San Carlo - Manchester', Website='https://sancarlo.co.uk/restaurants/fumo-manchester/?utm_source=google&utm_medium=organic_gbp&utm_campaign=manchester', Phone='1612367344', Address='1 St Peter's Sq, Oxford St, Ma...'
+2025-05-16 01:56:00,543 - googlemaps_scraper - INFO - M1 1 -> Scraped: Fumo by San Carlo - Manchester (phone: 1612367344, address: 1 St Peter's Sq, Oxford St, Ma..., website: https://sancarlo.co.uk/restaur...)
+2025-05-16 01:56:00,621 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-16 01:56:01,006 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Shoryu Ramen
+2025-05-16 01:56:05,944 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.shoryuramen.com/stores/76-manchester for business Shoryu Ramen
+2025-05-16 01:56:06,994 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Shoryu Ramen
+2025-05-16 01:56:06,994 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 01:56:06,995 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2914
+2025-05-16 01:56:06,995 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: One Piccadilly Gardens, Manchester M1 1RG
+2025-05-16 01:56:06,995 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.shoryuramen.com/stores/76-manchester
+2025-05-16 01:56:06,996 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: None
+2025-05-16 01:56:06,996 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Shoryu Ramen -> https://www.shoryuramen.com/stores/76-manchester
+2025-05-16 01:56:06,996 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Shoryu Ramen', Website='https://www.shoryuramen.com/stores/76-manchester', Phone='None', Address='One Piccadilly Gardens, Manche...'
+2025-05-16 01:56:06,997 - googlemaps_scraper - INFO - M1 1 -> Scraped: Shoryu Ramen (phone: none, address: One Piccadilly Gardens, Manche..., website: https://www.shoryuramen.com/st...)
+2025-05-16 01:56:07,643 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Giovannis - Italian Restaurant Manchester
+2025-05-16 01:56:12,112 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://giovannis.co.uk/ for business Giovannis - Italian Restaurant Manchester
+2025-05-16 01:56:13,139 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Giovannis - Italian Restaurant Manchester
+2025-05-16 01:56:13,140 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 3.9
+2025-05-16 01:56:13,140 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2568
+2025-05-16 01:56:13,141 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1, Peter House, Oxford St, Manchester M1 5AN
+2025-05-16 01:56:13,141 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://giovannis.co.uk/
+2025-05-16 01:56:13,142 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612282482
+2025-05-16 01:56:13,142 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Giovannis - Italian Restaurant Manchester -> https://giovannis.co.uk/
+2025-05-16 01:56:13,142 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Giovannis - Italian Restaurant Manchester', Website='https://giovannis.co.uk/', Phone='1612282482', Address='1, Peter House, Oxford St, Man...'
+2025-05-16 01:56:13,143 - googlemaps_scraper - INFO - M1 1 -> Scraped: Giovannis - Italian Restaurant Manchester (phone: 1612282482, address: 1, Peter House, Oxford St, Man..., website: https://giovannis.co.uk/)
+2025-05-16 01:56:13,684 - googlemaps_scraper - INFO - M1 1 -> Processed 5 new tiles in this batch
+2025-05-16 01:56:15,245 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 21)
+2025-05-16 01:56:15,245 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 12
+2025-05-16 01:56:16,320 - googlemaps_scraper - INFO - M1 1 -> Found 6 unprocessed tiles
+2025-05-16 01:56:16,367 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/6: Grove Inn
+2025-05-16 01:56:21,410 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.joseph-holt.com/pubs/grove-inn for business Grove Inn
+2025-05-16 01:56:22,453 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Grove Inn
+2025-05-16 01:56:22,453 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:56:22,453 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 264
+2025-05-16 01:56:22,454 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 652 Ashton New Rd, Clayton, Manchester M11 4AT
+2025-05-16 01:56:22,454 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.joseph-holt.com/pubs/grove-inn
+2025-05-16 01:56:22,454 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612236522
+2025-05-16 01:56:22,454 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Grove Inn -> https://www.joseph-holt.com/pubs/grove-inn
+2025-05-16 01:56:22,455 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Grove Inn', Website='https://www.joseph-holt.com/pubs/grove-inn', Phone='1612236522', Address='652 Ashton New Rd, Clayton, Ma...'
+2025-05-16 01:56:22,455 - googlemaps_scraper - INFO - M1 1 -> Scraped: Grove Inn (phone: 1612236522, address: 652 Ashton New Rd, Clayton, Ma..., website: https://www.joseph-holt.com/pu...)
+2025-05-16 01:56:22,538 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/120)
+2025-05-16 01:56:23,171 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/6: mana
+2025-05-16 01:56:26,378 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/6: Freight Island
+2025-05-16 01:56:31,490 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.escapetofreightisland.com/ for business mana
+2025-05-16 01:56:32,676 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: mana
+2025-05-16 01:56:32,677 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 01:56:32,677 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2892
+2025-05-16 01:56:32,678 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 11 Baring St, Manchester M1 2PZ
+2025-05-16 01:56:32,679 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.escapetofreightisland.com/
+2025-05-16 01:56:32,679 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: None
+2025-05-16 01:56:32,679 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: mana -> https://www.escapetofreightisland.com/
+2025-05-16 01:56:32,680 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='mana', Website='https://www.escapetofreightisland.com/', Phone='None', Address='11 Baring St, Manchester M1 2P...'
+2025-05-16 01:56:32,680 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'mana' differs from tile name 'Freight Island' (expected due to UI lag)
+2025-05-16 01:56:32,681 - googlemaps_scraper - INFO - M1 1 -> Scraped: mana (phone: none, address: 11 Baring St, Manchester M1 2P..., website: https://www.escapetofreightisl...)
+2025-05-16 01:56:33,215 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/6: Fress Restaurant & Bar
+2025-05-16 01:56:38,102 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.fress.uk/ for business Freight Island
+2025-05-16 01:56:39,137 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Freight Island
+2025-05-16 01:56:39,138 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 01:56:39,138 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2892
+2025-05-16 01:56:39,139 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 62 Oldham St, Manchester M4 1LE
+2025-05-16 01:56:39,139 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.fress.uk/
+2025-05-16 01:56:39,139 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1614004455
+2025-05-16 01:56:39,140 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Freight Island -> http://www.fress.uk/
+2025-05-16 01:56:39,140 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Freight Island', Website='http://www.fress.uk/', Phone='1614004455', Address='62 Oldham St, Manchester M4 1L...'
+2025-05-16 01:56:39,140 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Freight Island' differs from tile name 'Fress Restaurant & Bar' (expected due to UI lag)
+2025-05-16 01:56:39,141 - googlemaps_scraper - INFO - M1 1 -> Scraped: Freight Island (phone: 1614004455, address: 62 Oldham St, Manchester M4 1L..., website: http://www.fress.uk/)
+2025-05-16 01:56:39,242 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/120)
+2025-05-16 01:56:39,791 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/6: The Molly House
+2025-05-16 01:56:46,740 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.themollyhouse.com/ for business Fress Restaurant & Bar
+2025-05-16 01:56:47,830 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Fress Restaurant & Bar
+2025-05-16 01:56:47,830 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.4
+2025-05-16 01:56:47,831 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1443
+2025-05-16 01:56:47,832 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 26 Richmond St, Manchester M1 3NB
+2025-05-16 01:56:47,832 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.themollyhouse.com/
+2025-05-16 01:56:47,833 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612379329
+2025-05-16 01:56:47,834 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Fress Restaurant & Bar -> http://www.themollyhouse.com/
+2025-05-16 01:56:47,837 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Fress Restaurant & Bar', Website='http://www.themollyhouse.com/', Phone='1612379329', Address='26 Richmond St, Manchester M1 ...'
+2025-05-16 01:56:47,840 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Fress Restaurant & Bar' differs from tile name 'The Molly House' (expected due to UI lag)
+2025-05-16 01:56:47,840 - googlemaps_scraper - INFO - M1 1 -> Scraped: Fress Restaurant & Bar (phone: 1612379329, address: 26 Richmond St, Manchester M1 ..., website: http://www.themollyhouse.com/)
+2025-05-16 01:56:47,928 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/120)
+2025-05-16 01:56:50,411 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 6/6: 
+2025-05-16 01:56:51,441 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 01:56:51,441 - googlemaps_scraper - INFO - M1 1 -> Processed 4 new tiles in this batch
+2025-05-16 01:56:53,147 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 23)
+2025-05-16 01:56:53,148 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 16
+2025-05-16 01:56:58,396 - googlemaps_scraper - INFO - M1 1 -> Found 4 unprocessed tiles
+2025-05-16 01:56:58,532 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/4: Lock 84 Restaurant & Bar
+2025-05-16 01:57:03,267 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://thereachmcr.com/eat/ for business The Molly House
+2025-05-16 01:57:04,304 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: The Molly House
+2025-05-16 01:57:04,305 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:57:04,305 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1443
+2025-05-16 01:57:04,305 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 7 Ducie St, Manchester M1 2JB
+2025-05-16 01:57:04,306 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://thereachmcr.com/eat/
+2025-05-16 01:57:04,306 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1613830033
+2025-05-16 01:57:04,307 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: The Molly House -> https://thereachmcr.com/eat/
+2025-05-16 01:57:04,307 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='The Molly House', Website='https://thereachmcr.com/eat/', Phone='1613830033', Address='7 Ducie St, Manchester M1 2JB'
+2025-05-16 01:57:04,307 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'The Molly House' differs from tile name 'Lock 84 Restaurant & Bar' (expected due to UI lag)
+2025-05-16 01:57:04,308 - googlemaps_scraper - INFO - M1 1 -> Scraped: The Molly House (phone: 1613830033, address: 7 Ducie St, Manchester M1 2JB, website: https://thereachmcr.com/eat/)
+2025-05-16 01:57:04,782 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/4: Eat Italian Manchester
+2025-05-16 01:57:10,785 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.eatitalian.co/ for business Lock 84 Restaurant & Bar
+2025-05-16 01:57:11,864 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Lock 84 Restaurant & Bar
+2025-05-16 01:57:11,865 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 01:57:11,865 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 22
+2025-05-16 01:57:11,866 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 39-41 Parker St, Manchester M1 4AJ
+2025-05-16 01:57:11,866 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.eatitalian.co/
+2025-05-16 01:57:11,867 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1615269440
+2025-05-16 01:57:11,867 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Lock 84 Restaurant & Bar -> https://www.eatitalian.co/
+2025-05-16 01:57:11,868 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Lock 84 Restaurant & Bar', Website='https://www.eatitalian.co/', Phone='1615269440', Address='39-41 Parker St, Manchester M1...'
+2025-05-16 01:57:11,868 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Lock 84 Restaurant & Bar' differs from tile name 'Eat Italian Manchester' (expected due to UI lag)
+2025-05-16 01:57:11,869 - googlemaps_scraper - INFO - M1 1 -> Scraped: Lock 84 Restaurant & Bar (phone: 1615269440, address: 39-41 Parker St, Manchester M1..., website: https://www.eatitalian.co/)
+2025-05-16 01:57:14,624 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/4: 
+2025-05-16 01:57:15,878 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 01:57:15,879 - googlemaps_scraper - INFO - M1 1 -> Processed 2 new tiles in this batch
+2025-05-16 01:57:17,889 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 27)
+2025-05-16 01:57:17,892 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 18
+2025-05-16 01:57:20,171 - googlemaps_scraper - INFO - M1 1 -> Found 4 unprocessed tiles
+2025-05-16 01:57:20,238 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/4: Chopstix - Manchester Piccadilly
+2025-05-16 01:57:25,564 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.chopstixnoodles.co.uk/stores/manchester-piccadilly for business Eat Italian Manchester
+2025-05-16 01:57:26,611 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Eat Italian Manchester
+2025-05-16 01:57:26,611 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.8
+2025-05-16 01:57:26,611 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 151
+2025-05-16 01:57:26,612 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Unit 9, Gateway House, Station Approach, Manchester M1 2GH
+2025-05-16 01:57:26,612 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.chopstixnoodles.co.uk/stores/manchester-piccadilly
+2025-05-16 01:57:26,613 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1613021142
+2025-05-16 01:57:26,613 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Eat Italian Manchester -> https://www.chopstixnoodles.co.uk/stores/manchester-piccadilly
+2025-05-16 01:57:26,613 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Eat Italian Manchester', Website='https://www.chopstixnoodles.co.uk/stores/manchester-piccadilly', Phone='1613021142', Address='Unit 9, Gateway House, Station...'
+2025-05-16 01:57:26,614 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Eat Italian Manchester' differs from tile name 'Chopstix - Manchester Piccadilly' (expected due to UI lag)
+2025-05-16 01:57:26,614 - googlemaps_scraper - INFO - M1 1 -> Scraped: Eat Italian Manchester (phone: 1613021142, address: Unit 9, Gateway House, Station..., website: https://www.chopstixnoodles.co...)
+2025-05-16 01:57:26,704 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 6/120)
+2025-05-16 01:57:27,205 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/4: Manchester Sora Restaurant
+2025-05-16 01:57:32,004 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.malmaison.com/locations/manchester-deansgate/sora/ for business Manchester Sora Restaurant
+2025-05-16 01:57:33,054 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Manchester Sora Restaurant
+2025-05-16 01:57:33,055 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.7
+2025-05-16 01:57:33,055 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 113
+2025-05-16 01:57:33,056 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 23 Princess St, Manchester M2 4EB
+2025-05-16 01:57:33,056 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.malmaison.com/locations/manchester-deansgate/sora/
+2025-05-16 01:57:33,057 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 3300160380
+2025-05-16 01:57:33,057 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Manchester Sora Restaurant -> https://www.malmaison.com/locations/manchester-deansgate/sora/
+2025-05-16 01:57:33,058 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Manchester Sora Restaurant', Website='https://www.malmaison.com/locations/manchester-deansgate/sora/', Phone='3300160380', Address='23 Princess St, Manchester M2 ...'
+2025-05-16 01:57:33,058 - googlemaps_scraper - INFO - M1 1 -> Scraped: Manchester Sora Restaurant (phone: 3300160380, address: 23 Princess St, Manchester M2 ..., website: https://www.malmaison.com/loca...)
+2025-05-16 01:57:33,555 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/4: Village Brasserie
+2025-05-16 01:57:38,485 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.velvetmanchester.com/village-brasserie for business Village Brasserie
+2025-05-16 01:57:39,527 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Village Brasserie
+2025-05-16 01:57:39,528 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.1
+2025-05-16 01:57:39,528 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 21
+2025-05-16 01:57:39,528 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 2 Canal St, Manchester M1 3HE
+2025-05-16 01:57:39,529 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.velvetmanchester.com/village-brasserie
+2025-05-16 01:57:39,529 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612369003
+2025-05-16 01:57:39,529 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Village Brasserie -> https://www.velvetmanchester.com/village-brasserie
+2025-05-16 01:57:39,530 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Village Brasserie', Website='https://www.velvetmanchester.com/village-brasserie', Phone='1612369003', Address='2 Canal St, Manchester M1 3HE'
+2025-05-16 01:57:39,530 - googlemaps_scraper - INFO - M1 1 -> Scraped: Village Brasserie (phone: 1612369003, address: 2 Canal St, Manchester M1 3HE, website: https://www.velvetmanchester.c...)
+2025-05-16 01:57:39,613 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 7/120)
+2025-05-16 01:57:40,243 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/4: Real Taste
+2025-05-16 01:57:43,085 - googlemaps_scraper - INFO - M1 1 -> Processed 3 new tiles in this batch
+2025-05-16 01:57:44,935 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 32)
+2025-05-16 01:57:44,935 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 21
+2025-05-16 01:57:46,768 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:57:46,806 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Malmaison Manchester
+2025-05-16 01:57:51,954 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.malmaison.com/locations/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester-gmb for business Malmaison Manchester
+2025-05-16 01:57:53,002 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Malmaison Manchester
+2025-05-16 01:57:53,002 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:57:53,003 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2123
+2025-05-16 01:57:53,003 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1-3 Piccadilly, Manchester M1 3AQ
+2025-05-16 01:57:53,003 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.malmaison.com/locations/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester-gmb
+2025-05-16 01:57:53,004 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1616411883
+2025-05-16 01:57:53,004 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Malmaison Manchester -> https://www.malmaison.com/locations/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester-gmb
+2025-05-16 01:57:53,005 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Malmaison Manchester', Website='https://www.malmaison.com/locations/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester-gmb', Phone='1616411883', Address='1-3 Piccadilly, Manchester M1 ...'
+2025-05-16 01:57:53,005 - googlemaps_scraper - INFO - M1 1 -> Scraped: Malmaison Manchester (phone: 1616411883, address: 1-3 Piccadilly, Manchester M1 ..., website: https://www.malmaison.com/loca...)
+2025-05-16 01:57:53,496 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Barburrito - Manchester Piccadilly Gardens
+2025-05-16 01:57:56,617 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Chef Diao
+2025-05-16 01:58:04,273 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.chefdiao.com/ for business Barburrito - Manchester Piccadilly Gardens
+2025-05-16 01:58:05,395 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Barburrito - Manchester Piccadilly Gardens
+2025-05-16 01:58:05,395 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:58:05,395 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 758
+2025-05-16 01:58:05,396 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 92-94 Oldham St, Manchester M4 1LJ
+2025-05-16 01:58:05,396 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.chefdiao.com/
+2025-05-16 01:58:05,396 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612389088
+2025-05-16 01:58:05,397 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Barburrito - Manchester Piccadilly Gardens -> http://www.chefdiao.com/
+2025-05-16 01:58:05,397 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Barburrito - Manchester Piccadilly Gardens', Website='http://www.chefdiao.com/', Phone='1612389088', Address='92-94 Oldham St, Manchester M4...'
+2025-05-16 01:58:05,397 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Barburrito - Manchester Piccadilly Gardens' differs from tile name 'Chef Diao' (expected due to UI lag)
+2025-05-16 01:58:05,398 - googlemaps_scraper - INFO - M1 1 -> Scraped: Barburrito - Manchester Piccadilly Gardens (phone: 1612389088, address: 92-94 Oldham St, Manchester M4..., website: http://www.chefdiao.com/)
+2025-05-16 01:58:05,516 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 8/120)
+2025-05-16 01:58:06,543 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: 63 Degrees
+2025-05-16 01:58:11,934 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.63degrees.co.uk/ for business 63 Degrees
+2025-05-16 01:58:12,979 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: 63 Degrees
+2025-05-16 01:58:12,979 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:58:12,980 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 483
+2025-05-16 01:58:12,980 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 104 High St, Manchester M4 1HQ
+2025-05-16 01:58:12,980 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.63degrees.co.uk/
+2025-05-16 01:58:12,981 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618325438
+2025-05-16 01:58:12,981 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: 63 Degrees -> http://www.63degrees.co.uk/
+2025-05-16 01:58:12,982 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='63 Degrees', Website='http://www.63degrees.co.uk/', Phone='1618325438', Address='104 High St, Manchester M4 1HQ'
+2025-05-16 01:58:12,982 - googlemaps_scraper - INFO - M1 1 -> Scraped: 63 Degrees (phone: 1618325438, address: 104 High St, Manchester M4 1HQ, website: http://www.63degrees.co.uk/)
+2025-05-16 01:58:13,643 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Marco Reas Diner
+2025-05-16 01:58:16,138 - googlemaps_scraper - INFO - M1 1 -> Processed 3 new tiles in this batch
+2025-05-16 01:58:18,190 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 37)
+2025-05-16 01:58:18,190 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 24
+2025-05-16 01:58:20,050 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:58:20,096 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Ezra & Gil
+2025-05-16 01:58:25,739 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.ezraandgil.com/ for business Marco Reas Diner
+2025-05-16 01:58:26,819 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Marco Reas Diner
+2025-05-16 01:58:26,820 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:58:26,820 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 323
+2025-05-16 01:58:26,820 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 20 Hilton St, Manchester M1 1FR
+2025-05-16 01:58:26,821 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.ezraandgil.com/
+2025-05-16 01:58:26,822 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: None
+2025-05-16 01:58:26,822 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Marco Reas Diner -> http://www.ezraandgil.com/
+2025-05-16 01:58:26,823 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Marco Reas Diner', Website='http://www.ezraandgil.com/', Phone='None', Address='20 Hilton St, Manchester M1 1F...'
+2025-05-16 01:58:26,823 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Marco Reas Diner' differs from tile name 'Ezra & Gil' (expected due to UI lag)
+2025-05-16 01:58:26,823 - googlemaps_scraper - INFO - M1 1 -> Scraped: Marco Reas Diner (phone: none, address: 20 Hilton St, Manchester M1 1F..., website: http://www.ezraandgil.com/)
+2025-05-16 01:58:27,383 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Casa Mexica Manchester
+2025-05-16 01:58:32,218 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.casamexica.co.uk/ for business Ezra & Gil
+2025-05-16 01:58:33,263 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Ezra & Gil
+2025-05-16 01:58:33,264 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:58:33,264 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2710
+2025-05-16 01:58:33,264 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Unit 1, The Quadrangle, Chester St, Manchester M1 5QS
+2025-05-16 01:58:33,265 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.casamexica.co.uk/
+2025-05-16 01:58:33,265 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612350712
+2025-05-16 01:58:33,265 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Ezra & Gil -> http://www.casamexica.co.uk/
+2025-05-16 01:58:33,265 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Ezra & Gil', Website='http://www.casamexica.co.uk/', Phone='1612350712', Address='Unit 1, The Quadrangle, Cheste...'
+2025-05-16 01:58:33,266 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Ezra & Gil' differs from tile name 'Casa Mexica Manchester' (expected due to UI lag)
+2025-05-16 01:58:33,266 - googlemaps_scraper - INFO - M1 1 -> Scraped: Ezra & Gil (phone: 1612350712, address: Unit 1, The Quadrangle, Cheste..., website: http://www.casamexica.co.uk/)
+2025-05-16 01:58:33,357 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 9/120)
+2025-05-16 01:58:33,813 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Nancy Spains - Manchester
+2025-05-16 01:58:39,137 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://nancyspains.co.uk/ for business Casa Mexica Manchester
+2025-05-16 01:58:40,179 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Casa Mexica Manchester
+2025-05-16 01:58:40,180 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.9
+2025-05-16 01:58:40,180 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 40
+2025-05-16 01:58:40,180 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Nancy Spain’s, 21 Hilton St, Manchester M11 1JJ
+2025-05-16 01:58:40,181 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://nancyspains.co.uk/
+2025-05-16 01:58:40,181 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 21111
+2025-05-16 01:58:40,181 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Casa Mexica Manchester -> https://nancyspains.co.uk/
+2025-05-16 01:58:40,182 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Casa Mexica Manchester', Website='https://nancyspains.co.uk/', Phone='21111', Address='Nancy Spain’s, 21 Hilton St, M...'
+2025-05-16 01:58:40,182 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Casa Mexica Manchester' differs from tile name 'Nancy Spains - Manchester' (expected due to UI lag)
+2025-05-16 01:58:40,183 - googlemaps_scraper - INFO - M1 1 -> Scraped: Casa Mexica Manchester (phone: 21111, address: Nancy Spain’s, 21 Hilton St, M..., website: https://nancyspains.co.uk/)
+2025-05-16 01:58:40,265 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 10/120)
+2025-05-16 01:58:40,816 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Home Chinese Manchester
+2025-05-16 01:58:45,669 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://homechinesemanchester.com/ for business Home Chinese Manchester
+2025-05-16 01:58:46,721 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Home Chinese Manchester
+2025-05-16 01:58:46,722 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 01:58:46,722 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 467
+2025-05-16 01:58:46,723 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 16 Chorlton St., Manchester M1 3HW
+2025-05-16 01:58:46,723 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://homechinesemanchester.com/
+2025-05-16 01:58:46,724 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612229580
+2025-05-16 01:58:46,724 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Home Chinese Manchester -> http://homechinesemanchester.com/
+2025-05-16 01:58:46,724 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Home Chinese Manchester', Website='http://homechinesemanchester.com/', Phone='1612229580', Address='16 Chorlton St., Manchester M1...'
+2025-05-16 01:58:46,725 - googlemaps_scraper - INFO - M1 1 -> Scraped: Home Chinese Manchester (phone: 1612229580, address: 16 Chorlton St., Manchester M1..., website: http://homechinesemanchester.c...)
+2025-05-16 01:58:47,326 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Fenix Restaurant and Bar, Manchester
+2025-05-16 01:58:49,859 - googlemaps_scraper - INFO - M1 1 -> Processed 4 new tiles in this batch
+2025-05-16 01:58:51,949 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 42)
+2025-05-16 01:58:51,951 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 28
+2025-05-16 01:58:54,984 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:58:55,065 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: THE BRASSERIE
+2025-05-16 01:59:00,067 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.mercuremanchester.co.uk/manchester-restaurant/ for business Fenix Restaurant and Bar, Manchester
+2025-05-16 01:59:01,209 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Fenix Restaurant and Bar, Manchester
+2025-05-16 01:59:01,210 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 01:59:01,210 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1684
+2025-05-16 01:59:01,210 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Portland St, Manchester M1 4PH
+2025-05-16 01:59:01,210 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.mercuremanchester.co.uk/manchester-restaurant/
+2025-05-16 01:59:01,211 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1617511412
+2025-05-16 01:59:01,211 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Fenix Restaurant and Bar, Manchester -> https://www.mercuremanchester.co.uk/manchester-restaurant/
+2025-05-16 01:59:01,211 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Fenix Restaurant and Bar, Manchester', Website='https://www.mercuremanchester.co.uk/manchester-restaurant/', Phone='1617511412', Address='Portland St, Manchester M1 4PH'
+2025-05-16 01:59:01,211 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Fenix Restaurant and Bar, Manchester' differs from tile name 'THE BRASSERIE' (expected due to UI lag)
+2025-05-16 01:59:01,212 - googlemaps_scraper - INFO - M1 1 -> Scraped: Fenix Restaurant and Bar, Manchester (phone: 1617511412, address: Portland St, Manchester M1 4PH, website: https://www.mercuremanchester....)
+2025-05-16 01:59:01,303 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 11/120)
+2025-05-16 01:59:01,912 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Australasia
+2025-05-16 01:59:08,515 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://australasiamcr.co.uk/ for business THE BRASSERIE
+2025-05-16 01:59:09,833 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: THE BRASSERIE
+2025-05-16 01:59:09,833 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 01:59:09,834 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2077
+2025-05-16 01:59:09,834 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1 The Avenue, Deansgate, Manchester M3 3AP
+2025-05-16 01:59:09,834 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://australasiamcr.co.uk/
+2025-05-16 01:59:09,835 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618310288
+2025-05-16 01:59:09,835 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: THE BRASSERIE -> https://australasiamcr.co.uk/
+2025-05-16 01:59:09,835 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='THE BRASSERIE', Website='https://australasiamcr.co.uk/', Phone='1618310288', Address='1 The Avenue, Deansgate, Manch...'
+2025-05-16 01:59:09,836 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'THE BRASSERIE' differs from tile name 'Australasia' (expected due to UI lag)
+2025-05-16 01:59:09,836 - googlemaps_scraper - INFO - M1 1 -> Scraped: THE BRASSERIE (phone: 1618310288, address: 1 The Avenue, Deansgate, Manch..., website: https://australasiamcr.co.uk/)
+2025-05-16 01:59:10,456 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Habesha Restaurant
+2025-05-16 01:59:16,182 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://habesharestaurant.co.uk/ for business Australasia
+2025-05-16 01:59:17,645 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Australasia
+2025-05-16 01:59:17,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.3
+2025-05-16 01:59:17,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 2077
+2025-05-16 01:59:17,646 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 29-31 Sackville St, Manchester M1 3LZ
+2025-05-16 01:59:17,647 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://habesharestaurant.co.uk/
+2025-05-16 01:59:17,647 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612287396
+2025-05-16 01:59:17,648 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Australasia -> http://habesharestaurant.co.uk/
+2025-05-16 01:59:17,648 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Australasia', Website='http://habesharestaurant.co.uk/', Phone='1612287396', Address='29-31 Sackville St, Manchester...'
+2025-05-16 01:59:17,648 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Australasia' differs from tile name 'Habesha Restaurant' (expected due to UI lag)
+2025-05-16 01:59:17,648 - googlemaps_scraper - INFO - M1 1 -> Scraped: Australasia (phone: 1612287396, address: 29-31 Sackville St, Manchester..., website: http://habesharestaurant.co.uk...)
+2025-05-16 01:59:17,732 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 12/120)
+2025-05-16 01:59:18,329 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Almost Famous NQ
+2025-05-16 01:59:25,069 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://almostfamousburgers.com/ for business Almost Famous NQ
+2025-05-16 01:59:26,148 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Almost Famous NQ
+2025-05-16 01:59:26,148 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.4
+2025-05-16 01:59:26,149 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1731
+2025-05-16 01:59:26,149 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 49-51 Edge St, Manchester M4 1HW
+2025-05-16 01:59:26,149 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://almostfamousburgers.com/
+2025-05-16 01:59:26,150 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612449424
+2025-05-16 01:59:26,150 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Almost Famous NQ -> http://almostfamousburgers.com/
+2025-05-16 01:59:26,152 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Almost Famous NQ', Website='http://almostfamousburgers.com/', Phone='1612449424', Address='49-51 Edge St, Manchester M4 1...'
+2025-05-16 01:59:26,153 - googlemaps_scraper - INFO - M1 1 -> Scraped: Almost Famous NQ (phone: 1612449424, address: 49-51 Edge St, Manchester M4 1..., website: http://almostfamousburgers.com...)
+2025-05-16 01:59:26,247 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 13/120)
+2025-05-16 01:59:26,842 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: QPlus Tropical Taste Restaurant & Bar..Q3
+2025-05-16 01:59:33,316 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business QPlus Tropical Taste Restaurant & Bar..Q3
+2025-05-16 01:59:34,474 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: QPlus Tropical Taste Restaurant & Bar..Q3
+2025-05-16 01:59:34,475 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 01:59:34,475 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 43
+2025-05-16 01:59:34,476 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1038 Ashton New Rd, Manchester M11 4PE
+2025-05-16 01:59:34,476 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: N/A
+2025-05-16 01:59:34,476 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1613707621
+2025-05-16 01:59:34,477 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: QPlus Tropical Taste Restaurant & Bar..Q3 -> N/A
+2025-05-16 01:59:34,477 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='QPlus Tropical Taste Restaurant & Bar..Q3', Website='N/A', Phone='1613707621', Address='1038 Ashton New Rd, Manchester...'
+2025-05-16 01:59:34,477 - googlemaps_scraper - INFO - M1 1 -> Scraped: QPlus Tropical Taste Restaurant & Bar..Q3 (phone: 1613707621, address: 1038 Ashton New Rd, Manchester..., website: N/A)
+2025-05-16 01:59:34,585 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 14/120)
+2025-05-16 01:59:35,148 - googlemaps_scraper - INFO - M1 1 -> Processed 5 new tiles in this batch
+2025-05-16 01:59:36,989 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 43)
+2025-05-16 01:59:37,007 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 33
+2025-05-16 01:59:46,231 - googlemaps_scraper - INFO - M1 1 -> Found 2 unprocessed tiles
+2025-05-16 01:59:46,334 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/2: Do Eat Restaurant Manchester
+2025-05-16 01:59:49,779 - googlemaps_scraper - INFO - M1 1 -> No new tiles processed in this batch
+2025-05-16 01:59:52,164 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 48)
+2025-05-16 01:59:52,165 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 33
+2025-05-16 01:59:58,334 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 01:59:58,431 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: Tattu Manchester
+2025-05-16 02:00:03,983 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://tattu.co.uk/locations/manchester/ for business Do Eat Restaurant Manchester
+2025-05-16 02:00:05,388 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Do Eat Restaurant Manchester
+2025-05-16 02:00:05,388 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 02:00:05,389 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 135
+2025-05-16 02:00:05,389 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 3 Hardman Square, Gartside St, Manchester M3 3EB
+2025-05-16 02:00:05,389 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://tattu.co.uk/locations/manchester/
+2025-05-16 02:00:05,390 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618192060
+2025-05-16 02:00:05,390 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Do Eat Restaurant Manchester -> https://tattu.co.uk/locations/manchester/
+2025-05-16 02:00:05,391 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Do Eat Restaurant Manchester', Website='https://tattu.co.uk/locations/manchester/', Phone='1618192060', Address='3 Hardman Square, Gartside St,...'
+2025-05-16 02:00:05,392 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Do Eat Restaurant Manchester' differs from tile name 'Tattu Manchester' (expected due to UI lag)
+2025-05-16 02:00:05,392 - googlemaps_scraper - INFO - M1 1 -> Scraped: Do Eat Restaurant Manchester (phone: 1618192060, address: 3 Hardman Square, Gartside St,..., website: https://tattu.co.uk/locations/...)
+2025-05-16 02:00:06,073 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Firehouse Manchester
+2025-05-16 02:00:11,172 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.firehousemcr.com/ for business Tattu Manchester
+2025-05-16 02:00:12,241 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Tattu Manchester
+2025-05-16 02:00:12,241 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:00:12,241 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 3150
+2025-05-16 02:00:12,242 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 40 Swan St, Manchester M4 5JG
+2025-05-16 02:00:12,242 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.firehousemcr.com/
+2025-05-16 02:00:12,242 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1614419029
+2025-05-16 02:00:12,243 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Tattu Manchester -> http://www.firehousemcr.com/
+2025-05-16 02:00:12,243 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Tattu Manchester', Website='http://www.firehousemcr.com/', Phone='1614419029', Address='40 Swan St, Manchester M4 5JG'
+2025-05-16 02:00:12,243 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Tattu Manchester' differs from tile name 'Firehouse Manchester' (expected due to UI lag)
+2025-05-16 02:00:12,244 - googlemaps_scraper - INFO - M1 1 -> Scraped: Tattu Manchester (phone: 1614419029, address: 40 Swan St, Manchester M4 5JG, website: http://www.firehousemcr.com/)
+2025-05-16 02:00:12,349 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 15/120)
+2025-05-16 02:00:13,023 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Browns Manchester
+2025-05-16 02:00:19,593 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.browns-restaurants.co.uk/restaurants/northwest/manchester?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage for business Firehouse Manchester
+2025-05-16 02:00:20,951 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Firehouse Manchester
+2025-05-16 02:00:20,952 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 02:00:20,952 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 598
+2025-05-16 02:00:20,953 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 1 York St, Greater, Manchester M2 2AW
+2025-05-16 02:00:20,954 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.browns-restaurants.co.uk/restaurants/northwest/manchester?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage
+2025-05-16 02:00:20,955 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618191055
+2025-05-16 02:00:20,955 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Firehouse Manchester -> https://www.browns-restaurants.co.uk/restaurants/northwest/manchester?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage
+2025-05-16 02:00:20,956 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Firehouse Manchester', Website='https://www.browns-restaurants.co.uk/restaurants/northwest/manchester?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage', Phone='1618191055', Address='1 York St, Greater, Manchester...'
+2025-05-16 02:00:20,956 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Firehouse Manchester' differs from tile name 'Browns Manchester' (expected due to UI lag)
+2025-05-16 02:00:20,957 - googlemaps_scraper - INFO - M1 1 -> Scraped: Firehouse Manchester (phone: 1618191055, address: 1 York St, Greater, Manchester..., website: https://www.browns-restaurants...)
+2025-05-16 02:00:21,694 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Kabinet Cafe
+2025-05-16 02:00:29,159 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Browns Manchester
+2025-05-16 02:00:30,262 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Browns Manchester
+2025-05-16 02:00:30,262 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:00:30,263 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 3722
+2025-05-16 02:00:30,263 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 231 Kay St, Manchester M11 2DU
+2025-05-16 02:00:30,263 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: N/A
+2025-05-16 02:00:30,266 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 231112
+2025-05-16 02:00:30,267 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Browns Manchester -> N/A
+2025-05-16 02:00:30,270 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Browns Manchester', Website='N/A', Phone='231112', Address='231 Kay St, Manchester M11 2DU'
+2025-05-16 02:00:30,271 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Browns Manchester' differs from tile name 'Kabinet Cafe' (expected due to UI lag)
+2025-05-16 02:00:30,272 - googlemaps_scraper - INFO - M1 1 -> Scraped: Browns Manchester (phone: 231112, address: 231 Kay St, Manchester M11 2DU, website: N/A)
+2025-05-16 02:00:30,367 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 16/120)
+2025-05-16 02:00:31,006 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: Corn Exchange Manchester
+2025-05-16 02:00:38,193 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://cornexchangemanchester.co.uk/ for business Kabinet Cafe
+2025-05-16 02:00:39,484 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Kabinet Cafe
+2025-05-16 02:00:39,485 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.0
+2025-05-16 02:00:39,487 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1
+2025-05-16 02:00:39,487 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Exchange Sq, Greater, Manchester M4 3TR
+2025-05-16 02:00:39,488 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://cornexchangemanchester.co.uk/
+2025-05-16 02:00:39,488 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618348961
+2025-05-16 02:00:39,489 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Kabinet Cafe -> https://cornexchangemanchester.co.uk/
+2025-05-16 02:00:39,489 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Kabinet Cafe', Website='https://cornexchangemanchester.co.uk/', Phone='1618348961', Address='Exchange Sq, Greater, Manchest...'
+2025-05-16 02:00:39,489 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Kabinet Cafe' differs from tile name 'Corn Exchange Manchester' (expected due to UI lag)
+2025-05-16 02:00:39,490 - googlemaps_scraper - INFO - M1 1 -> Scraped: Kabinet Cafe (phone: 1618348961, address: Exchange Sq, Greater, Manchest..., website: https://cornexchangemanchester...)
+2025-05-16 02:00:40,076 - googlemaps_scraper - INFO - M1 1 -> Processed 5 new tiles in this batch
+2025-05-16 02:00:41,720 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 57)
+2025-05-16 02:00:41,721 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 38
+2025-05-16 02:00:46,345 - googlemaps_scraper - INFO - M1 1 -> Found 9 unprocessed tiles
+2025-05-16 02:00:46,447 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/9: Melbourne lounge
+2025-05-16 02:00:52,316 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.melbournelounge.com/ for business Corn Exchange Manchester
+2025-05-16 02:00:53,628 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Corn Exchange Manchester
+2025-05-16 02:00:53,628 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.4
+2025-05-16 02:00:53,629 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 4116
+2025-05-16 02:00:53,633 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 853 Ashton Old Rd, Openshaw, Manchester M11 2NL
+2025-05-16 02:00:53,635 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.melbournelounge.com/
+2025-05-16 02:00:53,636 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 853112
+2025-05-16 02:00:53,641 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Corn Exchange Manchester -> http://www.melbournelounge.com/
+2025-05-16 02:00:53,641 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Corn Exchange Manchester', Website='http://www.melbournelounge.com/', Phone='853112', Address='853 Ashton Old Rd, Openshaw, M...'
+2025-05-16 02:00:53,642 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Corn Exchange Manchester' differs from tile name 'Melbourne lounge' (expected due to UI lag)
+2025-05-16 02:00:53,642 - googlemaps_scraper - INFO - M1 1 -> Scraped: Corn Exchange Manchester (phone: 853112, address: 853 Ashton Old Rd, Openshaw, M..., website: http://www.melbournelounge.com...)
+2025-05-16 02:00:53,758 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 17/120)
+2025-05-16 02:01:02,356 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://linktr.ee/4seasonsinnmcr for business Melbourne lounge
+2025-05-16 02:01:03,806 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Melbourne lounge
+2025-05-16 02:01:03,811 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 5.0
+2025-05-16 02:01:03,811 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 6
+2025-05-16 02:01:03,825 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: New Smithfield Market, Unit, M8, Manchester M11 2WW
+2025-05-16 02:01:03,854 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://linktr.ee/4seasonsinnmcr
+2025-05-16 02:01:03,892 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612209768
+2025-05-16 02:01:03,907 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Melbourne lounge -> http://linktr.ee/4seasonsinnmcr
+2025-05-16 02:01:03,931 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Melbourne lounge', Website='http://linktr.ee/4seasonsinnmcr', Phone='1612209768', Address='New Smithfield Market, Unit, M...'
+2025-05-16 02:01:04,078 - googlemaps_scraper - INFO - M1 1 -> Scraped: Melbourne lounge (phone: 1612209768, address: New Smithfield Market, Unit, M..., website: http://linktr.ee/4seasonsinnmc...)
+2025-05-16 02:01:04,203 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 18/120)
+2025-05-16 02:01:04,760 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/9: Capecoast Bar, Restaurant and Takeaway
+2025-05-16 02:01:14,180 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 02:01:14,182 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 167
+2025-05-16 02:01:14,184 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 86 Belle Vue St, Manchester M12 5PP
+2025-05-16 02:01:14,185 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: N/A
+2025-05-16 02:01:14,186 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 7427407286
+2025-05-16 02:01:14,509 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 19/120)
+2025-05-16 02:01:15,001 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/9: Kala
+2025-05-16 02:01:21,032 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.kalabistro.co.uk/ for business Capecoast Bar, Restaurant and Takeaway
+2025-05-16 02:01:22,165 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Capecoast Bar, Restaurant and Takeaway
+2025-05-16 02:01:22,167 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.2
+2025-05-16 02:01:22,168 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 143
+2025-05-16 02:01:22,168 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 55 King St, Manchester M2 4LQ
+2025-05-16 02:01:22,168 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.kalabistro.co.uk/
+2025-05-16 02:01:22,169 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618393030
+2025-05-16 02:01:22,169 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Capecoast Bar, Restaurant and Takeaway -> https://www.kalabistro.co.uk/
+2025-05-16 02:01:22,169 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Capecoast Bar, Restaurant and Takeaway', Website='https://www.kalabistro.co.uk/', Phone='1618393030', Address='55 King St, Manchester M2 4LQ'
+2025-05-16 02:01:22,170 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Capecoast Bar, Restaurant and Takeaway' differs from tile name 'Kala' (expected due to UI lag)
+2025-05-16 02:01:22,170 - googlemaps_scraper - INFO - M1 1 -> Scraped: Capecoast Bar, Restaurant and Takeaway (phone: 1618393030, address: 55 King St, Manchester M2 4LQ, website: https://www.kalabistro.co.uk/)
+2025-05-16 02:01:23,025 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/9: Grand Daddy's Diner
+2025-05-16 02:01:27,554 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.kalabistro.co.uk/ for business Kala
+2025-05-16 02:01:31,314 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 6/9: 
+2025-05-16 02:01:32,361 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 02:01:34,750 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 7/9: 
+2025-05-16 02:01:35,787 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 02:01:37,924 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 8/9: 
+2025-05-16 02:01:38,961 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 02:01:41,096 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 9/9: 
+2025-05-16 02:01:42,138 - googlemaps_scraper - WARNING - M1 1 -> Stale element, max retries reached for tile: 
+2025-05-16 02:01:42,139 - googlemaps_scraper - INFO - M1 1 -> Processed 4 new tiles in this batch
+2025-05-16 02:01:43,757 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 58)
+2025-05-16 02:01:43,757 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 42
+2025-05-16 02:01:47,974 - googlemaps_scraper - INFO - M1 1 -> Found 5 unprocessed tiles
+2025-05-16 02:01:48,096 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 1/5: 10 Tib Lane
+2025-05-16 02:01:54,341 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.10tiblane.com/ for business Kala
+2025-05-16 02:01:55,619 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Kala
+2025-05-16 02:01:55,620 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 02:01:55,621 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 567
+2025-05-16 02:01:55,621 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 10 Tib Ln, Manchester M2 4JB
+2025-05-16 02:01:55,622 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://www.10tiblane.com/
+2025-05-16 02:01:55,623 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618331034
+2025-05-16 02:01:55,623 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Kala -> https://www.10tiblane.com/
+2025-05-16 02:01:55,625 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Kala', Website='https://www.10tiblane.com/', Phone='1618331034', Address='10 Tib Ln, Manchester M2 4JB'
+2025-05-16 02:01:55,633 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Kala' differs from tile name '10 Tib Lane' (expected due to UI lag)
+2025-05-16 02:01:55,636 - googlemaps_scraper - INFO - M1 1 -> Scraped: Kala (phone: 1618331034, address: 10 Tib Ln, Manchester M2 4JB, website: https://www.10tiblane.com/)
+2025-05-16 02:01:56,494 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 2/5: Tampopo Corn Exchange
+2025-05-16 02:02:02,902 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://tampopo.co.uk/ for business 10 Tib Lane
+2025-05-16 02:02:04,136 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: 10 Tib Lane
+2025-05-16 02:02:04,136 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.6
+2025-05-16 02:02:04,137 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 308
+2025-05-16 02:02:04,137 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Corn Exchange, Exchange Sq, Manchester M4 3TR
+2025-05-16 02:02:04,138 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: https://tampopo.co.uk/
+2025-05-16 02:02:04,138 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1618396484
+2025-05-16 02:02:04,139 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: 10 Tib Lane -> https://tampopo.co.uk/
+2025-05-16 02:02:04,139 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='10 Tib Lane', Website='https://tampopo.co.uk/', Phone='1618396484', Address='Corn Exchange, Exchange Sq, Ma...'
+2025-05-16 02:02:04,140 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name '10 Tib Lane' differs from tile name 'Tampopo Corn Exchange' (expected due to UI lag)
+2025-05-16 02:02:04,140 - googlemaps_scraper - INFO - M1 1 -> Scraped: 10 Tib Lane (phone: 1618396484, address: Corn Exchange, Exchange Sq, Ma..., website: https://tampopo.co.uk/)
+2025-05-16 02:02:04,948 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 3/5: Live Seafood Ltd
+2025-05-16 02:02:11,942 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.liveseafood.co.uk/ for business Tampopo Corn Exchange
+2025-05-16 02:02:13,214 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Tampopo Corn Exchange
+2025-05-16 02:02:13,215 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.7
+2025-05-16 02:02:13,215 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 1738
+2025-05-16 02:02:13,216 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: 163 Ashton Old Rd, Manchester M11 3WU
+2025-05-16 02:02:13,216 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.liveseafood.co.uk/
+2025-05-16 02:02:13,216 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612220363
+2025-05-16 02:02:13,217 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Tampopo Corn Exchange -> http://www.liveseafood.co.uk/
+2025-05-16 02:02:13,217 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Tampopo Corn Exchange', Website='http://www.liveseafood.co.uk/', Phone='1612220363', Address='163 Ashton Old Rd, Manchester ...'
+2025-05-16 02:02:13,217 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Tampopo Corn Exchange' differs from tile name 'Live Seafood Ltd' (expected due to UI lag)
+2025-05-16 02:02:13,217 - googlemaps_scraper - INFO - M1 1 -> Scraped: Tampopo Corn Exchange (phone: 1612220363, address: 163 Ashton Old Rd, Manchester ..., website: http://www.liveseafood.co.uk/)
+2025-05-16 02:02:13,315 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 20/120)
+2025-05-16 02:02:13,930 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 4/5: Masons
+2025-05-16 02:02:20,621 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.masonsrestaurantbar.co.uk/ for business Live Seafood Ltd
+2025-05-16 02:02:22,451 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Live Seafood Ltd
+2025-05-16 02:02:22,455 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.1
+2025-05-16 02:02:22,455 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 92
+2025-05-16 02:02:22,456 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Ground Floor, Manchester Hall, 36 Bridge St, Manchester M3 3BT
+2025-05-16 02:02:22,457 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.masonsrestaurantbar.co.uk/
+2025-05-16 02:02:22,466 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1613596952
+2025-05-16 02:02:22,467 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Live Seafood Ltd -> http://www.masonsrestaurantbar.co.uk/
+2025-05-16 02:02:22,511 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Live Seafood Ltd', Website='http://www.masonsrestaurantbar.co.uk/', Phone='1613596952', Address='Ground Floor, Manchester Hall,...'
+2025-05-16 02:02:22,574 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Live Seafood Ltd' differs from tile name 'Masons' (expected due to UI lag)
+2025-05-16 02:02:22,618 - googlemaps_scraper - INFO - M1 1 -> Scraped: Live Seafood Ltd (phone: 1613596952, address: Ground Floor, Manchester Hall,..., website: http://www.masonsrestaurantbar...)
+2025-05-16 02:02:22,740 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 21/120)
+2025-05-16 02:02:23,398 - googlemaps_scraper - INFO - M1 1 -> Clicking tile 5/5: One Plus Chinese Restaurant
+2025-05-16 02:02:29,564 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.oneplusrestaurant.co.uk/booking/ for business Masons
+2025-05-16 02:02:30,821 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Business Name: Masons
+2025-05-16 02:02:30,824 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:02:30,827 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Reviews: 300
+2025-05-16 02:02:30,830 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Address: Ground Floor, Manchester Hall, 36 Bridge St, Manchester M3 3BT
+2025-05-16 02:02:30,834 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Website: http://www.oneplusrestaurant.co.uk/booking/
+2025-05-16 02:02:30,835 - googlemaps_scraper - INFO - M1 1 -> EXTRACTION: Phone: 1612732888
+2025-05-16 02:02:30,838 - googlemaps_scraper - INFO - M1 1 -> BUSINESS-WEBSITE MAPPING: Masons -> http://www.oneplusrestaurant.co.uk/booking/
+2025-05-16 02:02:30,839 - googlemaps_scraper - INFO - M1 1 -> BUSINESS DATA SUMMARY: Name='Masons', Website='http://www.oneplusrestaurant.co.uk/booking/', Phone='1612732888', Address='Ground Floor, Manchester Hall,...'
+2025-05-16 02:02:30,853 - googlemaps_scraper - INFO - M1 1 -> NOTE: Card name 'Masons' differs from tile name 'One Plus Chinese Restaurant' (expected due to UI lag)
+2025-05-16 02:02:30,906 - googlemaps_scraper - INFO - M1 1 -> Scraped: Masons (phone: 1612732888, address: Ground Floor, Manchester Hall,..., website: http://www.oneplusrestaurant.c...)
+2025-05-16 02:02:31,915 - googlemaps_scraper - INFO - M1 1 -> Processed 5 new tiles in this batch
+2025-05-16 02:02:34,483 - googlemaps_scraper - INFO - M1 1 -> scrolled feed (tiles now 63)
+2025-05-16 02:02:34,495 - googlemaps_scraper - INFO - M1 1 -> Total unique businesses processed in this subsector: 47
+2025-05-16 02:02:34,502 - googlemaps_scraper - INFO - M1 1 -> Termination requested during scraping loop
+2025-05-16 02:02:34,505 - googlemaps_scraper - WARNING - M1 1 -> Maximum processing time exceeded, marking as incomplete
+2025-05-16 02:02:34,657 - googlemaps_scraper - INFO - M1 1 -> JSON saved -> business_data\manchester_M1 1.json (47 records)
+2025-05-16 02:02:34,689 - googlemaps_scraper - INFO - M1 1 -> CSV saved -> business_data\manchester_M1 1.csv (47 records)
+2025-05-16 02:02:34,767 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 02:02:34,768 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M1 5 (2/299)
+2025-05-16 02:02:34,821 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 02:02:34,831 - googlemaps_scraper - INFO - Starting scrape for subsector: M1 5
+2025-05-16 02:02:34,835 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 02:02:49,212 - googlemaps_scraper - INFO - M1 5 -> search query launched: restaurants in M1 5 Manchester
+2025-05-16 02:02:52,340 - googlemaps_scraper - INFO - M1 5 -> Found 5 unprocessed tiles
+2025-05-16 02:02:52,392 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 1/5: Higher Ground
+2025-05-16 02:02:57,700 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://highergroundmcr.co.uk/ for business Higher Ground
+2025-05-16 02:02:58,839 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Business Name: Higher Ground
+2025-05-16 02:02:58,840 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Stars: 4.7
+2025-05-16 02:02:58,840 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Reviews: 318
+2025-05-16 02:02:58,841 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Address: Faulkner House, New York St, Manchester M1 4DY
+2025-05-16 02:02:58,841 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Website: http://highergroundmcr.co.uk/
+2025-05-16 02:02:58,842 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Phone: 1612362931
+2025-05-16 02:02:58,843 - googlemaps_scraper - INFO - M1 5 -> BUSINESS-WEBSITE MAPPING: Higher Ground -> http://highergroundmcr.co.uk/
+2025-05-16 02:02:58,844 - googlemaps_scraper - INFO - M1 5 -> BUSINESS DATA SUMMARY: Name='Higher Ground', Website='http://highergroundmcr.co.uk/', Phone='1612362931', Address='Faulkner House, New York St, M...'
+2025-05-16 02:02:58,845 - googlemaps_scraper - INFO - M1 5 -> Scraped: Higher Ground (phone: 1612362931, address: Faulkner House, New York St, M..., website: http://highergroundmcr.co.uk/)
+2025-05-16 02:02:59,498 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 2/5: Albert's Shed Restaurant Manchester
+2025-05-16 02:03:04,753 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://alberts-restaurants.com/shed/ for business Albert's Shed Restaurant Manchester
+2025-05-16 02:03:05,832 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Business Name: Albert's Shed Restaurant Manchester
+2025-05-16 02:03:05,832 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Stars: 4.4
+2025-05-16 02:03:05,833 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Reviews: 1866
+2025-05-16 02:03:05,833 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Address: 18-20 Castle St, Manchester M3 4LZ
+2025-05-16 02:03:05,834 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Website: http://alberts-restaurants.com/shed/
+2025-05-16 02:03:05,834 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Phone: 1618399818
+2025-05-16 02:03:05,834 - googlemaps_scraper - INFO - M1 5 -> BUSINESS-WEBSITE MAPPING: Albert's Shed Restaurant Manchester -> http://alberts-restaurants.com/shed/
+2025-05-16 02:03:05,835 - googlemaps_scraper - INFO - M1 5 -> BUSINESS DATA SUMMARY: Name='Albert's Shed Restaurant Manchester', Website='http://alberts-restaurants.com/shed/', Phone='1618399818', Address='18-20 Castle St, Manchester M3...'
+2025-05-16 02:03:05,835 - googlemaps_scraper - INFO - M1 5 -> Scraped: Albert's Shed Restaurant Manchester (phone: 1618399818, address: 18-20 Castle St, Manchester M3..., website: http://alberts-restaurants.com...)
+2025-05-16 02:03:06,527 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 3/5: WOOD Manchester by Simon Wood
+2025-05-16 02:03:09,970 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 4/5: Italiana Fifty Five Great Northern
+2025-05-16 02:03:16,467 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://italianafiftyfive.co.uk/ for business Italiana Fifty Five Great Northern
+2025-05-16 02:03:17,927 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Business Name: Italiana Fifty Five Great Northern
+2025-05-16 02:03:17,928 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:03:17,928 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Reviews: 1570
+2025-05-16 02:03:17,928 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Address: Unit 4, Great Northern Warehouse, Manchester M3 4EN
+2025-05-16 02:03:17,929 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Website: https://italianafiftyfive.co.uk/
+2025-05-16 02:03:17,929 - googlemaps_scraper - INFO - M1 5 -> EXTRACTION: Phone: 1612431532
+2025-05-16 02:03:17,929 - googlemaps_scraper - INFO - M1 5 -> BUSINESS-WEBSITE MAPPING: Italiana Fifty Five Great Northern -> https://italianafiftyfive.co.uk/
+2025-05-16 02:03:17,930 - googlemaps_scraper - INFO - M1 5 -> BUSINESS DATA SUMMARY: Name='Italiana Fifty Five Great Northern', Website='https://italianafiftyfive.co.uk/', Phone='1612431532', Address='Unit 4, Great Northern Warehou...'
+2025-05-16 02:03:17,931 - googlemaps_scraper - INFO - M1 5 -> Scraped: Italiana Fifty Five Great Northern (phone: 1612431532, address: Unit 4, Great Northern Warehou..., website: https://italianafiftyfive.co.u...)
+2025-05-16 02:03:18,049 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 22/120)
+2025-05-16 02:03:18,508 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 5/5: Indian Tiffin Room
+2025-05-16 02:03:21,210 - googlemaps_scraper - INFO - M1 5 -> Processed 3 new tiles in this batch
+2025-05-16 02:03:25,466 - googlemaps_scraper - INFO - M1 5 -> scrolled feed (tiles now 10)
+2025-05-16 02:03:25,477 - googlemaps_scraper - INFO - M1 5 -> Total unique businesses processed in this subsector: 3
+2025-05-16 02:03:26,905 - googlemaps_scraper - INFO - M1 5 -> Found 5 unprocessed tiles
+2025-05-16 02:03:26,955 - googlemaps_scraper - INFO - M1 5 -> Clicking tile 1/5: Turtle Bay Manchester Oxford Rd

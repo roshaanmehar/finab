@@ -1,0 +1,72 @@
+2025-05-16 02:03:48,142 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 02:03:48,145 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-16 02:03:48,146 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_020348.log
+2025-05-16 02:03:48,147 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-16 02:03:48,147 - googlemaps_scraper - INFO - ================================================================================
+2025-05-16 02:03:52,583 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-16 02:03:52,616 - googlemaps_scraper - INFO - Created queue index
+2025-05-16 02:03:52,742 - googlemaps_scraper - INFO - Created indexes
+2025-05-16 02:03:54,770 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-16 02:03:54,770 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-16 02:03:54,795 - googlemaps_scraper - INFO - Total subsectors to process: 298
+2025-05-16 02:03:54,865 - googlemaps_scraper - INFO - ==================================================
+2025-05-16 02:03:54,867 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M1 3 (1/298)
+2025-05-16 02:03:54,894 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 02:03:54,908 - googlemaps_scraper - INFO - Starting scrape for subsector: M1 3
+2025-05-16 02:03:54,913 - googlemaps_scraper - INFO - ============================================================
+2025-05-16 02:03:58,767 - googlemaps_scraper - INFO - M1 3 -> search query launched: restaurants in M1 3 Manchester
+2025-05-16 02:04:01,949 - googlemaps_scraper - INFO - M1 3 -> Found 5 unprocessed tiles
+2025-05-16 02:04:01,991 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 1/5: Las Iguanas - Manchester - Deansgate
+2025-05-16 02:04:07,722 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+2025-05-16 02:04:08,781 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-16 02:04:08,782 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Stars: 4.3
+2025-05-16 02:04:08,782 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Reviews: 2333
+2025-05-16 02:04:08,782 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-16 02:04:08,782 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-16 02:04:08,783 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Phone: 1615492175
+2025-05-16 02:04:08,783 - googlemaps_scraper - INFO - M1 3 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-16 02:04:08,783 - googlemaps_scraper - INFO - M1 3 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+2025-05-16 02:04:08,784 - googlemaps_scraper - INFO - M1 3 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-16 02:04:09,369 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 2/5: Gyoza Wang
+2025-05-16 02:04:14,506 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.facebook.com/Gyoza-Wang-101877412550942 for business Gyoza Wang
+2025-05-16 02:04:15,556 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Business Name: Gyoza Wang
+2025-05-16 02:04:15,556 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Stars: 4.7
+2025-05-16 02:04:15,556 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Reviews: 109
+2025-05-16 02:04:15,557 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Address: 131 Grosvenor St, Manchester M1 7HE
+2025-05-16 02:04:15,557 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Website: https://www.facebook.com/Gyoza-Wang-101877412550942
+2025-05-16 02:04:15,557 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Phone: 1616961422
+2025-05-16 02:04:15,558 - googlemaps_scraper - INFO - M1 3 -> BUSINESS-WEBSITE MAPPING: Gyoza Wang -> https://www.facebook.com/Gyoza-Wang-101877412550942
+2025-05-16 02:04:15,558 - googlemaps_scraper - INFO - M1 3 -> BUSINESS DATA SUMMARY: Name='Gyoza Wang', Website='https://www.facebook.com/Gyoza-Wang-101877412550942', Phone='1616961422', Address='131 Grosvenor St, Manchester M...'
+2025-05-16 02:04:15,558 - googlemaps_scraper - INFO - M1 3 -> Scraped: Gyoza Wang (phone: 1616961422, address: 131 Grosvenor St, Manchester M..., website: https://www.facebook.com/Gyoza...)
+2025-05-16 02:04:15,669 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-16 02:04:16,238 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 3/5: MyLahore Manchester
+2025-05-16 02:04:19,220 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 4/5: One Plus Chinese Restaurant
+2025-05-16 02:04:24,771 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.oneplusrestaurant.co.uk/booking/ for business MyLahore Manchester
+2025-05-16 02:04:25,831 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-16 02:04:25,831 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:04:25,832 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Reviews: 1199
+2025-05-16 02:04:25,832 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Address: 42 Charles St, Manchester M1 7DB
+2025-05-16 02:04:25,832 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Website: http://www.oneplusrestaurant.co.uk/booking/
+2025-05-16 02:04:25,833 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Phone: 1612732888
+2025-05-16 02:04:25,833 - googlemaps_scraper - INFO - M1 3 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.oneplusrestaurant.co.uk/booking/
+2025-05-16 02:04:25,833 - googlemaps_scraper - INFO - M1 3 -> BUSINESS DATA SUMMARY: Name='MyLahore Manchester', Website='http://www.oneplusrestaurant.co.uk/booking/', Phone='1612732888', Address='42 Charles St, Manchester M1 7...'
+2025-05-16 02:04:25,833 - googlemaps_scraper - INFO - M1 3 -> NOTE: Card name 'MyLahore Manchester' differs from tile name 'One Plus Chinese Restaurant' (expected due to UI lag)
+2025-05-16 02:04:25,834 - googlemaps_scraper - INFO - M1 3 -> Scraped: MyLahore Manchester (phone: 1612732888, address: 42 Charles St, Manchester M1 7..., website: http://www.oneplusrestaurant.c...)
+2025-05-16 02:04:26,401 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 5/5: Navarro Lounge
+2025-05-16 02:04:30,552 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://thelounges.co.uk/navarro/ for business One Plus Chinese Restaurant
+2025-05-16 02:04:31,604 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Business Name: One Plus Chinese Restaurant
+2025-05-16 02:04:31,604 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Stars: 4.5
+2025-05-16 02:04:31,605 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Reviews: 1199
+2025-05-16 02:04:31,605 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Address: 144 Oxford Rd, Manchester M13 9GP
+2025-05-16 02:04:31,605 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Website: https://thelounges.co.uk/navarro/
+2025-05-16 02:04:31,606 - googlemaps_scraper - INFO - M1 3 -> EXTRACTION: Phone: 1612759970
+2025-05-16 02:04:31,606 - googlemaps_scraper - INFO - M1 3 -> BUSINESS-WEBSITE MAPPING: One Plus Chinese Restaurant -> https://thelounges.co.uk/navarro/
+2025-05-16 02:04:31,607 - googlemaps_scraper - INFO - M1 3 -> BUSINESS DATA SUMMARY: Name='One Plus Chinese Restaurant', Website='https://thelounges.co.uk/navarro/', Phone='1612759970', Address='144 Oxford Rd, Manchester M13 ...'
+2025-05-16 02:04:31,607 - googlemaps_scraper - INFO - M1 3 -> NOTE: Card name 'One Plus Chinese Restaurant' differs from tile name 'Navarro Lounge' (expected due to UI lag)
+2025-05-16 02:04:31,607 - googlemaps_scraper - INFO - M1 3 -> Scraped: One Plus Chinese Restaurant (phone: 1612759970, address: 144 Oxford Rd, Manchester M13 ..., website: https://thelounges.co.uk/navar...)
+2025-05-16 02:04:31,689 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-16 02:04:32,094 - googlemaps_scraper - INFO - M1 3 -> Processed 4 new tiles in this batch
+2025-05-16 02:04:33,678 - googlemaps_scraper - INFO - M1 3 -> scrolled feed (tiles now 10)
+2025-05-16 02:04:33,678 - googlemaps_scraper - INFO - M1 3 -> Total unique businesses processed in this subsector: 4
+2025-05-16 02:04:34,225 - googlemaps_scraper - INFO - M1 3 -> Found 5 unprocessed tiles
+2025-05-16 02:04:34,279 - googlemaps_scraper - INFO - M1 3 -> Clicking tile 1/5: TOPS Buffet Restaurant Manchester

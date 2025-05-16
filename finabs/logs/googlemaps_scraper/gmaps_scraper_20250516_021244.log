@@ -1,0 +1,303 @@
+[2025-05-16 02:12:44] INFO    – ================================================================================
+[2025-05-16 02:12:44] INFO    – Starting Google Maps scraper from API
+[2025-05-16 02:12:44] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250516_021244.log
+[2025-05-16 02:12:44] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-16 02:12:44] INFO    – ================================================================================
+[2025-05-16 02:12:49] INFO    – Connected to MongoDB successfully
+[2025-05-16 02:12:49] INFO    – Created queue index
+[2025-05-16 02:12:49] INFO    – Created indexes
+[2025-05-16 02:12:51] INFO    – Chrome driver initialized successfully
+[2025-05-16 02:12:51] INFO    – Processing all unprocessed subsectors
+[2025-05-16 02:12:51] INFO    – Total subsectors to process: 298
+[2025-05-16 02:12:51] INFO    – ==================================================
+[2025-05-16 02:12:51] INFO    – PROCESSING SUBSECTOR: M10 6 (1/298)
+[2025-05-16 02:12:51] INFO    – ============================================================
+[2025-05-16 02:12:51] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:12:51] INFO    – ============================================================
+[2025-05-16 02:12:55] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:12:57] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:12:57] ERROR   – M10 6 -> attempt 1/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:12:57] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:13:00] INFO    – ============================================================
+[2025-05-16 02:13:00] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:13:00] INFO    – ============================================================
+[2025-05-16 02:13:15] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:13:19] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:13:19] ERROR   – M10 6 -> attempt 2/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:13:19] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:13:22] INFO    – ============================================================
+[2025-05-16 02:13:22] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:13:22] INFO    – ============================================================
+[2025-05-16 02:13:36] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:13:39] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:13:39] ERROR   – M10 6 -> attempt 3/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:13:39] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:13:42] WARNING – M10 6 -> skipped after failed attempts
+[2025-05-16 02:13:42] INFO    – ==================================================
+[2025-05-16 02:13:42] INFO    – PROCESSING SUBSECTOR: M10 6 (1/298)
+[2025-05-16 02:13:42] INFO    – ============================================================
+[2025-05-16 02:13:42] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:13:42] INFO    – ============================================================
+[2025-05-16 02:13:57] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:14:00] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:14:00] ERROR   – M10 6 -> attempt 1/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:14:00] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:14:03] INFO    – ============================================================
+[2025-05-16 02:14:03] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:14:03] INFO    – ============================================================
+[2025-05-16 02:14:18] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:14:21] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:14:21] ERROR   – M10 6 -> attempt 2/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:14:21] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:14:25] INFO    – ============================================================
+[2025-05-16 02:14:25] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:14:25] INFO    – ============================================================
+[2025-05-16 02:14:40] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:14:51] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:14:51] ERROR   – M10 6 -> attempt 3/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:14:51] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:14:54] WARNING – M10 6 -> skipped after failed attempts
+[2025-05-16 02:14:54] INFO    – ==================================================
+[2025-05-16 02:14:54] INFO    – PROCESSING SUBSECTOR: M10 6 (1/298)
+[2025-05-16 02:14:54] INFO    – ============================================================
+[2025-05-16 02:14:54] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:14:54] INFO    – ============================================================
+[2025-05-16 02:15:12] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:15:24] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:15:24] ERROR   – M10 6 -> attempt 1/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:15:24] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:15:27] INFO    – ============================================================
+[2025-05-16 02:15:27] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:15:27] INFO    – ============================================================
+[2025-05-16 02:15:43] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:15:46] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:15:46] ERROR   – M10 6 -> attempt 2/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:15:46] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:15:49] INFO    – ============================================================
+[2025-05-16 02:15:49] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:15:49] INFO    – ============================================================
+[2025-05-16 02:16:04] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:16:07] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:16:07] ERROR   – M10 6 -> attempt 3/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:16:07] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:16:10] WARNING – M10 6 -> skipped after failed attempts
+[2025-05-16 02:16:11] INFO    – ==================================================
+[2025-05-16 02:16:11] INFO    – PROCESSING SUBSECTOR: M10 6 (1/298)
+[2025-05-16 02:16:11] INFO    – ============================================================
+[2025-05-16 02:16:11] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:16:11] INFO    – ============================================================
+[2025-05-16 02:16:37] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:16:41] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:16:41] ERROR   – M10 6 -> attempt 1/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:16:41] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:16:44] INFO    – ============================================================
+[2025-05-16 02:16:44] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:16:44] INFO    – ============================================================
+[2025-05-16 02:16:59] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:17:03] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:17:03] ERROR   – M10 6 -> attempt 2/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:17:03] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    if not scroll_successful:
+           ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:17:06] INFO    – ============================================================
+[2025-05-16 02:17:06] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:17:06] INFO    – ============================================================
+[2025-05-16 02:17:21] INFO    – M10 6 -> search query launched: restaurants in M10 6 Manchester
+[2025-05-16 02:17:24] INFO    – M10 6 -> Found 5 unprocessed tiles
+[2025-05-16 02:17:24] ERROR   – M10 6 -> attempt 3/3 failed: cannot access local variable 'scroll_successful' where it is not associated with a value
+[2025-05-16 02:17:24] ERROR   – Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 785, in scrape_subsector
+    # or if we've had multiple consecutive scrolls with no new data
+UnboundLocalError: cannot access local variable 'scroll_successful' where it is not associated with a value
+
+[2025-05-16 02:17:27] WARNING – M10 6 -> skipped after failed attempts
+[2025-05-16 02:17:27] INFO    – ==================================================
+[2025-05-16 02:17:27] INFO    – PROCESSING SUBSECTOR: M10 6 (1/298)
+[2025-05-16 02:17:27] INFO    – ============================================================
+[2025-05-16 02:17:27] INFO    – Starting scrape for subsector: M10 6
+[2025-05-16 02:17:27] INFO    – ============================================================

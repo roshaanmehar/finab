@@ -14,6 +14,7 @@ SUBSECTOR_WAIT_MIN, SUBSECTOR_WAIT_MAX = 3.0, 5.0
 PHONE_WAIT_TIME = 1.0  # Reduced wait time for phone numbers
 ADDRESS_WAIT_TIME = 1.0  # Wait time for address to load
 WEBSITE_WAIT_TIME = 1.0  # Wait time for website to load
+CARD_PROCESSING_DELAY = 6.0  # Seconds to wait between each card processing
 
 MAX_SCROLL_ATTEMPTS = 6   # Reduced from 8 to avoid getting stuck too long
 RESULT_LIMIT = 120   # stop after this many cards
@@ -23,8 +24,7 @@ MONGO_RETRY_ATTEMPTS = 3  # Number of times to retry MongoDB operations
 MONGO_RETRY_DELAY = 1.0  # Seconds to wait between MongoDB retries
 DRIVER_RESET_THRESHOLD = 10  # Reset driver after this many errors
 
-SERVICE = "restaurants in"  # Default value, can be overridden
-CITY = "leeds"  # Default city, can be overridden
+SERVICE, CITY = "restaurants in", "leeds"  # Default city, can be overridden
 
 # ───────────── CSS Selectors & XPaths ─────────────
 # Card pane

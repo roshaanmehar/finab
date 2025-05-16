@@ -39,7 +39,8 @@ from googlemaps_scraper.utils.config import (
     NAME_CSS, NAME_XPATH, RATING_CSS, RATING_XPATH,
     REVIEWS_CSS, REVIEWS_XPATH, ADDRESS_SELECTORS,
     WEBSITE_SELECTORS, PHONE_SELECTORS, TILE_NAME_CSS,
-    FALLBACK_NAME, FALLBACK_STARS, FALLBACK_REVIEWS
+    FALLBACK_NAME, FALLBACK_STARS, FALLBACK_REVIEWS,
+    CARD_PROCESSING_DELAY
 )
 from googlemaps_scraper.utils.logging_config import ARROW
 
@@ -964,6 +965,10 @@ def scrape_subsector(
                     log.info("%s %s Termination requested after record insertion", code, ARROW)
                     return records, total_cards
                     
+            # Add the constant delay here before closing card
+            log.info("%s %s Waiting for %s seconds before closing card", code, ARROW, CARD_PROCESSING_DELAY)
+            time.sleep(CARD_PROCESSING_DELAY)  # Add fixed delay between cards
+            
             # close card
             safe_close_card(driver)
             rdelay(CLOSE_WAIT_MIN, CLOSE_WAIT_MAX, fast_mode)
