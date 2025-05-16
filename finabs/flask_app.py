@@ -1246,5 +1246,7 @@ def run_gmaps_scrape_task(task_id, db_name, queue_collection, business_collectio
             log.info(f"Cleaned up Google Maps scraper thread for task {task_id}")
 
 
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
