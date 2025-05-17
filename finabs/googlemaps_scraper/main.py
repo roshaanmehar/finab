@@ -123,8 +123,8 @@ def process_subsectors(
     
     log.info("Total subsectors to process: %d", total_subsectors)
 
-    # Maximum time to spend on a single subsector (8 minutes)
-    MAX_SUBSECTOR_TIME = 8 * 60  # seconds
+    # Maximum time to spend on a single subsector (25 minutes)
+    MAX_SUBSECTOR_TIME = 25 * 60  # seconds
 
     for doc in doc_iter():
         # Check if we should terminate early

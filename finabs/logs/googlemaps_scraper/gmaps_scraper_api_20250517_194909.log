@@ -1,0 +1,47 @@
+2025-05-17 19:49:09,507 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:49:09,528 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 19:49:09,537 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_194909.log
+2025-05-17 19:49:09,546 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 19:49:09,552 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:49:09,634 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 19:49:09,636 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 19:49:09,656 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 19:49:12,550 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 19:49:12,550 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 19:49:12,555 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 19:49:12,559 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:49:12,562 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M15 6 (1/287)
+2025-05-17 19:49:12,665 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:49:12,667 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 6
+2025-05-17 19:49:12,669 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:49:16,283 - googlemaps_scraper - INFO - M15 6 -> search query launched: restaurants in M15 6 Manchester
+2025-05-17 19:49:18,463 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:20,202 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 5)
+2025-05-17 19:49:20,256 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:21,846 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 5)
+2025-05-17 19:49:21,910 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:23,766 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 10)
+2025-05-17 19:49:23,766 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 1/6)
+2025-05-17 19:49:23,884 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:25,454 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 10)
+2025-05-17 19:49:25,454 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 2/6)
+2025-05-17 19:49:25,526 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:27,105 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 10)
+2025-05-17 19:49:27,105 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 3/6)
+2025-05-17 19:49:27,148 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:28,730 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 10)
+2025-05-17 19:49:28,731 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 4/6)
+2025-05-17 19:49:28,816 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:30,411 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 15)
+2025-05-17 19:49:30,411 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 5/6)
+2025-05-17 19:49:30,476 - googlemaps_scraper - INFO - M15 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:49:32,060 - googlemaps_scraper - INFO - M15 6 -> scrolled feed (tiles now 15)
+2025-05-17 19:49:32,060 - googlemaps_scraper - INFO - M15 6 -> Multiple scrolls with no new data (attempt 6/6)
+2025-05-17 19:49:32,061 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:49:32,062 - googlemaps_scraper - INFO - M15 6 -> [92m[1mScraping completed in 0:00:19.383531[0m
+2025-05-17 19:49:32,063 - googlemaps_scraper - INFO - M15 6 -> [92m[1mTotal cards scraped: 0 (unique businesses: 0)[0m
+2025-05-17 19:49:32,063 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:49:32,064 - googlemaps_scraper - WARNING - M15 6 -> attempt 1/3 returned no results
+2025-05-17 19:49:32,083 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:49:32,084 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 6
+2025-05-17 19:49:32,085 - googlemaps_scraper - INFO - ============================================================

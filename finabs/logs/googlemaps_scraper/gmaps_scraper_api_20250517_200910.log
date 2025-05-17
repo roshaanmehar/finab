@@ -1,0 +1,689 @@
+2025-05-17 20:09:10,729 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:09:10,730 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 20:09:10,732 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_200910.log
+2025-05-17 20:09:10,734 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 20:09:10,736 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:09:10,776 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 20:09:10,778 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 20:09:10,786 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 20:09:12,502 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 20:09:12,505 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 20:09:12,508 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 20:09:12,511 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 20:09:12,512 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 8 (1/287)
+2025-05-17 20:09:12,545 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:09:12,546 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 20:09:12,547 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:09:16,171 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 20:09:19,335 - googlemaps_scraper - INFO - M16 8 -> Found 5 unprocessed tiles
+2025-05-17 20:09:19,417 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/5: Royal Oak[0m
+2025-05-17 20:09:24,774 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+2025-05-17 20:09:25,826 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Royal Oak
+2025-05-17 20:09:25,826 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.1
+2025-05-17 20:09:25,826 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 716
+2025-05-17 20:09:25,827 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+2025-05-17 20:09:25,827 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 20:09:25,827 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618607438
+2025-05-17 20:09:25,827 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 20:09:25,828 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRoyal Oak[0m', Website='[1m[96mhttps://www.greeneking.co.uk/p...[0m', Phone='[1m[93m1618607438[0m', Address='[1m[92m440 Barlow Moor Rd, Chorlton-c...[0m'
+2025-05-17 20:09:25,828 - googlemaps_scraper - INFO - M16 8 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 20:09:25,832 - googlemaps_scraper - INFO - Updated existing record for Royal Oak
+2025-05-17 20:09:25,834 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:09:31,879 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:09:33,179 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:09:37,332 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 5)
+2025-05-17 20:09:37,332 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 20:09:37,617 - googlemaps_scraper - INFO - M16 8 -> Found 4 unprocessed tiles
+2025-05-17 20:09:37,703 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/4: TGI Fridays - Trafford Centre[0m
+2025-05-17 20:09:42,569 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671 for business TGI Fridays - Trafford Centre
+2025-05-17 20:09:43,804 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: TGI Fridays - Trafford Centre
+2025-05-17 20:09:43,804 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 3.6
+2025-05-17 20:09:43,805 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1808
+2025-05-17 20:09:43,805 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: The Great Hall, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA
+2025-05-17 20:09:43,805 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 20:09:43,805 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 3301759275
+2025-05-17 20:09:43,805 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: TGI Fridays - Trafford Centre -> https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 20:09:43,806 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTGI Fridays - Trafford Centre[0m', Website='[1m[96mhttps://www.tgifridays.co.uk/l...[0m', Phone='[1m[93m3301759275[0m', Address='[1m[92mThe Great Hall, The Trafford C...[0m'
+2025-05-17 20:09:43,806 - googlemaps_scraper - INFO - M16 8 -> Scraped: TGI Fridays - Trafford Centre (phone: 3301759275, address: The Great Hall, The Trafford C..., website: https://www.tgifridays.co.uk/l...)
+2025-05-17 20:09:43,810 - googlemaps_scraper - INFO - Updated existing record for TGI Fridays - Trafford Centre
+2025-05-17 20:09:43,813 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:09:49,952 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:09:51,204 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:09:55,377 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 5)
+2025-05-17 20:09:55,377 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 2[0m
+2025-05-17 20:09:55,784 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:09:55,890 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: Tibetan Kitchen Manchester[0m
+2025-05-17 20:10:01,261 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.tibetankitchen.co.uk/ for business Tibetan Kitchen Manchester
+2025-05-17 20:10:02,365 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Tibetan Kitchen Manchester
+2025-05-17 20:10:02,366 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.8
+2025-05-17 20:10:02,366 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 576
+2025-05-17 20:10:02,366 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 254 Upper Chorlton Rd, Firswood, Stretford, Manchester M16 0BN
+2025-05-17 20:10:02,367 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.tibetankitchen.co.uk/
+2025-05-17 20:10:02,367 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618811966
+2025-05-17 20:10:02,367 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Tibetan Kitchen Manchester -> http://www.tibetankitchen.co.uk/
+2025-05-17 20:10:02,368 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTibetan Kitchen Manchester[0m', Website='[1m[96mhttp://www.tibetankitchen.co.u...[0m', Phone='[1m[93m1618811966[0m', Address='[1m[92m254 Upper Chorlton Rd, Firswoo...[0m'
+2025-05-17 20:10:02,368 - googlemaps_scraper - INFO - M16 8 -> Scraped: Tibetan Kitchen Manchester (phone: 1618811966, address: 254 Upper Chorlton Rd, Firswoo..., website: http://www.tibetankitchen.co.u...)
+2025-05-17 20:10:02,370 - googlemaps_scraper - INFO - Updated existing record for Tibetan Kitchen Manchester
+2025-05-17 20:10:02,372 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:10:08,410 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:10:09,622 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:10:13,586 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 10)
+2025-05-17 20:10:13,587 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 3[0m
+2025-05-17 20:10:14,451 - googlemaps_scraper - INFO - M16 8 -> Found 7 unprocessed tiles
+2025-05-17 20:10:14,537 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/7: CASA DE MOOR - CHORLTON[0m
+2025-05-17 20:10:20,199 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.casademoor.co.uk/ for business CASA DE MOOR - CHORLTON
+2025-05-17 20:10:21,251 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: CASA DE MOOR - CHORLTON
+2025-05-17 20:10:21,252 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.9
+2025-05-17 20:10:21,252 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1582
+2025-05-17 20:10:21,252 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 133 Beech Rd, Chorlton-cum-Hardy, Manchester M21 9EQ
+2025-05-17 20:10:21,253 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.casademoor.co.uk/
+2025-05-17 20:10:21,253 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618814588
+2025-05-17 20:10:21,253 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: CASA DE MOOR - CHORLTON -> http://www.casademoor.co.uk/
+2025-05-17 20:10:21,254 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mCASA DE MOOR - CHORLTON[0m', Website='[1m[96mhttp://www.casademoor.co.uk/[0m', Phone='[1m[93m1618814588[0m', Address='[1m[92m133 Beech Rd, Chorlton-cum-Har...[0m'
+2025-05-17 20:10:21,254 - googlemaps_scraper - INFO - M16 8 -> Scraped: CASA DE MOOR - CHORLTON (phone: 1618814588, address: 133 Beech Rd, Chorlton-cum-Har..., website: http://www.casademoor.co.uk/)
+2025-05-17 20:10:21,257 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-17 20:10:21,258 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:10:27,301 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:10:28,584 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:10:32,760 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 10)
+2025-05-17 20:10:32,760 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 4[0m
+2025-05-17 20:10:33,284 - googlemaps_scraper - INFO - M16 8 -> Found 6 unprocessed tiles
+2025-05-17 20:10:33,370 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/6: Qabeela Restaurant[0m
+2025-05-17 20:10:38,966 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://qabeelarestaurant.co.uk/ for business Qabeela Restaurant
+2025-05-17 20:10:40,031 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Qabeela Restaurant
+2025-05-17 20:10:40,031 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.7
+2025-05-17 20:10:40,032 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 51
+2025-05-17 20:10:40,032 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 59 Ayres Rd, Old Trafford, Stretford, Manchester M16 9NH
+2025-05-17 20:10:40,032 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://qabeelarestaurant.co.uk/
+2025-05-17 20:10:40,033 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 7394349579
+2025-05-17 20:10:40,033 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Qabeela Restaurant -> https://qabeelarestaurant.co.uk/
+2025-05-17 20:10:40,033 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mQabeela Restaurant[0m', Website='[1m[96mhttps://qabeelarestaurant.co.u...[0m', Phone='[1m[93m7394349579[0m', Address='[1m[92m59 Ayres Rd, Old Trafford, Str...[0m'
+2025-05-17 20:10:40,033 - googlemaps_scraper - INFO - M16 8 -> Scraped: Qabeela Restaurant (phone: 7394349579, address: 59 Ayres Rd, Old Trafford, Str..., website: https://qabeelarestaurant.co.u...)
+2025-05-17 20:10:40,037 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-17 20:10:40,037 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:10:46,071 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:10:47,275 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:10:51,199 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 10)
+2025-05-17 20:10:51,200 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 5[0m
+2025-05-17 20:10:51,734 - googlemaps_scraper - INFO - M16 8 -> Found 5 unprocessed tiles
+2025-05-17 20:10:51,842 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/5: Bando Boxes[0m
+2025-05-17 20:10:57,634 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://bandoboxes.com/ for business Bando Boxes
+2025-05-17 20:10:58,785 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Bando Boxes
+2025-05-17 20:10:58,786 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:10:58,787 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1009
+2025-05-17 20:10:58,788 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 2 Seymour Grove, Old Trafford, Stretford, Manchester M16 0LH
+2025-05-17 20:10:58,789 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://bandoboxes.com/
+2025-05-17 20:10:58,790 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1614101000
+2025-05-17 20:10:58,791 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Bando Boxes -> https://bandoboxes.com/
+2025-05-17 20:10:58,792 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mBando Boxes[0m', Website='[1m[96mhttps://bandoboxes.com/[0m', Phone='[1m[93m1614101000[0m', Address='[1m[92m2 Seymour Grove, Old Trafford,...[0m'
+2025-05-17 20:10:58,795 - googlemaps_scraper - INFO - M16 8 -> Scraped: Bando Boxes (phone: 1614101000, address: 2 Seymour Grove, Old Trafford,..., website: https://bandoboxes.com/)
+2025-05-17 20:10:58,807 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/120)
+2025-05-17 20:10:58,808 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:11:04,829 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:11:06,007 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:11:10,142 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 10)
+2025-05-17 20:11:10,143 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 6[0m
+2025-05-17 20:11:10,634 - googlemaps_scraper - INFO - M16 8 -> Found 4 unprocessed tiles
+2025-05-17 20:11:10,721 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/4: Tattu Manchester[0m
+2025-05-17 20:11:17,231 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://tattu.co.uk/locations/manchester/ for business Tattu Manchester
+2025-05-17 20:11:18,388 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Tattu Manchester
+2025-05-17 20:11:18,389 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:11:18,389 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 3162
+2025-05-17 20:11:18,389 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 3 Hardman Square, Gartside St, Manchester M3 3EB
+2025-05-17 20:11:18,390 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://tattu.co.uk/locations/manchester/
+2025-05-17 20:11:18,390 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618192060
+2025-05-17 20:11:18,390 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Tattu Manchester -> https://tattu.co.uk/locations/manchester/
+2025-05-17 20:11:18,391 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTattu Manchester[0m', Website='[1m[96mhttps://tattu.co.uk/locations/...[0m', Phone='[1m[93m1618192060[0m', Address='[1m[92m3 Hardman Square, Gartside St,...[0m'
+2025-05-17 20:11:18,391 - googlemaps_scraper - INFO - M16 8 -> Scraped: Tattu Manchester (phone: 1618192060, address: 3 Hardman Square, Gartside St,..., website: https://tattu.co.uk/locations/...)
+2025-05-17 20:11:18,396 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/120)
+2025-05-17 20:11:18,397 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:11:24,449 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:11:25,717 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:11:29,828 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 10)
+2025-05-17 20:11:29,829 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 7[0m
+2025-05-17 20:11:30,358 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:11:30,454 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: Red Marrakech[0m
+2025-05-17 20:11:37,311 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Red Marrakech
+2025-05-17 20:11:38,452 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Red Marrakech
+2025-05-17 20:11:38,452 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:11:38,453 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 419
+2025-05-17 20:11:38,453 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 97 Ayres Rd, Old Trafford, Stretford, Manchester M16 7GS
+2025-05-17 20:11:38,454 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: N/A
+2025-05-17 20:11:38,454 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 7838222819
+2025-05-17 20:11:38,455 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Red Marrakech -> N/A
+2025-05-17 20:11:38,455 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRed Marrakech[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m7838222819[0m', Address='[1m[92m97 Ayres Rd, Old Trafford, Str...[0m'
+2025-05-17 20:11:38,456 - googlemaps_scraper - INFO - M16 8 -> Scraped: Red Marrakech (phone: 7838222819, address: 97 Ayres Rd, Old Trafford, Str..., website: N/A)
+2025-05-17 20:11:38,464 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/120)
+2025-05-17 20:11:38,465 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:11:44,522 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:11:45,737 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:11:49,845 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 15)
+2025-05-17 20:11:49,845 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 8[0m
+2025-05-17 20:11:50,625 - googlemaps_scraper - INFO - M16 8 -> Found 7 unprocessed tiles
+2025-05-17 20:11:50,703 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/7: Olive & Thyme[0m
+2025-05-17 20:11:56,640 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.oliveandthyme.uk/ for business Olive & Thyme
+2025-05-17 20:11:57,766 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Olive & Thyme
+2025-05-17 20:11:57,767 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:11:57,768 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1016
+2025-05-17 20:11:57,769 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 416-418 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 8AD
+2025-05-17 20:11:57,769 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.oliveandthyme.uk/
+2025-05-17 20:11:57,770 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 416418218
+2025-05-17 20:11:57,771 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Olive & Thyme -> http://www.oliveandthyme.uk/
+2025-05-17 20:11:57,772 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mOlive & Thyme[0m', Website='[1m[96mhttp://www.oliveandthyme.uk/[0m', Phone='[1m[93m416418218[0m', Address='[1m[92m416-418 Barlow Moor Rd, Chorlt...[0m'
+2025-05-17 20:11:57,773 - googlemaps_scraper - INFO - M16 8 -> Scraped: Olive & Thyme (phone: 416418218, address: 416-418 Barlow Moor Rd, Chorlt..., website: http://www.oliveandthyme.uk/)
+2025-05-17 20:11:57,782 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 6/120)
+2025-05-17 20:11:57,783 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:12:03,831 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:12:05,026 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:12:09,160 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 15)
+2025-05-17 20:12:09,160 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 9[0m
+2025-05-17 20:12:10,782 - googlemaps_scraper - INFO - M16 8 -> Found 6 unprocessed tiles
+2025-05-17 20:12:10,887 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/6: Albert's Shed Restaurant Manchester[0m
+2025-05-17 20:12:16,787 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://alberts-restaurants.com/shed/ for business Albert's Shed Restaurant Manchester
+2025-05-17 20:12:17,959 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Albert's Shed Restaurant Manchester
+2025-05-17 20:12:17,960 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.4
+2025-05-17 20:12:17,962 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1867
+2025-05-17 20:12:17,962 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 18-20 Castle St, Manchester M3 4LZ
+2025-05-17 20:12:17,963 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://alberts-restaurants.com/shed/
+2025-05-17 20:12:17,964 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618399818
+2025-05-17 20:12:17,972 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Albert's Shed Restaurant Manchester -> http://alberts-restaurants.com/shed/
+2025-05-17 20:12:17,975 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mAlbert's Shed Restaurant Manchester[0m', Website='[1m[96mhttp://alberts-restaurants.com...[0m', Phone='[1m[93m1618399818[0m', Address='[1m[92m18-20 Castle St, Manchester M3...[0m'
+2025-05-17 20:12:17,977 - googlemaps_scraper - INFO - M16 8 -> Scraped: Albert's Shed Restaurant Manchester (phone: 1618399818, address: 18-20 Castle St, Manchester M3..., website: http://alberts-restaurants.com...)
+2025-05-17 20:12:17,992 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 7/120)
+2025-05-17 20:12:17,997 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:12:24,040 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:12:25,219 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:12:29,398 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 15)
+2025-05-17 20:12:29,399 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 10[0m
+2025-05-17 20:12:30,160 - googlemaps_scraper - INFO - M16 8 -> Found 5 unprocessed tiles
+2025-05-17 20:12:30,269 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/5: Kool Runnings[0m
+2025-05-17 20:12:35,566 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.instagram.com/koolrunnings_/ for business Kool Runnings
+2025-05-17 20:12:36,703 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Kool Runnings
+2025-05-17 20:12:36,704 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.7
+2025-05-17 20:12:36,705 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 307
+2025-05-17 20:12:36,706 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 118 Chorlton Rd, Old Trafford, Stretford, Manchester M15 4AN
+2025-05-17 20:12:36,707 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.instagram.com/koolrunnings_/
+2025-05-17 20:12:36,708 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 7413520101
+2025-05-17 20:12:36,709 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Kool Runnings -> https://www.instagram.com/koolrunnings_/
+2025-05-17 20:12:36,709 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mKool Runnings[0m', Website='[1m[96mhttps://www.instagram.com/kool...[0m', Phone='[1m[93m7413520101[0m', Address='[1m[92m118 Chorlton Rd, Old Trafford,...[0m'
+2025-05-17 20:12:36,710 - googlemaps_scraper - INFO - M16 8 -> Scraped: Kool Runnings (phone: 7413520101, address: 118 Chorlton Rd, Old Trafford,..., website: https://www.instagram.com/kool...)
+2025-05-17 20:12:36,718 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 8/120)
+2025-05-17 20:12:36,719 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:12:42,741 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:12:43,909 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:12:47,943 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 15)
+2025-05-17 20:12:47,944 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 11[0m
+2025-05-17 20:12:48,643 - googlemaps_scraper - INFO - M16 8 -> Found 4 unprocessed tiles
+2025-05-17 20:12:48,737 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/4: Chillyz[0m
+2025-05-17 20:12:54,432 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf for business Chillyz
+2025-05-17 20:12:55,580 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Chillyz
+2025-05-17 20:12:55,581 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:12:55,582 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 115
+2025-05-17 20:12:55,582 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 71a Ayres Rd, Old Trafford, Stretford, Manchester M16 7GS
+2025-05-17 20:12:55,583 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf
+2025-05-17 20:12:55,584 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 7394236200
+2025-05-17 20:12:55,585 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Chillyz -> https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf
+2025-05-17 20:12:55,586 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mChillyz[0m', Website='[1m[96mhttps://irp-cdn.multiscreensit...[0m', Phone='[1m[93m7394236200[0m', Address='[1m[92m71a Ayres Rd, Old Trafford, St...[0m'
+2025-05-17 20:12:55,588 - googlemaps_scraper - INFO - M16 8 -> Scraped: Chillyz (phone: 7394236200, address: 71a Ayres Rd, Old Trafford, St..., website: https://irp-cdn.multiscreensit...)
+2025-05-17 20:12:55,601 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 9/120)
+2025-05-17 20:12:55,606 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:13:01,659 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:13:02,882 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:13:07,079 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 15)
+2025-05-17 20:13:07,080 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 12[0m
+2025-05-17 20:13:07,826 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:13:07,930 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: Dishoom Manchester[0m
+2025-05-17 20:13:13,353 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.dishoom.com/manchester?utm_source=google&utm_medium=organic&utm_campaign=Yext&utm_content=D7-Manchester&y_source=1_MjMwNDkyMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D for business Dishoom Manchester
+2025-05-17 20:13:14,485 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Dishoom Manchester
+2025-05-17 20:13:14,486 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.8
+2025-05-17 20:13:14,486 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 8441
+2025-05-17 20:13:14,487 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 32 Bridge St, Manchester M3 3BT
+2025-05-17 20:13:14,488 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.dishoom.com/manchester?utm_source=google&utm_medium=organic&utm_campaign=Yext&utm_content=D7-Manchester&y_source=1_MjMwNDkyMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+2025-05-17 20:13:14,489 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1615373737
+2025-05-17 20:13:14,490 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Dishoom Manchester -> https://www.dishoom.com/manchester?utm_source=google&utm_medium=organic&utm_campaign=Yext&utm_content=D7-Manchester&y_source=1_MjMwNDkyMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+2025-05-17 20:13:14,490 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mDishoom Manchester[0m', Website='[1m[96mhttps://www.dishoom.com/manche...[0m', Phone='[1m[93m1615373737[0m', Address='[1m[92m32 Bridge St, Manchester M3 3B...[0m'
+2025-05-17 20:13:14,491 - googlemaps_scraper - INFO - M16 8 -> Scraped: Dishoom Manchester (phone: 1615373737, address: 32 Bridge St, Manchester M3 3B..., website: https://www.dishoom.com/manche...)
+2025-05-17 20:13:14,500 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 10/120)
+2025-05-17 20:13:14,501 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:13:20,547 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:13:21,873 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:13:25,983 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:13:25,984 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 13[0m
+2025-05-17 20:13:26,958 - googlemaps_scraper - INFO - M16 8 -> Found 7 unprocessed tiles
+2025-05-17 20:13:27,058 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/7: Chicken Run Manchester[0m
+2025-05-17 20:13:33,595 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Chicken Run Manchester
+2025-05-17 20:13:34,741 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Chicken Run Manchester
+2025-05-17 20:13:34,742 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:13:34,743 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 593
+2025-05-17 20:13:34,744 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 6 Yarburgh St, Whalley Range, Manchester M16 7FJ
+2025-05-17 20:13:34,745 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: N/A
+2025-05-17 20:13:34,745 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1612266714
+2025-05-17 20:13:34,746 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Chicken Run Manchester -> N/A
+2025-05-17 20:13:34,747 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mChicken Run Manchester[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m1612266714[0m', Address='[1m[92m6 Yarburgh St, Whalley Range, ...[0m'
+2025-05-17 20:13:34,748 - googlemaps_scraper - INFO - M16 8 -> Scraped: Chicken Run Manchester (phone: 1612266714, address: 6 Yarburgh St, Whalley Range, ..., website: N/A)
+2025-05-17 20:13:34,763 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 11/120)
+2025-05-17 20:13:34,764 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:13:40,800 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:13:41,981 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:13:45,951 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:13:45,952 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 14[0m
+2025-05-17 20:13:48,027 - googlemaps_scraper - INFO - M16 8 -> Found 6 unprocessed tiles
+2025-05-17 20:13:48,103 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/6: Deens - Old Trafford[0m
+2025-05-17 20:13:54,201 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://deensfriedchicken.co.uk/ for business Deens - Old Trafford
+2025-05-17 20:13:55,341 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Deens - Old Trafford
+2025-05-17 20:13:55,342 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.0
+2025-05-17 20:13:55,343 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 376
+2025-05-17 20:13:55,343 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 29 Ayres Rd, Old Trafford, Stretford, Manchester M16 9WA
+2025-05-17 20:13:55,344 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://deensfriedchicken.co.uk/
+2025-05-17 20:13:55,344 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1612321777
+2025-05-17 20:13:55,345 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Deens - Old Trafford -> https://deensfriedchicken.co.uk/
+2025-05-17 20:13:55,346 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mDeens - Old Trafford[0m', Website='[1m[96mhttps://deensfriedchicken.co.u...[0m', Phone='[1m[93m1612321777[0m', Address='[1m[92m29 Ayres Rd, Old Trafford, Str...[0m'
+2025-05-17 20:13:55,347 - googlemaps_scraper - INFO - M16 8 -> Scraped: Deens - Old Trafford (phone: 1612321777, address: 29 Ayres Rd, Old Trafford, Str..., website: https://deensfriedchicken.co.u...)
+2025-05-17 20:13:55,357 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 12/120)
+2025-05-17 20:13:55,358 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:14:01,385 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:14:02,551 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:14:06,719 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:14:06,719 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 15[0m
+2025-05-17 20:14:07,705 - googlemaps_scraper - INFO - M16 8 -> Found 5 unprocessed tiles
+2025-05-17 20:14:07,814 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/5: Trof Northern Quarter[0m
+2025-05-17 20:14:13,925 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.trofnq.co.uk/ for business Trof Northern Quarter
+2025-05-17 20:14:15,109 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Trof Northern Quarter
+2025-05-17 20:14:15,110 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:14:15,111 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 2343
+2025-05-17 20:14:15,112 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 8 Thomas St, Greater, Manchester M4 1EU
+2025-05-17 20:14:15,112 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.trofnq.co.uk/
+2025-05-17 20:14:15,113 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618333197
+2025-05-17 20:14:15,114 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Trof Northern Quarter -> http://www.trofnq.co.uk/
+2025-05-17 20:14:15,115 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTrof Northern Quarter[0m', Website='[1m[96mhttp://www.trofnq.co.uk/[0m', Phone='[1m[93m1618333197[0m', Address='[1m[92m8 Thomas St, Greater, Manchest...[0m'
+2025-05-17 20:14:15,116 - googlemaps_scraper - INFO - M16 8 -> Scraped: Trof Northern Quarter (phone: 1618333197, address: 8 Thomas St, Greater, Manchest..., website: http://www.trofnq.co.uk/)
+2025-05-17 20:14:15,125 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 13/120)
+2025-05-17 20:14:15,127 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:14:21,176 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:14:22,385 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:14:26,655 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:14:26,655 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 16[0m
+2025-05-17 20:14:27,681 - googlemaps_scraper - INFO - M16 8 -> Found 4 unprocessed tiles
+2025-05-17 20:14:27,783 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/4: Sabi.di.mas[0m
+2025-05-17 20:14:33,826 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Sabi.di.mas
+2025-05-17 20:14:34,896 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Sabi.di.mas
+2025-05-17 20:14:34,897 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 5.0
+2025-05-17 20:14:34,897 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1
+2025-05-17 20:14:34,897 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: E199, Stamford St, Old Trafford, Manchester M16 9LX
+2025-05-17 20:14:34,898 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: N/A
+2025-05-17 20:14:34,898 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 7448621185
+2025-05-17 20:14:34,898 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Sabi.di.mas -> N/A
+2025-05-17 20:14:34,898 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mSabi.di.mas[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m7448621185[0m', Address='[1m[92mE199, Stamford St, Old Traffor...[0m'
+2025-05-17 20:14:34,899 - googlemaps_scraper - INFO - M16 8 -> Scraped: Sabi.di.mas (phone: 7448621185, address: E199, Stamford St, Old Traffor..., website: N/A)
+2025-05-17 20:14:34,902 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 14/120)
+2025-05-17 20:14:34,902 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:14:40,923 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:14:42,066 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:14:46,208 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:14:46,209 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 17[0m
+2025-05-17 20:14:47,163 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:14:47,250 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: Hungamaa Chorlton[0m
+2025-05-17 20:14:52,537 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.hungamaa.co.uk/ for business Hungamaa Chorlton
+2025-05-17 20:14:53,723 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Hungamaa Chorlton
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 394
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 575 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 8AE
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.hungamaa.co.uk/
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618607878
+2025-05-17 20:14:53,724 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Hungamaa Chorlton -> https://www.hungamaa.co.uk/
+2025-05-17 20:14:53,725 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mHungamaa Chorlton[0m', Website='[1m[96mhttps://www.hungamaa.co.uk/[0m', Phone='[1m[93m1618607878[0m', Address='[1m[92m575 Barlow Moor Rd, Chorlton-c...[0m'
+2025-05-17 20:14:53,725 - googlemaps_scraper - INFO - M16 8 -> Scraped: Hungamaa Chorlton (phone: 1618607878, address: 575 Barlow Moor Rd, Chorlton-c..., website: https://www.hungamaa.co.uk/)
+2025-05-17 20:14:53,727 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 15/120)
+2025-05-17 20:14:53,728 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:14:59,782 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:15:00,994 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:15:05,061 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 20)
+2025-05-17 20:15:05,062 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 18[0m
+2025-05-17 20:15:06,041 - googlemaps_scraper - INFO - M16 8 -> Found 2 unprocessed tiles
+2025-05-17 20:15:06,126 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/2: Ziya Asian Grill[0m
+2025-05-17 20:15:12,309 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.ziyarestaurant.co.uk/ for business Ziya Asian Grill
+2025-05-17 20:15:13,347 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Ziya Asian Grill
+2025-05-17 20:15:13,347 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:15:13,347 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 2913
+2025-05-17 20:15:13,347 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 65-67 Wilmslow Rd, Manchester M14 5TB
+2025-05-17 20:15:13,348 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.ziyarestaurant.co.uk/
+2025-05-17 20:15:13,348 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1612572010
+2025-05-17 20:15:13,348 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Ziya Asian Grill -> http://www.ziyarestaurant.co.uk/
+2025-05-17 20:15:13,348 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mZiya Asian Grill[0m', Website='[1m[96mhttp://www.ziyarestaurant.co.u...[0m', Phone='[1m[93m1612572010[0m', Address='[1m[92m65-67 Wilmslow Rd, Manchester ...[0m'
+2025-05-17 20:15:13,348 - googlemaps_scraper - INFO - M16 8 -> Scraped: Ziya Asian Grill (phone: 1612572010, address: 65-67 Wilmslow Rd, Manchester ..., website: http://www.ziyarestaurant.co.u...)
+2025-05-17 20:15:13,350 - googlemaps_scraper - INFO - Updated existing record for Ziya Asian Grill
+2025-05-17 20:15:13,351 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:15:19,419 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:15:20,605 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:15:24,741 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 22)
+2025-05-17 20:15:24,742 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 19[0m
+2025-05-17 20:15:25,902 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:15:26,002 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: Signature Steakhouse[0m
+2025-05-17 20:15:31,618 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.traffordhallhotel.com/restaurant for business Signature Steakhouse
+2025-05-17 20:15:32,771 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Signature Steakhouse
+2025-05-17 20:15:32,772 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.3
+2025-05-17 20:15:32,773 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 249
+2025-05-17 20:15:32,773 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 23 Talbot Rd, Old Trafford, Stretford, Manchester M16 0PE
+2025-05-17 20:15:32,774 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.traffordhallhotel.com/restaurant
+2025-05-17 20:15:32,775 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1618487791
+2025-05-17 20:15:32,776 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Signature Steakhouse -> https://www.traffordhallhotel.com/restaurant
+2025-05-17 20:15:32,777 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mSignature Steakhouse[0m', Website='[1m[96mhttps://www.traffordhallhotel....[0m', Phone='[1m[93m1618487791[0m', Address='[1m[92m23 Talbot Rd, Old Trafford, St...[0m'
+2025-05-17 20:15:32,782 - googlemaps_scraper - INFO - M16 8 -> Scraped: Signature Steakhouse (phone: 1618487791, address: 23 Talbot Rd, Old Trafford, St..., website: https://www.traffordhallhotel....)
+2025-05-17 20:15:32,791 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 16/120)
+2025-05-17 20:15:32,792 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:15:38,842 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:15:40,058 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:15:44,271 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 22)
+2025-05-17 20:15:44,272 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 20[0m
+2025-05-17 20:15:47,334 - googlemaps_scraper - INFO - M16 8 -> Found 2 unprocessed tiles
+2025-05-17 20:15:47,423 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/2: Ribeye Steakhouse Manchester[0m
+2025-05-17 20:15:53,273 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.ribeyesteakhouse.com/ for business Ribeye Steakhouse Manchester
+2025-05-17 20:15:54,380 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: Ribeye Steakhouse Manchester
+2025-05-17 20:15:54,380 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.0
+2025-05-17 20:15:54,381 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1550
+2025-05-17 20:15:54,381 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: Unit 1a, Number 8 First St, Manchester M15 4FN
+2025-05-17 20:15:54,381 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.ribeyesteakhouse.com/
+2025-05-17 20:15:54,381 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1614702222
+2025-05-17 20:15:54,382 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: Ribeye Steakhouse Manchester -> https://www.ribeyesteakhouse.com/
+2025-05-17 20:15:54,382 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRibeye Steakhouse Manchester[0m', Website='[1m[96mhttps://www.ribeyesteakhouse.c...[0m', Phone='[1m[93m1614702222[0m', Address='[1m[92mUnit 1a, Number 8 First St, Ma...[0m'
+2025-05-17 20:15:54,382 - googlemaps_scraper - INFO - M16 8 -> Scraped: Ribeye Steakhouse Manchester (phone: 1614702222, address: Unit 1a, Number 8 First St, Ma..., website: https://www.ribeyesteakhouse.c...)
+2025-05-17 20:15:54,384 - googlemaps_scraper - INFO - Updated existing record for Ribeye Steakhouse Manchester
+2025-05-17 20:15:54,385 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:16:00,404 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:16:01,570 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:16:05,750 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 27)
+2025-05-17 20:16:05,751 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 21[0m
+2025-05-17 20:16:06,959 - googlemaps_scraper - INFO - M16 8 -> Found 6 unprocessed tiles
+2025-05-17 20:16:07,046 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/6: The Ivy Spinningfields Brasserie, Manchester[0m
+2025-05-17 20:16:13,085 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://ivycollection.com/restaurants/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic for business The Ivy Spinningfields Brasserie, Manchester
+2025-05-17 20:16:14,225 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: The Ivy Spinningfields Brasserie, Manchester
+2025-05-17 20:16:14,227 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:16:14,227 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 5206
+2025-05-17 20:16:14,229 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: The Pavilion, Byrom St, Manchester M3 3HG
+2025-05-17 20:16:14,229 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://ivycollection.com/restaurants/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic
+2025-05-17 20:16:14,230 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: None
+2025-05-17 20:16:14,231 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: The Ivy Spinningfields Brasserie, Manchester -> https://ivycollection.com/restaurants/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic
+2025-05-17 20:16:14,232 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Ivy Spinningfields Brasserie, Manchester[0m', Website='[1m[96mhttps://ivycollection.com/rest...[0m', Phone='[1m[93mNone[0m', Address='[1m[92mThe Pavilion, Byrom St, Manche...[0m'
+2025-05-17 20:16:14,233 - googlemaps_scraper - INFO - M16 8 -> Scraped: The Ivy Spinningfields Brasserie, Manchester (phone: none, address: The Pavilion, Byrom St, Manche..., website: https://ivycollection.com/rest...)
+2025-05-17 20:16:14,246 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:16:20,293 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:16:21,552 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:16:25,612 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 27)
+2025-05-17 20:16:25,613 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 22[0m
+2025-05-17 20:16:27,050 - googlemaps_scraper - INFO - M16 8 -> Found 5 unprocessed tiles
+2025-05-17 20:16:27,132 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/5: The Deansgate[0m
+2025-05-17 20:16:32,958 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage for business The Deansgate
+2025-05-17 20:16:34,031 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: The Deansgate
+2025-05-17 20:16:34,032 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.3
+2025-05-17 20:16:34,032 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1475
+2025-05-17 20:16:34,033 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-17 20:16:34,034 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 20:16:34,034 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1613888956
+2025-05-17 20:16:34,035 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 20:16:34,035 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Deansgate[0m', Website='[1m[96mhttps://www.greeneking.co.uk/p...[0m', Phone='[1m[93m1613888956[0m', Address='[1m[92m321 Deansgate, Manchester M3 4...[0m'
+2025-05-17 20:16:34,036 - googlemaps_scraper - INFO - M16 8 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 20:16:34,042 - googlemaps_scraper - INFO - Updated existing record for The Deansgate
+2025-05-17 20:16:34,048 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:16:40,093 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:16:41,288 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:16:45,411 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 27)
+2025-05-17 20:16:45,412 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 23[0m
+2025-05-17 20:16:47,014 - googlemaps_scraper - INFO - M16 8 -> Found 4 unprocessed tiles
+2025-05-17 20:16:47,102 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/4: TOPS Buffet Restaurant Manchester[0m
+2025-05-17 20:16:53,220 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.tops-restaurants.co.uk/ for business TOPS Buffet Restaurant Manchester
+2025-05-17 20:16:54,340 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: TOPS Buffet Restaurant Manchester
+2025-05-17 20:16:54,340 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 3.9
+2025-05-17 20:16:54,340 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 5434
+2025-05-17 20:16:54,341 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 106 Portland St, Manchester M1 4RJ
+2025-05-17 20:16:54,341 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.tops-restaurants.co.uk/
+2025-05-17 20:16:54,341 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1612371000
+2025-05-17 20:16:54,342 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: TOPS Buffet Restaurant Manchester -> http://www.tops-restaurants.co.uk/
+2025-05-17 20:16:54,342 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTOPS Buffet Restaurant Manchester[0m', Website='[1m[96mhttp://www.tops-restaurants.co...[0m', Phone='[1m[93m1612371000[0m', Address='[1m[92m106 Portland St, Manchester M1...[0m'
+2025-05-17 20:16:54,342 - googlemaps_scraper - INFO - M16 8 -> Scraped: TOPS Buffet Restaurant Manchester (phone: 1612371000, address: 106 Portland St, Manchester M1..., website: http://www.tops-restaurants.co...)
+2025-05-17 20:16:54,345 - googlemaps_scraper - ERROR - Error inserting record: E11000 duplicate key error collection: Manchester.restaurants index: phonenumber_1 dup key: { phonenumber: 1612371000 }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: Manchester.restaurants index: phonenumber_1 dup key: { phonenumber: 1612371000 }', 'keyPattern': {'phonenumber': 1}, 'keyValue': {'phonenumber': 1612371000}}
+2025-05-17 20:16:54,347 - googlemaps_scraper - INFO - M16 8 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:17:00,396 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:17:01,602 - googlemaps_scraper - INFO - M16 8 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:17:05,626 - googlemaps_scraper - INFO - M16 8 -> scrolled feed (tiles now 27)
+2025-05-17 20:17:05,626 - googlemaps_scraper - INFO - M16 8 -> [1m[94mTotal unique businesses processed in this subsector: 24[0m
+2025-05-17 20:17:06,857 - googlemaps_scraper - INFO - M16 8 -> Found 3 unprocessed tiles
+2025-05-17 20:17:06,948 - googlemaps_scraper - INFO - M16 8 -> [96m[1mClicking tile 1/3: The Pasta Factory[0m
+2025-05-17 20:17:12,731 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.pastafactory.co.uk/ for business The Pasta Factory
+2025-05-17 20:17:13,840 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Business Name: The Pasta Factory
+2025-05-17 20:17:13,841 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:17:13,842 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Reviews: 1847
+2025-05-17 20:17:13,842 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Address: 77 Shudehill, Manchester M4 4AN
+2025-05-17 20:17:13,843 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Website: http://www.pastafactory.co.uk/
+2025-05-17 20:17:13,843 - googlemaps_scraper - INFO - M16 8 -> EXTRACTION: Phone: 1612229250
+2025-05-17 20:17:13,844 - googlemaps_scraper - INFO - M16 8 -> BUSINESS-WEBSITE MAPPING: The Pasta Factory -> http://www.pastafactory.co.uk/
+2025-05-17 20:17:13,845 - googlemaps_scraper - INFO - M16 8 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Pasta Factory[0m', Website='[1m[96mhttp://www.pastafactory.co.uk/[0m', Phone='[1m[93m1612229250[0m', Address='[1m[92m77 Shudehill, Manchester M4 4A...[0m'
+2025-05-17 20:17:13,845 - googlemaps_scraper - INFO - M16 8 -> Scraped: The Pasta Factory (phone: 1612229250, address: 77 Shudehill, Manchester M4 4A..., website: http://www.pastafactory.co.uk/)
+2025-05-17 20:17:13,851 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 17/120)
+2025-05-17 20:17:13,852 - googlemaps_scraper - INFO - M16 8 -> Termination requested after record insertion
+2025-05-17 20:17:13,852 - googlemaps_scraper - WARNING - M16 8 -> Maximum processing time exceeded, marking as incomplete
+2025-05-17 20:17:13,861 - googlemaps_scraper - ERROR - Error saving JSON: Object of type datetime is not JSON serializable
+2025-05-17 20:17:13,864 - googlemaps_scraper - INFO - Saved 24 records to data/Manchester/csv/M16 8.csv
+2025-05-17 20:17:13,866 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 20:17:13,866 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 7 (2/287)
+2025-05-17 20:17:13,876 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:17:13,876 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 7
+2025-05-17 20:17:13,877 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:17:28,568 - googlemaps_scraper - INFO - M16 7 -> search query launched: restaurants in M16 7 Manchester
+2025-05-17 20:17:32,572 - googlemaps_scraper - INFO - M16 7 -> Found 5 unprocessed tiles
+2025-05-17 20:17:32,662 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/5: Coppice Wood Farm - Dining & Carvery[0m
+2025-05-17 20:17:38,949 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.farmhouseinns.co.uk/pubs/greater-manchester/coppice-wood-farm?utm_source=g_places&utm_medium=locations&utm_campaign=FHI_pubpage for business Coppice Wood Farm - Dining & Carvery
+2025-05-17 20:17:39,999 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Coppice Wood Farm - Dining & Carvery
+2025-05-17 20:17:39,999 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.2
+2025-05-17 20:17:40,000 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 2712
+2025-05-17 20:17:40,000 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 6 Mercury Way, Trafford Park, Stretford, Manchester M41 7PA
+2025-05-17 20:17:40,000 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://www.farmhouseinns.co.uk/pubs/greater-manchester/coppice-wood-farm?utm_source=g_places&utm_medium=locations&utm_campaign=FHI_pubpage
+2025-05-17 20:17:40,000 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1615378850
+2025-05-17 20:17:40,000 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Coppice Wood Farm - Dining & Carvery -> https://www.farmhouseinns.co.uk/pubs/greater-manchester/coppice-wood-farm?utm_source=g_places&utm_medium=locations&utm_campaign=FHI_pubpage
+2025-05-17 20:17:40,001 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mCoppice Wood Farm - Dining & Carvery[0m', Website='[1m[96mhttps://www.farmhouseinns.co.u...[0m', Phone='[1m[93m1615378850[0m', Address='[1m[92m6 Mercury Way, Trafford Park, ...[0m'
+2025-05-17 20:17:40,001 - googlemaps_scraper - INFO - M16 7 -> Scraped: Coppice Wood Farm - Dining & Carvery (phone: 1615378850, address: 6 Mercury Way, Trafford Park, ..., website: https://www.farmhouseinns.co.u...)
+2025-05-17 20:17:40,007 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 18/120)
+2025-05-17 20:17:40,007 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:17:46,033 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:17:47,241 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:17:51,276 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 5)
+2025-05-17 20:17:51,277 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 20:17:51,741 - googlemaps_scraper - INFO - M16 7 -> Found 4 unprocessed tiles
+2025-05-17 20:17:51,843 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/4: Las Iguanas - Manchester - Trafford Centre[0m
+2025-05-17 20:17:58,333 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-trafford-centre/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_traffordcentre for business Las Iguanas - Manchester - Trafford Centre
+2025-05-17 20:17:59,443 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Trafford Centre
+2025-05-17 20:17:59,443 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:17:59,444 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 1603
+2025-05-17 20:17:59,444 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: The Orient, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA
+2025-05-17 20:17:59,444 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-trafford-centre/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_traffordcentre
+2025-05-17 20:17:59,445 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1615492174
+2025-05-17 20:17:59,445 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Trafford Centre -> https://www.iguanas.co.uk/restaurants/manchester-trafford-centre/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_traffordcentre
+2025-05-17 20:17:59,445 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mLas Iguanas - Manchester - Trafford Centre[0m', Website='[1m[96mhttps://www.iguanas.co.uk/rest...[0m', Phone='[1m[93m1615492174[0m', Address='[1m[92mThe Orient, The Trafford Centr...[0m'
+2025-05-17 20:17:59,446 - googlemaps_scraper - INFO - M16 7 -> Scraped: Las Iguanas - Manchester - Trafford Centre (phone: 1615492174, address: The Orient, The Trafford Centr..., website: https://www.iguanas.co.uk/rest...)
+2025-05-17 20:17:59,450 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 19/120)
+2025-05-17 20:17:59,451 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:18:05,477 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:18:06,680 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:18:10,833 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 5)
+2025-05-17 20:18:10,834 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 2[0m
+2025-05-17 20:18:11,601 - googlemaps_scraper - INFO - M16 7 -> Found 3 unprocessed tiles
+2025-05-17 20:18:11,709 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/3: Tibetan Kitchen Manchester[0m
+2025-05-17 20:18:19,755 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.tibetankitchen.co.uk/ for business Tibetan Kitchen Manchester
+2025-05-17 20:18:20,836 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Tibetan Kitchen Manchester
+2025-05-17 20:18:20,836 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.8
+2025-05-17 20:18:20,837 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 576
+2025-05-17 20:18:20,837 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 254 Upper Chorlton Rd, Firswood, Stretford, Manchester M16 0BN
+2025-05-17 20:18:20,837 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: http://www.tibetankitchen.co.uk/
+2025-05-17 20:18:20,838 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1618811966
+2025-05-17 20:18:20,838 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Tibetan Kitchen Manchester -> http://www.tibetankitchen.co.uk/
+2025-05-17 20:18:20,838 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTibetan Kitchen Manchester[0m', Website='[1m[96mhttp://www.tibetankitchen.co.u...[0m', Phone='[1m[93m1618811966[0m', Address='[1m[92m254 Upper Chorlton Rd, Firswoo...[0m'
+2025-05-17 20:18:20,839 - googlemaps_scraper - INFO - M16 7 -> Scraped: Tibetan Kitchen Manchester (phone: 1618811966, address: 254 Upper Chorlton Rd, Firswoo..., website: http://www.tibetankitchen.co.u...)
+2025-05-17 20:18:20,867 - googlemaps_scraper - INFO - Updated existing record for Tibetan Kitchen Manchester
+2025-05-17 20:18:20,889 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:18:27,021 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:18:28,360 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:18:32,502 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 10)
+2025-05-17 20:18:32,503 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 3[0m
+2025-05-17 20:18:33,821 - googlemaps_scraper - INFO - M16 7 -> Found 7 unprocessed tiles
+2025-05-17 20:18:33,904 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/7: Qabeela Restaurant[0m
+2025-05-17 20:18:40,364 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://qabeelarestaurant.co.uk/ for business Qabeela Restaurant
+2025-05-17 20:18:41,414 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Qabeela Restaurant
+2025-05-17 20:18:41,415 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.7
+2025-05-17 20:18:41,415 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 51
+2025-05-17 20:18:41,415 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 59 Ayres Rd, Old Trafford, Stretford, Manchester M16 9NH
+2025-05-17 20:18:41,416 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://qabeelarestaurant.co.uk/
+2025-05-17 20:18:41,416 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 7394349579
+2025-05-17 20:18:41,416 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Qabeela Restaurant -> https://qabeelarestaurant.co.uk/
+2025-05-17 20:18:41,416 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mQabeela Restaurant[0m', Website='[1m[96mhttps://qabeelarestaurant.co.u...[0m', Phone='[1m[93m7394349579[0m', Address='[1m[92m59 Ayres Rd, Old Trafford, Str...[0m'
+2025-05-17 20:18:41,417 - googlemaps_scraper - INFO - M16 7 -> Scraped: Qabeela Restaurant (phone: 7394349579, address: 59 Ayres Rd, Old Trafford, Str..., website: https://qabeelarestaurant.co.u...)
+2025-05-17 20:18:41,420 - googlemaps_scraper - INFO - Updated existing record for Qabeela Restaurant
+2025-05-17 20:18:41,426 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:18:47,444 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:18:48,640 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:18:52,993 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 10)
+2025-05-17 20:18:52,993 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 4[0m
+2025-05-17 20:18:54,111 - googlemaps_scraper - INFO - M16 7 -> Found 6 unprocessed tiles
+2025-05-17 20:18:54,243 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/6: Emilia's Della Roma[0m
+2025-05-17 20:19:01,475 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Emilia's Della Roma
+2025-05-17 20:19:02,615 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Emilia's Della Roma
+2025-05-17 20:19:02,616 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.7
+2025-05-17 20:19:02,617 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 317
+2025-05-17 20:19:02,617 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 30 Davyhulme Rd E, Stretford, Manchester M32 0DW
+2025-05-17 20:19:02,618 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: N/A
+2025-05-17 20:19:02,618 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1612833375
+2025-05-17 20:19:02,619 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Emilia's Della Roma -> N/A
+2025-05-17 20:19:02,620 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mEmilia's Della Roma[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m1612833375[0m', Address='[1m[92m30 Davyhulme Rd E, Stretford, ...[0m'
+2025-05-17 20:19:02,621 - googlemaps_scraper - INFO - M16 7 -> Scraped: Emilia's Della Roma (phone: 1612833375, address: 30 Davyhulme Rd E, Stretford, ..., website: N/A)
+2025-05-17 20:19:02,626 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 20/120)
+2025-05-17 20:19:02,627 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:19:08,810 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:19:10,341 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:19:14,242 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 10)
+2025-05-17 20:19:14,242 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 5[0m
+2025-05-17 20:19:15,024 - googlemaps_scraper - INFO - M16 7 -> Found 5 unprocessed tiles
+2025-05-17 20:19:15,128 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/5: CASA DE MOOR - CHORLTON[0m
+2025-05-17 20:19:22,014 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.casademoor.co.uk/ for business CASA DE MOOR - CHORLTON
+2025-05-17 20:19:23,063 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: CASA DE MOOR - CHORLTON
+2025-05-17 20:19:23,064 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.9
+2025-05-17 20:19:23,064 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 1582
+2025-05-17 20:19:23,064 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 133 Beech Rd, Chorlton-cum-Hardy, Manchester M21 9EQ
+2025-05-17 20:19:23,064 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: http://www.casademoor.co.uk/
+2025-05-17 20:19:23,065 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1618814588
+2025-05-17 20:19:23,065 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: CASA DE MOOR - CHORLTON -> http://www.casademoor.co.uk/
+2025-05-17 20:19:23,065 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mCASA DE MOOR - CHORLTON[0m', Website='[1m[96mhttp://www.casademoor.co.uk/[0m', Phone='[1m[93m1618814588[0m', Address='[1m[92m133 Beech Rd, Chorlton-cum-Har...[0m'
+2025-05-17 20:19:23,065 - googlemaps_scraper - INFO - M16 7 -> Scraped: CASA DE MOOR - CHORLTON (phone: 1618814588, address: 133 Beech Rd, Chorlton-cum-Har..., website: http://www.casademoor.co.uk/)
+2025-05-17 20:19:23,067 - googlemaps_scraper - INFO - Updated existing record for CASA DE MOOR - CHORLTON
+2025-05-17 20:19:23,069 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:19:29,092 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:19:30,241 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:19:34,407 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 10)
+2025-05-17 20:19:34,408 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 6[0m
+2025-05-17 20:19:34,964 - googlemaps_scraper - INFO - M16 7 -> Found 4 unprocessed tiles
+2025-05-17 20:19:35,046 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/4: Bando Boxes[0m
+2025-05-17 20:19:40,836 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://bandoboxes.com/ for business Bando Boxes
+2025-05-17 20:19:41,962 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Bando Boxes
+2025-05-17 20:19:41,963 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:19:41,964 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 1009
+2025-05-17 20:19:41,965 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 2 Seymour Grove, Old Trafford, Stretford, Manchester M16 0LH
+2025-05-17 20:19:41,965 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://bandoboxes.com/
+2025-05-17 20:19:41,966 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1614101000
+2025-05-17 20:19:41,967 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Bando Boxes -> https://bandoboxes.com/
+2025-05-17 20:19:41,967 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mBando Boxes[0m', Website='[1m[96mhttps://bandoboxes.com/[0m', Phone='[1m[93m1614101000[0m', Address='[1m[92m2 Seymour Grove, Old Trafford,...[0m'
+2025-05-17 20:19:41,968 - googlemaps_scraper - INFO - M16 7 -> Scraped: Bando Boxes (phone: 1614101000, address: 2 Seymour Grove, Old Trafford,..., website: https://bandoboxes.com/)
+2025-05-17 20:19:41,973 - googlemaps_scraper - INFO - Updated existing record for Bando Boxes
+2025-05-17 20:19:41,979 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:19:48,028 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:19:49,314 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:19:53,508 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 10)
+2025-05-17 20:19:53,509 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 7[0m
+2025-05-17 20:19:54,682 - googlemaps_scraper - INFO - M16 7 -> Found 3 unprocessed tiles
+2025-05-17 20:19:54,770 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/3: WOOD Manchester by Simon Wood[0m
+2025-05-17 20:20:00,289 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://woodrestaurantgroup.com/ for business WOOD Manchester by Simon Wood
+2025-05-17 20:20:01,447 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: WOOD Manchester by Simon Wood
+2025-05-17 20:20:01,448 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:20:01,449 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 734
+2025-05-17 20:20:01,450 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: Jack Rosenthal St, Manchester M15 4RA
+2025-05-17 20:20:01,451 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://woodrestaurantgroup.com/
+2025-05-17 20:20:01,451 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1612365211
+2025-05-17 20:20:01,452 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: WOOD Manchester by Simon Wood -> https://woodrestaurantgroup.com/
+2025-05-17 20:20:01,453 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mWOOD Manchester by Simon Wood[0m', Website='[1m[96mhttps://woodrestaurantgroup.co...[0m', Phone='[1m[93m1612365211[0m', Address='[1m[92mJack Rosenthal St, Manchester ...[0m'
+2025-05-17 20:20:01,454 - googlemaps_scraper - INFO - M16 7 -> Scraped: WOOD Manchester by Simon Wood (phone: 1612365211, address: Jack Rosenthal St, Manchester ..., website: https://woodrestaurantgroup.co...)
+2025-05-17 20:20:01,464 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 21/120)
+2025-05-17 20:20:01,465 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:20:07,523 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:20:08,984 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:20:13,086 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 15)
+2025-05-17 20:20:13,087 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 8[0m
+2025-05-17 20:20:14,259 - googlemaps_scraper - INFO - M16 7 -> Found 7 unprocessed tiles
+2025-05-17 20:20:14,346 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/7: Garden Grille Restaurant and Bar[0m
+2025-05-17 20:20:20,422 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://emiratesoldtrafford.lancashirecricket.co.uk/stay/the-garden-grille-and-bar/ for business Garden Grille Restaurant and Bar
+2025-05-17 20:20:21,556 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Garden Grille Restaurant and Bar
+2025-05-17 20:20:21,557 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 3.8
+2025-05-17 20:20:21,558 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 4
+2025-05-17 20:20:21,559 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: Talbot Rd, Old Trafford, Stretford, Manchester M16 0PX
+2025-05-17 20:20:21,560 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://emiratesoldtrafford.lancashirecricket.co.uk/stay/the-garden-grille-and-bar/
+2025-05-17 20:20:21,561 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1618687100
+2025-05-17 20:20:21,561 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Garden Grille Restaurant and Bar -> https://emiratesoldtrafford.lancashirecricket.co.uk/stay/the-garden-grille-and-bar/
+2025-05-17 20:20:21,562 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mGarden Grille Restaurant and Bar[0m', Website='[1m[96mhttps://emiratesoldtrafford.la...[0m', Phone='[1m[93m1618687100[0m', Address='[1m[92mTalbot Rd, Old Trafford, Stret...[0m'
+2025-05-17 20:20:21,563 - googlemaps_scraper - INFO - M16 7 -> Scraped: Garden Grille Restaurant and Bar (phone: 1618687100, address: Talbot Rd, Old Trafford, Stret..., website: https://emiratesoldtrafford.la...)
+2025-05-17 20:20:21,572 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 22/120)
+2025-05-17 20:20:21,573 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:20:27,632 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:20:28,885 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:20:33,059 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 15)
+2025-05-17 20:20:33,060 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 9[0m
+2025-05-17 20:20:35,014 - googlemaps_scraper - INFO - M16 7 -> Found 6 unprocessed tiles
+2025-05-17 20:20:35,110 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/6: Red Marrakech[0m
+2025-05-17 20:20:42,056 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Red Marrakech
+2025-05-17 20:20:43,188 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Red Marrakech
+2025-05-17 20:20:43,189 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:20:43,190 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 419
+2025-05-17 20:20:43,191 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 97 Ayres Rd, Old Trafford, Stretford, Manchester M16 7GS
+2025-05-17 20:20:43,191 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: N/A
+2025-05-17 20:20:43,192 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 7838222819
+2025-05-17 20:20:43,193 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Red Marrakech -> N/A
+2025-05-17 20:20:43,194 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRed Marrakech[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m7838222819[0m', Address='[1m[92m97 Ayres Rd, Old Trafford, Str...[0m'
+2025-05-17 20:20:43,195 - googlemaps_scraper - INFO - M16 7 -> Scraped: Red Marrakech (phone: 7838222819, address: 97 Ayres Rd, Old Trafford, Str..., website: N/A)
+2025-05-17 20:20:43,202 - googlemaps_scraper - INFO - Updated existing record for Red Marrakech
+2025-05-17 20:20:43,206 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:20:49,260 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:20:50,566 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:20:54,684 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 15)
+2025-05-17 20:20:54,684 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 10[0m
+2025-05-17 20:20:56,158 - googlemaps_scraper - INFO - M16 7 -> Found 5 unprocessed tiles
+2025-05-17 20:20:56,300 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/5: Chillyz[0m
+2025-05-17 20:21:02,216 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf for business Chillyz
+2025-05-17 20:21:03,327 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Chillyz
+2025-05-17 20:21:03,328 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.6
+2025-05-17 20:21:03,329 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 115
+2025-05-17 20:21:03,330 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 71a Ayres Rd, Old Trafford, Stretford, Manchester M16 7GS
+2025-05-17 20:21:03,330 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf
+2025-05-17 20:21:03,331 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 7394236200
+2025-05-17 20:21:03,331 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Chillyz -> https://irp-cdn.multiscreensite.com/6d13d1da/files/uploaded/Chillyz-Menu-A3-v8.pdf
+2025-05-17 20:21:03,332 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mChillyz[0m', Website='[1m[96mhttps://irp-cdn.multiscreensit...[0m', Phone='[1m[93m7394236200[0m', Address='[1m[92m71a Ayres Rd, Old Trafford, St...[0m'
+2025-05-17 20:21:03,333 - googlemaps_scraper - INFO - M16 7 -> Scraped: Chillyz (phone: 7394236200, address: 71a Ayres Rd, Old Trafford, St..., website: https://irp-cdn.multiscreensit...)
+2025-05-17 20:21:03,340 - googlemaps_scraper - INFO - Updated existing record for Chillyz
+2025-05-17 20:21:03,346 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:21:09,363 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:21:10,533 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:21:14,708 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 15)
+2025-05-17 20:21:14,709 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 11[0m
+2025-05-17 20:21:15,511 - googlemaps_scraper - INFO - M16 7 -> Found 4 unprocessed tiles
+2025-05-17 20:21:15,594 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/4: Chicken Run Manchester[0m
+2025-05-17 20:21:20,871 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: No website found for business Chicken Run Manchester
+2025-05-17 20:21:21,981 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Business Name: Chicken Run Manchester
+2025-05-17 20:21:21,982 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Stars: 4.5
+2025-05-17 20:21:21,982 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Reviews: 593
+2025-05-17 20:21:21,983 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Address: 6 Yarburgh St, Whalley Range, Manchester M16 7FJ
+2025-05-17 20:21:21,984 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Website: N/A
+2025-05-17 20:21:21,984 - googlemaps_scraper - INFO - M16 7 -> EXTRACTION: Phone: 1612266714
+2025-05-17 20:21:21,985 - googlemaps_scraper - INFO - M16 7 -> BUSINESS-WEBSITE MAPPING: Chicken Run Manchester -> N/A
+2025-05-17 20:21:21,986 - googlemaps_scraper - INFO - M16 7 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mChicken Run Manchester[0m', Website='[1m[96mN/A[0m', Phone='[1m[93m1612266714[0m', Address='[1m[92m6 Yarburgh St, Whalley Range, ...[0m'
+2025-05-17 20:21:21,987 - googlemaps_scraper - INFO - M16 7 -> Scraped: Chicken Run Manchester (phone: 1612266714, address: 6 Yarburgh St, Whalley Range, ..., website: N/A)
+2025-05-17 20:21:21,990 - googlemaps_scraper - INFO - Updated existing record for Chicken Run Manchester
+2025-05-17 20:21:21,994 - googlemaps_scraper - INFO - M16 7 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:21:28,048 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:21:29,264 - googlemaps_scraper - INFO - M16 7 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:21:33,379 - googlemaps_scraper - INFO - M16 7 -> scrolled feed (tiles now 15)
+2025-05-17 20:21:33,380 - googlemaps_scraper - INFO - M16 7 -> [1m[94mTotal unique businesses processed in this subsector: 12[0m
+2025-05-17 20:21:34,485 - googlemaps_scraper - INFO - M16 7 -> Found 3 unprocessed tiles
+2025-05-17 20:21:34,581 - googlemaps_scraper - INFO - M16 7 -> [96m[1mClicking tile 1/3: Tattu Manchester[0m

@@ -1,0 +1,127 @@
+2025-05-17 19:24:10,753 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:24:10,754 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 19:24:10,755 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_192410.log
+2025-05-17 19:24:10,756 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 19:24:10,757 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:24:15,161 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 19:24:15,197 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 19:24:15,292 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 19:24:17,986 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 19:24:17,988 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 19:24:18,015 - googlemaps_scraper - INFO - Total subsectors to process: 273
+2025-05-17 19:24:18,072 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:24:18,073 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 6 (1/273)
+2025-05-17 19:24:18,090 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:24:18,091 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 6
+2025-05-17 19:24:18,093 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:24:21,512 - googlemaps_scraper - INFO - M16 6 -> search query launched: restaurants in M16 6 Manchester
+2025-05-17 19:24:24,437 - googlemaps_scraper - INFO - M16 6 -> Found 5 unprocessed tiles
+2025-05-17 19:24:24,479 - googlemaps_scraper - INFO - M16 6 -> Clicking tile 1/5: Royal Oak
+2025-05-17 19:24:29,396 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+2025-05-17 19:24:30,429 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Business Name: Royal Oak
+2025-05-17 19:24:30,430 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Stars: 4.1
+2025-05-17 19:24:30,430 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Reviews: 716
+2025-05-17 19:24:30,430 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+2025-05-17 19:24:30,431 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 19:24:30,431 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Phone: 1618607438
+2025-05-17 19:24:30,431 - googlemaps_scraper - INFO - M16 6 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 19:24:30,431 - googlemaps_scraper - INFO - M16 6 -> BUSINESS DATA SUMMARY: Name='Royal Oak', Website='https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage', Phone='1618607438', Address='440 Barlow Moor Rd, Chorlton-c...'
+2025-05-17 19:24:30,432 - googlemaps_scraper - INFO - M16 6 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 19:24:30,545 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-17 19:24:30,546 - googlemaps_scraper - INFO - M16 6 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:24:36,965 - googlemaps_scraper - INFO - M16 6 -> Clicking tile 2/5: Las Iguanas - Manchester - Deansgate
+2025-05-17 19:24:42,704 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+2025-05-17 19:24:43,938 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-17 19:24:43,948 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:24:43,951 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Reviews: 2334
+2025-05-17 19:24:43,953 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-17 19:24:43,954 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-17 19:24:43,956 - googlemaps_scraper - INFO - M16 6 -> EXTRACTION: Phone: 1615492175
+2025-05-17 19:24:43,960 - googlemaps_scraper - INFO - M16 6 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-17 19:24:43,962 - googlemaps_scraper - INFO - M16 6 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+2025-05-17 19:24:43,964 - googlemaps_scraper - INFO - M16 6 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-17 19:24:44,006 - googlemaps_scraper - INFO - M16 6 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:24:50,462 - googlemaps_scraper - INFO - M16 6 -> Clicking tile 3/5: Tibetan Kitchen Manchester
+2025-05-17 19:24:52,699 - googlemaps_scraper - INFO - M16 6 -> Clicking tile 4/5: CASA DE MOOR - CHORLTON
+2025-05-17 19:24:55,517 - googlemaps_scraper - INFO - M16 6 -> Clicking tile 5/5: Qabeela Restaurant
+2025-05-17 19:24:57,785 - googlemaps_scraper - INFO - M16 6 -> Processed 2 new tiles in this batch
+2025-05-17 19:25:00,438 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 1/6)
+2025-05-17 19:25:00,441 - googlemaps_scraper - INFO - M16 6 -> Total unique businesses processed in this subsector: 2
+2025-05-17 19:25:00,821 - googlemaps_scraper - INFO - M16 6 -> Found 0 unprocessed tiles
+2025-05-17 19:25:00,822 - googlemaps_scraper - INFO - M16 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:25:03,404 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 2/6)
+2025-05-17 19:25:03,686 - googlemaps_scraper - INFO - M16 6 -> Found 0 unprocessed tiles
+2025-05-17 19:25:03,686 - googlemaps_scraper - INFO - M16 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:25:06,333 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 3/6)
+2025-05-17 19:25:06,665 - googlemaps_scraper - INFO - M16 6 -> Found 0 unprocessed tiles
+2025-05-17 19:25:06,666 - googlemaps_scraper - INFO - M16 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:25:09,291 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 4/6)
+2025-05-17 19:25:09,878 - googlemaps_scraper - INFO - M16 6 -> Found 0 unprocessed tiles
+2025-05-17 19:25:09,879 - googlemaps_scraper - INFO - M16 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:25:12,524 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 5/6)
+2025-05-17 19:25:13,071 - googlemaps_scraper - INFO - M16 6 -> Found 0 unprocessed tiles
+2025-05-17 19:25:13,072 - googlemaps_scraper - INFO - M16 6 -> No new tiles to process, scrolling to find more
+2025-05-17 19:25:15,688 - googlemaps_scraper - INFO - M16 6 -> Scroll was not successful (attempt 6/6)
+2025-05-17 19:25:15,689 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:25:15,690 - googlemaps_scraper - INFO - M16 6 -> Scraping completed in 0:00:57.595509
+2025-05-17 19:25:15,691 - googlemaps_scraper - INFO - M16 6 -> Total cards scraped: 2 (unique businesses: 2)
+2025-05-17 19:25:15,692 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:25:15,696 - googlemaps_scraper - INFO - M16 6 -> JSON saved -> business_data\manchester_M16 6.json (2 records)
+2025-05-17 19:25:15,706 - googlemaps_scraper - INFO - M16 6 -> CSV saved -> business_data\manchester_M16 6.csv (2 records)
+2025-05-17 19:25:15,707 - googlemaps_scraper - INFO - M16 6 -> total records: 2 (with phone: 2)
+2025-05-17 19:25:15,735 - googlemaps_scraper - INFO - M16 6 -> done in 0:00:57.663779 • processed=1/273 (0.4%)
+2025-05-17 19:25:15,737 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:25:20,352 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:25:20,352 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 8 (2/273)
+2025-05-17 19:25:20,366 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:25:20,367 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:25:20,367 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:25:35,332 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:25:55,747 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:25:55,748 - googlemaps_scraper - WARNING - M16 8 -> attempt 1/3 returned no results
+2025-05-17 19:25:55,782 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:25:55,783 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:25:55,783 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:26:10,772 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:26:30,893 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:26:30,895 - googlemaps_scraper - WARNING - M16 8 -> attempt 2/3 returned no results
+2025-05-17 19:26:30,965 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:26:30,967 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:26:30,968 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:26:46,229 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:27:06,245 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:27:06,245 - googlemaps_scraper - WARNING - M16 8 -> attempt 3/3 returned no results
+2025-05-17 19:27:06,297 - googlemaps_scraper - WARNING - M16 8 -> skipped after failed attempts
+2025-05-17 19:27:06,321 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:27:06,321 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 8 (2/273)
+2025-05-17 19:27:06,332 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:27:06,332 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:27:06,333 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:27:21,957 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:27:42,403 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:27:42,403 - googlemaps_scraper - WARNING - M16 8 -> attempt 1/3 returned no results
+2025-05-17 19:27:42,436 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:27:42,437 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:27:42,437 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:27:56,884 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:28:17,266 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:28:17,268 - googlemaps_scraper - WARNING - M16 8 -> attempt 2/3 returned no results
+2025-05-17 19:28:17,318 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:28:17,320 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:28:17,323 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:28:32,372 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:28:52,719 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:28:52,719 - googlemaps_scraper - WARNING - M16 8 -> attempt 3/3 returned no results
+2025-05-17 19:28:52,763 - googlemaps_scraper - WARNING - M16 8 -> skipped after failed attempts
+2025-05-17 19:28:52,794 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:28:52,796 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 8 (2/273)
+2025-05-17 19:28:52,803 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:28:52,804 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:28:52,804 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:29:07,249 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester
+2025-05-17 19:29:27,350 - googlemaps_scraper - ERROR - M16 8 -> No results found
+2025-05-17 19:29:27,351 - googlemaps_scraper - WARNING - M16 8 -> attempt 1/3 returned no results
+2025-05-17 19:29:27,381 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:29:27,382 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 8
+2025-05-17 19:29:27,383 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:29:42,089 - googlemaps_scraper - INFO - M16 8 -> search query launched: restaurants in M16 8 Manchester

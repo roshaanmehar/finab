@@ -1,0 +1,127 @@
+[2025-05-17 19:24:10] INFO    – ================================================================================
+[2025-05-17 19:24:10] INFO    – Starting Google Maps scraper from API
+[2025-05-17 19:24:10] INFO    – Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_192410.log
+[2025-05-17 19:24:10] INFO    – Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+[2025-05-17 19:24:10] INFO    – ================================================================================
+[2025-05-17 19:24:15] INFO    – Connected to MongoDB successfully
+[2025-05-17 19:24:15] INFO    – Created queue index
+[2025-05-17 19:24:15] INFO    – Created indexes
+[2025-05-17 19:24:17] INFO    – Chrome driver initialized successfully
+[2025-05-17 19:24:17] INFO    – Processing all unprocessed subsectors
+[2025-05-17 19:24:18] INFO    – Total subsectors to process: 273
+[2025-05-17 19:24:18] INFO    – ==================================================
+[2025-05-17 19:24:18] INFO    – PROCESSING SUBSECTOR: M16 6 (1/273)
+[2025-05-17 19:24:18] INFO    – ============================================================
+[2025-05-17 19:24:18] INFO    – Starting scrape for subsector: M16 6
+[2025-05-17 19:24:18] INFO    – ============================================================
+[2025-05-17 19:24:21] INFO    – M16 6 -> search query launched: restaurants in M16 6 Manchester
+[2025-05-17 19:24:24] INFO    – M16 6 -> Found 5 unprocessed tiles
+[2025-05-17 19:24:24] INFO    – M16 6 -> Clicking tile 1/5: Royal Oak
+[2025-05-17 19:24:29] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Business Name: Royal Oak
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Stars: 4.1
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Reviews: 716
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+[2025-05-17 19:24:30] INFO    – M16 6 -> EXTRACTION: Phone: 1618607438
+[2025-05-17 19:24:30] INFO    – M16 6 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+[2025-05-17 19:24:30] INFO    – M16 6 -> BUSINESS DATA SUMMARY: Name='Royal Oak', Website='https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage', Phone='1618607438', Address='440 Barlow Moor Rd, Chorlton-c...'
+[2025-05-17 19:24:30] INFO    – M16 6 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: https://www.greeneking.co.uk/p...)
+[2025-05-17 19:24:30] INFO    – Google Maps scraper found 1 new unique records (total: 1/120)
+[2025-05-17 19:24:30] INFO    – M16 6 -> Waiting for 6.0 seconds before closing card
+[2025-05-17 19:24:36] INFO    – M16 6 -> Clicking tile 2/5: Las Iguanas - Manchester - Deansgate
+[2025-05-17 19:24:42] INFO    – WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business Las Iguanas - Manchester - Deansgate
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Stars: 4.3
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Reviews: 2334
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-17 19:24:43] INFO    – M16 6 -> EXTRACTION: Phone: 1615492175
+[2025-05-17 19:24:43] INFO    – M16 6 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+[2025-05-17 19:24:43] INFO    – M16 6 -> BUSINESS DATA SUMMARY: Name='Las Iguanas - Manchester - Deansgate', Website='https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate', Phone='1615492175', Address='84 Deansgate, Manchester M3 2E...'
+[2025-05-17 19:24:43] INFO    – M16 6 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+[2025-05-17 19:24:44] INFO    – M16 6 -> Waiting for 6.0 seconds before closing card
+[2025-05-17 19:24:50] INFO    – M16 6 -> Clicking tile 3/5: Tibetan Kitchen Manchester
+[2025-05-17 19:24:52] INFO    – M16 6 -> Clicking tile 4/5: CASA DE MOOR - CHORLTON
+[2025-05-17 19:24:55] INFO    – M16 6 -> Clicking tile 5/5: Qabeela Restaurant
+[2025-05-17 19:24:57] INFO    – M16 6 -> Processed 2 new tiles in this batch
+[2025-05-17 19:25:00] INFO    – M16 6 -> Scroll was not successful (attempt 1/6)
+[2025-05-17 19:25:00] INFO    – M16 6 -> Total unique businesses processed in this subsector: 2
+[2025-05-17 19:25:00] INFO    – M16 6 -> Found 0 unprocessed tiles
+[2025-05-17 19:25:00] INFO    – M16 6 -> No new tiles to process, scrolling to find more
+[2025-05-17 19:25:03] INFO    – M16 6 -> Scroll was not successful (attempt 2/6)
+[2025-05-17 19:25:03] INFO    – M16 6 -> Found 0 unprocessed tiles
+[2025-05-17 19:25:03] INFO    – M16 6 -> No new tiles to process, scrolling to find more
+[2025-05-17 19:25:06] INFO    – M16 6 -> Scroll was not successful (attempt 3/6)
+[2025-05-17 19:25:06] INFO    – M16 6 -> Found 0 unprocessed tiles
+[2025-05-17 19:25:06] INFO    – M16 6 -> No new tiles to process, scrolling to find more
+[2025-05-17 19:25:09] INFO    – M16 6 -> Scroll was not successful (attempt 4/6)
+[2025-05-17 19:25:09] INFO    – M16 6 -> Found 0 unprocessed tiles
+[2025-05-17 19:25:09] INFO    – M16 6 -> No new tiles to process, scrolling to find more
+[2025-05-17 19:25:12] INFO    – M16 6 -> Scroll was not successful (attempt 5/6)
+[2025-05-17 19:25:13] INFO    – M16 6 -> Found 0 unprocessed tiles
+[2025-05-17 19:25:13] INFO    – M16 6 -> No new tiles to process, scrolling to find more
+[2025-05-17 19:25:15] INFO    – M16 6 -> Scroll was not successful (attempt 6/6)
+[2025-05-17 19:25:15] INFO    – ============================================================
+[2025-05-17 19:25:15] INFO    – M16 6 -> Scraping completed in 0:00:57.595509
+[2025-05-17 19:25:15] INFO    – M16 6 -> Total cards scraped: 2 (unique businesses: 2)
+[2025-05-17 19:25:15] INFO    – ============================================================
+[2025-05-17 19:25:15] INFO    – M16 6 -> JSON saved -> business_data\manchester_M16 6.json (2 records)
+[2025-05-17 19:25:15] INFO    – M16 6 -> CSV saved -> business_data\manchester_M16 6.csv (2 records)
+[2025-05-17 19:25:15] INFO    – M16 6 -> total records: 2 (with phone: 2)
+[2025-05-17 19:25:15] INFO    – M16 6 -> done in 0:00:57.663779 • processed=1/273 (0.4%)
+[2025-05-17 19:25:15] INFO    – ==================================================
+[2025-05-17 19:25:20] INFO    – ==================================================
+[2025-05-17 19:25:20] INFO    – PROCESSING SUBSECTOR: M16 8 (2/273)
+[2025-05-17 19:25:20] INFO    – ============================================================
+[2025-05-17 19:25:20] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:25:20] INFO    – ============================================================
+[2025-05-17 19:25:35] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:25:55] ERROR   – M16 8 -> No results found
+[2025-05-17 19:25:55] WARNING – M16 8 -> attempt 1/3 returned no results
+[2025-05-17 19:25:55] INFO    – ============================================================
+[2025-05-17 19:25:55] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:25:55] INFO    – ============================================================
+[2025-05-17 19:26:10] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:26:30] ERROR   – M16 8 -> No results found
+[2025-05-17 19:26:30] WARNING – M16 8 -> attempt 2/3 returned no results
+[2025-05-17 19:26:30] INFO    – ============================================================
+[2025-05-17 19:26:30] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:26:30] INFO    – ============================================================
+[2025-05-17 19:26:46] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:27:06] ERROR   – M16 8 -> No results found
+[2025-05-17 19:27:06] WARNING – M16 8 -> attempt 3/3 returned no results
+[2025-05-17 19:27:06] WARNING – M16 8 -> skipped after failed attempts
+[2025-05-17 19:27:06] INFO    – ==================================================
+[2025-05-17 19:27:06] INFO    – PROCESSING SUBSECTOR: M16 8 (2/273)
+[2025-05-17 19:27:06] INFO    – ============================================================
+[2025-05-17 19:27:06] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:27:06] INFO    – ============================================================
+[2025-05-17 19:27:21] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:27:42] ERROR   – M16 8 -> No results found
+[2025-05-17 19:27:42] WARNING – M16 8 -> attempt 1/3 returned no results
+[2025-05-17 19:27:42] INFO    – ============================================================
+[2025-05-17 19:27:42] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:27:42] INFO    – ============================================================
+[2025-05-17 19:27:56] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:28:17] ERROR   – M16 8 -> No results found
+[2025-05-17 19:28:17] WARNING – M16 8 -> attempt 2/3 returned no results
+[2025-05-17 19:28:17] INFO    – ============================================================
+[2025-05-17 19:28:17] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:28:17] INFO    – ============================================================
+[2025-05-17 19:28:32] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:28:52] ERROR   – M16 8 -> No results found
+[2025-05-17 19:28:52] WARNING – M16 8 -> attempt 3/3 returned no results
+[2025-05-17 19:28:52] WARNING – M16 8 -> skipped after failed attempts
+[2025-05-17 19:28:52] INFO    – ==================================================
+[2025-05-17 19:28:52] INFO    – PROCESSING SUBSECTOR: M16 8 (2/273)
+[2025-05-17 19:28:52] INFO    – ============================================================
+[2025-05-17 19:28:52] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:28:52] INFO    – ============================================================
+[2025-05-17 19:29:07] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester
+[2025-05-17 19:29:27] ERROR   – M16 8 -> No results found
+[2025-05-17 19:29:27] WARNING – M16 8 -> attempt 1/3 returned no results
+[2025-05-17 19:29:27] INFO    – ============================================================
+[2025-05-17 19:29:27] INFO    – Starting scrape for subsector: M16 8
+[2025-05-17 19:29:27] INFO    – ============================================================
+[2025-05-17 19:29:42] INFO    – M16 8 -> search query launched: restaurants in M16 8 Manchester

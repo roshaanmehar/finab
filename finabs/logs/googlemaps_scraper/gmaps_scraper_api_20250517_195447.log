@@ -1,0 +1,58 @@
+2025-05-17 19:54:47,748 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:54:47,749 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 19:54:47,750 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_195447.log
+2025-05-17 19:54:47,750 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 19:54:47,752 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:54:47,795 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 19:54:47,811 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 19:54:47,820 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 19:54:49,961 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 19:54:49,962 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 19:54:49,965 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 19:54:49,969 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:54:49,970 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M15 4 (1/287)
+2025-05-17 19:54:50,000 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:54:50,003 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 4
+2025-05-17 19:54:50,008 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:54:53,184 - googlemaps_scraper - INFO - M15 4 -> search query launched: restaurants in M15 4 Manchester
+2025-05-17 19:54:56,111 - googlemaps_scraper - INFO - M15 4 -> Found 5 unprocessed tiles
+2025-05-17 19:54:56,637 - googlemaps_scraper - INFO - M15 4 -> [96m[1mClicking tile 1/5: The Deansgate[0m
+2025-05-17 19:55:01,915 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage for business The Deansgate
+2025-05-17 19:55:02,989 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Business Name: The Deansgate
+2025-05-17 19:55:02,990 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:55:02,990 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Reviews: 1475
+2025-05-17 19:55:02,991 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-17 19:55:02,991 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 19:55:02,992 - googlemaps_scraper - INFO - M15 4 -> EXTRACTION: Phone: 1613888956
+2025-05-17 19:55:02,993 - googlemaps_scraper - INFO - M15 4 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 19:55:02,993 - googlemaps_scraper - INFO - M15 4 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Deansgate[0m', Website='[1m[96mhttps://www.greeneking.co.uk/p...[0m', Phone='[1m[93m1613888956[0m', Address='[1m[92m321 Deansgate, Manchester M3 4...[0m'
+2025-05-17 19:55:02,994 - googlemaps_scraper - INFO - M15 4 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 19:55:03,004 - googlemaps_scraper - INFO - Updated existing record for The Deansgate
+2025-05-17 19:55:03,007 - googlemaps_scraper - INFO - M15 4 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:55:09,038 - googlemaps_scraper - INFO - M15 4 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:55:11,596 - googlemaps_scraper - WARNING - M15 4 -> Card still appears to be open after closing, forcing another close
+2025-05-17 19:55:15,193 - googlemaps_scraper - INFO - M15 4 -> scrolled feed (tiles now 5)
+2025-05-17 19:55:15,194 - googlemaps_scraper - INFO - M15 4 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 19:55:15,202 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 19:55:16,741 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 2/3)
+2025-05-17 19:55:18,289 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 3/3)
+2025-05-17 19:55:19,848 - googlemaps_scraper - ERROR - M15 4 -> Unable to close card after multiple attempts, refreshing page
+2025-05-17 19:55:24,951 - googlemaps_scraper - INFO - M15 4 -> Found 5 unprocessed tiles
+2025-05-17 19:55:24,961 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 19:55:26,503 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 2/3)
+2025-05-17 19:55:28,063 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 3/3)
+2025-05-17 19:55:29,623 - googlemaps_scraper - WARNING - M15 4 -> Unable to ensure no card is open, skipping this batch
+2025-05-17 19:55:31,226 - googlemaps_scraper - INFO - M15 4 -> scrolled feed (tiles now 5)
+2025-05-17 19:55:31,227 - googlemaps_scraper - INFO - M15 4 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 19:55:31,250 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 19:55:32,793 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 2/3)
+2025-05-17 19:55:34,338 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 3/3)
+2025-05-17 19:55:35,895 - googlemaps_scraper - ERROR - M15 4 -> Unable to close card after multiple attempts, refreshing page
+2025-05-17 19:55:42,890 - googlemaps_scraper - INFO - M15 4 -> Found 5 unprocessed tiles
+2025-05-17 19:55:42,903 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 19:55:44,433 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 2/3)
+2025-05-17 19:55:46,002 - googlemaps_scraper - WARNING - M15 4 -> Card still open, attempting to close (attempt 3/3)
+2025-05-17 19:55:47,539 - googlemaps_scraper - WARNING - M15 4 -> Unable to ensure no card is open, skipping this batch
+2025-05-17 19:55:47,557 - googlemaps_scraper - ERROR - M15 4 -> scroll error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-05-17 19:55:47,558 - googlemaps_scraper - INFO - M15 4 -> Scroll was not successful (attempt 1/6)
+2025-05-17 19:55:47,558 - googlemaps_scraper - INFO - M15 4 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m

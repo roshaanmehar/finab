@@ -1,0 +1,28 @@
+[
+    {
+        "subsector": "M16 6",
+        "businessname": "Royal Oak",
+        "address": "440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ",
+        "stars": "4.1",
+        "numberofreviews": 716,
+        "website": "https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-17T19:24:30.432095",
+        "city": "Manchester",
+        "phonenumber": 1618607438
+    },
+    {
+        "subsector": "M16 6",
+        "businessname": "Las Iguanas - Manchester - Deansgate",
+        "address": "84 Deansgate, Manchester M3 2ER",
+        "stars": "4.3",
+        "numberofreviews": 2334,
+        "website": "https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate",
+        "emailstatus": "pending",
+        "email": "N/A",
+        "scraped_at": "2025-05-17T19:24:43.964535",
+        "city": "Manchester",
+        "phonenumber": 1615492175
+    }
+]

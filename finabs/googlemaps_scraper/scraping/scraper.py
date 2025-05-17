@@ -7,6 +7,8 @@ import logging
 import random
 import re
 import time
+import unicodedata
+import html
 from collections import defaultdict
 from datetime import datetime
 from typing import List, Tuple, Dict, Any, Optional, Set, Callable
@@ -44,6 +46,17 @@ from googlemaps_scraper.utils.config import (
 )
 from googlemaps_scraper.utils.logging_config import ARROW
 
+# ANSI color codes for console output
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+BLUE = "\033[94m"
+MAGENTA = "\033[95m"
+CYAN = "\033[96m"
+RED = "\033[91m"
+BOLD = "\033[1m"
+UNDERLINE = "\033[4m"
+RESET = "\033[0m"
+
 def rdelay(a: float, b: float, fast_mode: bool = False):
     """Random delay with option for fast mode"""
     if fast_mode:
@@ -55,19 +68,38 @@ def digits(text: str) -> str:
     """Extract digits from text."""
     return re.sub(r"\D", "", text or "")
 
+def normalize_text(text: str) -> str:
+    """
+    Normalize text to handle non-English characters properly.
+    This preserves the original characters while ensuring consistent representation.
+    """
+    if not text:
+        return ""
+    
+    # Normalize to NFC form (canonical composition)
+    # This ensures consistent representation of characters with diacritics
+    normalized = unicodedata.normalize('NFC', text)
+    
+    # Replace any problematic characters that might cause issues
+    # with HTML entities and then decode back to ensure proper handling
+    return html.unescape(normalized)
+
 def safe_text_with_fallbacks(driver: webdriver.Chrome, css: str, xpath: str, fallback: str = None) -> str:
     """Try to get text using CSS, then XPath, then fallback selector."""
     for attempt in range(MAX_STALE_RETRIES):
         try:
             try:
-                return driver.find_element(By.CSS_SELECTOR, css).text.strip()
+                text = driver.find_element(By.CSS_SELECTOR, css).text.strip()
+                return normalize_text(text)
             except NoSuchElementException:
                 try:
-                    return driver.find_element(By.XPATH, xpath).text.strip()
+                    text = driver.find_element(By.XPATH, xpath).text.strip()
+                    return normalize_text(text)
                 except NoSuchElementException:
                     if fallback:
                         try:
-                            return driver.find_element(By.CSS_SELECTOR, fallback).text.strip()
+                            text = driver.find_element(By.CSS_SELECTOR, fallback).text.strip()
+                            return normalize_text(text)
                         except NoSuchElementException:
                             return ""
                     return ""
@@ -86,7 +118,7 @@ def get_tile_name(tile) -> str:
     for attempt in range(MAX_STALE_RETRIES):
         try:
             name_element = tile.find_element(By.CSS_SELECTOR, TILE_NAME_CSS)
-            return name_element.text.strip()
+            return normalize_text(name_element.text.strip())
         except (NoSuchElementException, StaleElementReferenceException):
             if attempt < MAX_STALE_RETRIES - 1:
                 time.sleep(0.5)
@@ -113,7 +145,7 @@ def extract_address(driver: webdriver.Chrome, debug: bool = False) -> str:
             
             elements = driver.find_elements(by_method, selector)
             for element in elements:
-                text = element.text.strip()
+                text = normalize_text(element.text.strip())
                 if debug:
                     log.debug("Found potential address element: %s", text)
                 
@@ -151,9 +183,10 @@ def extract_address(driver: webdriver.Chrome, debug: bool = False) -> str:
         """)
         
         if address:
+            normalized_address = normalize_text(address)
             if debug:
-                log.debug("Extracted address via JavaScript: %s", address)
-            return address
+                log.debug("Extracted address via JavaScript: %s", normalized_address)
+            return normalized_address
     except Exception as e:
         if debug:
             log.debug("JavaScript address extraction error: %s", e)
@@ -189,7 +222,7 @@ def extract_website(driver: webdriver.Chrome, business_name: str, debug: bool = 
                         return href
                 
                 # Then try to get text
-                text = element.text.strip()
+                text = normalize_text(element.text.strip())
                 if debug:
                     log.debug(f"Found potential website element for {business_name}: {text}")
                 
@@ -261,7 +294,7 @@ def extract_phone_number(driver: webdriver.Chrome, business_name: str, debug: bo
         try:
             elements = driver.find_elements(By.CSS_SELECTOR, selector)
             for element in elements:
-                text = element.text.strip()
+                text = normalize_text(element.text.strip())
                 if debug:
                     log.debug(f"Found potential phone element for {business_name}: {text}")
                 
@@ -299,6 +332,7 @@ def extract_phone_number(driver: webdriver.Chrome, business_name: str, debug: bo
         """)
         
         if phone_text:
+            phone_text = normalize_text(phone_text)
             digits_only = digits(phone_text)
             if digits_only and len(digits_only) >= 5:
                 if debug:
@@ -512,13 +546,60 @@ def get_tile_identifier(driver: webdriver.Chrome, tile) -> str:
         except:
             return f"unknown_tile_{time.time()}"
 
+def get_unprocessed_tiles(driver: webdriver.Chrome, processed_tile_ids: Set[str], code: str) -> List[Tuple[Any, str]]:
+    """
+    Get all visible tiles that haven't been processed yet, sorted by vertical position.
+    
+    Args:
+        driver: Selenium WebDriver
+        processed_tile_ids: Set of already processed tile IDs
+        code: Subsector code for logging
+        
+    Returns:
+        List of tuples (tile_element, tile_id) sorted by vertical position
+    """
+    log = logging.getLogger("googlemaps_scraper")
+    
+    try:
+        # Get all visible tiles
+        all_tiles = driver.find_elements(By.CSS_SELECTOR, "div.Nv2PK")
+        log.debug("%s %s Found %d total visible tiles", code, ARROW, len(all_tiles))
+        
+        # Filter out already processed tiles and get positions
+        unprocessed_tiles = []
+        for tile in all_tiles:
+            try:
+                tile_id = get_tile_identifier(driver, tile)
+                if tile_id not in processed_tile_ids:
+                    position = get_tile_position(driver, tile)
+                    unprocessed_tiles.append((tile, tile_id, position))
+            except Exception as e:
+                log.debug("%s %s Error processing tile: %s", code, ARROW, e)
+                continue
+        
+        # Sort by vertical position (top to bottom)
+        unprocessed_tiles.sort(key=lambda x: x[2])
+        
+        # Return just the tile elements and their IDs
+        result = [(t[0], t[1]) for t in unprocessed_tiles]
+        log.info("%s %s Found %d unprocessed tiles", code, ARROW, len(result))
+        return result
+    except Exception as e:
+        log.error("%s %s Error getting unprocessed tiles: %s", code, ARROW, e)
+        return []
+
 def safe_click_tile(driver: webdriver.Chrome, tile, code: str, tile_idx: int, total_tiles: int) -> bool:
     """Safely click a tile with improved reliability."""
     log = logging.getLogger("googlemaps_scraper")
     
+    # Check if a card is already open - if so, don't proceed
+    if is_card_open(driver):
+        log.warning("%s %s A card appears to be already open before clicking new tile", code, ARROW)
+        return False
+    
     # Always log which tile we're trying to click
     tile_name = get_tile_name(tile)
-    log.info("%s %s Clicking tile %d/%d: %s", code, ARROW, tile_idx + 1, total_tiles, tile_name)
+    log.info("%s %s %sClicking tile %d/%d: %s%s", code, ARROW, CYAN + BOLD, tile_idx + 1, total_tiles, tile_name, RESET)
     
     for attempt in range(MAX_STALE_RETRIES):
         try:
@@ -573,11 +654,54 @@ def safe_close_card(driver: webdriver.Chrome) -> bool:
     """Safely close the card with retry logic."""
     log = logging.getLogger("googlemaps_scraper")
     
+    # Try multiple methods to close the card
     for attempt in range(MAX_STALE_RETRIES):
         try:
+            # Method 1: Try clicking the specific close button first (X in top-right corner)
+            close_button_selectors = [
+                # Specific close button selector provided by user
+                "#QA0Szd > div > div > div.w6VYqd > div.bJzME.Hu9e2e.tTVLSc > div > div.e07Vkf.kA9KIf > div > div > div.BHymgf.eiJcBe.bJUD0c > div > div > div:nth-child(3) > span > button",
+                # More generic selectors as fallbacks
+                "button[aria-label='Close']",
+                "button[jsaction*='closeButton']",
+                "button.VfPpkd-icon-LgbsSe[data-disable-idom='true']",
+                "[role='button'][aria-label='Close']",
+                "button.mL3xi",
+                # Generic close button with X
+                "button span[aria-hidden='true']:contains('×')"
+            ]
+            
+            for selector in close_button_selectors:
+                try:
+                    close_buttons = driver.find_elements(By.CSS_SELECTOR, selector)
+                    if close_buttons and len(close_buttons) > 0:
+                        for btn in close_buttons:
+                            if btn.is_displayed():
+                                log.info("Found close button, clicking it directly")
+                                # Try direct click first
+                                try:
+                                    btn.click()
+                                    time.sleep(1.0)  # Wait for animation
+                                    return True
+                                except:
+                                    # If direct click fails, try JavaScript click
+                                    driver.execute_script("arguments[0].click();", btn)
+                                    time.sleep(1.0)  # Wait for animation
+                                    return True
+                except Exception as e:
+                    log.debug(f"Error with close button selector {selector}: {e}")
+                    continue
+            
+            # Method 2: Try Escape key if button click didn't work
+            log.debug("Close button not found or not clickable, trying Escape key")
             actions = ActionChains(driver)
             actions.send_keys(Keys.ESCAPE).perform()
-            return True
+            time.sleep(1.0)  # Wait for animation
+            
+            # Check if card is still open
+            if not is_card_open(driver):
+                return True
+                
         except Exception as e:
             if attempt < MAX_STALE_RETRIES - 1:
                 log.debug("Error closing card, retrying: %s", e)
@@ -587,57 +711,231 @@ def safe_close_card(driver: webdriver.Chrome) -> bool:
                 # Try JavaScript fallback
                 try:
                     driver.execute_script("""
-                        document.querySelectorAll('button[aria-label="Back"]').forEach(b => b.click());
-                        document.querySelectorAll('button[jsaction*="close"]').forEach(b => b.click());
+                        // Try to find and click any close buttons
+                        var closeButtons = [
+                            ...document.querySelectorAll('button[aria-label="Close"]'),
+                            ...document.querySelectorAll('button[jsaction*="closeButton"]'),
+                            ...document.querySelectorAll('[role="button"][aria-label="Close"]'),
+                            ...document.querySelectorAll('button.mL3xi')
+                        ];
+                        
+                        for (let btn of closeButtons) {
+                            if (btn && btn.offsetParent !== null) {
+                                btn.click();
+                                return;
+                            }
+                        }
+                        
+                        // If no buttons found, try to dispatch Escape key event
                         document.dispatchEvent(new KeyboardEvent('keydown', {'key': 'Escape'}));
                     """)
-                    return True
+                    time.sleep(1.5)
+                    return not is_card_open(driver)
                 except:
                     return False
     
+    # If we get here, all attempts failed
     return False
 
-def get_unprocessed_tiles(driver: webdriver.Chrome, processed_tile_ids: Set[str], code: str) -> List[Tuple[Any, str]]:
+def is_card_open(driver: webdriver.Chrome) -> bool:
     """
-    Get all visible tiles that haven't been processed yet, sorted by vertical position.
-    
-    Args:
-        driver: Selenium WebDriver
-        processed_tile_ids: Set of already processed tile IDs
-        code: Subsector code for logging
-        
-    Returns:
-        List of tuples (tile_element, tile_id) sorted by vertical position
+    Check if a details card is currently open.
+    This function is more strict about what constitutes an open card,
+    especially right after a search query is launched.
     """
     log = logging.getLogger("googlemaps_scraper")
     
     try:
-        # Get all visible tiles
-        all_tiles = driver.find_elements(By.CSS_SELECTOR, "div.Nv2PK")
-        log.debug("%s %s Found %d total visible tiles", code, ARROW, len(all_tiles))
+        # First check if we're on the initial search results page
+        # If we just loaded the page and haven't clicked anything yet, no card should be open
+        try:
+            # Check for search box and search results - these indicate we're on the main results page
+            search_box = driver.find_element(By.ID, "searchboxinput")
+            search_results = driver.find_elements(By.CSS_SELECTOR, "div.Nv2PK")
+            
+            # If we're in the initial state after search (within first few seconds)
+            # We know no card should be open yet
+            if search_box and search_results and driver.current_url.startswith("https://www.google.com/maps/search/"):
+                # Check if we're still in the initial loading phase after search
+                # In this case, we should NOT have a detailed business panel open
+                log.debug("On initial search results page, assuming no card is open")
+                return False
+        except NoSuchElementException:
+            pass
         
-        # Filter out already processed tiles and get positions
-        unprocessed_tiles = []
-        for tile in all_tiles:
+        # Look for definitive signs of an open card
+        # 1. Check for a visible business name in a card
+        try:
+            name_elements = driver.find_elements(By.CSS_SELECTOR, NAME_CSS) or driver.find_elements(By.XPATH, NAME_XPATH)
+            if name_elements:
+                for element in name_elements:
+                    if element.is_displayed():
+                        # Verify this is actually in a card context, not just a search result
+                        parent_card = driver.execute_script("""
+                            var el = arguments[0];
+                            var parent = el;
+                            // Look up the DOM tree for a card container
+                            for (var i = 0; i < 10; i++) {
+                                if (!parent) return null;
+                                if (parent.classList && 
+                                    (parent.classList.contains('m6QErb') || 
+                                     parent.classList.contains('DxyBCb') ||
+                                     parent.classList.contains('kA9KIf'))) {
+                                    return true;
+                                }
+                                parent = parent.parentElement;
+                            }
+                            return false;
+                        """, element)
+                        
+                        if parent_card:
+                            log.debug("Found business name in card context, card is open")
+                            return True
+        except Exception as e:
+            log.debug(f"Error checking for business name: {e}")
+        
+        # 2. Check for a visible close button that's actually in a card context
+        close_button_selectors = [
+            "#QA0Szd > div > div > div.w6VYqd > div.bJzME.Hu9e2e.tTVLSc > div > div.e07Vkf.kA9KIf > div > div > div.BHymgf.eiJcBe.bJUD0c > div > div > div:nth-child(3) > span > button",
+            "button[aria-label='Close']",
+            "[role='button'][aria-label='Close']"
+        ]
+        
+        for selector in close_button_selectors:
             try:
-                tile_id = get_tile_identifier(driver, tile)
-                if tile_id not in processed_tile_ids:
-                    position = get_tile_position(driver, tile)
-                    unprocessed_tiles.append((tile, tile_id, position))
+                buttons = driver.find_elements(By.CSS_SELECTOR, selector)
+                if buttons:
+                    for btn in buttons:
+                        if btn.is_displayed():
+                            # Verify this is a close button for a business card, not something else
+                            in_card_context = driver.execute_script("""
+                                var el = arguments[0];
+                                var parent = el;
+                                // Look up the DOM tree for a card container
+                                for (var i = 0; i < 10; i++) {
+                                    if (!parent) return null;
+                                    if (parent.classList && 
+                                        (parent.classList.contains('m6QErb') || 
+                                         parent.classList.contains('DxyBCb') ||
+                                         parent.classList.contains('kA9KIf'))) {
+                                        return true;
+                                    }
+                                    parent = parent.parentElement;
+                                }
+                                return false;
+                            """, btn)
+                            
+                            if in_card_context:
+                                log.debug("Found close button in card context, card is open")
+                                return True
             except Exception as e:
-                log.debug("%s %s Error processing tile: %s", code, ARROW, e)
-                continue
+                log.debug(f"Error checking close button {selector}: {e}")
         
-        # Sort by vertical position (top to bottom)
-        unprocessed_tiles.sort(key=lambda x: x[2])
+        # 3. Check for the presence of tabs (Overview, Reviews, etc.) which only appear in an open card
+        try:
+            tabs = driver.find_elements(By.CSS_SELECTOR, "button[role='tab']")
+            if tabs:
+                for tab in tabs:
+                    if tab.is_displayed():
+                        tab_text = tab.text.lower()
+                        # Check if this is a business card tab (Overview, Reviews, About, etc.)
+                        if any(keyword in tab_text for keyword in ["overview", "review", "about", "photo", "menu"]):
+                            log.debug(f"Found business card tab: {tab_text}, card is open")
+                            return True
+        except Exception as e:
+            log.debug(f"Error checking for tabs: {e}")
         
-        # Return just the tile elements and their IDs
-        result = [(t[0], t[1]) for t in unprocessed_tiles]
-        log.info("%s %s Found %d unprocessed tiles", code, ARROW, len(result))
-        return result
+        # 4. Check for specific business info sections that only appear in an open card
+        try:
+            info_sections = driver.find_elements(By.CSS_SELECTOR, ".m6QErb.DxyBCb.kA9KIf.dS8AEf")
+            if info_sections:
+                for section in info_sections:
+                    if section.is_displayed():
+                        # Verify this contains business information
+                        has_business_info = driver.execute_script("""
+                            var section = arguments[0];
+                            // Check if this section contains business info elements
+                            var hasAddress = section.querySelector('button[data-item-id="address"]');
+                            var hasPhone = section.querySelector('button[data-item-id="phone"]');
+                            var hasWebsite = section.querySelector('button[data-item-id="authority"]');
+                            return !!(hasAddress || hasPhone || hasWebsite);
+                        """, section)
+                        
+                        if has_business_info:
+                            log.debug("Found business info section, card is open")
+                            return True
+        except Exception as e:
+            log.debug(f"Error checking for info sections: {e}")
+        
+        # If we've checked all indicators and none are positive, no card is open
+        return False
+        
     except Exception as e:
-        log.error("%s %s Error getting unprocessed tiles: %s", code, ARROW, e)
-        return []
+        # If there's an error, log it and assume no card is open to be safe
+        log.debug(f"Error in is_card_open: {e}")
+        return False
+
+# Add this function at the beginning of the file, after the imports
+def ensure_no_card_open(driver: webdriver.Chrome, code: str, max_attempts: int = 3) -> bool:
+    """
+    Ensure no card is open by checking and closing if necessary.
+    Returns True if successful (no card open), False otherwise.
+    """
+    log = logging.getLogger("googlemaps_scraper")
+    
+    for attempt in range(max_attempts):
+        if not is_card_open(driver):
+            return True
+            
+        log.warning("%s %s Card still open, attempting to close (attempt %d/%d)", 
+                   code, ARROW, attempt + 1, max_attempts)
+        
+        # Try normal close first
+        safe_close_card(driver)
+        time.sleep(1.5)  # Wait for card to close
+        
+        # If still open, try more aggressive methods
+        if is_card_open(driver) and attempt >= 1:
+            try:
+                # Try clicking back button if available
+                back_buttons = driver.find_elements(By.CSS_SELECTOR, "button[aria-label='Back']")
+                if back_buttons and len(back_buttons) > 0:
+                    for btn in back_buttons:
+                        if btn.is_displayed():
+                            log.info("%s %s Trying back button to close card", code, ARROW)
+                            try:
+                                btn.click()
+                            except:
+                                driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(1.0)
+                            
+                # If still open, try JavaScript to force close
+                if is_card_open(driver):
+                    log.info("%s %s Using JavaScript to force close card", code, ARROW)
+                    driver.execute_script("""
+                        // Try to find and click any close or back buttons
+                        var buttons = [
+                            ...document.querySelectorAll('button[aria-label="Close"]'),
+                            ...document.querySelectorAll('button[aria-label="Back"]'),
+                            ...document.querySelectorAll('button[jsaction*="closeButton"]'),
+                            ...document.querySelectorAll('[role="button"][aria-label="Close"]')
+                        ];
+                        
+                        for (let btn of buttons) {
+                            if (btn && btn.offsetParent !== null) {
+                                btn.click();
+                            }
+                        }
+                        
+                        // Try to dispatch Escape key event
+                        document.dispatchEvent(new KeyboardEvent('keydown', {'key': 'Escape'}));
+                    """)
+                    time.sleep(1.5)
+            except Exception as e:
+                log.warning("%s %s Error during aggressive card closing: %s", code, ARROW, e)
+    
+    # If we still have a card open after max attempts, return False
+    return not is_card_open(driver)
 
 def scrape_subsector(
     doc: dict, driver: webdriver.Chrome, rest_col, service: str, city: str,
@@ -728,13 +1026,26 @@ def scrape_subsector(
     # Track consecutive scrolls with no new data
     consecutive_no_new_data = 0
     
-    # 2 · iterate visible tiles, open each card
+    # At the beginning of the main while loop:
     while total_cards < RESULT_LIMIT and scroll_attempts < MAX_SCROLL_ATTEMPTS:
         # Check for termination request more frequently
         if termination_check and termination_check():
             log.info("%s %s Termination requested during scraping loop", code, ARROW)
             return records, total_cards
-            
+        
+        # Ensure no card is open before proceeding
+        if not ensure_no_card_open(driver, code):
+            log.error("%s %s Unable to close card after multiple attempts, refreshing page", code, ARROW)
+            try:
+                driver.refresh()
+                time.sleep(3.0)  # Wait for page to reload
+                WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "div.Nv2PK"))
+                )
+            except Exception as e:
+                log.error("%s %s Error refreshing page: %s", code, ARROW, e)
+                return records, total_cards
+                
         # Check if we need to refresh the page due to too many stale errors
         if consecutive_stale_errors >= PAGE_REFRESH_THRESHOLD:
             log.warning("%s %s Too many consecutive stale errors, skipping to next subsector", code, ARROW)
@@ -811,6 +1122,11 @@ def scrape_subsector(
             if total_cards >= RESULT_LIMIT:
                 break
                 
+            # Ensure no card is open before clicking a new tile
+            if not ensure_no_card_open(driver, code):
+                log.warning("%s %s Unable to ensure no card is open, skipping this batch", code, ARROW)
+                break  # Break out of the tile loop to try refreshing
+                
             # Try to get the business name from the tile before clicking
             tile_name = get_tile_name(tile)
             log.debug("%s %s Attempting to click tile for business: %s", code, ARROW, tile_name)
@@ -820,11 +1136,11 @@ def scrape_subsector(
                 log.debug("%s %s Skipping already processed business: %s", code, ARROW, tile_name)
                 processed_tile_ids.add(tile_id)  # Mark this tile as processed
                 continue
-                    
+            
             # Mark this tile as processed BEFORE clicking to prevent re-processing
             # if something goes wrong during processing
             processed_tile_ids.add(tile_id)
-                
+        
             # Safely click tile with retry logic
             if not safe_click_tile(driver, tile, code, tile_idx, len(unprocessed_tiles)):
                 consecutive_stale_errors += 1
@@ -850,7 +1166,7 @@ def scrape_subsector(
                 
                 # Log the card name that was loaded
                 if card_name:
-                    log.debug("%s %s Card details loaded successfully for: %s", code, ARROW, card_name)
+                    log.debug("%s %s %sCard details loaded successfully for: %s%s", code, ARROW, GREEN, card_name, RESET)
                 else:
                     log.debug("%s %s Card loaded but name not found", code, ARROW)
                 
@@ -915,9 +1231,12 @@ def scrape_subsector(
             log.info("%s %s BUSINESS-WEBSITE MAPPING: %s -> %s", code, ARROW, name, website)
 
             # Log all extracted data together for debugging
-            log.info("%s %s BUSINESS DATA SUMMARY: Name='%s', Website='%s', Phone='%s', Address='%s'", 
-                     code, ARROW, name, website, phone_int if phone_int else "None", 
-                     address[:30] + "..." if len(address) > 30 else address)
+            log.info("%s %s %sBUSINESS DATA SUMMARY:%s Name='%s%s%s', Website='%s%s%s', Phone='%s%s%s', Address='%s%s%s'", 
+                     code, ARROW, BOLD + MAGENTA, RESET,
+                     BOLD + BLUE, name, RESET,
+                     BOLD + CYAN, website[:30] + "..." if len(website) > 30 else website, RESET,
+                     BOLD + YELLOW, phone_int if phone_int else "None", RESET,
+                     BOLD + GREEN, address[:30] + "..." if len(address) > 30 else address, RESET)
 
             # Note the difference between tile name and card name for debugging
             if name != tile_name and tile_name:
@@ -966,22 +1285,28 @@ def scrape_subsector(
                     return records, total_cards
                     
             # Add the constant delay here before closing card
-            log.info("%s %s Waiting for %s seconds before closing card", code, ARROW, CARD_PROCESSING_DELAY)
+            log.info("%s %s %sWaiting for %s seconds before closing card%s", code, ARROW, YELLOW + BOLD, CARD_PROCESSING_DELAY, RESET)
             time.sleep(CARD_PROCESSING_DELAY)  # Add fixed delay between cards
-            
+
             # close card
             safe_close_card(driver)
+            log.info("%s %s %sCard closed, waiting additional delay before processing next card%s", code, ARROW, GREEN + BOLD, RESET)
             rdelay(CLOSE_WAIT_MIN, CLOSE_WAIT_MAX, fast_mode)
+            
+            # Add an additional fixed delay to ensure card is fully closed
+            time.sleep(2.0)
+            
+            # Verify card is actually closed
+            if is_card_open(driver):
+                log.warning("%s %s Card still appears to be open after closing, forcing another close", code, ARROW)
+                safe_close_card(driver)
+                time.sleep(2.0)  # Wait longer after forced close
 
-        # If we processed new tiles in this batch, reset scroll attempts
-        if new_tiles_processed > 0:
-            log.info("%s %s Processed %d new tiles in this batch", code, ARROW, new_tiles_processed)
-            scroll_attempts = 0
-            # Also reset consecutive stale errors since we're making progress
-            consecutive_stale_errors = 0
-        else:
-            log.info("%s %s No new tiles processed in this batch", code, ARROW)
-                
+            # Important: Break out of the tile loop after processing ONE card to ensure sequential processing
+            # This makes sure we only process one card at a time
+            break
+
+        # If we processed even one tile in this batch, don't scroll yet - continue processing remaining tiles
         # Check for termination before scrolling
         if termination_check and termination_check():
             log.info("%s %s Termination requested before scrolling", code, ARROW)
@@ -1002,15 +1327,15 @@ def scrape_subsector(
             break
             
         # Log progress
-        log.info("%s %s Total unique businesses processed in this subsector: %d", code, ARROW, len(processed_businesses))
+        log.info("%s %s %sTotal unique businesses processed in this subsector: %d%s", code, ARROW, BOLD + BLUE, len(processed_businesses), RESET)
 
     end_time = datetime.now()
     duration = end_time - start_time
     
     log.info("=" * 60)
-    log.info("%s %s Scraping completed in %s", code, ARROW, duration)
-    log.info("%s %s Total cards scraped: %d (unique businesses: %d)", 
-             code, ARROW, total_cards, len(processed_businesses))
+    log.info("%s %s %sScraping completed in %s%s", code, ARROW, GREEN + BOLD, duration, RESET)
+    log.info("%s %s %sTotal cards scraped: %d (unique businesses: %d)%s", 
+         code, ARROW, GREEN + BOLD, total_cards, len(processed_businesses), RESET)
     log.info("=" * 60)
     
     return records, total_cards

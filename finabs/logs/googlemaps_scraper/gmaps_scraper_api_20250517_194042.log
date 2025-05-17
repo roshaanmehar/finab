@@ -1,0 +1,370 @@
+2025-05-17 19:40:42,350 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:40:42,352 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 19:40:42,354 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_194042.log
+2025-05-17 19:40:42,363 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 19:40:42,365 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:40:42,389 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 19:40:42,390 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 19:40:42,392 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 19:40:44,570 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 19:40:44,575 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 19:40:44,581 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 19:40:44,601 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:40:44,624 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M15 9 (1/287)
+2025-05-17 19:40:44,697 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:40:44,698 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 9
+2025-05-17 19:40:44,698 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:40:48,116 - googlemaps_scraper - INFO - M15 9 -> search query launched: restaurants in M15 9 Manchester
+2025-05-17 19:40:51,316 - googlemaps_scraper - INFO - M15 9 -> Found 5 unprocessed tiles
+2025-05-17 19:40:51,466 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/5: The Deansgate[0m
+2025-05-17 19:40:57,882 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage for business The Deansgate
+2025-05-17 19:40:58,924 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: The Deansgate
+2025-05-17 19:40:58,924 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:40:58,925 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 1475
+2025-05-17 19:40:58,925 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 321 Deansgate, Manchester M3 4LQ
+2025-05-17 19:40:58,925 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 19:40:58,925 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1613888956
+2025-05-17 19:40:58,925 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: The Deansgate -> https://www.greeneking.co.uk/pubs/greater-manchester/deansgate?utm_source=g_places&utm_medium=locations&utm_campaign=UC_pubpage
+2025-05-17 19:40:58,926 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Deansgate[0m', Website='[1m[96mhttps://www.greeneking.co.uk/p...[0m', Phone='[1m[93m1613888956[0m', Address='[1m[92m321 Deansgate, Manchester M3 4...[0m'
+2025-05-17 19:40:58,926 - googlemaps_scraper - INFO - M15 9 -> Scraped: The Deansgate (phone: 1613888956, address: 321 Deansgate, Manchester M3 4..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 19:40:58,941 - googlemaps_scraper - ERROR - Error updating duplicate record: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2025-05-17 19:40:58,941 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:41:04,980 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:41:07,060 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 5)
+2025-05-17 19:41:07,060 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 19:41:07,410 - googlemaps_scraper - INFO - M15 9 -> Found 4 unprocessed tiles
+2025-05-17 19:41:07,454 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/4: TGI Fridays - Trafford Centre[0m
+2025-05-17 19:41:12,305 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671 for business TGI Fridays - Trafford Centre
+2025-05-17 19:41:13,456 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: TGI Fridays - Trafford Centre
+2025-05-17 19:41:13,457 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 3.6
+2025-05-17 19:41:13,457 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 0
+2025-05-17 19:41:13,458 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: The Great Hall, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA
+2025-05-17 19:41:13,458 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 19:41:13,459 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 3301759275
+2025-05-17 19:41:13,460 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: TGI Fridays - Trafford Centre -> https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 19:41:13,460 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTGI Fridays - Trafford Centre[0m', Website='[1m[96mhttps://www.tgifridays.co.uk/l...[0m', Phone='[1m[93m3301759275[0m', Address='[1m[92mThe Great Hall, The Trafford C...[0m'
+2025-05-17 19:41:13,461 - googlemaps_scraper - INFO - M15 9 -> Scraped: TGI Fridays - Trafford Centre (phone: 3301759275, address: The Great Hall, The Trafford C..., website: https://www.tgifridays.co.uk/l...)
+2025-05-17 19:41:13,467 - googlemaps_scraper - ERROR - Error updating duplicate record: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2025-05-17 19:41:13,468 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:41:19,569 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:41:21,678 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 5)
+2025-05-17 19:41:21,679 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 2[0m
+2025-05-17 19:41:22,029 - googlemaps_scraper - INFO - M15 9 -> Found 3 unprocessed tiles
+2025-05-17 19:41:22,163 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/3: WOOD Manchester by Simon Wood[0m
+2025-05-17 19:41:25,969 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 2/3: Gino D'Acampo Manchester[0m
+2025-05-17 19:41:31,991 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://ginorestaurants.com/ for business Gino D'Acampo Manchester
+2025-05-17 19:41:33,133 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Gino D'Acampo Manchester
+2025-05-17 19:41:33,135 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.4
+2025-05-17 19:41:33,135 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 561
+2025-05-17 19:41:33,136 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: First St, Innside M15 4RP
+2025-05-17 19:41:33,137 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://ginorestaurants.com/
+2025-05-17 19:41:33,138 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1615295990
+2025-05-17 19:41:33,139 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Gino D'Acampo Manchester -> https://ginorestaurants.com/
+2025-05-17 19:41:33,140 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mGino D'Acampo Manchester[0m', Website='[1m[96mhttps://ginorestaurants.com/[0m', Phone='[1m[93m1615295990[0m', Address='[1m[92mFirst St, Innside M15 4RP[0m'
+2025-05-17 19:41:33,141 - googlemaps_scraper - INFO - M15 9 -> Scraped: Gino D'Acampo Manchester (phone: 1615295990, address: First St, Innside M15 4RP, website: https://ginorestaurants.com/)
+2025-05-17 19:41:33,153 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-17 19:41:33,155 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:41:39,305 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:41:39,668 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:41:40,107 - googlemaps_scraper - INFO - M15 9 -> Found 1 unprocessed tiles
+2025-05-17 19:41:40,153 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/1: Ribeye Steakhouse Manchester[0m
+2025-05-17 19:41:44,343 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.ribeyesteakhouse.com/ for business Ribeye Steakhouse Manchester
+2025-05-17 19:41:45,466 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Ribeye Steakhouse Manchester
+2025-05-17 19:41:45,466 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.0
+2025-05-17 19:41:45,466 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 1550
+2025-05-17 19:41:45,466 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: Unit 1a, Number 8 First St, Manchester M15 4FN
+2025-05-17 19:41:45,467 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.ribeyesteakhouse.com/
+2025-05-17 19:41:45,467 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1614702222
+2025-05-17 19:41:45,467 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Ribeye Steakhouse Manchester -> https://www.ribeyesteakhouse.com/
+2025-05-17 19:41:45,467 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRibeye Steakhouse Manchester[0m', Website='[1m[96mhttps://www.ribeyesteakhouse.c...[0m', Phone='[1m[93m1614702222[0m', Address='[1m[92mUnit 1a, Number 8 First St, Ma...[0m'
+2025-05-17 19:41:45,468 - googlemaps_scraper - INFO - M15 9 -> Scraped: Ribeye Steakhouse Manchester (phone: 1614702222, address: Unit 1a, Number 8 First St, Ma..., website: https://www.ribeyesteakhouse.c...)
+2025-05-17 19:41:45,471 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-17 19:41:45,471 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:41:51,499 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:41:52,048 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:41:52,721 - googlemaps_scraper - INFO - M15 9 -> Found 5 unprocessed tiles
+2025-05-17 19:41:52,768 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/5: Prestige Kitchen Hulme[0m
+2025-05-17 19:41:57,222 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.prestigekitchenhulme.com/ for business Prestige Kitchen Hulme
+2025-05-17 19:41:58,328 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Prestige Kitchen Hulme
+2025-05-17 19:41:58,328 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.9
+2025-05-17 19:41:58,329 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 104
+2025-05-17 19:41:58,329 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: Anne Nuttall Rd, Manchester M15 4HN
+2025-05-17 19:41:58,330 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://www.prestigekitchenhulme.com/
+2025-05-17 19:41:58,330 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 7776492494
+2025-05-17 19:41:58,331 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Prestige Kitchen Hulme -> http://www.prestigekitchenhulme.com/
+2025-05-17 19:41:58,331 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mPrestige Kitchen Hulme[0m', Website='[1m[96mhttp://www.prestigekitchenhulm...[0m', Phone='[1m[93m7776492494[0m', Address='[1m[92mAnne Nuttall Rd, Manchester M1...[0m'
+2025-05-17 19:41:58,331 - googlemaps_scraper - INFO - M15 9 -> Scraped: Prestige Kitchen Hulme (phone: 7776492494, address: Anne Nuttall Rd, Manchester M1..., website: http://www.prestigekitchenhulm...)
+2025-05-17 19:41:58,338 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 3/120)
+2025-05-17 19:41:58,338 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:42:04,364 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:42:04,710 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:42:05,212 - googlemaps_scraper - INFO - M15 9 -> Found 4 unprocessed tiles
+2025-05-17 19:42:05,260 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/4: Indian Tiffin Room[0m
+2025-05-17 19:42:09,523 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://indiantiffinroom.com/ for business Indian Tiffin Room
+2025-05-17 19:42:10,662 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Indian Tiffin Room
+2025-05-17 19:42:10,665 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:42:10,666 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 2742
+2025-05-17 19:42:10,667 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 2, Isabella Bank Street, First St, Manchester M15 4RL
+2025-05-17 19:42:10,668 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://indiantiffinroom.com/
+2025-05-17 19:42:10,669 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612281000
+2025-05-17 19:42:10,669 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Indian Tiffin Room -> http://indiantiffinroom.com/
+2025-05-17 19:42:10,671 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mIndian Tiffin Room[0m', Website='[1m[96mhttp://indiantiffinroom.com/[0m', Phone='[1m[93m1612281000[0m', Address='[1m[92m2, Isabella Bank Street, First...[0m'
+2025-05-17 19:42:10,671 - googlemaps_scraper - INFO - M15 9 -> Scraped: Indian Tiffin Room (phone: 1612281000, address: 2, Isabella Bank Street, First..., website: http://indiantiffinroom.com/)
+2025-05-17 19:42:10,676 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 4/120)
+2025-05-17 19:42:10,676 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:42:16,773 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:42:17,322 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:42:17,980 - googlemaps_scraper - INFO - M15 9 -> Found 3 unprocessed tiles
+2025-05-17 19:42:18,023 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/3: The Banyan Tree[0m
+2025-05-17 19:42:22,654 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.thebanyantree-castlefield.com/ for business The Banyan Tree
+2025-05-17 19:42:23,753 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: The Banyan Tree
+2025-05-17 19:42:23,753 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.6
+2025-05-17 19:42:23,754 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 772
+2025-05-17 19:42:23,754 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: Unit 3, Moho Building, Ellesmere St, Manchester M15 4JY
+2025-05-17 19:42:23,755 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.thebanyantree-castlefield.com/
+2025-05-17 19:42:23,755 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618359906
+2025-05-17 19:42:23,756 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: The Banyan Tree -> https://www.thebanyantree-castlefield.com/
+2025-05-17 19:42:23,756 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Banyan Tree[0m', Website='[1m[96mhttps://www.thebanyantree-cast...[0m', Phone='[1m[93m1618359906[0m', Address='[1m[92mUnit 3, Moho Building, Ellesme...[0m'
+2025-05-17 19:42:23,757 - googlemaps_scraper - INFO - M15 9 -> Scraped: The Banyan Tree (phone: 1618359906, address: Unit 3, Moho Building, Ellesme..., website: https://www.thebanyantree-cast...)
+2025-05-17 19:42:23,764 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 5/120)
+2025-05-17 19:42:23,765 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:42:29,781 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:42:30,324 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:42:30,806 - googlemaps_scraper - INFO - M15 9 -> Found 2 unprocessed tiles
+2025-05-17 19:42:30,847 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/2: Albert's Shed Restaurant Manchester[0m
+2025-05-17 19:42:33,474 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 2/2: Walnut Persian Restaurant[0m
+2025-05-17 19:42:38,368 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://walnutrestaurant.co.uk/ for business Walnut Persian Restaurant
+2025-05-17 19:42:39,471 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Walnut Persian Restaurant
+2025-05-17 19:42:39,472 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.7
+2025-05-17 19:42:39,472 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 2153
+2025-05-17 19:42:39,473 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 237 Wilmslow Rd, Manchester M14 5LW
+2025-05-17 19:42:39,473 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://walnutrestaurant.co.uk/
+2025-05-17 19:42:39,474 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612220894
+2025-05-17 19:42:39,474 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Walnut Persian Restaurant -> http://walnutrestaurant.co.uk/
+2025-05-17 19:42:39,475 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mWalnut Persian Restaurant[0m', Website='[1m[96mhttp://walnutrestaurant.co.uk/[0m', Phone='[1m[93m1612220894[0m', Address='[1m[92m237 Wilmslow Rd, Manchester M1...[0m'
+2025-05-17 19:42:39,476 - googlemaps_scraper - INFO - M15 9 -> Scraped: Walnut Persian Restaurant (phone: 1612220894, address: 237 Wilmslow Rd, Manchester M1..., website: http://walnutrestaurant.co.uk/)
+2025-05-17 19:42:39,482 - googlemaps_scraper - ERROR - Error updating duplicate record: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2025-05-17 19:42:39,483 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:42:45,509 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:42:47,696 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 15)
+2025-05-17 19:42:47,696 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 8[0m
+2025-05-17 19:42:48,615 - googlemaps_scraper - INFO - M15 9 -> Found 5 unprocessed tiles
+2025-05-17 19:42:48,659 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/5: Tattu Manchester[0m
+2025-05-17 19:42:51,522 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 2/5: 10 Tib Lane[0m
+2025-05-17 19:42:56,197 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.10tiblane.com/ for business 10 Tib Lane
+2025-05-17 19:42:57,321 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: 10 Tib Lane
+2025-05-17 19:42:57,321 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.6
+2025-05-17 19:42:57,322 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 309
+2025-05-17 19:42:57,322 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 10 Tib Ln, Manchester M2 4JB
+2025-05-17 19:42:57,323 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.10tiblane.com/
+2025-05-17 19:42:57,323 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618331034
+2025-05-17 19:42:57,324 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: 10 Tib Lane -> https://www.10tiblane.com/
+2025-05-17 19:42:57,325 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94m10 Tib Lane[0m', Website='[1m[96mhttps://www.10tiblane.com/[0m', Phone='[1m[93m1618331034[0m', Address='[1m[92m10 Tib Ln, Manchester M2 4JB[0m'
+2025-05-17 19:42:57,326 - googlemaps_scraper - INFO - M15 9 -> Scraped: 10 Tib Lane (phone: 1618331034, address: 10 Tib Ln, Manchester M2 4JB, website: https://www.10tiblane.com/)
+2025-05-17 19:42:57,330 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 6/120)
+2025-05-17 19:42:57,331 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:43:03,351 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:43:03,833 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:43:05,146 - googlemaps_scraper - INFO - M15 9 -> Found 3 unprocessed tiles
+2025-05-17 19:43:05,186 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/3: Fenix Restaurant and Bar, Manchester[0m
+2025-05-17 19:43:09,515 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.fenixrestaurants.com/ for business Fenix Restaurant and Bar, Manchester
+2025-05-17 19:43:10,654 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Fenix Restaurant and Bar, Manchester
+2025-05-17 19:43:10,654 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.6
+2025-05-17 19:43:10,655 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 1696
+2025-05-17 19:43:10,655 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: The Goods Yard Building, Goods Yard St, Manchester M3 3BG
+2025-05-17 19:43:10,656 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://www.fenixrestaurants.com/
+2025-05-17 19:43:10,657 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1616460321
+2025-05-17 19:43:10,657 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Fenix Restaurant and Bar, Manchester -> http://www.fenixrestaurants.com/
+2025-05-17 19:43:10,658 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mFenix Restaurant and Bar, Manchester[0m', Website='[1m[96mhttp://www.fenixrestaurants.co...[0m', Phone='[1m[93m1616460321[0m', Address='[1m[92mThe Goods Yard Building, Goods...[0m'
+2025-05-17 19:43:10,659 - googlemaps_scraper - INFO - M15 9 -> Scraped: Fenix Restaurant and Bar, Manchester (phone: 1616460321, address: The Goods Yard Building, Goods..., website: http://www.fenixrestaurants.co...)
+2025-05-17 19:43:10,665 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 7/120)
+2025-05-17 19:43:10,666 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:43:16,761 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:43:17,081 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:43:18,221 - googlemaps_scraper - INFO - M15 9 -> Found 2 unprocessed tiles
+2025-05-17 19:43:18,272 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/2: Dukes 92[0m
+2025-05-17 19:43:23,078 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.dukes92.com/ for business Dukes 92
+2025-05-17 19:43:24,270 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Dukes 92
+2025-05-17 19:43:24,271 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:43:24,271 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 2837
+2025-05-17 19:43:24,271 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 18 - 25 Castle St, Manchester M3 4LZ
+2025-05-17 19:43:24,271 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://www.dukes92.com/
+2025-05-17 19:43:24,272 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618398642
+2025-05-17 19:43:24,272 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Dukes 92 -> http://www.dukes92.com/
+2025-05-17 19:43:24,272 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mDukes 92[0m', Website='[1m[96mhttp://www.dukes92.com/[0m', Phone='[1m[93m1618398642[0m', Address='[1m[92m18 - 25 Castle St, Manchester ...[0m'
+2025-05-17 19:43:24,272 - googlemaps_scraper - INFO - M15 9 -> Scraped: Dukes 92 (phone: 1618398642, address: 18 - 25 Castle St, Manchester ..., website: http://www.dukes92.com/)
+2025-05-17 19:43:24,283 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 8/120)
+2025-05-17 19:43:24,286 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:43:30,317 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:43:30,707 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:43:31,443 - googlemaps_scraper - INFO - M15 9 -> Found 1 unprocessed tiles
+2025-05-17 19:43:31,486 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/1: The Laureate Restaurant[0m
+2025-05-17 19:43:36,388 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.hyattrestaurants.com/en/manchester/restaurant/the-laureate-restaurant?src=prop_eame_en_misc_gmb_websitelink_TheLaureate for business The Laureate Restaurant
+2025-05-17 19:43:37,490 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: The Laureate Restaurant
+2025-05-17 19:43:37,491 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.7
+2025-05-17 19:43:37,491 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 38
+2025-05-17 19:43:37,492 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 55 Booth St W, Manchester M15 6PQ
+2025-05-17 19:43:37,493 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.hyattrestaurants.com/en/manchester/restaurant/the-laureate-restaurant?src=prop_eame_en_misc_gmb_websitelink_TheLaureate
+2025-05-17 19:43:37,493 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1613597037
+2025-05-17 19:43:37,494 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: The Laureate Restaurant -> https://www.hyattrestaurants.com/en/manchester/restaurant/the-laureate-restaurant?src=prop_eame_en_misc_gmb_websitelink_TheLaureate
+2025-05-17 19:43:37,494 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mThe Laureate Restaurant[0m', Website='[1m[96mhttps://www.hyattrestaurants.c...[0m', Phone='[1m[93m1613597037[0m', Address='[1m[92m55 Booth St W, Manchester M15 ...[0m'
+2025-05-17 19:43:37,495 - googlemaps_scraper - INFO - M15 9 -> Scraped: The Laureate Restaurant (phone: 1613597037, address: 55 Booth St W, Manchester M15 ..., website: https://www.hyattrestaurants.c...)
+2025-05-17 19:43:37,501 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 9/120)
+2025-05-17 19:43:37,502 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:43:43,514 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:43:43,866 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:43:45,467 - googlemaps_scraper - INFO - M15 9 -> Found 5 unprocessed tiles
+2025-05-17 19:43:45,513 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/5: Blacklock Manchester[0m
+2025-05-17 19:43:48,612 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 2/5: KITTEN[0m
+2025-05-17 19:43:53,902 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.kittenrestaurant.com/ for business KITTEN
+2025-05-17 19:43:55,004 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: KITTEN
+2025-05-17 19:43:55,005 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.0
+2025-05-17 19:43:55,006 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 545
+2025-05-17 19:43:55,006 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 9 Deansgate, Owen St., Manchester M15 4YB
+2025-05-17 19:43:55,007 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://www.kittenrestaurant.com/
+2025-05-17 19:43:55,007 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1613927913
+2025-05-17 19:43:55,008 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: KITTEN -> http://www.kittenrestaurant.com/
+2025-05-17 19:43:55,008 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mKITTEN[0m', Website='[1m[96mhttp://www.kittenrestaurant.co...[0m', Phone='[1m[93m1613927913[0m', Address='[1m[92m9 Deansgate, Owen St., Manches...[0m'
+2025-05-17 19:43:55,009 - googlemaps_scraper - INFO - M15 9 -> Scraped: KITTEN (phone: 1613927913, address: 9 Deansgate, Owen St., Manches..., website: http://www.kittenrestaurant.co...)
+2025-05-17 19:43:55,014 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 10/120)
+2025-05-17 19:43:55,015 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:44:01,052 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:44:01,567 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:44:02,480 - googlemaps_scraper - INFO - M15 9 -> Found 3 unprocessed tiles
+2025-05-17 19:44:02,525 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/3: Hawksmoor Manchester[0m
+2025-05-17 19:44:07,330 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://thehawksmoor.com/locations/manchester?y_source=1_MjQyMjUwMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D for business Hawksmoor Manchester
+2025-05-17 19:44:08,450 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Hawksmoor Manchester
+2025-05-17 19:44:08,452 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.7
+2025-05-17 19:44:08,453 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 4184
+2025-05-17 19:44:08,454 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 184, 186 Deansgate, Manchester M3 3WB
+2025-05-17 19:44:08,454 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://thehawksmoor.com/locations/manchester?y_source=1_MjQyMjUwMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+2025-05-17 19:44:08,455 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618366980
+2025-05-17 19:44:08,456 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Hawksmoor Manchester -> http://thehawksmoor.com/locations/manchester?y_source=1_MjQyMjUwMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+2025-05-17 19:44:08,457 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mHawksmoor Manchester[0m', Website='[1m[96mhttp://thehawksmoor.com/locati...[0m', Phone='[1m[93m1618366980[0m', Address='[1m[92m184, 186 Deansgate, Manchester...[0m'
+2025-05-17 19:44:08,457 - googlemaps_scraper - INFO - M15 9 -> Scraped: Hawksmoor Manchester (phone: 1618366980, address: 184, 186 Deansgate, Manchester..., website: http://thehawksmoor.com/locati...)
+2025-05-17 19:44:08,463 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 11/120)
+2025-05-17 19:44:08,464 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:44:14,478 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:44:14,858 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:44:15,894 - googlemaps_scraper - INFO - M15 9 -> Found 2 unprocessed tiles
+2025-05-17 19:44:15,935 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/2: Home Bar & Kitchen[0m
+2025-05-17 19:44:19,761 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 2/2: Italiana FiftyFive - Italian Restaurant Manchester[0m
+2025-05-17 19:44:24,359 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://italianafiftyfive.co.uk/ for business Home Bar & Kitchen
+2025-05-17 19:44:25,480 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Home Bar & Kitchen
+2025-05-17 19:44:25,481 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 3.6
+2025-05-17 19:44:25,481 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 21
+2025-05-17 19:44:25,481 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 3-11 Liverpool Rd, Manchester M3 4NW
+2025-05-17 19:44:25,482 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://italianafiftyfive.co.uk/
+2025-05-17 19:44:25,482 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618349741
+2025-05-17 19:44:25,483 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Home Bar & Kitchen -> https://italianafiftyfive.co.uk/
+2025-05-17 19:44:25,483 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mHome Bar & Kitchen[0m', Website='[1m[96mhttps://italianafiftyfive.co.u...[0m', Phone='[1m[93m1618349741[0m', Address='[1m[92m3-11 Liverpool Rd, Manchester ...[0m'
+2025-05-17 19:44:25,483 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'Home Bar & Kitchen' differs from tile name 'Italiana FiftyFive - Italian Restaurant Manchester' (expected due to UI lag)
+2025-05-17 19:44:25,484 - googlemaps_scraper - INFO - M15 9 -> Scraped: Home Bar & Kitchen (phone: 1618349741, address: 3-11 Liverpool Rd, Manchester ..., website: https://italianafiftyfive.co.u...)
+2025-05-17 19:44:25,488 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 12/120)
+2025-05-17 19:44:25,488 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:44:31,502 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:44:32,059 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:44:33,097 - googlemaps_scraper - INFO - M15 9 -> Found 2 unprocessed tiles
+2025-05-17 19:44:33,143 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/2: Bardez - Indian Street Food and Grill, Rusholme[0m
+2025-05-17 19:44:38,502 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://bardez.co.uk/ for business Bardez - Indian Street Food and Grill, Rusholme
+2025-05-17 19:44:39,559 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Bardez - Indian Street Food and Grill, Rusholme
+2025-05-17 19:44:39,560 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.8
+2025-05-17 19:44:39,560 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 750
+2025-05-17 19:44:39,560 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 35 Wilmslow Rd, Rusholme, Manchester M14 5TB
+2025-05-17 19:44:39,561 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://bardez.co.uk/
+2025-05-17 19:44:39,561 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612484890
+2025-05-17 19:44:39,561 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Bardez - Indian Street Food and Grill, Rusholme -> https://bardez.co.uk/
+2025-05-17 19:44:39,561 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mBardez - Indian Street Food and Grill, Rusholme[0m', Website='[1m[96mhttps://bardez.co.uk/[0m', Phone='[1m[93m1612484890[0m', Address='[1m[92m35 Wilmslow Rd, Rusholme, Manc...[0m'
+2025-05-17 19:44:39,562 - googlemaps_scraper - INFO - M15 9 -> Scraped: Bardez - Indian Street Food and Grill, Rusholme (phone: 1612484890, address: 35 Wilmslow Rd, Rusholme, Manc..., website: https://bardez.co.uk/)
+2025-05-17 19:44:39,564 - googlemaps_scraper - ERROR - Error updating duplicate record: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2025-05-17 19:44:39,565 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:44:45,582 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:44:47,677 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 22)
+2025-05-17 19:44:47,678 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 16[0m
+2025-05-17 19:44:52,362 - googlemaps_scraper - INFO - M15 9 -> Found 1 unprocessed tiles
+2025-05-17 19:44:52,438 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/1: eastZeast Riverside - Manchester[0m
+2025-05-17 19:44:57,009 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 27)
+2025-05-17 19:44:57,009 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 16[0m
+2025-05-17 19:44:59,261 - googlemaps_scraper - INFO - M15 9 -> Found 4 unprocessed tiles
+2025-05-17 19:44:59,377 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/4: Las Iguanas - Manchester - Deansgate[0m
+2025-05-17 19:45:04,119 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate for business eastZeast Riverside - Manchester
+2025-05-17 19:45:05,165 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: eastZeast Riverside - Manchester
+2025-05-17 19:45:05,165 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.4
+2025-05-17 19:45:05,165 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 3405
+2025-05-17 19:45:05,166 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 84 Deansgate, Manchester M3 2ER
+2025-05-17 19:45:05,166 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-17 19:45:05,166 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1615492175
+2025-05-17 19:45:05,166 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: eastZeast Riverside - Manchester -> https://www.iguanas.co.uk/restaurants/manchester-deansgate/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_lasiguanas_manchester_deansgate
+2025-05-17 19:45:05,166 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94meastZeast Riverside - Manchester[0m', Website='[1m[96mhttps://www.iguanas.co.uk/rest...[0m', Phone='[1m[93m1615492175[0m', Address='[1m[92m84 Deansgate, Manchester M3 2E...[0m'
+2025-05-17 19:45:05,167 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'eastZeast Riverside - Manchester' differs from tile name 'Las Iguanas - Manchester - Deansgate' (expected due to UI lag)
+2025-05-17 19:45:05,167 - googlemaps_scraper - INFO - M15 9 -> Scraped: eastZeast Riverside - Manchester (phone: 1615492175, address: 84 Deansgate, Manchester M3 2E..., website: https://www.iguanas.co.uk/rest...)
+2025-05-17 19:45:05,171 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:45:11,203 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:45:13,294 - googlemaps_scraper - INFO - M15 9 -> scrolled feed (tiles now 27)
+2025-05-17 19:45:13,295 - googlemaps_scraper - INFO - M15 9 -> [1m[94mTotal unique businesses processed in this subsector: 17[0m
+2025-05-17 19:45:15,019 - googlemaps_scraper - INFO - M15 9 -> Found 3 unprocessed tiles
+2025-05-17 19:45:15,270 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/3: Azuma[0m
+2025-05-17 19:45:21,477 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.theazuma.com/ for business Las Iguanas - Manchester - Deansgate
+2025-05-17 19:45:22,552 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Las Iguanas - Manchester - Deansgate
+2025-05-17 19:45:22,553 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:45:22,553 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 2334
+2025-05-17 19:45:22,554 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 73 Cavendish St, Manchester M15 6BN
+2025-05-17 19:45:22,554 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://www.theazuma.com/
+2025-05-17 19:45:22,554 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612261776
+2025-05-17 19:45:22,555 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Las Iguanas - Manchester - Deansgate -> https://www.theazuma.com/
+2025-05-17 19:45:22,555 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mLas Iguanas - Manchester - Deansgate[0m', Website='[1m[96mhttps://www.theazuma.com/[0m', Phone='[1m[93m1612261776[0m', Address='[1m[92m73 Cavendish St, Manchester M1...[0m'
+2025-05-17 19:45:22,555 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'Las Iguanas - Manchester - Deansgate' differs from tile name 'Azuma' (expected due to UI lag)
+2025-05-17 19:45:22,556 - googlemaps_scraper - INFO - M15 9 -> Scraped: Las Iguanas - Manchester - Deansgate (phone: 1612261776, address: 73 Cavendish St, Manchester M1..., website: https://www.theazuma.com/)
+2025-05-17 19:45:22,559 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 13/120)
+2025-05-17 19:45:22,560 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:45:28,576 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:45:29,131 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:45:30,859 - googlemaps_scraper - INFO - M15 9 -> Found 2 unprocessed tiles
+2025-05-17 19:45:30,906 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/2: Almost Famous NQ[0m
+2025-05-17 19:45:36,609 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://almostfamousburgers.com/ for business Azuma
+2025-05-17 19:45:37,718 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Azuma
+2025-05-17 19:45:37,719 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.4
+2025-05-17 19:45:37,719 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 928
+2025-05-17 19:45:37,719 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 49-51 Edge St, Manchester M4 1HW
+2025-05-17 19:45:37,719 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://almostfamousburgers.com/
+2025-05-17 19:45:37,720 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612449424
+2025-05-17 19:45:37,720 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Azuma -> http://almostfamousburgers.com/
+2025-05-17 19:45:37,720 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mAzuma[0m', Website='[1m[96mhttp://almostfamousburgers.com...[0m', Phone='[1m[93m1612449424[0m', Address='[1m[92m49-51 Edge St, Manchester M4 1...[0m'
+2025-05-17 19:45:37,720 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'Azuma' differs from tile name 'Almost Famous NQ' (expected due to UI lag)
+2025-05-17 19:45:37,720 - googlemaps_scraper - INFO - M15 9 -> Scraped: Azuma (phone: 1612449424, address: 49-51 Edge St, Manchester M4 1..., website: http://almostfamousburgers.com...)
+2025-05-17 19:45:37,723 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 14/120)
+2025-05-17 19:45:37,723 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:45:43,753 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:45:44,054 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:45:47,725 - googlemaps_scraper - INFO - M15 9 -> Found 1 unprocessed tiles
+2025-05-17 19:45:48,306 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/1: TOPS Buffet Restaurant Manchester[0m
+2025-05-17 19:45:53,431 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.tops-restaurants.co.uk/ for business Almost Famous NQ
+2025-05-17 19:45:54,559 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: Almost Famous NQ
+2025-05-17 19:45:54,559 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 4.4
+2025-05-17 19:45:54,560 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 1730
+2025-05-17 19:45:54,560 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 106 Portland St, Manchester M1 4RJ
+2025-05-17 19:45:54,561 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: http://www.tops-restaurants.co.uk/
+2025-05-17 19:45:54,561 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1612371000
+2025-05-17 19:45:54,562 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: Almost Famous NQ -> http://www.tops-restaurants.co.uk/
+2025-05-17 19:45:54,562 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mAlmost Famous NQ[0m', Website='[1m[96mhttp://www.tops-restaurants.co...[0m', Phone='[1m[93m1612371000[0m', Address='[1m[92m106 Portland St, Manchester M1...[0m'
+2025-05-17 19:45:54,563 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'Almost Famous NQ' differs from tile name 'TOPS Buffet Restaurant Manchester' (expected due to UI lag)
+2025-05-17 19:45:54,563 - googlemaps_scraper - INFO - M15 9 -> Scraped: Almost Famous NQ (phone: 1612371000, address: 106 Portland St, Manchester M1..., website: http://www.tops-restaurants.co...)
+2025-05-17 19:45:54,568 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 15/120)
+2025-05-17 19:45:54,568 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 19:46:00,855 - googlemaps_scraper - INFO - M15 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 19:46:01,290 - googlemaps_scraper - INFO - M15 9 -> [96m[1mProcessed a card in this batch, continuing with next card without scrolling[0m
+2025-05-17 19:46:03,703 - googlemaps_scraper - INFO - M15 9 -> Found 5 unprocessed tiles
+2025-05-17 19:46:03,755 - googlemaps_scraper - INFO - M15 9 -> [96m[1mClicking tile 1/5: Gaucho Manchester[0m
+2025-05-17 19:46:08,617 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://gauchorestaurants.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester_gmb for business TOPS Buffet Restaurant Manchester
+2025-05-17 19:46:09,838 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Business Name: TOPS Buffet Restaurant Manchester
+2025-05-17 19:46:09,839 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Stars: 3.9
+2025-05-17 19:46:09,839 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Reviews: 5434
+2025-05-17 19:46:09,839 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Address: 2A St Mary's St, Manchester M3 2LB
+2025-05-17 19:46:09,839 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Website: https://gauchorestaurants.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester_gmb
+2025-05-17 19:46:09,840 - googlemaps_scraper - INFO - M15 9 -> EXTRACTION: Phone: 1618334333
+2025-05-17 19:46:09,840 - googlemaps_scraper - INFO - M15 9 -> BUSINESS-WEBSITE MAPPING: TOPS Buffet Restaurant Manchester -> https://gauchorestaurants.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=manchester_gmb
+2025-05-17 19:46:09,840 - googlemaps_scraper - INFO - M15 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTOPS Buffet Restaurant Manchester[0m', Website='[1m[96mhttps://gauchorestaurants.com/...[0m', Phone='[1m[93m1618334333[0m', Address='[1m[92m2A St Mary's St, Manchester M3...[0m'
+2025-05-17 19:46:09,841 - googlemaps_scraper - INFO - M15 9 -> NOTE: Card name 'TOPS Buffet Restaurant Manchester' differs from tile name 'Gaucho Manchester' (expected due to UI lag)
+2025-05-17 19:46:09,841 - googlemaps_scraper - INFO - M15 9 -> Scraped: TOPS Buffet Restaurant Manchester (phone: 1618334333, address: 2A St Mary's St, Manchester M3..., website: https://gauchorestaurants.com/...)
+2025-05-17 19:46:09,844 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 16/120)
+2025-05-17 19:46:09,844 - googlemaps_scraper - INFO - M15 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m

@@ -1,0 +1,72 @@
+2025-05-17 20:07:24,615 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:07:24,615 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 20:07:24,616 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_200724.log
+2025-05-17 20:07:24,616 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 20:07:24,616 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:07:24,667 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 20:07:24,670 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 20:07:24,690 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 20:07:27,154 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 20:07:27,163 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 20:07:27,173 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 20:07:27,177 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 20:07:27,177 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 9 (1/287)
+2025-05-17 20:07:27,213 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:07:27,217 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 9
+2025-05-17 20:07:27,218 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:07:30,869 - googlemaps_scraper - INFO - M16 9 -> search query launched: restaurants in M16 9 Manchester
+2025-05-17 20:07:33,433 - googlemaps_scraper - INFO - M16 9 -> Found 5 unprocessed tiles
+2025-05-17 20:07:33,809 - googlemaps_scraper - INFO - M16 9 -> [96m[1mClicking tile 1/5: Royal Oak[0m
+2025-05-17 20:07:39,165 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+2025-05-17 20:07:40,298 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Business Name: Royal Oak
+2025-05-17 20:07:40,299 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Stars: 4.1
+2025-05-17 20:07:40,300 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Reviews: 716
+2025-05-17 20:07:40,300 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+2025-05-17 20:07:40,301 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 20:07:40,301 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Phone: 1618607438
+2025-05-17 20:07:40,302 - googlemaps_scraper - INFO - M16 9 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 20:07:40,303 - googlemaps_scraper - INFO - M16 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mRoyal Oak[0m', Website='[1m[96mhttps://www.greeneking.co.uk/p...[0m', Phone='[1m[93m1618607438[0m', Address='[1m[92m440 Barlow Moor Rd, Chorlton-c...[0m'
+2025-05-17 20:07:40,304 - googlemaps_scraper - INFO - M16 9 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 20:07:40,312 - googlemaps_scraper - INFO - Updated existing record for Royal Oak
+2025-05-17 20:07:40,317 - googlemaps_scraper - INFO - M16 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:07:46,368 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:07:47,702 - googlemaps_scraper - INFO - M16 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:07:51,777 - googlemaps_scraper - INFO - M16 9 -> scrolled feed (tiles now 5)
+2025-05-17 20:07:51,778 - googlemaps_scraper - INFO - M16 9 -> [1m[94mTotal unique businesses processed in this subsector: 1[0m
+2025-05-17 20:07:52,233 - googlemaps_scraper - INFO - M16 9 -> Found 4 unprocessed tiles
+2025-05-17 20:07:52,320 - googlemaps_scraper - INFO - M16 9 -> [96m[1mClicking tile 1/4: TGI Fridays - Trafford Centre[0m
+2025-05-17 20:07:57,165 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671 for business TGI Fridays - Trafford Centre
+2025-05-17 20:07:58,222 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Business Name: TGI Fridays - Trafford Centre
+2025-05-17 20:07:58,223 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Stars: 3.6
+2025-05-17 20:07:58,223 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Reviews: 0
+2025-05-17 20:07:58,223 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Address: The Great Hall, The Trafford Centre, Trafford Park, Stretford, Manchester M17 8AA
+2025-05-17 20:07:58,223 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Website: https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 20:07:58,223 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Phone: 3301759275
+2025-05-17 20:07:58,224 - googlemaps_scraper - INFO - M16 9 -> BUSINESS-WEBSITE MAPPING: TGI Fridays - Trafford Centre -> https://www.tgifridays.co.uk/locations/manchester-trafford-centre/?utm_source=localGMB&utm_medium=organic&utm_campaign=671
+2025-05-17 20:07:58,224 - googlemaps_scraper - INFO - M16 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTGI Fridays - Trafford Centre[0m', Website='[1m[96mhttps://www.tgifridays.co.uk/l...[0m', Phone='[1m[93m3301759275[0m', Address='[1m[92mThe Great Hall, The Trafford C...[0m'
+2025-05-17 20:07:58,224 - googlemaps_scraper - INFO - M16 9 -> Scraped: TGI Fridays - Trafford Centre (phone: 3301759275, address: The Great Hall, The Trafford C..., website: https://www.tgifridays.co.uk/l...)
+2025-05-17 20:07:58,225 - googlemaps_scraper - INFO - Updated existing record for TGI Fridays - Trafford Centre
+2025-05-17 20:07:58,227 - googlemaps_scraper - INFO - M16 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:08:04,275 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:08:05,546 - googlemaps_scraper - INFO - M16 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:08:09,766 - googlemaps_scraper - INFO - M16 9 -> scrolled feed (tiles now 5)
+2025-05-17 20:08:09,766 - googlemaps_scraper - INFO - M16 9 -> [1m[94mTotal unique businesses processed in this subsector: 2[0m
+2025-05-17 20:08:10,315 - googlemaps_scraper - INFO - M16 9 -> Found 3 unprocessed tiles
+2025-05-17 20:08:10,408 - googlemaps_scraper - INFO - M16 9 -> [96m[1mClicking tile 1/3: Tibetan Kitchen Manchester[0m
+2025-05-17 20:08:17,831 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.tibetankitchen.co.uk/ for business Tibetan Kitchen Manchester
+2025-05-17 20:08:18,942 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Business Name: Tibetan Kitchen Manchester
+2025-05-17 20:08:18,942 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Stars: N/A
+2025-05-17 20:08:18,943 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Reviews: 0
+2025-05-17 20:08:18,943 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Address: 254 Upper Chorlton Rd, Firswood, Stretford, Manchester M16 0BN
+2025-05-17 20:08:18,944 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Website: http://www.tibetankitchen.co.uk/
+2025-05-17 20:08:18,945 - googlemaps_scraper - INFO - M16 9 -> EXTRACTION: Phone: 1618811966
+2025-05-17 20:08:18,945 - googlemaps_scraper - INFO - M16 9 -> BUSINESS-WEBSITE MAPPING: Tibetan Kitchen Manchester -> http://www.tibetankitchen.co.uk/
+2025-05-17 20:08:18,946 - googlemaps_scraper - INFO - M16 9 -> [1m[95mBUSINESS DATA SUMMARY:[0m Name='[1m[94mTibetan Kitchen Manchester[0m', Website='[1m[96mhttp://www.tibetankitchen.co.u...[0m', Phone='[1m[93m1618811966[0m', Address='[1m[92m254 Upper Chorlton Rd, Firswoo...[0m'
+2025-05-17 20:08:18,947 - googlemaps_scraper - INFO - M16 9 -> Scraped: Tibetan Kitchen Manchester (phone: 1618811966, address: 254 Upper Chorlton Rd, Firswoo..., website: http://www.tibetankitchen.co.u...)
+2025-05-17 20:08:18,954 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-17 20:08:18,955 - googlemaps_scraper - INFO - M16 9 -> [93m[1mWaiting for 6.0 seconds before closing card[0m
+2025-05-17 20:08:25,038 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:08:26,401 - googlemaps_scraper - INFO - M16 9 -> [92m[1mCard closed, waiting additional delay before processing next card[0m
+2025-05-17 20:08:35,463 - googlemaps_scraper - INFO - M16 9 -> [1m[94mTotal unique businesses processed in this subsector: 3[0m
+2025-05-17 20:08:35,604 - googlemaps_scraper - INFO - M16 9 -> Found 0 unprocessed tiles
+2025-05-17 20:08:35,605 - googlemaps_scraper - INFO - M16 9 -> No new tiles to process, scrolling to find more

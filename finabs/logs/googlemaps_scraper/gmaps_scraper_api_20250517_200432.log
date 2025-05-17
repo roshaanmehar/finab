@@ -1,0 +1,85 @@
+2025-05-17 20:04:32,557 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:04:32,557 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 20:04:32,558 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_200432.log
+2025-05-17 20:04:32,558 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 20:04:32,559 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:04:32,591 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 20:04:32,593 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 20:04:32,603 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 20:04:34,593 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 20:04:34,595 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 20:04:34,601 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 20:04:34,608 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 20:04:34,609 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M16 1 (1/287)
+2025-05-17 20:04:34,674 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:04:34,681 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 1
+2025-05-17 20:04:34,688 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:04:38,805 - googlemaps_scraper - INFO - M16 1 -> search query launched: restaurants in M16 1 Manchester
+2025-05-17 20:04:40,882 - googlemaps_scraper - WARNING - M16 1 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 20:04:41,041 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:04:44,457 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:04:44,457 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:04:50,989 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:04:50,990 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:04:57,513 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:04:57,514 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:03,745 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 1/6)
+2025-05-17 20:05:03,890 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:03,890 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:10,256 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 2/6)
+2025-05-17 20:05:10,430 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:10,431 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:16,741 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 3/6)
+2025-05-17 20:05:16,908 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:16,908 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:23,243 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 4/6)
+2025-05-17 20:05:23,663 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:23,664 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:29,885 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 5/6)
+2025-05-17 20:05:30,037 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:30,038 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:05:36,209 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 6/6)
+2025-05-17 20:05:36,210 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:05:36,210 - googlemaps_scraper - INFO - M16 1 -> [92m[1mScraping completed in 0:01:01.518606[0m
+2025-05-17 20:05:36,210 - googlemaps_scraper - INFO - M16 1 -> [92m[1mTotal cards scraped: 0 (unique businesses: 0)[0m
+2025-05-17 20:05:36,210 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:05:36,211 - googlemaps_scraper - WARNING - M16 1 -> attempt 1/3 returned no results
+2025-05-17 20:05:36,220 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:05:36,220 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 1
+2025-05-17 20:05:36,220 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:05:51,377 - googlemaps_scraper - INFO - M16 1 -> search query launched: restaurants in M16 1 Manchester
+2025-05-17 20:05:54,633 - googlemaps_scraper - WARNING - M16 1 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 20:05:54,938 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:05:58,839 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:05:58,839 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:05,196 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:05,196 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:11,518 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:11,519 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:17,723 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 1/6)
+2025-05-17 20:06:17,906 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:17,907 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:24,089 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 2/6)
+2025-05-17 20:06:24,293 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:24,294 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:30,565 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 3/6)
+2025-05-17 20:06:30,772 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:30,772 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:36,951 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 4/6)
+2025-05-17 20:06:37,131 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:37,131 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:43,305 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 5/6)
+2025-05-17 20:06:43,503 - googlemaps_scraper - INFO - M16 1 -> Found 0 unprocessed tiles
+2025-05-17 20:06:43,503 - googlemaps_scraper - INFO - M16 1 -> No new tiles to process, scrolling to find more
+2025-05-17 20:06:49,665 - googlemaps_scraper - INFO - M16 1 -> Multiple scrolls with no new data (attempt 6/6)
+2025-05-17 20:06:49,665 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:06:49,665 - googlemaps_scraper - INFO - M16 1 -> [92m[1mScraping completed in 0:01:13.444300[0m
+2025-05-17 20:06:49,666 - googlemaps_scraper - INFO - M16 1 -> [92m[1mTotal cards scraped: 0 (unique businesses: 0)[0m
+2025-05-17 20:06:49,666 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:06:49,666 - googlemaps_scraper - WARNING - M16 1 -> attempt 2/3 returned no results
+2025-05-17 20:06:49,674 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:06:49,674 - googlemaps_scraper - INFO - Starting scrape for subsector: M16 1
+2025-05-17 20:06:49,674 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:07:04,810 - googlemaps_scraper - INFO - M16 1 -> search query launched: restaurants in M16 1 Manchester
+2025-05-17 20:07:07,113 - googlemaps_scraper - WARNING - M16 1 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 20:07:07,947 - googlemaps_scraper - INFO - Found close button, clicking it directly

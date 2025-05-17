@@ -68,7 +68,8 @@ logger = setup_main_logging()
 email_logger = setup_email_logging()
 
 # Configuration
-MONGO_URI = "mongodb+srv://roshaanatck:DOcnGUEEB37bQtcL@scraper-db-cluster.88kc14b.mongodb.net/?retryWrites=true&w=majority&appName=scraper-db-cluster"
+MONGO_URI="mongodb://localhost:27017/"
+# MONGO_URI = "mongodb+srv://roshaanatck:DOcnGUEEB37bQtcL@scraper-db-cluster.88kc14b.mongodb.net/?retryWrites=true&w=majority&appName=scraper-db-cluster"
 NUM_WORKERS = 4  # Hardcoded number of workers
 DELAY = 0.5
 TIMEOUT = 15

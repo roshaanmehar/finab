@@ -1,0 +1,142 @@
+2025-05-17 19:29:57,794 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:29:57,806 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 19:29:57,812 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_192957.log
+2025-05-17 19:29:57,814 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 19:29:57,815 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 19:29:57,845 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 19:29:57,853 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 19:29:57,861 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 19:30:00,380 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 19:30:00,381 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 19:30:00,384 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 19:30:00,402 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 19:30:00,411 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M14 4 (1/287)
+2025-05-17 19:30:00,526 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:30:00,529 - googlemaps_scraper - INFO - Starting scrape for subsector: M14 4
+2025-05-17 19:30:00,530 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 19:30:04,306 - googlemaps_scraper - INFO - M14 4 -> search query launched: restaurants in M14 4 Manchester
+2025-05-17 19:30:07,569 - googlemaps_scraper - INFO - M14 4 -> Found 5 unprocessed tiles
+2025-05-17 19:30:07,799 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/5: Royal Oak
+2025-05-17 19:30:12,810 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage for business Royal Oak
+2025-05-17 19:30:13,846 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: Royal Oak
+2025-05-17 19:30:13,847 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.1
+2025-05-17 19:30:13,847 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 716
+2025-05-17 19:30:13,847 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 440 Barlow Moor Rd, Chorlton-cum-Hardy, Manchester M21 0BQ
+2025-05-17 19:30:13,848 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 19:30:13,848 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1618607438
+2025-05-17 19:30:13,848 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: Royal Oak -> https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage
+2025-05-17 19:30:13,848 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='Royal Oak', Website='https://www.greeneking.co.uk/pubs/greater-manchester/royal-oak?utm_source=g_places&utm_medium=locations&utm_campaign=PS_pubpage', Phone='1618607438', Address='440 Barlow Moor Rd, Chorlton-c...'
+2025-05-17 19:30:13,849 - googlemaps_scraper - INFO - M14 4 -> Scraped: Royal Oak (phone: 1618607438, address: 440 Barlow Moor Rd, Chorlton-c..., website: https://www.greeneking.co.uk/p...)
+2025-05-17 19:30:13,861 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:30:19,885 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:30:20,232 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:30:20,626 - googlemaps_scraper - INFO - M14 4 -> Found 5 unprocessed tiles
+2025-05-17 19:30:20,669 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/5: MyLahore Manchester
+2025-05-17 19:30:25,322 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.mylahore.co.uk/ for business MyLahore Manchester
+2025-05-17 19:30:26,453 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: MyLahore Manchester
+2025-05-17 19:30:26,454 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.6
+2025-05-17 19:30:26,455 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 13359
+2025-05-17 19:30:26,455 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 14-18 Wilmslow Rd, Manchester M14 5TQ
+2025-05-17 19:30:26,455 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: http://www.mylahore.co.uk/
+2025-05-17 19:30:26,456 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1612488887
+2025-05-17 19:30:26,456 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: MyLahore Manchester -> http://www.mylahore.co.uk/
+2025-05-17 19:30:26,457 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='MyLahore Manchester', Website='http://www.mylahore.co.uk/', Phone='1612488887', Address='14-18 Wilmslow Rd, Manchester ...'
+2025-05-17 19:30:26,457 - googlemaps_scraper - INFO - M14 4 -> Scraped: MyLahore Manchester (phone: 1612488887, address: 14-18 Wilmslow Rd, Manchester ..., website: http://www.mylahore.co.uk/)
+2025-05-17 19:30:26,460 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:30:32,488 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:30:33,036 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:30:33,582 - googlemaps_scraper - INFO - M14 4 -> Found 3 unprocessed tiles
+2025-05-17 19:30:39,359 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.8
+2025-05-17 19:30:39,360 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 5859
+2025-05-17 19:30:39,361 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 34-36 Wilmslow Rd, Manchester M14 5TQ
+2025-05-17 19:30:39,361 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: N/A
+2025-05-17 19:30:39,362 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1619715602
+2025-05-17 19:30:39,392 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:30:45,416 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:30:45,947 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:30:46,647 - googlemaps_scraper - INFO - M14 4 -> Found 2 unprocessed tiles
+2025-05-17 19:30:46,737 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/2: Oodles N’Oodles Restaurant Manchester
+2025-05-17 19:30:51,440 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website http://www.oodlesnoodlesmcr.com/ for business Oodles N’Oodles Restaurant Manchester
+2025-05-17 19:30:52,488 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: Oodles N’Oodles Restaurant Manchester
+2025-05-17 19:30:52,489 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 3.9
+2025-05-17 19:30:52,489 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 2296
+2025-05-17 19:30:52,490 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 7 Wilmslow Rd, Manchester M14 5FT
+2025-05-17 19:30:52,490 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: http://www.oodlesnoodlesmcr.com/
+2025-05-17 19:30:52,490 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1612248164
+2025-05-17 19:30:52,490 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: Oodles N’Oodles Restaurant Manchester -> http://www.oodlesnoodlesmcr.com/
+2025-05-17 19:30:52,491 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='Oodles N’Oodles Restaurant Manchester', Website='http://www.oodlesnoodlesmcr.com/', Phone='1612248164', Address='7 Wilmslow Rd, Manchester M14 ...'
+2025-05-17 19:30:52,491 - googlemaps_scraper - INFO - M14 4 -> Scraped: Oodles N’Oodles Restaurant Manchester (phone: 1612248164, address: 7 Wilmslow Rd, Manchester M14 ..., website: http://www.oodlesnoodlesmcr.co...)
+2025-05-17 19:30:52,494 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:30:58,521 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:30:58,871 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:30:59,476 - googlemaps_scraper - INFO - M14 4 -> Found 2 unprocessed tiles
+2025-05-17 19:30:59,544 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/2: Al Jazeera Restaurant
+2025-05-17 19:31:03,948 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://www.aljazeeraltd.com/ for business Al Jazeera Restaurant
+2025-05-17 19:31:05,040 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: Al Jazeera Restaurant
+2025-05-17 19:31:05,040 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.4
+2025-05-17 19:31:05,040 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 1649
+2025-05-17 19:31:05,041 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 22 Wilmslow Rd, Manchester M14 5TQ
+2025-05-17 19:31:05,041 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: https://www.aljazeeraltd.com/
+2025-05-17 19:31:05,042 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1612573337
+2025-05-17 19:31:05,042 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: Al Jazeera Restaurant -> https://www.aljazeeraltd.com/
+2025-05-17 19:31:05,042 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='Al Jazeera Restaurant', Website='https://www.aljazeeraltd.com/', Phone='1612573337', Address='22 Wilmslow Rd, Manchester M14...'
+2025-05-17 19:31:05,043 - googlemaps_scraper - INFO - M14 4 -> Scraped: Al Jazeera Restaurant (phone: 1612573337, address: 22 Wilmslow Rd, Manchester M14..., website: https://www.aljazeeraltd.com/)
+2025-05-17 19:31:05,046 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:31:11,247 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:31:11,800 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:31:12,624 - googlemaps_scraper - INFO - M14 4 -> Found 5 unprocessed tiles
+2025-05-17 19:31:17,777 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.3
+2025-05-17 19:31:17,778 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 859
+2025-05-17 19:31:17,778 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 308 Platt Ln, Fallowfield, Manchester M14 7BZ
+2025-05-17 19:31:17,778 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: http://ariyadharabicrestaurant.com/
+2025-05-17 19:31:17,779 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 7708111851
+2025-05-17 19:31:17,800 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 1/120)
+2025-05-17 19:31:17,800 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:31:23,811 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:31:24,243 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:31:25,036 - googlemaps_scraper - INFO - M14 4 -> Found 4 unprocessed tiles
+2025-05-17 19:31:25,126 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/4: Camel One Restaurant, Grill & Tawa
+2025-05-17 19:31:26,845 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 2/4: Afghan Cuisine Restaurant & Takeaway
+2025-05-17 19:31:29,116 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 3/4: Mughli Charcoal Pit
+2025-05-17 19:31:31,196 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 4/4: Jaffa Restaurant
+2025-05-17 19:31:35,830 - googlemaps_scraper - INFO - M14 4 -> Scroll was not successful (attempt 1/6)
+2025-05-17 19:31:35,830 - googlemaps_scraper - INFO - M14 4 -> Total unique businesses processed in this subsector: 6
+2025-05-17 19:31:36,654 - googlemaps_scraper - INFO - M14 4 -> Found 0 unprocessed tiles
+2025-05-17 19:31:36,655 - googlemaps_scraper - INFO - M14 4 -> No new tiles to process, scrolling to find more
+2025-05-17 19:31:39,213 - googlemaps_scraper - INFO - M14 4 -> Scroll was not successful (attempt 2/6)
+2025-05-17 19:31:39,765 - googlemaps_scraper - INFO - M14 4 -> Found 0 unprocessed tiles
+2025-05-17 19:31:39,767 - googlemaps_scraper - INFO - M14 4 -> No new tiles to process, scrolling to find more
+2025-05-17 19:31:42,365 - googlemaps_scraper - INFO - M14 4 -> Scroll was not successful (attempt 3/6)
+2025-05-17 19:31:43,674 - googlemaps_scraper - INFO - M14 4 -> Found 0 unprocessed tiles
+2025-05-17 19:31:43,674 - googlemaps_scraper - INFO - M14 4 -> No new tiles to process, scrolling to find more
+2025-05-17 19:31:46,997 - googlemaps_scraper - INFO - M14 4 -> Scroll was not successful (attempt 4/6)
+2025-05-17 19:31:50,448 - googlemaps_scraper - INFO - M14 4 -> Found 5 unprocessed tiles
+2025-05-17 19:31:50,500 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/5: Lucky's Fallowfield
+2025-05-17 19:31:55,547 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://luckysfallowfield.co.uk/ for business Jaffa Restaurant
+2025-05-17 19:31:56,620 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: Jaffa Restaurant
+2025-05-17 19:31:56,621 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.9
+2025-05-17 19:31:56,621 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 512
+2025-05-17 19:31:56,622 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 331 Wilmslow Rd, Fallowfield, Manchester M14 6NW
+2025-05-17 19:31:56,622 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: https://luckysfallowfield.co.uk/
+2025-05-17 19:31:56,622 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1616371850
+2025-05-17 19:31:56,623 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: Jaffa Restaurant -> https://luckysfallowfield.co.uk/
+2025-05-17 19:31:56,623 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='Jaffa Restaurant', Website='https://luckysfallowfield.co.uk/', Phone='1616371850', Address='331 Wilmslow Rd, Fallowfield, ...'
+2025-05-17 19:31:56,623 - googlemaps_scraper - INFO - M14 4 -> NOTE: Card name 'Jaffa Restaurant' differs from tile name 'Lucky's Fallowfield' (expected due to UI lag)
+2025-05-17 19:31:56,624 - googlemaps_scraper - INFO - M14 4 -> Scraped: Jaffa Restaurant (phone: 1616371850, address: 331 Wilmslow Rd, Fallowfield, ..., website: https://luckysfallowfield.co.u...)
+2025-05-17 19:31:56,627 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card
+2025-05-17 19:32:02,698 - googlemaps_scraper - INFO - M14 4 -> Card closed, waiting additional delay before processing next card
+2025-05-17 19:32:03,256 - googlemaps_scraper - INFO - M14 4 -> Processed a card in this batch, continuing with next card without scrolling
+2025-05-17 19:32:04,562 - googlemaps_scraper - INFO - M14 4 -> Found 4 unprocessed tiles
+2025-05-17 19:32:04,611 - googlemaps_scraper - INFO - M14 4 -> Clicking tile 1/4: Nayaab Buffet Restaurant
+2025-05-17 19:32:09,256 - googlemaps_scraper - INFO - WEBSITE-BUSINESS MAPPING: Found website https://nayaabuk.com/ for business Nayaab Buffet Restaurant
+2025-05-17 19:32:10,304 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Business Name: Nayaab Buffet Restaurant
+2025-05-17 19:32:10,305 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Stars: 4.2
+2025-05-17 19:32:10,305 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Reviews: 2941
+2025-05-17 19:32:10,305 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Address: 5-7 Wilbraham Rd, Fallowfield, Manchester M14 6JS
+2025-05-17 19:32:10,306 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Website: https://nayaabuk.com/
+2025-05-17 19:32:10,306 - googlemaps_scraper - INFO - M14 4 -> EXTRACTION: Phone: 1612242443
+2025-05-17 19:32:10,306 - googlemaps_scraper - INFO - M14 4 -> BUSINESS-WEBSITE MAPPING: Nayaab Buffet Restaurant -> https://nayaabuk.com/
+2025-05-17 19:32:10,306 - googlemaps_scraper - INFO - M14 4 -> BUSINESS DATA SUMMARY: Name='Nayaab Buffet Restaurant', Website='https://nayaabuk.com/', Phone='1612242443', Address='5-7 Wilbraham Rd, Fallowfield,...'
+2025-05-17 19:32:10,307 - googlemaps_scraper - INFO - M14 4 -> Scraped: Nayaab Buffet Restaurant (phone: 1612242443, address: 5-7 Wilbraham Rd, Fallowfield,..., website: https://nayaabuk.com/)
+2025-05-17 19:32:10,315 - googlemaps_scraper - INFO - Google Maps scraper found 1 new unique records (total: 2/120)
+2025-05-17 19:32:10,315 - googlemaps_scraper - INFO - M14 4 -> Waiting for 6.0 seconds before closing card

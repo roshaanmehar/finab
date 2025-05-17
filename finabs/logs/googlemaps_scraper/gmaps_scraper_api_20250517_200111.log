@@ -1,0 +1,40 @@
+2025-05-17 20:01:11,698 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:01:11,707 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 20:01:11,736 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_200111.log
+2025-05-17 20:01:11,802 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 20:01:11,833 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:01:11,921 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 20:01:11,936 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 20:01:11,969 - googlemaps_scraper - INFO - Created indexes
+2025-05-17 20:01:14,477 - googlemaps_scraper - INFO - Chrome driver initialized successfully
+2025-05-17 20:01:14,478 - googlemaps_scraper - INFO - Processing all unprocessed subsectors
+2025-05-17 20:01:14,483 - googlemaps_scraper - INFO - Total subsectors to process: 287
+2025-05-17 20:01:14,495 - googlemaps_scraper - INFO - ==================================================
+2025-05-17 20:01:14,505 - googlemaps_scraper - INFO - PROCESSING SUBSECTOR: M15 5 (1/287)
+2025-05-17 20:01:14,586 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:01:14,587 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 5
+2025-05-17 20:01:14,587 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:01:19,512 - googlemaps_scraper - INFO - M15 5 -> search query launched: restaurants in M15 5 Manchester
+2025-05-17 20:01:21,176 - googlemaps_scraper - WARNING - M15 5 -> Card still open, attempting to close (attempt 1/3)
+2025-05-17 20:01:21,309 - googlemaps_scraper - INFO - Found close button, clicking it directly
+2025-05-17 20:01:25,312 - googlemaps_scraper - ERROR - M15 5 -> attempt 1/3 failed: name 'get_unprocessed_tiles' is not defined
+2025-05-17 20:01:25,324 - googlemaps_scraper - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\main.py", line 176, in process_subsectors
+    rows, card_count = scrape_subsector(
+                       ~~~~~~~~~~~~~~~~^
+        doc, driver, rest_col, SERVICE, args.db_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        debug=args.debug, fast_mode=args.fast,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        termination_check=combined_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\googlemaps_scraper\scraping\scraper.py", line 939, in scrape_subsector
+    unprocessed_tiles = get_unprocessed_tiles(driver, processed_tile_ids, code)
+                        ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_unprocessed_tiles' is not defined
+
+2025-05-17 20:01:28,333 - googlemaps_scraper - INFO - ============================================================
+2025-05-17 20:01:28,334 - googlemaps_scraper - INFO - Starting scrape for subsector: M15 5
+2025-05-17 20:01:28,334 - googlemaps_scraper - INFO - ============================================================

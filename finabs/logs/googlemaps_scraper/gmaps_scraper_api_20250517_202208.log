@@ -1,0 +1,8 @@
+2025-05-17 20:22:08,638 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:22:08,653 - googlemaps_scraper - INFO - Starting Google Maps scraper from API
+2025-05-17 20:22:08,657 - googlemaps_scraper - INFO - Log file: C:\Users\Roshaan Ali Mehar\Desktop\finabs\finabs\logs\googlemaps_scraper\gmaps_scraper_api_20250517_202208.log
+2025-05-17 20:22:08,657 - googlemaps_scraper - INFO - Parameters: db=Manchester, queue=restaurants_subsector_queue, business=restaurants, headless=False
+2025-05-17 20:22:08,658 - googlemaps_scraper - INFO - ================================================================================
+2025-05-17 20:22:08,688 - googlemaps_scraper - INFO - Connected to MongoDB successfully
+2025-05-17 20:22:08,693 - googlemaps_scraper - INFO - Created queue index
+2025-05-17 20:22:08,708 - googlemaps_scraper - INFO - Created indexes
